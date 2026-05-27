@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Riidanratkaisussa: muokkaa olemassa olevaa haastehakemusta, valitusta tai kirjelmää natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Riidanratkaisussa: tarkista oikeudenkäymiskaaren (4/1734) prosessisäännökset, aineellinen laki ja KKO:n/hovioikeuksien oikeuskäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "litigation",
+    "documents"
+  ]
+}

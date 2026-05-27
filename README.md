@@ -45,7 +45,7 @@ käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 | **[tietosuoja](tietosuoja/)** | Tietosuoja-asetus (GDPR) ja tietosuojalaki: käsittelyn arviointi ja DPIA, tietosuojaseloste, rekisteröidyn pyynnöt. | ✅ Saatavilla |
 | **[tekoälysääntely](tekoalysaantely/)** | EU:n tekoälyasetus (AI Act): riskiluokittelu, velvoitteet, määräajat, seuraamukset, GPAI ja FRIA. Avoin, deterministinen EU AI Act -MCP. | ✅ Saatavilla |
 | **[hallinto-oikeus](hallinto-oikeus/)** | Hallintopäätös (hallintolaki 434/2003), muutoksenhaku (808/2019) ja asiakirjajulkisuus/tietopyynnöt (julkisuuslaki 621/1999). | ✅ Saatavilla |
-| riidanratkaisu | Prosessi yleisissä ja hallintotuomioistuimissa. | 🚧 Tulossa |
+| **[riidanratkaisu](riidanratkaisu/)** | Riita-asia yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/1734): haastehakemus, todistelu, muutoksenhaku. | ✅ Saatavilla |
 
 ## Aloitus
 
