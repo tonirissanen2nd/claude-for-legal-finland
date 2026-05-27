@@ -1,5 +1,11 @@
 {
   "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Lukee dokumentin jälkimuutoksineen, kommentteineen ja määriteltyine termeineen (read_docx; CriticMarkup, outline-/appendix-tilat) ja kirjoittaa muokkaukset natiiveina Word Track Changes -muutoksina (process_document_batch). Paikallinen npx, ei tiliä."
+    },
     "oik-ai": {
       "type": "http",
       "url": "https://oik.ai/mcp",

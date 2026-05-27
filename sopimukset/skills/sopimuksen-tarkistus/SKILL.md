@@ -72,3 +72,9 @@ Tuota:
 
 Liitä jokaiseen lakiviittaukseen lähde ja merkitse tulkinnanvaraiset kohdat. Älä esitä
 pätevyysarviota lopullisena oikeudellisena johtopäätöksenä.
+
+**Redline .docx-sopimukseen:** jos sopimus on Word-tiedostona, voit viedä muutosehdotukset
+suoraan dokumenttiin **natiiveina jälkimuutoksina ja kommentteina** `adeu`-MCP:llä
+(`read_docx` ensin — myös `appendix`-tila määriteltyjen termien ja ristiviittausten
+tarkistukseen — sitten `process_document_batch`). Näin tarkistaja näkee ehdotukset
+tutussa Track Changes -muodossa. Aseta `author_name` selkeästi.

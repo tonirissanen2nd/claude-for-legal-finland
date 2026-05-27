@@ -19,9 +19,10 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 ## Tietolähteet (`.mcp.json`)
 
 - **oik.ai** (`https://oik.ai/mcp`) — suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Vaatii oik.ai-tilin; liitettäessä OAuth-kirjautuminen.
+- **Adeu** ([`@adeu/mcp-server`](https://github.com/dealfluence/adeu)) — Word-dokumenttien (.docx) ei-tuhoava redlineäminen natiiveina jälkimuutoksina (Track Changes). `asiakirjan-tarkistus` käyttää sitä olemassa olevan .docx:n lukemiseen ja korjausten viemiseen. Pyörii paikallisesti npx:llä, ei vaadi tiliä.
 
-Vaihtoehtoisesti voi käyttää muuta yhteensopivaa Finlex-MCP:tä, joka tarjoaa työkalut
-`get_legislation`, `search_decisions` ja `get_decision`.
+Vaihtoehtoisesti oik.ai:n tilalla voi käyttää muuta yhteensopivaa Finlex-MCP:tä, joka
+tarjoaa työkalut `get_legislation`, `search_decisions` ja `get_decision`.
 
 ## Asennus
 

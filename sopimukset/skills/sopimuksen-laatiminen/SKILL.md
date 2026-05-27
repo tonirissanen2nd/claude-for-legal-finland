@@ -75,7 +75,7 @@ Valmiit, kommentoidut esimerkkilausekkeet: lue `references/sopimuslausekkeet.md`
 
 ## Vaihe 4: Tulostemuoto
 
-Tuota sopimus muokattavana Word-dokumenttina (.docx) `docx`-skillillä (lue sen SKILL.md ensin), tai pyydettäessä Markdown-/tekstimuodossa. Merkitse täydennettävät kohdat selkeästi hakasulkein: `[osapuolen nimi]`, `[hinta]`, `[päivämäärä]`. Lisää loppuun huomautus: *"Luonnos — tarkistettava ennen allekirjoitusta."*
+Tuota **uusi** sopimus muokattavana Word-dokumenttina (.docx) `docx`-skillillä (lue sen SKILL.md ensin), tai pyydettäessä Markdown-/tekstimuodossa. Jos kyse on **olemassa olevan sopimuksen muokkaamisesta**, käytä `adeu`-MCP:tä: se kirjoittaa muutokset natiiveina Word-jälkimuutoksina (Track Changes) rikkomatta muotoilua — älä luo dokumenttia uusiksi. Merkitse täydennettävät kohdat selkeästi hakasulkein: `[osapuolen nimi]`, `[hinta]`, `[päivämäärä]`. Lisää loppuun huomautus: *"Luonnos — tarkistettava ennen allekirjoitusta."*
 
 ## Vaihe 5: Suosittele tarkistusta
 

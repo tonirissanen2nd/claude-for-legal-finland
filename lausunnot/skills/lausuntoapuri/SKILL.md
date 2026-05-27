@@ -98,7 +98,7 @@ Ohjeista käyttäjää (yksityiskohdat `references/lausuntopalvelu-ohje.md`): la
 
 ## Tulostemuoto
 
-Luo lausunto Word-dokumenttina (.docx), jotta käyttäjä voi muokata sitä ennen lähettämistä (käytä `docx`-skilliä; lue sen SKILL.md ensin). Tuota lisäksi:
+Luo **uusi** lausunto Word-dokumenttina (.docx), jotta käyttäjä voi muokata sitä ennen lähettämistä (käytä `docx`-skilliä; lue sen SKILL.md ensin). Jos muokkaat **olemassa olevaa** lausuntoluonnosta tai kommentoit sitä, käytä `adeu`-MCP:tä, joka tekee muutokset natiiveina Word-jälkimuutoksina ja kommentteina (Track Changes) muotoilua rikkomatta. Tuota lisäksi:
 1. **Tiivistelmäsivu** (1 sivu) — päätöksentekijöille keskeiset viestit.
 2. **Varsinainen lausunto** (3–15 sivua) yllä kuvatulla rakenteella.
 3. **Analyysiliite** (valinnainen) — yksityiskohtainen analyysi, jos käyttäjä haluaa.

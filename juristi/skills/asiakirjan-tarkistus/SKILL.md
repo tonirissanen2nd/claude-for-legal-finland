@@ -22,6 +22,10 @@ Tämä skill tarkistaa juridisen asiakirjan järjestelmällisesti useassa vaihee
 
 Aina kun asiakirja viittaa lakiin, pykälään tai oikeuskäytäntöön ja viittauksen oikeellisuus on olennainen, **käytä `oikeustutkimus`-skilliä** ja tarkista lainkohta oik.ai-/Finlex-MCP:stä. Älä vahvista lakiviittausta muistista. Jos lähdettä ei voi tarkistaa, merkitse löydös `[ei voitu tarkistaa lähteestä]`.
 
+## Word-dokumentit (.docx)
+
+Jos tarkistettava asiakirja on Word-tiedostona, käytä `adeu`-MCP:tä (kun saatavilla): `read_docx` lukee tekstin jälkimuutoksineen ja kommentteineen, ja `mode: "appendix"` paljastaa **määritellyt termit, ankkurit ja ristiviittausten kohteet** — hyödynnä tätä vaiheissa 3–4 (kieli, rakenne, määritelmät). Kun haluat viedä löydökset takaisin dokumenttiin, käytä `process_document_batch`, joka kirjoittaa korjaukset **natiiveina Word-jälkimuutoksina ja kommentteina** muotoilua rikkomatta. Aseta `author_name` selkeästi. Lue ID:t (`Chg:N`/`Com:N`) aina tuoreella `read_docx`-kutsulla ennen accept/reject/reply-toimia.
+
 ---
 
 ## Löydös-skeema

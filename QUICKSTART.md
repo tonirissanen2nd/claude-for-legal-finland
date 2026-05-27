@@ -49,6 +49,11 @@ oikeuskäytännön oik.ai-MCP:stä. Liittäminen riippuu ympäristöstä:
 Ilman MCP-yhteyttä skillit toimivat yhä, mutta merkitsevät lakiviittaukset
 muistinvaraisiksi ja kehottavat tarkistamaan ne Finlexistä.
 
+**Paikalliset MCP:t (ei tiliä):** osa plugareista käyttää paikallisia, npx:llä käynnistyviä
+MCP-palvelimia, jotka eivät vaadi kirjautumista — **Adeu** (`@adeu/mcp-server`, Word-dokumenttien
+redlineäminen jälkimuutoksina) dokumenttiplugareissa ja **EU AI Act** (`@lexbeam-software/eu-ai-act-mcp`)
+`tekoälysääntely`-plugarissa. Nämä edellyttävät, että koneella on Node.js asennettuna.
+
 ## 5. Kokeile
 
 - "Tarkista tämä sopimus" → `asiakirjan-tarkistus`

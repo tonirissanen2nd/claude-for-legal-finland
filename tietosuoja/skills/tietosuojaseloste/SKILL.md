@@ -60,6 +60,8 @@ kapea — älä oleta sen soveltuvan ilman tarkistusta.
 
 ## Tulostemuoto
 
-Tuota asiakirja muokattavana (Markdown tai `docx`-skillillä .docx). Merkitse täydennettävät
+Tuota **uusi** asiakirja muokattavana (Markdown tai `docx`-skillillä .docx). Jos **päivität
+olemassa olevaa** selostetta Word-tiedostona, käytä `adeu`-MCP:tä, joka tekee muutokset
+natiiveina Word-jälkimuutoksina (Track Changes) muotoilua rikkomatta. Merkitse täydennettävät
 kohdat hakasulkein. Erota selvästi julkinen tietosuojaseloste ja sisäinen käsittelytoimien
 seloste. Lisää: *"Luonnos — tarkistettava ennen julkaisua/käyttöä."*
