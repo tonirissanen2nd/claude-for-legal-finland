@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Lausuntotyössä: tarkista voimassa olevan lain sanamuoto vertailua varten ja viittaa pykäliin oikein. Käyttö edellyttää oik.ai-tiliä (OAuth-kirjautuminen liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "documents"
+  ]
+}
