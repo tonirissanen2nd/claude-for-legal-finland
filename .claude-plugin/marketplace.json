@@ -14,6 +14,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "lainvalmistelu",
+      "displayName": "Lainvalmistelu",
+      "source": "./lainvalmistelu",
+      "description": "Säädösvalmistelun apuri: Lainkirjoittajan opas (säädösten rakenne, kieli, viittaaminen, johtolause), hallituksen esitysten laatimisohjeet (HELO), lainvalmistelun prosessiopas ja lakikielen merkit ja taivutusmuodot. Perustuu virallisiin oppaisiin.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }

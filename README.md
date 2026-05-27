@@ -38,7 +38,7 @@ käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 | Plugari | Mitä kattaa | Tila |
 |---|---|---|
 | **[juristi](juristi/)** | Läpileikkaava perusta: lakikieli ja pykäläviittaukset, suomen kieli, oikeustutkimus (oik.ai/Finlex) ja juridisen asiakirjan monivaiheinen tarkistus. | ✅ Saatavilla |
-| lainvalmistelu | Säädösvalmistelu: Lainkirjoittajan opas, HE:n laatimisohjeet (HELO), lainvalmistelun prosessiopas, lakikieli. | 🚧 Tulossa |
+| **[lainvalmistelu](lainvalmistelu/)** | Säädösvalmistelu: Lainkirjoittajan opas, HE:n laatimisohjeet (HELO), lainvalmistelun prosessiopas, lakikieli. | ✅ Saatavilla |
 | lausunnot | Lausuntomenettely: lausunnot lakiehdotuksiin, kuntavaikutusten arviointi, lausuntopalvelu.fi. | 🚧 Tulossa |
 | sopimukset | Sopimusten laatiminen ja tarkistus Suomen oikeuden mukaan. | 🚧 Tulossa |
 | työoikeus | Työsuhteet, TES, yhteistoiminta, päättäminen. | 🚧 Tulossa |
