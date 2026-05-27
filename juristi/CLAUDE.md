@@ -74,6 +74,8 @@ Noudata vakiintuneita muotoja (yksityiskohdat: `skills/juristi/references/viitta
 
 Ennen kuin tuotat tekstiä jaettavaksi eteenpäin (asiakas, vastapuoli, viranomainen, julkinen kanava), tarkista kenelle se menee. Asianajosalaisuuden, asiakkaan luottamuksellisten tietojen tai keskeneräisen työaineiston voi paljastaa väärälle yleisölle. Jos kohde vaikuttaa olevan luottamuspiirin ulkopuolella, nosta se esiin ja tarjoa joko luottamuksellinen versio sisäiseen käyttöön tai siivottu versio jaettavaksi.
 
+**Anonymisointi:** kun asiakirja sisältää henkilötietoja eikä niiden tarvitse päätyä mallille, anonymisoi ne ennen analyysiä. Suositeltu työkalu on **PII Shield**, joka korvaa henkilötiedot paikkamerkeillä paikallisesti ja palauttaa ne jälkikäteen (henkilötieto ei mene API:in). Asennus ja suomalaisten tunnisteiden (HETU, Y-tunnus) käyttöönotto: ks. `tietosuoja`-plugarin README.
+
 ---
 
 ## Käytäntöprofiili (valinnainen)
