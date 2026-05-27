@@ -1,0 +1,33 @@
+# Sopimukset
+
+Sopimusten laatiminen ja tarkistus Suomen oikeuden mukaan.
+
+> **Sopimusluonnos ja riskiarvio ovat tarkistettavia luonnoksia — ei oikeudellista
+> neuvontaa.** Suuririskinen tai 🔴 PUNAINEN sopimus kuuluu juristin arvioitavaksi.
+> Katso [`CLAUDE.md`](CLAUDE.md).
+
+## Skillit
+
+| Skill | Mitä tekee |
+|---|---|
+| **sopimuksen-laatiminen** | Laatii sopimuksen Suomen oikeuden mukaan: rakenne, kommentoitu lausekekirjasto ja sopimusoikeuden perusteet (sopimusvapaus, pakottava sääntely, kohtuullistaminen, vastuu). |
+| **sopimuksen-tarkistus** | Lausekekohtainen riskiarvio ja luokittelu (🟢 VIHREÄ / 🟡 KELTAINEN / 🔴 PUNAINEN), kohtuullistamis- ja pakottavan lain lippuineen. |
+
+## Perustana varmistetut säädökset
+
+Sisältö nojaa lähteestä (oik.ai/Finlex) varmistettuihin säädöksiin: oikeustoimilaki
+(228/1929, mm. 36 §:n kohtuullistaminen), kauppalaki (355/1987) ja kuluttajansuojalaki
+(38/1978). Muut säädösviittaukset on tarkistettava `juristi:oikeustutkimus`-skillillä.
+
+## Liittyy
+
+- **`juristi`-plugari** — `oikeustutkimus` (lakiviittausten tarkistus lähteestä) ja `asiakirjan-tarkistus` (perusteellinen monivaiheinen läpikäynti).
+
+## Asennus
+
+```
+/plugin marketplace add akunikkola/claude-for-legal-finland
+/plugin install sopimukset@claude-for-legal-finland
+```
+
+oik.ai-konnektori: katso juuren [QUICKSTART.md](../QUICKSTART.md).

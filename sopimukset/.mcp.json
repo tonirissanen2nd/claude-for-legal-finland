@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Sopimustyössä: tarkista sovellettavan lain (esim. kauppalaki, kuluttajansuojalaki, korkolaki) voimassa oleva sanamuoto ja relevantti oikeuskäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth-kirjautuminen liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "contract-review",
+    "documents"
+  ]
+}

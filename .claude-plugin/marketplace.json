@@ -32,6 +32,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "sopimukset",
+      "displayName": "Sopimukset",
+      "source": "./sopimukset",
+      "description": "Sopimusten laatiminen ja tarkistus Suomen oikeuden mukaan: sopimuksen rakenne ja kommentoitu lausekekirjasto, sopimusoikeuden perusteet sekä lausekekohtainen riskiarvio (VIHREÄ/KELTAINEN/PUNAINEN) kohtuullistamis- ja pakottavan lain lippuineen.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
