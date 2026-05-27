@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Työoikeudessa: muokkaa olemassa olevaa työsopimusta tai päättämiskirjettä natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Työoikeudessa: tarkista työsopimuslain (55/2001), yhteistoimintalain (1333/2021), työaika- ja vuosilomalain ym. voimassa oleva sanamuoto sekä oikeuskäytäntö (mm. KKO, Työtuomioistuin). Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "employment",
+    "documents"
+  ]
+}
