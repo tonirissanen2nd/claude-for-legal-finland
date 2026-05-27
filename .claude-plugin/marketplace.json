@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-for-legal-finland",
+  "description": "Avoimen lähdekoodin skillit ja plugarit, jotka auttavat juristeja ja muita oikeudellisten asioiden parissa työskenteleviä Suomessa hyödyntämään Claudea — suomalaisen oikeuden, lakikielen ja oikeuslähteiden (Finlex, oik.ai, KKO/KHO, HE) ehdoilla. Suomalainen vastine Anthropicin claude-for-legal-kokoelmalle.",
+  "owner": {
+    "name": "Aku Nikkola"
+  },
+  "plugins": [
+    {
+      "name": "juristi",
+      "displayName": "Juristi — perusta",
+      "source": "./juristi",
+      "description": "Läpileikkaava perusta suomalaiseen juridiseen työhön: lakikieli ja pykäläviittaukset, suomen kielen oikeinkirjoitus, oikeustutkimus voimassa olevasta laista ja oikeuskäytännöstä (Finlex/oik.ai-MCP), sekä juridisen asiakirjan monivaiheinen tarkistus. Pohja, johon muut käytäntöaluekohtaiset plugarit nojaavat.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
+    }
+  ]
+}

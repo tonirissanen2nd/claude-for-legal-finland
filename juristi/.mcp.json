@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Hae voimassa olevia lakeja sekä KKO:n, KHO:n ja muiden tuomioistuinten ratkaisuja, jotta viittaukset perustuvat todellisiin pykäliin ja päätöksiin — ei mallin muistiin. Käyttö edellyttää oik.ai-tiliä (OAuth-kirjautuminen liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "documents"
+  ]
+}
