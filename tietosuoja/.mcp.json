@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Tietosuojatyössä: tarkista tietosuojalain (1050/2018), työelämän yksityisyyslain (759/2004) ja toimialakohtaisten erityislakien voimassa oleva sanamuoto sekä kansallinen oikeuskäytäntö. (EU:n tietosuoja-asetuksen artiklat: EUR-Lex.) Käyttö edellyttää oik.ai-tiliä (OAuth-kirjautuminen liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "privacy",
+    "documents"
+  ]
+}

@@ -42,7 +42,7 @@ käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 | **[lausunnot](lausunnot/)** | Lausuntomenettely: lausunnot lakiehdotuksiin, vaikutusarviointi lausunnonantajan näkökulmasta, Lausuntopalvelu.fi. | ✅ Saatavilla |
 | **[sopimukset](sopimukset/)** | Sopimusten laatiminen (rakenne, lausekekirjasto, sopimusoikeus) ja lausekekohtainen riskiarvio Suomen oikeuden mukaan. | ✅ Saatavilla |
 | työoikeus | Työsuhteet, TES, yhteistoiminta, päättäminen. | 🚧 Tulossa |
-| tietosuoja | Tietosuoja-asetus ja kansallinen tietosuojalaki. | 🚧 Tulossa |
+| **[tietosuoja](tietosuoja/)** | Tietosuoja-asetus (GDPR) ja tietosuojalaki: käsittelyn arviointi ja DPIA, tietosuojaseloste, rekisteröidyn pyynnöt. | ✅ Saatavilla |
 | hallinto-oikeus | Julkishallinto, hallintopäätökset, muutoksenhaku. | 🚧 Tulossa |
 | riidanratkaisu | Prosessi yleisissä ja hallintotuomioistuimissa. | 🚧 Tulossa |
 
