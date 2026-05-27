@@ -43,6 +43,7 @@ käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 | **[sopimukset](sopimukset/)** | Sopimusten laatiminen (rakenne, lausekekirjasto, sopimusoikeus) ja lausekekohtainen riskiarvio Suomen oikeuden mukaan. | ✅ Saatavilla |
 | työoikeus | Työsuhteet, TES, yhteistoiminta, päättäminen. | 🚧 Tulossa |
 | **[tietosuoja](tietosuoja/)** | Tietosuoja-asetus (GDPR) ja tietosuojalaki: käsittelyn arviointi ja DPIA, tietosuojaseloste, rekisteröidyn pyynnöt. | ✅ Saatavilla |
+| **[tekoälysääntely](tekoalysaantely/)** | EU:n tekoälyasetus (AI Act): riskiluokittelu, velvoitteet, määräajat, seuraamukset, GPAI ja FRIA. Avoin, deterministinen EU AI Act -MCP. | ✅ Saatavilla |
 | hallinto-oikeus | Julkishallinto, hallintopäätökset, muutoksenhaku. | 🚧 Tulossa |
 | riidanratkaisu | Prosessi yleisissä ja hallintotuomioistuimissa. | 🚧 Tulossa |
 

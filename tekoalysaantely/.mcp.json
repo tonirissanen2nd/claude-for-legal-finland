@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "eu-ai-act": {
+      "command": "npx",
+      "args": ["-y", "@lexbeam-software/eu-ai-act-mcp"],
+      "title": "EU AI Act",
+      "description": "Avoin (MIT), deterministinen MCP EU:n tekoälyasetukseen (asetus (EU) 2024/1689): riskiluokittelu, velvoitteet, määräajat, seuraamukset, GPAI-kynnys ja FRIA — EUR-Lex-pohjaisin sitaatein, ilman LLM:ää silmukassa. Pyörii paikallisesti npx:llä, ei vaadi tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Tekoälysääntelyssä: tarkista kansallinen täytäntöönpano ja toimivaltaiset viranomaiset sekä mahdollinen täydentävä lainsäädäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "ai-governance",
+    "compliance",
+    "legislation"
+  ]
+}
