@@ -44,7 +44,7 @@ käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 | **[työoikeus](tyooikeus/)** | Työsopimus (työsopimuslaki 55/2001), päättämisen arviointi ja yhteistoiminta/muutosneuvottelut (yhteistoimintalaki 1333/2021). | ✅ Saatavilla |
 | **[tietosuoja](tietosuoja/)** | Tietosuoja-asetus (GDPR) ja tietosuojalaki: käsittelyn arviointi ja DPIA, tietosuojaseloste, rekisteröidyn pyynnöt. | ✅ Saatavilla |
 | **[tekoälysääntely](tekoalysaantely/)** | EU:n tekoälyasetus (AI Act): riskiluokittelu, velvoitteet, määräajat, seuraamukset, GPAI ja FRIA. Avoin, deterministinen EU AI Act -MCP. | ✅ Saatavilla |
-| hallinto-oikeus | Julkishallinto, hallintopäätökset, muutoksenhaku. | 🚧 Tulossa |
+| **[hallinto-oikeus](hallinto-oikeus/)** | Hallintopäätös (hallintolaki 434/2003), muutoksenhaku (808/2019) ja asiakirjajulkisuus/tietopyynnöt (julkisuuslaki 621/1999). | ✅ Saatavilla |
 | riidanratkaisu | Prosessi yleisissä ja hallintotuomioistuimissa. | 🚧 Tulossa |
 
 ## Aloitus

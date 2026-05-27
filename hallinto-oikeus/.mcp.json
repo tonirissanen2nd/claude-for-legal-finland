@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Hallintoasioissa: muokkaa olemassa olevaa päätöstä, valitusta tai tietopyyntövastausta natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Hallinto-oikeudessa: tarkista hallintolain (434/2003), hallintoprosessilain (808/2019), julkisuuslain (621/1999), kuntalain (410/2015) ja erityislakien voimassa oleva sanamuoto sekä oikeuskäytäntö (mm. KHO, hallinto-oikeudet). Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "public-sector",
+    "documents"
+  ]
+}
