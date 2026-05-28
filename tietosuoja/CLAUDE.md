@@ -41,10 +41,10 @@ henkilötiedot paikkamerkeillä paikallisesti ennen kuin teksti lähtee mallille
 oikeat tiedot jälkikäteen — *henkilötieto ei mene API:in*. Tämä toteuttaa tietojen
 minimoinnin ja tukee turvallista jakamista.
 
-> **Suomalaiset tunnisteet:** PII Shieldin oletustunnistimet eivät vielä tunnista
-> **henkilötunnusta (HETU)** eikä **Y-tunnusta** rakenteisesti (vireillä upstream-PR
-> gregmos/PII-Shield#4). README kertoo, miten saat FI-tunnistimet käyttöön heti forkista.
-> Älä oleta, että HETU/Y-tunnus poistuu automaattisesti ilman näitä — tarkista tulos.
+> **Suomalaiset tunnisteet:** PII Shield **v2.2.0** (28.5.2026) tukee natiivisti suomalaisia
+> tunnisteita — `FI_HETU` (henkilötunnus) ja `FI_BUSINESS_ID` (Y-tunnus). Varmista että
+> käytössä on v2.2.0 tai uudempi. Automaattinen tunnistus ei silti ole 100 % — tarkista
+> tulos, etenkin epätyypillisissä muotoiluissa.
 
 ## Käytäntöprofiili (valinnainen)
 

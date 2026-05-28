@@ -29,33 +29,31 @@ pykälät tarkistetaan `juristi:oikeustutkimus`-skillillä.
 oikeat tiedot jälkikäteen — *henkilötieto ei mene API:in*. Erinomainen pari tietosuojatyöhön
 ja luottamuksellisuuteen. Se on erillinen Claude-laajennus (`.mcpb`) / CLI, jonka asennat itse.
 
-**Asennus (virallinen):** lataa `.mcpb` PII Shieldin [releaseista](https://github.com/gregmos/PII-Shield/releases)
-ja asenna Claude Desktopiin (Settings → Extensions), tai CLI: `npm install -g pii-shield`.
+**🇫🇮 Suomalaiset tunnisteet** (HETU + Y-tunnus) **kuuluvat virallisiin paketteihin
+versiosta v2.2.0** alkaen (28.5.2026) — kontribuoitu tämän projektin kautta
+([gregmos/PII-Shield#4](https://github.com/gregmos/PII-Shield/pull/4), mergattu).
 
-**🇫🇮 Suomalaiset tunnisteet (HETU + Y-tunnus) heti käyttöön:** viralliset paketit eivät
-vielä sisällä suomalaisia tunnistimia — ne on lisätty upstream-PR:ssä
-[gregmos/PII-Shield#4](https://github.com/gregmos/PII-Shield/pull/4). Kunnes se sulautuu,
-saat ne käyttöön rakentamalla forkista:
+**Asennus — valitse:**
 
-```bash
-git clone -b feat/finnish-recognizers https://github.com/akunikkola/PII-Shield.git
-cd PII-Shield/nodejs-v2
-npm ci
-npm run build:server          # tuottaa dist/server.bundle.mjs (paikallinen MCP-palvelin)
-# (ensimmäisellä ajolla lataa GLiNER-mallin ~634 MB)
-```
+**A) Claude Desktop / Cowork** (suositeltavin): lataa `pii-shield-v2.2.0-*.mcpb`
+PII Shieldin [releaseista](https://github.com/gregmos/PII-Shield/releases/latest) ja
+asenna Claude Desktopiin: **Settings → Extensions → Advanced settings → Install extension**.
 
-Lisää sitten paikallinen MCP-palvelin Claude Codeen, esim.:
+**B) CLI mille tahansa LLM:lle** (paikallinen anonymisointityökalu): `npm install -g pii-shield`
+(v2.2.0+). Ks. `pii-shield --help`.
+
+**C) Claude Code -paikallinen MCP-palvelin** (kehittäjille, npx-tyylinen): rakenna palvelin
+ja rekisteröi paikallisena stdio-MCP:nä:
 
 ```bash
+git clone https://github.com/gregmos/PII-Shield.git
+cd PII-Shield/nodejs-v2 && npm ci && npm run build:server
 claude mcp add pii-shield --transport stdio -- node /ABSOLUUTTINEN/POLKU/PII-Shield/nodejs-v2/dist/server.bundle.mjs
 ```
 
-Kun PR #4 on mergattu, voit siirtyä viralliseen `.mcpb`-/npm-versioon.
-
-> Huom: tämä on **paikallinen, koneeseesi sidottu** asetus (absoluuttinen polku), ei
-> osa siirrettävää plugaria. Siksi PII Shieldiä ei ole kytketty tämän plugarin
-> `.mcp.json`:iin — se asennetaan erikseen yllä olevalla tavalla.
+> Huom: vaihtoehto C on **paikallinen, koneeseesi sidottu** asetus (absoluuttinen polku),
+> ei osa siirrettävää plugaria. Siksi PII Shieldiä ei ole kytketty tämän plugarin
+> `.mcp.json`:iin — virallinen `.mcpb` (A) on suositelluin reitti.
 
 ## Liittyy
 
