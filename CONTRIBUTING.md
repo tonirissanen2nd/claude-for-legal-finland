@@ -32,13 +32,24 @@ Suojaus jää paikalleen henkivakuutuksena, mutta skill kantaa tarvitsemansa tie
 - **Kieli kunnossa.** Suomenkieliset skillit noudattavat suomen kielen ja lakikielen
   sääntöjä (ks. `juristi`-plugarin `suomen-kieli`- ja `juristi`-skillit).
 
+- **Noudata jaettua viittausstandardia.** Säädös-, oikeuskäytäntö- ja
+  esityöviittauksissa: [`references/viittaustyyli.md`](references/viittaustyyli.md)
+  (kolmiportainen varmuusmerkintä, lähdehierarkia, ratkaisutunnusten muodot,
+  esimerkkikuri). Älä koskaan väitä ratkaisun sisältöä ilman lähteestä tarkistusta.
+
 ## Skillin lisääminen
 
 1. Sijoita skill oikean plugarin alle: `<plugari>/skills/<nimi>/SKILL.md`.
 2. Kirjoita selkeä `description`-kenttä frontmatteriin: milloin skill triggeröidään
-   (suomalaiset triggerit, säädösnumerot, §-merkki, asiakirjatyypit).
+   (suomalaiset triggerit, säädösnumerot, §-merkki, asiakirjatyypit). Frontmatterissa
+   **vain `name` ja `description`** — ei muita kenttiä. `name` = kebab-case = kansion nimi.
 3. Jaa yksityiskohdat tarvittaessa `references/`-tiedostoihin ja lue ne Read-työkalulla.
 4. Päivitä plugarin README ja tarvittaessa juuren `marketplace.json`.
+5. **Päivitä skill-indeksi:** `node scripts/generate-skills-md.mjs` (kirjoittaa
+   `SKILLS.md`:n marketplace.json:sta ja frontmattereista — älä muokkaa SKILLS.md:tä käsin).
+6. **Aja validaattori ennen pushia:** `node scripts/validate.mjs` (sama portti ajetaan
+   CI:ssä jokaisessa pushissa ja PR:ssä). Sen on oltava vihreä. CI tarkistaa myös, että
+   SKILLS.md on ajan tasalla.
 
 ## Lisenssi
 

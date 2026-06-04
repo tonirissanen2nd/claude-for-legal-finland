@@ -34,6 +34,12 @@ Tekoälyasetus **ei korvaa** tietosuoja-asetusta. Profilointi, automaattinen pä
 
 EU-asetuksena tekoälyasetus on Suomessa suoraan sovellettava, mutta **kansalliset toimivaltaiset viranomaiset, menettelyt ja mahdollinen täydentävä lainsäädäntö ovat muotoutumassa.** Älä esitä viranomaisnimeämisiä tai kansallisia säännöksiä varmistettuina. Tarkista voimassa oleva tilanne `juristi:oikeustutkimus`-skillillä (oik.ai/Finlex) ja viranomaisten virallisilta sivuilta; merkitse epävarmat kohdat `[varmista — kansallinen sääntely muotoutumassa]`.
 
+## Jaetut standardit
+
+Säädös-, oikeuskäytäntö- ja esityöviittauksissa noudata markkinapaikan jaettua lähdestandardia [`references/viittaustyyli.md`](../references/viittaustyyli.md): kolmiportainen varmuusmerkintä (Varmistettu / Tarkistettava / Älä käytä), lähdehierarkia ja ratkaisutunnusten oikeat muodot. Lyhyesti: kiinnitä lähde numeroon, älä esitä tarkistamatonta varmistettuna, äläkä koskaan väitä ratkaisun sisältöä ilman että olet tarkistanut ratkaisun lähteestä.
+
+Vastuusta, ammattietiikasta (salassapito, esteellisyys, kuka saa edustaa) ja tietojenkäsittelystä (GDPR 28 art käsittelysopimus, anonymisointi ennen analyysiä): [`references/vastuu-ja-tietoturva.md`](../references/vastuu-ja-tietoturva.md). **Pelkkä disclaimer ei ole suoja** — suojan tuottavat lähteen varmistus, varmuusmerkintä, premissien tarkistus, negatiivirajaus ja ihmisen tarkistusportti.
+
 ## Käytäntöprofiili (valinnainen)
 
 Organisaation tekoälyjärjestelmien rekisteri, roolit ja vakiokäytännöt voi tallentaa tähän otsikon `## Käytäntöprofiili` alle. Oletuksena tyhjä — älä keksi, vaan kysy käyttäjältä.

@@ -14,7 +14,11 @@ Anthropicin [claude-for-legal](https://github.com/anthropics/claude-for-legal)
 > jurisdiktio-oletukset näkyvissä ja varmistus ennen kuin mitään lähetetään,
 > jätetään tai allekirjoitetaan. Pätevä ihminen tarkistaa, varmistaa ja kantaa
 > ammatillisen vastuun lopputuloksesta. Nämä työkalut tekevät tarkistuksesta
-> nopeampaa; ne eivät korvaa sitä.
+> nopeampaa; ne eivät korvaa sitä. Suojan tuottavat **mekanismit** — lähteen
+> varmistus, kolmiportainen varmuusmerkintä, premissien tarkistus,
+> negatiivirajaus ja ihmisen tarkistusportti — eivät tämä huomautus. Ne on
+> koottu tiedostoihin [`references/viittaustyyli.md`](references/viittaustyyli.md)
+> ja [`references/vastuu-ja-tietoturva.md`](references/vastuu-ja-tietoturva.md).
 >
 > Tämä on avoimen lähdekoodin yhteisöhanke, ei viranomais- tai
 > asianajopalvelu. Se ei edusta minkään organisaation virallista oikeudellista kantaa.
@@ -31,7 +35,10 @@ Rakenne mukailee Anthropicin claude-for-legalia: markkinapaikka
 ([`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)) listaa
 käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 (`skills/<nimi>/SKILL.md`), jaetut suojaukset (`CLAUDE.md`) ja datakonnektorit
-(`.mcp.json`).
+(`.mcp.json`). Repon juuren [`references/`](references/)-tiedostot määrittävät
+jaetut lähde-, vastuu- ja tietoturvastandardit, ja
+[`scripts/validate.mjs`](scripts/validate.mjs) (ajetaan CI:ssä) valvoo
+markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
 
 ## Plugarit
 

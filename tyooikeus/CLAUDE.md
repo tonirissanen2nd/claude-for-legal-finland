@@ -34,6 +34,12 @@ Päättämisessä ja muutosneuvotteluissa **menettely on yhtä tärkeä kuin ain
 
 Nosta esiin mahdollinen syrjintä (yhdenvertaisuuslaki, tasa-arvolaki) ja erityissuojatut ryhmät (raskaana/perhevapaalla oleva, luottamusmies/-valtuutettu). Näissä riskitaso nousee automaattisesti.
 
+## Jaetut standardit
+
+Säädös-, oikeuskäytäntö- ja esityöviittauksissa noudata markkinapaikan jaettua lähdestandardia [`references/viittaustyyli.md`](../references/viittaustyyli.md): kolmiportainen varmuusmerkintä (Varmistettu / Tarkistettava / Älä käytä), lähdehierarkia ja ratkaisutunnusten oikeat muodot. Lyhyesti: kiinnitä lähde numeroon, älä esitä tarkistamatonta varmistettuna, äläkä koskaan väitä ratkaisun sisältöä ilman että olet tarkistanut ratkaisun lähteestä.
+
+Vastuusta, ammattietiikasta (salassapito, esteellisyys, kuka saa edustaa) ja tietojenkäsittelystä (GDPR 28 art käsittelysopimus, anonymisointi ennen analyysiä): [`references/vastuu-ja-tietoturva.md`](../references/vastuu-ja-tietoturva.md). **Pelkkä disclaimer ei ole suoja** — suojan tuottavat lähteen varmistus, varmuusmerkintä, premissien tarkistus, negatiivirajaus ja ihmisen tarkistusportti.
+
 ## Käytäntöprofiili (valinnainen)
 
 Organisaation sovellettavat TES:t, vakiomallit ja henkilöstöpolitiikka voi tallentaa tähän otsikon `## Käytäntöprofiili` alle. Oletuksena tyhjä — älä keksi, vaan kysy käyttäjältä.
