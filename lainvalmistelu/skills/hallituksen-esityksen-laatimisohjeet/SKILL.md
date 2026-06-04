@@ -1,11 +1,6 @@
 ---
 name: hallituksen-esityksen-laatimisohjeet
 description: Hallituksen esitysten laatimisohjeet (HELO) - Opas hallituksen esitysten kirjoittamiseen. Sisältää ohjeet perusrakenteen, EU-taustaisten, valtiosopimustaustaisten ja muiden hallituksen esitysten laatimiseen.
-tags:
-  - lainvalmistelu
-  - hallituksen esitys
-  - lainsäädäntö
-  - prosessit
 ---
 
 # Hallituksen esitysten laatimisohjeet (HELO)
@@ -220,3 +215,20 @@ Hallituksen esitykseen voidaan liittää muita tarpeellisia dokumentteja, kuten:
 ---
 
 **Huomio**: Tämä opas perustuu Hallituksen esitysten laatimisohjeisiin (HELO), jotka ovat oikeusministeriön virallinen ohjeisto. Ohjeet päivittyvät säännöllisesti, joten tarkista aina viimeisin versio virallisesta lähteestä.
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa virallista lainvalmistelua eikä ministeriön vastuuta.** Tuotos on valmisteleva HE-luonnos, jonka valmisteleva virkamies ja ministeriö tarkistavat ja josta he vastaavat.
+- **Ei vahvista HE-numeroita, säädösnumeroita eikä muutettavan lain sanamuotoa muistista.** Voimassa oleva teksti ja tunnukset haetaan Finlexistä.
+- **Ei tuota varmennettuja vaikutusarvioita** (taloudelliset, viranomais-, ympäristö-, yhdenvertaisuusvaikutukset); arviot on merkittävä arvioiksi ja varmistettava erikseen.
+- **Ei laadi säädöstekstiä eli itse lakiehdotusta**; se kuuluu lainkirjoittajan oppaan piiriin. HELO koskee esityksen perusteluja ja rakennetta.
+- **Ei ratkaise sitovasti suhdetta perustuslakiin tai säätämisjärjestystä** eikä korvaa perustuslakivaliokunnan arviota.
+- **Ei kokoa eikä referoi todellista lausuntopalautetta** puolestasi; lausuntoyhteenveto perustuu tosiasiallisiin annettuihin lausuntoihin.
+
+## Jatka tästä
+
+- Esitykseen liitettävän lakiehdotuksen rakenne, johtolause ja siirtymäsäännökset → /lainvalmistelu:lainkirjoittajan-opas
+- Perustelutekstin merkit, lyhenteet ja säädösviittausten muoto → /lainvalmistelu:lakikieli-opas
+- Lausuntopalaute-osion sijoittaminen ja lausuntokierroksen kulku → /lainvalmistelu:lainvalmistelun-prosessiopas
+- Annettujen lausuntojen jäsentäminen ja niihin vastaaminen → /lausunnot:lausuntoapuri
+- Nykytila-osion voimassa olevan oikeuden ja oikeuskäytännön tarkistus → /juristi:oikeustutkimus

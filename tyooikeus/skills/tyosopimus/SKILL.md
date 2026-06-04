@@ -51,3 +51,17 @@ Käy läpi vähintään:
 Tuota sopimus/arvio lähdemerkinnöin (säädös + pykälä tarkistettuna `oikeustutkimus`-skillillä,
 sovellettava TES nimettynä). Erota selvästi pakottava vähimmäistaso, TES-ehto ja
 sopimusvapauden piiriin kuuluva ehto.
+
+## Mitä tämä skill EI tee
+- **Ei korvaa työnantajan päätöstä eikä työoikeusjuristin arviota.** Tuottaa tarkistettavan luonnoksen tai arvion, ei lopullista kantaa sopimuksen pätevyydestä.
+- **Ei vahvista irtisanomisaikoja, koeajan enimmäispituutta, vuosiloma- tai työaikalukuja eikä TES-määräyksiä muistista.** Ne haetaan voimassa olevasta laista ja sovellettavasta työehtosopimuksesta.
+- **Ei ratkaise kilpailukiellon pätevyyttä eikä korvauksen suuruutta sitovasti** — arvioi vain riskin ja ohjaa tarkistamaan voimassa olevan työsopimuslain 3 luvun säännöksen.
+- **Ei laadi työsuhteen päättämistä** (irtisanominen, purku, koeaikapurku) — vain perustaa työsuhteen ja sen ehdot.
+- **Ei käsittele kollektiiviperusteista vähentämistä eikä YT-/muutosneuvotteluvelvoitetta.**
+- **Vain Suomen työoikeus** — ei muiden maiden työlainsäädäntöä eikä rajat ylittäviä työsuhteita.
+
+## Jatka tästä
+- Työsuhteen päättäminen, koeaikapurku tai irtisanomisen perusteet → /tyooikeus:tyosuhteen-paattaminen
+- Kollektiiviperusteinen vähentäminen tai YT-velvoitteen selvitys → /tyooikeus:yhteistoiminta
+- Työsopimuslain, TES:n tai oikeuskäytännön tarkistus lähteestä → /juristi:oikeustutkimus
+- Valmiin työsopimusluonnoksen laaduntarkistus ennen allekirjoitusta → /juristi:asiakirjan-tarkistus

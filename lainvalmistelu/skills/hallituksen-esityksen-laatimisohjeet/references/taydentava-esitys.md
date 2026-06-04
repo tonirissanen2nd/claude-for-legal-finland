@@ -230,7 +230,9 @@ Tässä osiossa analysoidaan aiemman lain toimivuus ja ilmaantuneet puutteet.
 - Tilastot tai muut todisteaineistot ongelmista
 
 **Esimerkki:**
-"Laki on ollut voimassa nyt 18 kuukautta. Soveltajat ovat raportoineet, että pykälän 7 säännökset ovat epäselviä. Korkeimman hallinto-oikeuden päätöksessä KHO:2021:50 todettiin, että säännöksiä tulkittiin eri tavoin eri alueilla. Lisäksi kauppa- ja teollisuusministeriö on saanut 127 kysymystä säännösten tulkinnasta."
+"Laki on ollut voimassa nyt 18 kuukautta. Soveltajat ovat raportoineet, että pykälän 7 säännökset ovat epäselviä. Korkeimman hallinto-oikeuden päätöksessä [KHO:VVVV:NN — korvaa todellisella, Finlexistä tarkistetulla ratkaisulla] todettiin, että säännöksiä tulkittiin eri tavoin eri alueilla. Lisäksi kauppa- ja teollisuusministeriö on saanut 127 kysymystä säännösten tulkinnasta."
+
+> **Esimerkki on havainnollistava malli, ei oikea ratkaisu.** Ratkaisutunnukset, HE-numerot ja luvut tässä osiossa ovat keksittyjä paikkamerkkejä. Korvaa ne aina Finlexistä tarkistetuilla todellisilla viittauksilla — älä kopioi näitä sellaisenaan hallituksen esitykseen.
 
 ### 3 Tavoitteet
 

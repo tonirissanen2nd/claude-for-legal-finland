@@ -384,3 +384,22 @@ Kattavammat ohjeet löytyvät:
 - Kielikello-lehti: https://kielikello.fi/
 
 Epäselvissä tapauksissa tarkista Kielitoimiston sanakirjasta sanan oikea kirjoitusasu ja taivutus.
+
+---
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa ihmisen tekemää lopputarkistusta eikä vastaa julkaistun tekstin oikeellisuudesta.** Korjausehdotukset ovat luonnoksia, jotka kirjoittaja hyväksyy ja joista hän vastaa.
+- **Ei ole oikeudellinen tarkistus eikä ota kantaa sisällön juridiseen oikeellisuuteen.** Skill korjaa kieltä, ei lakiviittausten paikkansapitävyyttä eikä asiakirjan oikeudellista pätevyyttä.
+- **Ei vahvista lakiviittauksia, säädösnimiä eikä faktoja.** Esimerkit alkukirjaimista ja säädösten nimistä koskevat kirjoitusasua, ei viittauksen voimassaoloa tai sisältöä.
+- **Ei tee sisällön asiatarkistusta eikä tarkista lähteitä.** Se ei arvioi, ovatko väitteet tosia tai luvut oikein — vain kielen, oikeinkirjoituksen ja tyylin.
+- **Ei kata muita kieliä eikä ruotsin tai englannin kirjoitussääntöjä.** Vain suomen yleiskieli Kielitoimiston ohjepankin pohjalta; murre- ja erikoisalakohtaiset poikkeamat jäävät ulkopuolelle.
+- **Ei takaa harvinaisten sanojen oikeinkirjoitusta sanakirjatarkkuudella.** Epäselvissä tapauksissa asu ja taivutus tarkistetaan Kielitoimiston sanakirjasta.
+
+## Jatka tästä
+
+- Teksti on juridinen ja kaipaa lakikielen, pykäläviittausten tai termistön tarkistusta → /juristi:juristi
+- Kyse on valmiista juridisesta asiakirjasta, jolle tarvitaan järjestelmällinen laaduntarkistus → /juristi:asiakirjan-tarkistus
+- Tekstin sisältämä lakiviittaus tai oikeustapaus pitää varmistaa lähteestä → /juristi:oikeustutkimus
+- Viimeistellään hallintopäätöksen tai lausunnon kieli → /hallinto-oikeus:hallintopaatos tai /lausunnot:lausuntoapuri
+- Kyse on säädös- tai esitysluonnoksen kielestä → /lainvalmistelu:lakikieli-opas

@@ -47,3 +47,16 @@ olemassa olevaa `adeu`-MCP:llä. Merkitse `[varmista — määräaika ja lupaper
 ## Raportoi
 Korosta määräaikojen ehdottomuutta ja lupakynnyksiä. Liitä lähteet (OK 25 / 25 a / 30 luku
 tarkistettuna, mahdollinen KKO-käytäntö). Älä esitä menestymisen todennäköisyyttä lopullisena.
+
+## Mitä tämä skill EI tee
+- **Ei korvaa asiamiehen tai asianajajan vastuuta.** Valitus- ja valituslupakirjelmä on tarkistettava luonnos; muutoksenhausta ja sen ajoituksesta vastaa asian hoitava.
+- **Ei ennusta asian menestymistä eikä tuomion lopputulosta.** Ei arvioi, myönnetäänkö jatkokäsittelylupa tai valituslupa tai muutetaanko tuomiota — kuvaa perusteet tasapuolisesti.
+- **Ei vahvista valitusaikoja, tyytymättömyyden ilmoituksen määräaikaa eikä lupaperusteita muistista.** Määräajat ovat ehdottomia (laiminlyönti voi estää valituksen) ja haetaan lähteestä; tarkistamaton merkitään `[tarkista määräaika / lupaperuste]`.
+- **Ei seuraa tai laske määräaikoja kalenterista.** Ei korvaa asianvalvonnan ja määräaikaseurannan järjestämistä.
+- **Ei vahvista jatkokäsittelylupa- (OK 25 a) tai valituslupaperusteita (OK 30) muistinvaraisesti** — lupaperusteet ja niiden tulkinta tarkistetaan lähteestä.
+- **Ei arvioi tyytymättömyyden ilmoituksen tarvetta lopullisesti** ilman lähteestä tarkistettua menettelyä; väärä menettely voi menettää valitusoikeuden.
+
+## Jatka tästä
+- Muutoksenhaussa vedottavan todistelun suunnittelu → /riidanratkaisu:todistelu
+- Valitusajan, lupaperusteiden ja KKO-käytännön tarkistus → /juristi:oikeustutkimus
+- Valitus- tai valituslupakirjelmän laaduntarkistus ennen jättämistä → /juristi:asiakirjan-tarkistus

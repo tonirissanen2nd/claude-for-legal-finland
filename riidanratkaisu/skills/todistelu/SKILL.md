@@ -50,3 +50,17 @@ vastanäyttöä? Merkitse `[varmista — asianajajan arvioitava]` näytön riitt
 Tuota todistelusuunnitelma ja todisteluettelo (teemoineen) muotoon, jonka voi liittää
 haastehakemukseen tai valmisteluun. Liitä lähteet (OK 17 luku tarkistettuna, mahdollinen
 oikeuskäytäntö näyttökysymyksistä). Älä esitä lopputulosta tai näytön painoarvoa varmana.
+
+## Mitä tämä skill EI tee
+- **Ei korvaa asiamiehen tai asianajajan vastuuta.** Todistelusuunnitelma on tarkistettava luonnos; näytön riittävyyden ja todistelutavan arvioi asian hoitava.
+- **Ei ennusta asian menestymistä eikä tuomion lopputulosta.** Ei arvioi näytön painoarvoa tai todistusharkinnan tulosta varmana — kuvaa vahvuudet ja aukot tasapuolisesti.
+- **Ei vahvista todistamis- ja hyödyntämiskieltoja, näyttökynnyksiä eikä prosessimääräaikoja muistista.** Ne ovat ehdottomia ja haetaan OK 17 luvusta lähteestä.
+- **Ei päätä näyttötaakan jakautumista lopullisesti.** Esittää lähtökohdan (seikkaan vetoava), mutta poikkeukset ja käännetty näyttötaakka tarkistetaan lähteestä.
+- **Ei arvioi todistajan uskottavuutta tai lausunnon totuudenmukaisuutta** — vain kohdistaa todistuskeinon teemaan.
+- **Ei hoida arkaluonteisen aineiston anonymisointia tai salassapidon rajaamista** itse; ohjaa erilliseen käsittelyyn.
+
+## Jatka tästä
+- Todisteluun perustuvan kanteen laatiminen → /riidanratkaisu:haastehakemus
+- Näyttökysymyksiä koskevan oikeuskäytännön ja OK 17 luvun tarkistus → /juristi:oikeustutkimus
+- Arkaluonteisten todisteiden anonymisointi ja käsittelyn rajaaminen → /tietosuoja:tietosuoja-arviointi
+- Sopimusriidan tausta-asiakirjojen tarkistus näyttöä varten → /sopimukset:sopimuksen-tarkistus

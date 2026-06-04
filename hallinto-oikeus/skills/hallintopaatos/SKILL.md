@@ -55,3 +55,17 @@ asiallisiin perusteisiin, ei epäasiallisiin vaikuttimiin.
 Tuota päätös/arvio lähdemerkinnöin (hallintolaki + erityislaki, pykälät tarkistettuna).
 Erota selvästi aineellinen ratkaisu, sen perustelu ja menettelyn arviointi. Korosta
 mahdolliset kumoamisriskit.
+
+## Mitä tämä skill EI tee
+- **Ei tee viranomaispäätöstä eikä korvaa viranomaisen vastuuta.** Tuottaa tarkistettavan luonnoksen; viranomainen vastaa päätöksestään ja sen laillisuudesta.
+- **Ei vahvista toimivaltaperusteita eikä määräaikoja muistista.** Toimivalta (erityislaki, kuntalaki 410/2015, johtosäännöt) ja muutoksenhaun määräajat haetaan lähteestä erityislaeittain.
+- **Ei ratkaise aineellista oikeuskysymystä lopullisesti.** Tulkinnanvaraiset edellytykset ja näytön arviointi kuuluvat hallinto-oikeudellisen asiantuntijan vastuulle.
+- **Ei laadi muutoksenhakua eikä arvioi valituksen menestymistä** — se kuuluu `muutoksenhaku`-skilliin.
+- **Ei tee julkisuus- tai salassapitoratkaisua** päätökseen liittyvistä asiakirjoista; se kuuluu `julkisuus-ja-tietopyynnot`-skilliin.
+- **Vain Suomen hallinto-oikeus.** Ei sovellu muiden maiden hallintomenettelyyn eikä yksityisoikeudellisiin asioihin.
+
+## Jatka tästä
+- Jos päätökseen haetaan muutosta → /hallinto-oikeus:muutoksenhaku
+- Säädösten ja määräaikojen tarkistus → /juristi:oikeustutkimus
+- Päätöksen kielen ja muotovaatimusten tarkistus ennen tiedoksiantoa → /juristi:asiakirjan-tarkistus
+- Jos päätökseen liittyviä asiakirjoja pyydetään tai luovutetaan → /hallinto-oikeus:julkisuus-ja-tietopyynnot

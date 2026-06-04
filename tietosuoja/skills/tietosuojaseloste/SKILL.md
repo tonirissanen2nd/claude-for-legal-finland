@@ -65,3 +65,19 @@ olemassa olevaa** selostetta Word-tiedostona, käytä `adeu`-MCP:tä, joka tekee
 natiiveina Word-jälkimuutoksina (Track Changes) muotoilua rikkomatta. Merkitse täydennettävät
 kohdat hakasulkein. Erota selvästi julkinen tietosuojaseloste ja sisäinen käsittelytoimien
 seloste. Lisää: *"Luonnos — tarkistettava ennen julkaisua/käyttöä."*
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa tietosuojavastaavan tai juristin arviota.** Selosteen oikeudellinen riittävyys ja julkaisukelpoisuus on tarkistettava asiantuntijalla.
+- **Ei vahvista GDPR-artikloja (12–14, 30 art) tai tietosuojalain pykäliä muistista.** Lakiviittaukset ja kansalliset täsmennykset tarkistetaan lähteestä.
+- **Ei määritä käsittelyperustetta eikä arvioi DPIA-tarvetta** — seloste edellyttää, että nämä on jo selvitetty (`tietosuoja-arviointi`).
+- **Ei korvaa tietoturvan tai säilytysaikojen tosiasiallista määrittelyä.** Kirjaa selosteeseen vain ne tiedot, jotka käyttäjä antaa; ei keksi säilytysaikoja eikä turvatoimia.
+- **Ei tee ilmoitusta valvontaviranomaiselle puolestasi.** Seloste käsittelytoimista esitetään tietosuojavaltuutetun toimistolle vain pyydettäessä — tämä skill ei toimita sitä.
+- **Ei arvioi pienen organisaation 30(5) art -poikkeuksen soveltumista** ilman erillistä tarkistusta — poikkeus on kapea.
+
+## Jatka tästä
+
+- Käsittelyperusteen ja DPIA-tarpeen selvitys ennen selostetta → /tietosuoja:tietosuoja-arviointi
+- Rekisteröidyn oikeuksien toteuttaminen käytännössä → /tietosuoja:rekisteroidyn-pyynnot
+- Selosteen selkokielisyyden ja informoinnin ymmärrettävyyden viimeistely → /juristi:suomen-kieli
+- Lakiviittausten ja kansallisten pykälien tarkistus → /juristi:oikeustutkimus

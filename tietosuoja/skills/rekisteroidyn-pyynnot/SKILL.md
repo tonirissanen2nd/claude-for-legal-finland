@@ -65,3 +65,20 @@ arvioitava]` kohtiin, joissa poikkeuksen soveltuminen on tulkinnanvaraista.
 Jos pyyntö paljastaa laajemman ongelman (esim. tietoja säilytetty liian kauan, peruste
 puuttuu), nosta se esiin — yksittäinen pyyntö voi olla oire käsittelyn puutteesta, jonka
 korjaaminen kuuluu `tietosuoja-arviointi`-skillille.
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa tietosuojavastaavan tai juristin arviota.** Kielteinen tai osittainen päätös ja tulkinnanvaraisen poikkeuksen soveltaminen kuuluvat asiantuntijalle.
+- **Ei vahvista GDPR-artikloja (15–22 art) tai tietosuojalain pykäliä muistista.** Oikeuksien edellytykset, poikkeukset ja erityislain rajaukset tarkistetaan lähteestä.
+- **Ei tee päätöstä siitä, kieltäydytäänkö pyynnöstä, eikä tunnista pyytäjää puolestasi.** Tuottaa vastausluonnoksen; toimenpiteet ja tunnistus jäävät rekisterinpitäjälle.
+- **Ei kokoa tarkastuspyynnön tietoja eikä tarkista, paljastuuko jäljennöksessä sivullisten tietoja** — tämä on tehtävä järjestelmissä manuaalisesti.
+- **Ei käsittele viranomaisen julkisuuslakiin perustuvaa tietopyyntöä.** Se on eri asia kuin rekisteröidyn GDPR-pyyntö → /hallinto-oikeus:julkisuus-ja-tietopyynnot.
+- **Ei tee ilmoitusta valvontaviranomaiselle puolestasi.** Kertoo rekisteröidylle valitusoikeudesta tietosuojavaltuutetun toimistolle, mutta ei asioi viranomaisen kanssa.
+
+## Jatka tästä
+
+- Pyynnön paljastama käsittelyn puute (peruste, säilytysaika) → /tietosuoja:tietosuoja-arviointi
+- Informoinnin tai selosteen päivitys pyynnön johdosta → /tietosuoja:tietosuojaseloste
+- Viranomaisen julkisuuslakiin perustuva tietopyyntö (ei GDPR-pyyntö) → /hallinto-oikeus:julkisuus-ja-tietopyynnot
+- Vastauksen asiallisuus ja selkokielisyys → /juristi:suomen-kieli
+- Oikeuksien pykälien ja erityislain poikkeusten tarkistus → /juristi:oikeustutkimus

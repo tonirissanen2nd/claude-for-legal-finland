@@ -82,3 +82,20 @@ Tuota **uusi** sopimus muokattavana Word-dokumenttina (.docx) `docx`-skillillä 
 Ehdota laajan tai suuririskisen sopimuksen kohdalla `sopimuksen-tarkistus`-skilliä
 (lausekekohtainen riskiarvio) ja perusteelliseen läpikäyntiin `juristi`-plugarin
 `asiakirjan-tarkistus`-skilliä.
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa juristin tarkistusta eikä kanna vastuuta luonnoksesta.** Tuottaa tarkistettavan luonnoksen; merkittävä tai suuririskinen sopimus kuuluu juristin arvioitavaksi ennen allekirjoitusta.
+- **Ei vahvista sovellettavan lain pykäliä muistista.** Kauppalain, kuluttajansuojalain, työsopimuslain, korkolain ym. säädösnumero ja sanamuoto tarkistetaan lähteestä; tarkistamaton viittaus merkitään `[muistinvarainen — tarkista]`.
+- **Ei päätä, voiko valmiin sopimuksen allekirjoittaa.** Laatii ja muotoilee ehdot; lausekekohtainen riskiluokitus ja 🔴 PUNAINEN kuuluvat tarkistus-skillille ja juristille.
+- **Ei laadi pakottavan lain vastaista ehtoa** vain siksi, että osapuolet niin "sopivat" — kuluttajan tai työntekijän vahingoksi poikkeava ehto nostetaan esiin, ei piiloteta sopimukseen.
+- **Ei korvaa työsuhteen erityissääntelyä.** Työsopimuksen yksityiskohdat (koeaika, irtisanomissuoja, työehtosopimus) kuuluvat työoikeuden materiaaliin.
+- **Ei luo olemassa olevaa dokumenttia uusiksi.** Voimassa olevan sopimuksen muokkaus tehdään jälkimuutoksina (`adeu`-MCP), ei korvaavana versiona.
+
+## Jatka tästä
+
+- Valmiin luonnoksen lausekekohtainen riskiarvio (🟢/🟡/🔴) → /sopimukset:sopimuksen-tarkistus
+- Sovellettavan lain pykälien ja säädösnumeroiden tarkistus → /juristi:oikeustutkimus
+- Työsopimuksen laatiminen Suomen työoikeuden mukaan → /tyooikeus:tyosopimus
+- Henkilötietojen käsittely sopimuksessa (käsittelysopimus, tietosuojaehdot) → /tietosuoja:tietosuoja-arviointi
+- Valmiin sopimustekstin perusteellinen laadun- ja kielentarkistus → /juristi:asiakirjan-tarkistus

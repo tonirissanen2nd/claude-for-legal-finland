@@ -63,3 +63,19 @@ lopullisena johtopäätöksenä.
 
 Päättämiskirjeen tai -ilmoituksen voi luonnostella (uusi: `docx`-skill; olemassa olevan
 muokkaus jälkimuutoksin: `adeu`-MCP), mutta vasta kun peruste ja menettely on arvioitu.
+
+## Mitä tämä skill EI tee
+
+- **Ei tee päättämispäätöstä eikä valitse strategiaa.** Päätös ja vastuu kuuluvat työnantajalle; oikeudellinen arvio työoikeusjuristille.
+- **Ei vahvista irtisanomisaikoja eikä määräaikoja sitovasti.** Ne haetaan laista ja sovellettavasta TES:stä ja tarkistetaan tapauskohtaisesti — älä luota tämän skillin muistinvaraiseen lukuun.
+- **Ei korvaa muutosneuvotteluja eikä arvioi YT-menettelyn sisältöä** — se kuuluu `yhteistoiminta`-skilliin.
+- **Ei anna lopullista syrjintä- tai erityissuoja-arviota.** Syrjintäepäily ja erityissuojatun ryhmän tilanne (raskaus/perhevapaa, luottamusmies) nostavat riskin ja kuuluvat juristille.
+- **Ei laadi valmista päättämiskirjettä** ennen kuin peruste ja menettely on arvioitu — luonnos voi muuten vakiinnuttaa virheellisen perusteen.
+- **Ei arvioi muiden maiden työoikeutta.** Vain Suomen työoikeus; rajat ylittävissä tilanteissa sano se.
+
+## Jatka tästä
+
+- Kollektiiviperuste ja yritys ylittää YT-kokorajan → `/tyooikeus:yhteistoiminta`
+- Lakitekstin, irtisanomisaikojen ja oikeuskäytännön tarkistus lähteestä → `/juristi:oikeustutkimus`
+- Päättämiskirjeen tai -ilmoituksen luonnoksen laaduntarkistus → `/juristi:asiakirjan-tarkistus`
+- Jos päättämisestä syntyy riita ja harkitaan kannetta yleisessä tuomioistuimessa → `/riidanratkaisu:haastehakemus` (huom: työehtosopimuksen tulkintariita käsitellään työtuomioistuimessa, ei tämän skillin alaa)

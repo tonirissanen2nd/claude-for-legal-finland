@@ -78,3 +78,20 @@ suoraan dokumenttiin **natiiveina jälkimuutoksina ja kommentteina** `adeu`-MCP:
 (`read_docx` ensin — myös `appendix`-tila määriteltyjen termien ja ristiviittausten
 tarkistukseen — sitten `process_document_batch`). Näin tarkistaja näkee ehdotukset
 tutussa Track Changes -muodossa. Aseta `author_name` selkeästi.
+
+## Mitä tämä skill EI tee
+
+- **Ei päätä, voiko sopimuksen allekirjoittaa.** Antaa lausekekohtaisen riskiarvion ja luokituksen; 🔴 PUNAINEN ja lopullinen kanta sopimuksen pätevyydestä kuuluvat juristin arvioon ennen allekirjoitusta.
+- **Ei korvaa juristin tarkistusta eikä kanna vastuuta arviosta.** Tämä on tarkistettava riskiarvio, ei oikeudellista neuvontaa.
+- **Ei vahvista sovellettavan lain pykäliä muistista.** Oikeustoimilain 36 §:n, kuluttajansuojalain ym. säädösnumero ja sanamuoto tarkistetaan lähteestä; tulkinnanvaraiset kohdat merkitään.
+- **Ei tee perusteellista rakenteellista läpikäyntiä.** Keskittyy sopimuskohtaiseen sisältöriskiin; 8-vaiheinen kielen-, rakenteen- ja viittaustarkistus kuuluu `juristi`-plugarin `asiakirjan-tarkistus`-skillille.
+- **Ei laadi sopimusta tai puuttuvia lausekkeita alusta.** Arvioi olemassa olevaa tekstiä ja ehdottaa korvaavia muotoiluja; uuden sopimuksen rakentaminen kuuluu laatimis-skillille.
+- **Ei korvaa riidan ratkaisua.** Jos sopimus on jo riitautunut tai rikottu, prosessuaaliset toimet kuuluvat riidanratkaisun materiaaliin.
+
+## Jatka tästä
+
+- Korjattujen tai puuttuvien lausekkeiden laatiminen valmiilla muotoilulla → /sopimukset:sopimuksen-laatiminen
+- Säädös- ja pykäläviittausten (esim. oikeustoimilaki 228/1929 36 §) tarkistus lähteestä → /juristi:oikeustutkimus
+- Perusteellinen rakenteellinen laadun- ja kielentarkistus (8 vaihetta) → /juristi:asiakirjan-tarkistus
+- Sopimuksen henkilötietoehtojen tietosuoja-arviointi → /tietosuoja:tietosuoja-arviointi
+- Jos sopimus on riitautunut tai rikottu → /riidanratkaisu:haastehakemus

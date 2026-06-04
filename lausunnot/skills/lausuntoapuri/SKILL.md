@@ -123,3 +123,21 @@ Luo **uusi** lausunto Word-dokumenttina (.docx), jotta käyttäjä voi muokata s
 | `references/lausunnon-rakenne.md` | Lausunnon rakenneopas | Kirjoittaessa (vaihe 4) |
 | `references/lausunnon-rakenne-esimerkit.md` | Esimerkkejä lausunnon osista | Kirjoittaessa (vaihe 4) |
 | `references/kirjoitusohjeet.md` | Lakikielen ja lausunnon kirjoitustyyli | Viimeistelyssä (vaihe 5) |
+
+---
+
+## Mitä tämä skill EI tee
+
+- **Ei päätä organisaation kantaa.** Tuottaa lausuntoluonnoksen, jonka lausunnonantajan vastuuhenkilö tarkistaa ja hyväksyy ennen lähettämistä.
+- **Ei vahvista lakiviittauksia eikä vaikutuslukuja muistista.** Voimassa olevat pykälät tarkistetaan lähteestä (`oikeustutkimus`-skill) ja euro- ja muut arviot merkitään selvästi arvioiksi (`[arvio — varmista organisaation taloushallinnosta]`).
+- **Ei esitä poliittista kannanottoa varmistettuna.** Arvolatautuneet linjaukset jätetään päättäjien täydennettäväksi; jos asiasta on erimielisyyttä, kirjoitetaan neutraalin asiantuntevasti.
+- **Ei esitä muutosesitystä sitovaan EU-sääntelyyn.** Erottaa pakollisen EU-pohjaisen sääntelyn kansallisesta liikkumavarasta ja kohdistaa esitykset vain kansalliseen toimeenpanoon.
+- **Ei lähetä lausuntoa.** Ohjeistaa lähettämisessä (Lausuntopalvelu.fi tai ilmoitettu osoite), mutta varsinaisen jättämisen ja allekirjoituksen tekee käyttäjä.
+
+## Jatka tästä
+
+- Ehdotuksen ja voimassa olevan lain vertailu lähteestä → /juristi:oikeustutkimus
+- Lausunnon kielen viimeistely → /juristi:suomen-kieli
+- Valmiin luonnoksen perusteellinen laaduntarkistus → /juristi:asiakirjan-tarkistus
+- Jos lausunto koskee säädösteknistä muotoilua → /lainvalmistelu:lainkirjoittajan-opas
+- Jos lausunto kohdistuu hallituksen esityksen rakenteeseen tai perusteluihin → /lainvalmistelu:hallituksen-esityksen-laatimisohjeet

@@ -59,3 +59,18 @@ jälkimuutoksin: `adeu`-MCP). Merkitse täydennettävät kohdat hakasulkein ja
 Tuota haastehakemus + tarkistuslista (OK 5:2 §:n kohdat tehty/puuttuu) lähdemerkinnöin
 (aineellinen laki + pykälä `oikeustutkimus`-skillillä, mahdollinen oikeuskäytäntö). Muistuta
 määräajoista ja vanhentumisesta (tarkista vanhentumisaika lähteestä, jos relevantti).
+
+## Mitä tämä skill EI tee
+- **Ei korvaa asiamiehen tai asianajajan vastuuta.** Tuotos on tarkistettava luonnos; asian hoitava vastaa kanteen sisällöstä ja jättämisestä.
+- **Ei ennusta asian menestymistä eikä tuomion lopputulosta.** Kuvaa vaatimuksen vahvuudet ja riskit tasapuolisesti, ei voittotodennäköisyyttä.
+- **Ei vahvista vanhentumisaikoja, toimivaltasäännöksiä tai OK 5:2 §:n sanamuotoa muistista.** Määräajat ja prosessisäännökset ovat ehdottomia ja haetaan lähteestä.
+- **Ei vahvista aineellista oikeusperustetta muistinvaraisesti.** Sopimus-, vahingonkorvaus- ym. säännökset ja oikeuskäytäntö tarkistetaan lähteestä.
+- **Ei ratkaise, onko kanne paras tie.** Sovinnon, tuomioistuinsovittelun ja välimiesmenettelyn punninta jää asiakkaan ja asiamiehen arvioon.
+- **Ei laadi summaarisen (riidattoman) asian kevyempää menettelyä** ilman erillistä tarkistusta — tämä skill keskittyy riitaiseen kanteeseen.
+
+## Jatka tästä
+- Näytön ja todistelun suunnittelu kanteen teemoille → /riidanratkaisu:todistelu
+- Aineellisen lain ja oikeuskäytännön tarkistus → /juristi:oikeustutkimus
+- Haastehakemuksen laaduntarkistus ennen jättämistä → /juristi:asiakirjan-tarkistus
+- Sopimusriidan tausta-asiakirjojen tarkistus → /sopimukset:sopimuksen-tarkistus
+- Arkaluonteisen aineiston anonymisointi → /tietosuoja:tietosuoja-arviointi

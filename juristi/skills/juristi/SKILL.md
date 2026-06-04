@@ -97,3 +97,22 @@ Kun kirjoitat tai tarkistat juridista tekstiä, käy läpi:
 - Onko oikeuskäytännön viittauksissa käytetty oikeaa tunnusmuotoa (KKO:2024:1)?
 - Onko HE:n numero ja vuosi oikein?
 - Onko huomioitu mahdolliset siirtymäsäännökset?
+
+---
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa pätevän juristin tarkistusta eikä kanna vastuuta lopputuloksesta.** Tuotos on tarkistettava luonnos; lopullisen oikeudellisen arvion ja vastuun kantaa ihminen.
+- **Ei vahvista pykäliä, säädösnumeroita eikä ratkaisutunnuksia muistista.** Tämän skillin pikaohjeet koskevat viittausten *muotoa* — sisältö ja ajantasaisuus on aina haettava lähteestä (`oikeustutkimus`).
+- **Ei tee lopullista oikeudellista johtopäätöstä eikä anna oikeudellista neuvontaa.** Tulkinta ja riskiarvio esitetään tarkistettavana, ei sitovana kannanottona.
+- **Ei kata muiden maiden oikeutta.** Vain Suomen oikeus (ja relevantti EU-oikeus erikseen nostettuna); muista jurisdiktioista on sanottava, ettei tämä kata niitä.
+- **Ei laadi valmista asiakirjaa loppuun asti yksin.** Skill opastaa kielen, rakenteen ja viittausten kanssa; varsinainen sopimus, lausunto tai valitus syntyy aihekohtaisilla skilleillä ja ihmisen ohjauksessa.
+- **Ei korvaa järjestelmällistä laaduntarkistusta.** Tarkistuslista on kevyt itsearvio, ei monivaiheinen riskianalyysi.
+
+## Jatka tästä
+
+- Lain sisältö, voimassaolo tai oikeuskäytäntö pitää varmistaa lähteestä → /juristi:oikeustutkimus
+- Valmis juridinen asiakirja pitää tarkistaa järjestelmällisesti ennen käyttöä → /juristi:asiakirjan-tarkistus
+- Suomenkielinen teksti pitää oikolukea ja viimeistellä kielellisesti → /juristi:suomen-kieli
+- Tarkoitus on laatia tai tarkistaa sopimus → /sopimukset:sopimuksen-laatiminen tai /sopimukset:sopimuksen-tarkistus
+- Kyse on työsuhteesta, hallintoasiasta tai riita-asiasta → /tyooikeus:tyosopimus, /hallinto-oikeus:hallintopaatos tai /riidanratkaisu:haastehakemus

@@ -63,3 +63,19 @@ GDPR:n DPIA limittyvät — ohjaa tarvittaessa `tietosuoja`-plugariin.
 Tuota selkeä yhteenveto haetuista luvuista ja päivistä **lähdemerkinnöin** (MCP / EUR-Lex),
 ja merkitse tulkinnanvaraiset kohdat `[varmista — asiantuntijan arvioitava]`. Muistuta
 kansallisen kerroksen tarkistuksesta (toimivaltaiset viranomaiset, kansallinen täytäntöönpano).
+
+## Mitä tämä skill EI tee
+
+- **Ei tee lopullista vaatimustenmukaisuus- tai luokittelupäätöstä.** Tukee ajoitusta ja riskien arviointia tarkistettavin ensiarvioin; sitova arvio kuuluu asiantuntijalle.
+- **Ei esitä määräpäiviä eikä sakkoja muistista.** Soveltamisen siirtymäajat ja seuraamusten enimmäismäärät haetaan aina eu-ai-act-MCP:n työkaluilla (`euaiact_check_deadlines`, `euaiact_calculate_penalty`) suoraan asetuksesta.
+- **Ei ennusta todellista seuraamusta.** `euaiact_calculate_penalty` antaa 99 art mukaisen **enimmäismäärän**, ei arviota viranomaisen tosiasiassa määräämästä sakosta.
+- **Ei vahvista kansallisia viranomaisnimeämisiä eikä täytäntöönpanon yksityiskohtia.** Suomen toimivaltaiset viranomaiset ja menettelyt ovat muotoutumassa — merkitse `[varmista — kansallinen sääntely muotoutumassa]`.
+- **Ei kohtele ehdotuksia voimassa olevana lakina.** Esimerkiksi Digital Omnibus -tyyppiset muutokset ovat suuntaa-antavia, kunnes ne on hyväksytty ja julkaistu EU:n virallisessa lehdessä — voimassa olevat päivät ovat ratkaisevia.
+- **Ei kirjoita FRIA- tai DPIA-asiakirjaa valmiiksi.** Tunnistaa FRIA-velvollisuuden (27 art) ja ohjaa sen rakenteeseen, mutta varsinaisen arvioinnin laatiminen jää organisaatiolle.
+
+## Jatka tästä
+
+- Jos riskiluokka on vielä auki, aloita luokittelusta → /tekoalysaantely:tekoaly-luokittelu
+- Velvoitteiden täsmäkokoaminen roolin ja luokan mukaan sekä Annex IV → /tekoalysaantely:tekoaly-velvoitteet
+- FRIA:n ja DPIA:n limittäisyys, profilointi ja automaattinen päätöksenteko → /tietosuoja:tietosuoja-arviointi
+- Kansallisten määräaikojen, viranomaisten ja täytäntöönpanon tarkistus → /juristi:oikeustutkimus

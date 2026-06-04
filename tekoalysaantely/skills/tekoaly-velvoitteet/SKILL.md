@@ -64,3 +64,19 @@ linkein, ja Annex IV -tarkistuslista korkean riskin tapauksessa. Erota **mitä o
 olemassa** ja **mitä puuttuu**. Merkitse tulkinnanvaraiset `[varmista — asiantuntijan
 arvioitava]`. Muistuta tarvittaessa GDPR-rinnakkaisuudesta (`tietosuoja`-plugari) ja
 kansallisen kerroksen tarkistuksesta.
+
+## Mitä tämä skill EI tee
+
+- **Ei tee lopullista vaatimustenmukaisuuspäätöstä.** Kokoaa tarkistettavan velvoiteluonnoksen roolin ja riskiluokan mukaan; sitova arvio velvoitteiden täyttymisestä kuuluu asiantuntijalle.
+- **Ei määritä riskiluokkaa.** Edellyttää, että luokka ja rooli (tarjoaja/käyttöönottaja) ovat jo tiedossa — luokittelu tehdään erillisessä skillissä.
+- **Ei laske määräpäiviä eikä sakkoja muistista.** Velvoitteiden voimaantulon siirtymäajat ja rikkomusten enimmäisseuraamukset haetaan eu-ai-act-MCP:n työkaluilla (`euaiact_check_deadlines`, `euaiact_calculate_penalty`) → `tekoaly-vaatimustenmukaisuus`.
+- **Ei ratkaise GPAI-mallin systeemisen riskin kynnystä.** 10²⁵ FLOPs -kynnys ja 55 art lisävelvoitteet tarkistetaan `euaiact_check_gpai_systemic_risk`-työkalulla.
+- **Ei vahvista kansallisia viranomaisnimeämisiä eikä rekisteröinnin yksityiskohtia.** Suomen toimivaltaiset viranomaiset ja menettelyt ovat muotoutumassa — merkitse `[varmista — kansallinen sääntely muotoutumassa]`.
+- **Ei laadi teknistä dokumentaatiota puolestasi.** Tuottaa Annex IV -tarkistuslistan ja tunnistaa puuttuvat osat, mutta sisällön kirjoittaminen jää organisaatiolle.
+
+## Jatka tästä
+
+- Jos riskiluokka tai rooli on vielä auki, palaa luokitteluun → /tekoalysaantely:tekoaly-luokittelu
+- Voimaantulon määräajat, sakkojen enimmäismäärät, GPAI-kynnys ja FRIA-tarve → /tekoalysaantely:tekoaly-vaatimustenmukaisuus
+- Rinnakkainen henkilötietojen käsittelyn, profiloinnin tai DPIA:n arvio → /tietosuoja:tietosuoja-arviointi
+- Kansallisen sääntelytilanteen ja viranomaisnimeämisten tarkistus → /juristi:oikeustutkimus

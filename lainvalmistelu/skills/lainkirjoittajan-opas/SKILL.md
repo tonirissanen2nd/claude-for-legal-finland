@@ -1,12 +1,6 @@
 ---
 name: lainkirjoittajan-opas
 description: Kattava opas suomalaisen lainsäädännön laadintaan. Lainkirjoittajan opas sisältää keskeisiä ohjeita säädösten laadintaprosessista, rakenteesta, kielestä ja muusta sääntelystä. Hyödyllinen ressurssi lakimiehille, lainsäädäntöä valmistaville virkamiehille ja oikeusalan ammattilaisille.
-tags:
-  - laki
-  - lainsäädäntö
-  - oikeustiede
-  - hallinto
-  - säädösten laadinta
 ---
 
 # Lainkirjoittajan opas
@@ -121,3 +115,20 @@ Lainkirjoittajan opas. Oikeusministeriö. (Viitattu opas perustuu Oikeusminister
 Suomen perustuslaki (731/1999)
 
 Suomen tehtävistä EU:ssa ja EU-oikeuden täytäntöönpanosta koskevat säännökset.
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa virallista säädösvalmistelua eikä ministeriön vastuuta.** Tuotos on valmisteleva luonnos, jonka valmisteleva virkamies tarkistaa ja josta hän vastaa.
+- **Ei vahvista säädösnumeroita, pykälänumeroita eikä muutettavan lain sanamuotoa muistista.** Voimassa oleva teksti haetaan Finlexistä.
+- **Ei korvaa hallituksen esityksen rakenne- ja perusteluohjeita** (asian tausta, nykytila, vaikutusten arviointi); ne kuuluvat HELO-ohjeeseen.
+- **Ei arvioi säädösehdotuksen perustuslainmukaisuutta sitovasti** eikä korvaa perustuslakivaliokunnan tai laintarkastuksen kannanottoa.
+- **Ei tee säädösehdotuksen sisältöratkaisuja** (esim. seuraamustaso, soveltamisala) käyttäjän puolesta; opas koskee laadintatekniikkaa, rakennetta ja kieltä.
+- **Ei korvaa virallista käännöstä** ruotsiksi tai muille kielille.
+
+## Jatka tästä
+
+- Hallituksen esityksen rakenne ja perustelut säädösluonnoksen ympärille → /lainvalmistelu:hallituksen-esityksen-laatimisohjeet
+- Säädöskielen merkit ja taivutusmuodot (§, numerot, viittaukset) viimeistelyyn → /lainvalmistelu:lakikieli-opas
+- Säädöshankkeen sijoittaminen valmisteluprosessin vaiheisiin → /lainvalmistelu:lainvalmistelun-prosessiopas
+- Muutettavan lain voimassa olevan sanamuodon ja seurannaismuutosten tarkistus → /juristi:oikeustutkimus
+- Säädöstekstin yleiskielen ja sujuvuuden tarkistus → /juristi:suomen-kieli

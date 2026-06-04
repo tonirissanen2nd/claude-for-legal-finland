@@ -57,3 +57,17 @@ Vasta tämän jälkeen työnantaja voi tehdä päätöksen vähentämisestä →
 Tuota tarkistuslista ja aikajana lähdemerkinnöin. Korosta, että muutosneuvottelut on
 **aidosti käytävä ennen päätöstä** — neuvottelu ei ole muodollisuus. Liitä viittaus
 `tyosuhteen-paattaminen`-skilliin, kun neuvottelut johtavat irtisanomisiin.
+
+## Mitä tämä skill EI tee
+- **Ei korvaa työnantajan päätöstä eikä työoikeusjuristin arviota.** Tuottaa tarkistettavan menettelyarvion ja aikajanan, ei lopullista kantaa menettelyn laillisuudesta.
+- **Ei vahvista soveltamisalan kokorajaa, neuvotteluesityksen antoaikaa, neuvotteluaikoja eikä muita määräaikoja muistista** — ne haetaan voimassa olevasta yhteistoimintalaista (1333/2021). Älä viittaa kumottuun lakiin (334/2007) voimassa olevana.
+- **Ei tee päätöstä työvoiman vähentämisestä eikä laadi itse irtisanomisia, lomautuksia tai osa-aikaistamisia** — vain neuvotteluvelvoitteen menettelyn.
+- **Ei arvioi yksittäisen työntekijän irtisanomisperustetta** (kollektiivi- tai henkilöperuste) — se kuuluu päättämisskilliin.
+- **Ei laadi työsopimuksia eikä niiden ehtoja.**
+- **Vain Suomen työoikeus ja yhteistoimintalaki** — ei muiden maiden YT- tai informaatio-/konsultaatiovelvoitteita.
+
+## Jatka tästä
+- Kun neuvottelut johtavat kollektiiviperusteiseen irtisanomiseen, lomautukseen tai osa-aikaistamiseen → /tyooikeus:tyosuhteen-paattaminen
+- Henkilöstövaikutus kohdistuu työsopimusten ehtoihin (olennainen muutos) → /tyooikeus:tyosopimus
+- Yhteistoimintalain säännösten, määräaikojen tai oikeuskäytännön tarkistus lähteestä → /juristi:oikeustutkimus
+- Neuvotteluesityksen tai selvityksen laaduntarkistus ennen lähettämistä → /juristi:asiakirjan-tarkistus

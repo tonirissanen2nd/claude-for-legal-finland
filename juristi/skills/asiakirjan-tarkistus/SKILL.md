@@ -190,3 +190,22 @@ VASTUUVAPAUS: Tarkistuksen teki tekoäly ja se täydentää, ei korvaa, ihmisen
 oikeudellista harkintaa. Käyttäjä vastaa lopputuloksesta.
 ========================================
 ```
+
+---
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa pätevän ihmisen lopullista tarkistusta eikä kanna vastuuta asiakirjan käyttöönotosta.** Skill nostaa esiin löydökset; riskin hyväksymisen ja hyväksynnän tekee aina ihminen.
+- **Ei vahvista lakiviittauksia, ratkaisutunnuksia eikä HE-numeroita muistista.** Tason 2 löydökset tarkistetaan `oikeustutkimus`-skillillä lähteestä; muuten ne merkitään `[ei voitu tarkistaa lähteestä]`.
+- **Ei tee lopullisia oikeudellisia johtopäätöksiä.** Vaiheen 7 havainnot ovat riskisignaaleja, jotka vaativat asiantuntijan arvion — eivät päätöksiä pätevyydestä tai täytäntöönpanokelpoisuudesta.
+- **Ei laadi eikä korjaa asiakirjaa puolestasi.** Se tunnistaa virheet, aukot ja riskit ja ehdottaa korjauksia; varsinaisen laatimisen tekee aihekohtainen skill ja ihminen.
+- **Ei takaa, että kaikki riskit löytyvät.** Perusteellisuudesta huolimatta tarkistus on apuväline, ei kattavuustakuu; tärkeimmät kohdat vaativat asiantuntijan silmän.
+- **Ei kata muiden maiden oikeutta.** Vain Suomen oikeus (ja relevantti EU-oikeus erikseen huomioituna); Ahvenanmaan erityisasema ja muut jurisdiktiot on todettava erikseen.
+
+## Jatka tästä
+
+- Löydös koskee lakiviittausta, oikeuskäytäntöä tai säännöksen voimassaoloa → /juristi:oikeustutkimus
+- Vaiheen 3 kielelliset löydökset pitää korjata ja teksti viimeistellä → /juristi:suomen-kieli tai /juristi:juristi
+- Tarkistettava asiakirja on sopimus, jonka ehdot kaipaavat syvempää läpikäyntiä → /sopimukset:sopimuksen-tarkistus
+- Asiakirja on haastehakemus, valitus tai muu prosessiasiakirja → /riidanratkaisu:haastehakemus tai /hallinto-oikeus:muutoksenhaku
+- Asiakirja liittyy työsuhteen päättämiseen tai tietosuojaan → /tyooikeus:tyosuhteen-paattaminen tai /tietosuoja:tietosuojaseloste

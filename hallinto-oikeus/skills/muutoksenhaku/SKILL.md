@@ -50,3 +50,17 @@ Liitä lähteet (808/2019 + erityislaki + mahdollinen KHO-käytäntö `oikeustut
 
 Asiakirjan voi tuottaa `docx`-skillillä (uusi) tai muokata olemassa olevaa `adeu`-MCP:llä
 (jälkimuutokset). Älä esitä menestymisen todennäköisyyttä lopullisena arviona.
+
+## Mitä tämä skill EI tee
+- **Ei tee viranomaisen tai tuomioistuimen päätöstä eikä korvaa asiamiehen/asiantuntijan vastuuta.** Tuottaa tarkistettavan oikaisuvaatimus- tai valitusluonnoksen.
+- **Ei vahvista valitusaikaa, valitustietä tai valitusluvan tarvetta muistista.** Ne haetaan lähteestä erityislaeittain (laki oikeudenkäynnistä hallintoasioissa 808/2019 + erityislaki); myöhästynyt valitus jätetään tutkimatta.
+- **Ei arvioi valituksen menestymisen todennäköisyyttä lopullisena kantana.** Tulkinta ja näytön riittävyys kuuluvat asiantuntijalle.
+- **Ei laadi alkuperäistä hallintopäätöstä** — se kuuluu `hallintopaatos`-skilliin.
+- **Ei viittaa kumottuun hallintolainkäyttölakiin (586/1996)** voimassa olevana; voimassa on 808/2019.
+- **Vain Suomen hallintoprosessi.** Ei kata yleisten tuomioistuinten muutoksenhakua (siviili-/rikosasiat) eikä muiden maiden prosessia.
+
+## Jatka tästä
+- Jos muutoksenhaun kohteena oleva päätös pitää ymmärtää tai sen menettely arvioida → /hallinto-oikeus:hallintopaatos
+- Valitusajan, valitustien ja valitusluvan tarpeen tarkistus sekä KHO-käytäntö → /juristi:oikeustutkimus
+- Oikaisuvaatimuksen/valituksen kielen ja muotovaatimusten tarkistus ennen jättämistä → /juristi:asiakirjan-tarkistus
+- Jos kyse on tietopyynnön epäämispäätöksestä, johon haetaan muutosta → /hallinto-oikeus:julkisuus-ja-tietopyynnot

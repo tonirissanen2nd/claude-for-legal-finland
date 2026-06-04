@@ -48,3 +48,17 @@ juristin arvioitava]`. Korosta julkisuusolettamaa ja salassapidon suppeaa tulkin
 Vastauksen/päätöksen voi tuottaa `docx`-skillillä (uusi) tai muokata olemassa olevaa
 `adeu`-MCP:llä; jos asiakirjasta peitetään henkilötietoja jakamista varten, harkitse
 anonymisointia (`tietosuoja`-plugarin PII Shield -ohje).
+
+## Mitä tämä skill EI tee
+- **Ei tee viranomaisen julkisuus- tai salassapitoratkaisua eikä korvaa viranomaisen/juristin vastuuta.** Tuottaa tarkistettavan arvion ja vastausluonnoksen; kielteinen päätös kuuluu viranomaiselle.
+- **Ei vahvista salassapitoperustetta eikä vastausmääräaikaa muistista.** Ne haetaan lähteestä (julkisuuslaki 621/1999 + erityislakien salassapitosäännökset) erityislaeittain.
+- **Ei tee lopullista henkilötietojen luovutusarviota.** Julkisuuden ja tietosuojan yhteensovittaminen on tehtävä tapauskohtaisesti; rekisteröidyn oikeudet ja luovutuksen oikeusperuste kuuluvat tietosuoja-arviointiin.
+- **Ei anonymisoi asiakirjaa itse** — varsinaisen henkilötietojen peittämisen tekee PII Shield (`tietosuoja`-plugari).
+- **Ei laadi tietopyynnön epäämisestä tehtävän valituksen** sisältöä; se kuuluu `muutoksenhaku`-skilliin.
+- **Vain Suomen julkisuuslainsäädäntö.** Ei kata muiden maiden tiedonsaantisääntelyä eikä yksityisten tahojen tietopyyntöjä toisilta yksityisiltä.
+
+## Jatka tästä
+- Kun pyyntö koskee henkilötietoja ja julkisuus on sovitettava tietosuojaan → /tietosuoja:tietosuoja-arviointi
+- Jos kielteiseen tai osittaiseen tietopyyntöpäätökseen haetaan muutosta → /hallinto-oikeus:muutoksenhaku
+- Salassapitoperusteiden ja vastausmääräajan tarkistus → /juristi:oikeustutkimus
+- Vastauksen tai kielteisen päätöksen kielen ja muotovaatimusten tarkistus → /juristi:asiakirjan-tarkistus

@@ -84,3 +84,22 @@ Liitä jokaiseen lainattuun pykälään ja ratkaisuun lähdemerkintä: `(oik.ai)
 2. Lue varsinaiset pykälät; poimi toimivallan siirtoa koskeva säännös täsmällisesti.
 3. `search_decisions` (query "kunnan toimivallan siirtäminen delegointi", court "Korkein hallinto-oikeus") → tunnista relevantti KHO-käytäntö; `get_decision` koko tekstille.
 4. Vastaa: lainaa pykälä lähdemerkinnällä, tiivistä KHO-linja, ja merkitse selvästi tulkinnanvaraiset kohdat tarkistettaviksi.
+
+---
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa juristin oikeudellista arviota eikä kanna vastuuta lopputuloksesta.** Skill tuo lähteen pöytään; sen soveltaminen tapaukseen ja lopullinen vastuu kuuluvat pätevälle ihmiselle.
+- **Ei vahvista pykälää eikä ratkaisutunnusta muistista.** Jos MCP:tä ei ole saatavilla, jokainen lainkohta merkitään `[muistinvarainen — tarkista Finlexistä/oik.ai:sta]` — sitä ei esitetä varmistettuna.
+- **Ei takaa ehdotonta ajantasaisuutta.** Finlexin/oik.ai:n ajantasainen versio voi olla viikkoja jäljessä tuoreimmista muutoksista; tuoreissa muutoksissa tästä on mainittava varaus.
+- **Ei tee lopullista oikeudellista johtopäätöstä lähteen pohjalta.** Tuotos erottaa suoran lähdesisällön, oman tiivistyksen ja asiantuntijan vahvistusta vaativan tulkinnan toisistaan.
+- **Ei tulkitse hakukatkelmaa koko pykäläksi tai ratkaisun lopputulokseksi.** Olennainen sisältö luetaan varsinaisesta pykälä- tai ratkaisutekstistä.
+- **Ei kata muiden maiden lainsäädäntöä eikä yleistä oikeuskirjallisuutta.** Vain Suomen voimassa oleva laki ja oikeuskäytäntö (sekä relevantti EU-oikeus) MCP-lähteistä.
+
+## Jatka tästä
+
+- Viittausten muoto, taivutus tai lakikielen säännöt kaipaavat tarkistusta → /juristi:juristi
+- Tarkistetut lähteet pitää koota asiakirjan laaduntarkistukseen → /juristi:asiakirjan-tarkistus
+- Lähdehausta jatketaan sopimusehdon laatimiseen tai tarkistukseen → /sopimukset:sopimuksen-laatiminen tai /sopimukset:sopimuksen-tarkistus
+- Haettu oikeuskäytäntö liittyy työsuhteen päättämiseen tai riita-asiaan → /tyooikeus:tyosuhteen-paattaminen tai /riidanratkaisu:todistelu
+- Lähde koskee hallintopäätöstä tai muutoksenhakua → /hallinto-oikeus:hallintopaatos tai /hallinto-oikeus:muutoksenhaku

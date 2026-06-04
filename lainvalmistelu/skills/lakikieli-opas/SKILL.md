@@ -204,3 +204,18 @@ Seuraavia vakiintuneita lyhenteitä käytetään hallituksen esitysten perustelu
 
 Lainkirjoittajan opas, luku 24.4 "Merkeistä ja taivutusmuodoista lakikielessä"
 https://lainkirjoittaja.finlex.fi/24-lakikieli/24-4/
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa virallista säädösvalmistelua eikä ministeriön vastuuta.** Merkintätapojen tarkistus on valmistelua tukeva, ja valmisteleva virkamies vastaa lopputuloksesta.
+- **Ei vahvista säädösnumeroita, pykälänumeroita eikä viitatun lain sanamuotoa muistista**; oikeellisuus tarkistetaan Finlexistä, vaikka merkintätapa olisi muodollisesti oikea.
+- **Ei kata säädöksen sisältöä, rakennetta eikä asiasäännösten muotoilua** — vain merkit, numerot ja taivutusmuodot luvun 24.4 mukaisesti.
+- **Ei ratkaise yleiskielen oikeinkirjoitusta, pilkutusta tai yhdyssanoja** laajemmin kuin lakikielen erityissäännöt edellyttävät.
+- **Ei takaa, että §-välin (esim. 2–4 §) tulkinta on oikea**; asiayhteyden tulkinnan ratkaisee valmistelija.
+
+## Jatka tästä
+
+- Säädöksen rakenne, johtolause ja viittaukset toisiin säädöksiin → /lainvalmistelu:lainkirjoittajan-opas
+- Perustelutekstin merkit ja lyhenteet hallituksen esityksessä → /lainvalmistelu:hallituksen-esityksen-laatimisohjeet
+- Yleiskielen oikeinkirjoituksen, pilkutuksen ja yhdyssanojen tarkistus → /juristi:suomen-kieli
+- Viitatun lain pykälänumeron ja sanamuodon varmistus → /juristi:oikeustutkimus

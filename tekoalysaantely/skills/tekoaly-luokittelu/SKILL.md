@@ -81,3 +81,19 @@ arvioitava]`. Jos kyse on 6(3)-poikkeuksesta, perusta kanta `euaiact_assess_art6
   automaattisia päätöksiä, ohjaa myös `tietosuoja`-plugariin (GDPR 22 art, DPIA).
 - **Kansallinen kerros:** Suomen valvontaviranomaiset ja kansallinen täytäntöönpano →
   `references/ai-act-perusteet.md`; tarkista voimassa oleva tilanne `juristi:oikeustutkimus`-skillillä.
+
+## Mitä tämä skill EI tee
+
+- **Ei tee lopullista riskiluokittelua.** Antaa ensiarvion sovellettavasta luokasta, Annex III -kategoriasta ja roolista; sitova luokittelu kuuluu asiantuntijalle.
+- **Ei laske määräpäiviä eikä sakkoja muistista.** Soveltamisen siirtymäajat ja seuraamusten enimmäismäärät haetaan eu-ai-act-MCP:n työkaluilla (`euaiact_check_deadlines`, `euaiact_calculate_penalty`) → `tekoaly-vaatimustenmukaisuus`.
+- **Ei vahvista kansallisia viranomaisnimeämisiä.** Suomen toimivaltaiset valvontaviranomaiset ja täydentävä kansallinen sääntely ovat muotoutumassa — merkitse `[varmista — kansallinen sääntely muotoutumassa]`.
+- **Ei ratkaise 6(3)-poikkeusta oletuksella.** "Ei merkittävää riskiä" -poikkeus kuuluu käydä läpi `euaiact_assess_art6_3_exception`-työkalulla; profilointia tekeviin järjestelmiin se ei sovellu.
+- **Ei kokoa velvoitelistoja eikä Annex IV -dokumentaatiota.** Luokka selvitetään tässä; velvoitteet roolin mukaan kuuluvat erilliseen skilliin.
+- **Ei arvioi henkilötietojen käsittelyä, profilointia tai DPIA-tarvetta.** Tekoälyasetus ei korvaa tietosuoja-asetusta — GDPR-arvio tehdään tietosuoja-plugarissa.
+
+## Jatka tästä
+
+- Kun riskiluokka ja rooli ovat selvillä, velvoitteet roolin mukaan → /tekoalysaantely:tekoaly-velvoitteet
+- Soveltamisen määräajat, sakkojen enimmäismäärät, GPAI-kynnys ja FRIA-tarve → /tekoalysaantely:tekoaly-vaatimustenmukaisuus
+- Rinnakkainen henkilötietojen käsittelyn, profiloinnin tai DPIA:n arvio → /tietosuoja:tietosuoja-arviointi
+- Kansallisen sääntelytilanteen ja viranomaisnimeämisten tarkistus → /juristi:oikeustutkimus

@@ -147,3 +147,19 @@ Lainsäädäntäprosessin aloite voi tulla:
 - **Lainkirjoittajan opas**: Lain kirjoittamisen tekniikka
 - **Otakantaa.fi**: Valtioneuvostojen kuulemispalvelu
 - **Finlex**: Suomen lainsäädännön tietokanta
+
+## Mitä tämä skill EI tee
+
+- **Ei korvaa virallista lainvalmistelua eikä ministeriön vastuuta.** Tuotos on valmisteleva prosessihahmotelma, josta valmisteleva virkamies ja ministeriö vastaavat.
+- **Ei vahvista hankenumeroita, HE-numeroita eikä säädösnumeroita muistista**, eikä korvaa hankkeen tilatietoa valtioneuvoston Hankeikkunasta.
+- **Ei laadi varsinaista säädöstekstiä tai HE:n perusteluja**; se kuvaa prosessin vaiheet, ei lopputuotetta.
+- **Ei aseta sitovia määräaikoja eikä korvaa lausuntoaikoja** koskevia kuulemisohjeen vaatimuksia tai aikataulupäätöksiä.
+- **Ei tee poliittisia tai sisällöllisiä linjausvalintoja** hankkeesta käyttäjän puolesta.
+- **Ei korvaa laintarkastuksen, oikeudellisen tarkastelun tai käännöstyön** muodollisia vaiheita, vaan ainoastaan kuvaa, missä kohtaa ne sijoittuvat.
+
+## Jatka tästä
+
+- Säädöstekstin laatiminen perusvalmistelu- ja jatkovalmisteluvaiheessa → /lainvalmistelu:lainkirjoittajan-opas
+- HE-luonnoksen rakenne ja perustelut perusvalmistelussa → /lainvalmistelu:hallituksen-esityksen-laatimisohjeet
+- Lausuntomenettelyn lausuntojen jäsentäminen ja niihin vastaaminen → /lausunnot:lausuntoapuri
+- Esivalmistelun nykytila-arviota varten voimassa olevan oikeuden tarkistus → /juristi:oikeustutkimus
