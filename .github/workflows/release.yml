@@ -1,0 +1,92 @@
+name: Julkaise plugari-ZIPit
+
+# Rakentaa tagilla (vX.Y.Z) tai manuaalisesti per plugari ZIP-tiedoston ja
+# liittää ne GitHub Releaseen. Näin syntyy vakaat lataus-URLit:
+#   https://github.com/<owner>/<repo>/releases/latest/download/<plugari>.zip
+# Hyödyllinen ei-teknisille käyttäjille (asennus "Install from .zip").
+#
+# HUOM: jokainen ZIP sisältää koko plugarin (skills/, CLAUDE.md, references/,
+# .mcp.json, .claude-plugin/) jotta asennus on täydellinen. Tarkista asennuksen
+# toimivuus kohdeympäristössä ennen laajaa julkaisua.
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release-tag (esim. v1.0.0). Tyhjä = vain ZIPit, ei Releasea.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validoi ennen pakkausta
+        run: node scripts/validate.mjs
+
+      - name: Lue plugarit marketplace.json:sta
+        id: plugins
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, pathlib
+          m = json.loads(pathlib.Path('.claude-plugin/marketplace.json').read_text())
+          print('names=' + ' '.join(p['name'] for p in m['plugins']))
+          PY
+
+      - name: Rakenna ZIPit
+        run: |
+          mkdir -p dist
+          for plugin in ${{ steps.plugins.outputs.names }}; do
+            echo "Pakataan $plugin.zip"
+            (cd "$plugin" && zip -rq "../dist/${plugin}.zip" . -x '*.DS_Store' '__pycache__/*' '*.pyc')
+          done
+          cp .claude-plugin/marketplace.json dist/marketplace.json
+          # Koko kokoelma yhtenä pakettina
+          (cd dist && zip -rq "kaikki-plugarit.zip" ./*.zip marketplace.json)
+          ls -lh dist
+
+      - name: Määritä tag
+        id: tagref
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "tag=${GITHUB_REF_NAME}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=${{ github.event.inputs.tag }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Julkaise Release
+        if: steps.tagref.outputs.tag != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ steps.tagref.outputs.tag }}
+        run: |
+          set -euo pipefail
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            echo "Release $RELEASE_TAG on jo olemassa; päivitetään assetit."
+          else
+            gh release create "$RELEASE_TAG" --title "$RELEASE_TAG" --generate-notes
+          fi
+          for asset in dist/*.zip dist/marketplace.json; do
+            gh release upload "$RELEASE_TAG" "$asset" --clobber
+          done
+
+      - name: Lataa artefaktit (aina)
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugari-zipit
+          path: dist/*
+          retention-days: 30
