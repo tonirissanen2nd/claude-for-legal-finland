@@ -45,13 +45,13 @@ Samaan säädökseen viitattaessa käytetään aina samaa muotoa ja merkintätap
 Kun viitataan säädökseen kokonaisuutena:
 
 ```
-Kunnan hallinnosta säädetään kuntalain (365/1995) mukaisesti.
+Kunnan hallinnosta säädetään kuntalain (410/2015) mukaisesti.
 ```
 
 Tai:
 
 ```
-Kuten kuntalain (365/1995) 1 §:ssä säädetään...
+Kuten kuntalain (410/2015) 1 §:ssä säädetään...
 ```
 
 ### Viittaus pykälään
@@ -59,7 +59,7 @@ Kuten kuntalain (365/1995) 1 §:ssä säädetään...
 Kun viitataan säädöksen pykälään:
 
 ```
-Kuntalain (365/1995) 2 §:ssä säädetään kuntien organisaatiosta.
+Kuntalain (410/2015) 2 §:ssä säädetään lain soveltamisalasta.
 ```
 
 Tai lyhyemmin:
@@ -73,7 +73,7 @@ Kuntalain 2 §:ssä säädetään...
 Kun viitataan pykälän tiettyyn momenttiin:
 
 ```
-Kuntalain (365/1995) 2 §:n 1 momentissa säädetään...
+Kuntalain (410/2015) 2 §:n 1 momentissa säädetään...
 ```
 
 Tai:
@@ -87,13 +87,13 @@ Kuntalain 2 §:n 2 momentissa mainitaan...
 Kun viitataan useaan pykälään:
 
 ```
-Kuntalain (365/1995) 2-4 §:ssä säädetään...
+Kuntalain (410/2015) 2–4 §:ssä säädetään...
 ```
 
 Tai:
 
 ```
-Kuntalain (365/1995) 2, 3 ja 4 §:ssä säädetään...
+Kuntalain (410/2015) 2, 3 ja 4 §:ssä säädetään...
 ```
 
 ### Viittaus useampaan momenttiin
@@ -101,7 +101,7 @@ Kuntalain (365/1995) 2, 3 ja 4 §:ssä säädetään...
 Kun viitataan useaan momenttiin samassa pykälässä:
 
 ```
-Kuntalain (365/1995) 2 §:n 1 ja 2 momentissa säädetään...
+Kuntalain (410/2015) 2 §:n 1 ja 2 momentissa säädetään...
 ```
 
 ## Säädösten merkintätavat
@@ -111,13 +111,13 @@ Kuntalain (365/1995) 2 §:n 1 ja 2 momentissa säädetään...
 Säädöksen täydellinen merkintä sisältää:
 
 - Säädöksen nimen (esim. "kuntalaki")
-- Säädöksen numeron (esim. "365/1995")
+- Säädöksen numeron (esim. "410/2015")
 - Pykälän numeron (esim. "2 §")
 - Momentin numeron, jos tarpeen (esim. "1 momentissa")
 
 Esimerkki:
 ```
-Kuntalain (365/1995) 2 §:n 1 momentissa säädetään...
+Kuntalain (410/2015) 2 §:n 1 momentissa säädetään...
 ```
 
 ### Lyhennetty merkintä
@@ -143,7 +143,7 @@ Tai vielä lyhyemmin:
 Kun viitataan säädösten ryhmään tai kokonaisuuteen:
 
 ```
-Kuntalain (365/1995) säännösten mukaisesti...
+Kuntalain (410/2015) säännösten mukaisesti...
 Sosiaalihuoltolain (1301/2014) säännöksien mukaisesti...
 ```
 
@@ -152,7 +152,7 @@ Sosiaalihuoltolain (1301/2014) säännöksien mukaisesti...
 Kun viitataan säädösten voimaantulosäännöksiin:
 
 ```
-Kunnan hallinnosta säädetään kuntalain (365/1995) 1 §:ssä määritellyn mukaisesti.
+Kuntalain (410/2015) voimaantulosta säädetään sen 145 §:ssä.
 ```
 
 ### Viittaus muutoksiin ja kumoamisiin
@@ -160,13 +160,13 @@ Kunnan hallinnosta säädetään kuntalain (365/1995) 1 §:ssä määritellyn mu
 Kun viitataan säädöksen muutoksiin:
 
 ```
-Kuntalain (365/1995) 2 §:ää muutettiin lailla 2/2013.
+Kuntalakia (410/2015) muutettiin lailla kuntalain muuttamisesta (419/2021).
 ```
 
 Kun viitataan säädöksen kumoamisiin:
 
 ```
-Laki X kumoaa kuntalain (365/1995) 2 §:n.
+Laki X kumoaa kuntalain (410/2015) 2 §:n.
 ```
 
 ### Viittaus siirtymäsäännöksiin
@@ -194,17 +194,17 @@ Voimaantulosäännösten mukaisesti...
 ### Esimerkkejä vakiilmaisu jen käytöstä
 
 ```
-Kuntalain (365/1995) 2 §:ssä säädetään kunnan organisaatiosta.
+Kuntalain (410/2015) 2 §:ssä säädetään lain soveltamisalasta.
 
-Kunnan hallinnosta säädetään kuntalain (365/1995) mukaisesti.
+Kunnan hallinnosta säädetään kuntalain (410/2015) mukaisesti.
 
-Kunnan perustamisesta säädetään kuntalain (365/1995) nojalla.
+Kunnan hallintosääntö annetaan kuntalain (410/2015) nojalla.
 
-Kunnan toiminnasta päätetään kuntalain (365/1995) 3 §:n perusteella.
+Kunnan jäsenyys määräytyy kuntalain (410/2015) 3 §:n perusteella.
 
 Kunnan hallinnon menettelystä säädetään hallintolain (434/2003) määräyksiä noudattaen.
 
-Kuten kuntalain (365/1995) 2 §:ssä säädetään...
+Kuten kuntalain (410/2015) 2 §:ssä säädetään...
 
 Edellä mainitussa kuntalain 2 §:ssä säädetään...
 ```
@@ -220,17 +220,17 @@ Edellä mainitussa kuntalain 2 §:ssä säädetään...
 
 ### Oikeat muodot
 
-- **Tarkka viittaus**: "Kuntalain (365/1995) 2 §:ssä säädetään..."
-- **Oikea merkintä**: "Kuntalain (365/1995) 2 §" tai "2 § kuntalain"
-- **Selkeä viittaus**: "Kuntalain (365/1995) 2 §:ssä tarkoitettavan kunnan hallinnosta..."
-- **Täydellinen viittaus**: "Kunnan hallinnosta säädetään kuntalain (365/1995) 2 §:ssä"
+- **Tarkka viittaus**: "Kuntalain (410/2015) 2 §:ssä säädetään..."
+- **Oikea merkintä**: "Kuntalain (410/2015) 2 §" tai "kuntalain 2 §"
+- **Selkeä viittaus**: "Kuntalain (410/2015) 2 §:ssä tarkoitettavan kunnan hallinnosta..."
+- **Täydellinen viittaus**: "Kunnan hallinnosta säädetään kuntalain (410/2015) 2 §:ssä"
 
 ## Viittaamisen tarkistuslistaa
 
 Kun kirjoitat viittauksia säädöksiin, tarkista seuraavat:
 
 - [ ] Säädöksen nimi on oikea
-- [ ] Säädöksen numero on oikea (esim. 365/1995)
+- [ ] Säädöksen numero on oikea (esim. 410/2015)
 - [ ] Pykälän numero on oikea (esim. 2 §)
 - [ ] Momentin numero on oikea, jos viitataan momenttiin
 - [ ] Merkintätapa on vakiintunut (esim. "2 §:ssä", ei "par. 2")
@@ -244,14 +244,17 @@ EU-säädöksiin viitataan seuraavasti:
 
 ### Direktiivin viittaus
 
-```
-EU:n direktiivissä 2016/1148 määrätään...
-```
-
-Tai:
+Lissabonin sopimuksen jälkeinen tunnusmuoto on `(EU) 2016/1148`; vanhemmissa
+direktiiveissä tunnus on muotoa `95/46/EY`.
 
 ```
-Direktiivissä 2016/1148/EU määrätään...
+Direktiivissä (EU) 2016/1148 säädetään...
+```
+
+Tai täydellisellä nimellä ensimmäisellä viittauskerralla:
+
+```
+Euroopan parlamentin ja neuvoston direktiivissä (EU) 2016/1148 säädetään...
 ```
 
 ### Asetuksen viittaus

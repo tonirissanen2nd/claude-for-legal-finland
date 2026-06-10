@@ -1,125 +1,108 @@
-# Lausuntomenettely
+# Lausuntomenettely (vaihe 3)
 
-Lausuntomenettely on lainsäädäntöprosessin kolmas päävaihe. Perusvalmistelun jälkeen lausunnotoimitet hallituksen esitysluonnoksesta (HE-luonnos) tai valmisteluelimen lopputuloksesta sidosryhmille ja asianosaisille.
+Perusvalmistelun jälkeen luonnoksesta hallituksen esitykseksi pyydetään
+kirjalliset lausunnot sidosryhmiltä. Lausuntopyyntö ja lausunnot ovat
+julkisia, ja lausunnon voi antaa myös kuka tahansa muu kiinnostunut.
+Kuulemisen menettelyt ohjeistaa Säädösvalmistelun kuulemisopas.
 
-## 3.1 Päätös lausuntojen antamisesta
+## 3.1 Päätös lausuntomenettelystä
 
-Virkamiesjohto päättää kirjallisten lausuntojen antamisesta sidosryhmille. Ministeriä informoidaan.
+**Tekijät:** virkamiesjohto.
 
-### Loppututulokset
+Päätetään kirjallisten lausuntojen pyytämisestä, lausuntokierroksen
+aikataulusta ja laajuudesta. Ministeriä informoidaan.
 
-- Päätös lausuntomenettelyästä
+**Lopputulos:** päätös lausuntomenettelystä.
 
-### Liätetoja
+## 3.2 Lausuntopyynnön valmistelu
 
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Tekijät:** valmistelutiimi.
 
-## 3.2 Lausuntopyyntöjen valmistelu
+Laaditaan lausuntopyyntö ja tarvittavat liitteet (mm. HE-luonnoksen
+rinnakkaistekstit) sekä suunnitellaan viestintä ja mahdolliset
+kuulemistilaisuudet.
 
-Valmistelutiimi laati sidosryhmille osoitetun pyyntöä lausuntojen antamisesta hallituksen esitysluonnoksesta (HE-luonnos) tai valmisteluelimen loppuraporttista, johon sisältyy HE-luonnos. HE-luonnoksen laksiesista laaditsaan rinnakaisteksti, jos niille on tarpeen ja aikaisennin. Lausuntomenettelyyn liittyvä viestintä ja tiedottaminen keskustelisen asianantuntijoden kanssa.
+**Lopputulokset:** lausuntopyyntö; kutsu kuulemistilaisuuteen.
 
-### Loppututulokset
+## 3.3 Kääntäminen
 
-- Kutsu kuulemistilaisuuteen tai neuvotteluun
-- Lausuntopyyntö
+**Tekijät:** kääntäjä tai käännöstoimisto.
 
-### Liätetoja
+HE-luonnos ja lausuntopyyntö käännetään ruotsiksi ja tarvittaessa saamen
+kielille. Valmistelutiimi vertaa käännökset alkuperäisteksteihin.
 
-- Ohjeet Ahvenanmaan asemasta säädösvalmistelua ja EU-asioissa (http://julkaisut.valtioneuvosto.fi/handle/10024/76211)
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Lopputulokset:** HE-luonnoksen ja lausuntopyynnön käännökset.
 
-## 3.3 Käänteäminen
+## 3.4 Lausuntopyynnön lähettäminen
 
-Valtioneuvostos hallintoyskion ruotsin kielen yksikkö käännettää hallituksen esitysluonnoksen (HE-luonnos) ruotsiksi. Tarvitta lausuntopyyntö ja HE-luonnos voidaan käännettää myös muille kielille. Samankielisten käännösksen hankkimisesta huoletta valtioneuvoston hallintoyksikössä kielipälveluiden avulla. Valmistelutiimt vertaa käännöksen ja suomenkielisten tekstit.
+**Tekijät:** valmistelutiimi ja viestintä.
 
-### Loppututulokset
+Virkamiesjohdon allekirjoittama lausuntopyyntö lähetetään sidosryhmille ja
+julkaistaan (Lausuntopalvelu.fi, hankkeen verkkosivut, Hankeikkuna).
+Asiakirjat viedään VAHVAan. Kuulemistilaisuuksien järjestelyistä
+huolehditaan.
 
-- HE-luonnoksen käännös
-- Lausuntopyyntöjen käännös
+**Lopputulokset:** julkaistu lausuntopyyntö; tiedote.
 
-### Liätetoja
+## 3.5 Lausuntojen antaminen
 
-- Kielilaki 31 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030423#L7P31)
-- Saamen kielilaki 9 (http://www.finlex.fi/fi/laki/ajantasa/2003/20031086#L2P9)
-- Säädösten käänteäminen ruotsiksi (Kampus) (https://kampus.vnv.fi/palvelut/Sivut/Säädösten-käänteäminen-ruotsiksi.aspx)
+**Tekijät:** sidosryhmät.
 
-## 3.4 Lausuntojen lähettäminen
+Sidosryhmät toimittavat lausuntonsa ja osallistuvat mahdollisiin
+kuulemistilaisuuksiin.
 
-Valmistelutiimi lähettää virkamieshohdon allekirjoittaman lausuntopyyntöa ja sen mukaista liiteistä sidosryhmille ja asianosaisille. Lausuntojen lähettämisen ajaitus ja konkreettinen toteutus sovitaan sidosryhmien kanssa.
+**Lopputulokset:** lausunnot; kuulemistilaisuuksien palaute.
 
-### Loppututulokset
+## 3.6 Lausuntojen läpikäynti
 
-- Tiedote
-- Verkkosivujen, Hankeikkunan ja VAHVAn päivitys
+**Tekijät:** valmistelutiimi.
 
-### Liätetoja
+Lausunnot käydään läpi ja niistä laaditaan lausuntotiivistelmä ja
+lausuntokooste sekä muistio lausuntojen perusteella ehdotettavista
+muutoksista.
 
-- Kielilaki 32 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030423#L7P32)
-- Ohjeet Ahvenanmaan asemasta säädösvalmistelua ja EU-asioissa (http://julkaisut.valtioneuvosto.fi/handle/10024/76211)
-- Laki viranomaisten toiminnan julkisuudesta 19–20 (http://www.finlex.fi/fi/laki/ajantasa/1999/19990621#L5P19)
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Lopputulokset:** lausuntokooste; lausuntotiivistelmä; muistio
+muutosehdotuksista.
 
-## 3.5 Lausunnon antaminen
+## 3.7 Lausuntopalautteen julkaiseminen
 
-Sidosryhmät toimittavat lausuntonsa ministeriolle.
+**Tekijät:** viestintä.
 
-Virkamiesjohto toimii kuulemistilaisuuksien puheenjohtajana. Kuulemistilaisuuksissa sidosryhmät saavat tilaisuuden esitellä ja perustellensa näkemykseä.
+Lausuntokooste ja -tiivistelmä viedään VAHVAan ja julkaistaan Hankeikkunassa;
+lausunnonantajille tiedotetaan.
 
-### Loppututulokset
-
-- Kuulemistilaisuuksien palaulte
-- Lausunnot
-
-### Liätetoja
-
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
-
-## 3.6 Lausuntojen lähikäynti ja tiivistelmän laatiminen
-
-Valmistelutiimi laati lausuntoja tiivistelmään ja lausunnot sellaisinan sisältävät lausuntokooste, lausuntotietelma ja muistamat viedään VAHA:an ja julkaistaan valtioneuvostos yhteisesti ja asiasisältöjen kanssa. Valmistelutiimt lähettää raportin lausuntojen puheenjohtajaa ja analysaatteja kuulemistilaisuuksissa.
-
-### Loppututulokset
-
-- Lausuntokooste
-- Lausuntotietelma
-- Muisito muutosehdotuksista
-
-### Liätetoja
-
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
-
-## 3.7 Lausuntopalauteen julkaiseminen
-
-Lausuntokooste, lausuntotietelma tai muistamat viedään VAHA:an ja julkaistaan valtioneuvostos yhteisesti ja asiasisältöjen kanssa. Asiakirjat tai tieto niiden julkaisemisesta lähetetään tiedoksi lausuntojen antajille. Julkaisemisesta tiedotetaan muulla tavoin.
-
-### Loppututulokset
-
-- Tiedote
-- Verkkosivujen, Hankeikkunan ja VAHVAn päivitys
-
-### Liätetoja
-
-- Kielilaki 32 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030423#L7P32)
-- Laki viranomaisten toiminnan julkisuudesta 19–20 (http://www.finlex.fi/fi/laki/ajantasa/1999/19990621#L5P19)
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
-- Valtioneuvostos yhteinen hanketietopalvelu – Hankeikkunan (http://valtioneuvosto.fi/hankkeet)
+**Lopputulokset:** julkaistut asiakirjat; tiedote.
 
 ## 3.8 Päätös valmistelun jatkamisesta
 
-Ministeräi informoidaan palauteesta ja hän päättää valmistelun jatkamisesta. Ministeri voi päättää asioista itse, vieä asian käsittelyyn hallituksen piirissä tai delegoida asian virkamiesjohtolle. Päätöksenteon yhteydessä ratkaisuita:
+**Tekijät:** ministeri (tai hallitus), virkamiesjohto.
 
-- päätettään etenemiestä esityksen valmistelukaa;
-- paalaataan vaiheisin 2A tai 2B ; ja
-- valmistelua ei jatketaa.
+Ministeri päättää, jatketaanko valmistelua jatkovalmisteluun, palataanko
+aikaisempaan vaiheeseen vai lopetetaanko hanke. Samalla ratkaistaan
+täytäntöönpanon rahoitukseen ja kuntien tehtäviin liittyvät kysymykset.
 
-### Loppututulokset
+**Lopputulokset:** päätös jatkosta; päivitetty täytäntöönpano- ja
+seurantasuunnitelma; päivitetty muutosmuistio.
 
-- Päivitelly luonnokset ja hallituksen esitysluonnos
-- Valmistelun linjjauksista
+## Hyvän lausuntomenettelyn periaatteet
 
-### Liätetoja
+- **Riittävä lausuntoaika.** Mitoita lausuntoaika ehdotuksen laajuuden
+  mukaan ja huomioi lomakaudet — liian lyhyt lausuntoaika on toistuva
+  laillisuusvalvonnan moite. Tarkista voimassa oleva ohjeellinen
+  vähimmäisaika Säädösvalmistelun kuulemisoppaasta.
+- **Avoimuus.** Lausuntopyyntö on julkinen ja lausunnon saa antaa muukin
+  kuin jakelussa mainittu taho.
+- **Palaute lausujille.** Lausuntojen vaikutus esitykseen kuvataan
+  jatkovalmistelussa ja HE:n "Lausuntopalaute"-jaksossa.
 
-- Kielilaki 32 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030423#L7P32)
-- Ohjeet Ahvenanmaan asemasta säädösvalmistelua ja EU-asioissa (http://julkaisut.valtioneuvosto.fi/handle/10024/76211)
-- Laki viranomaisten toiminnan julkisuudesta 19–20 (http://www.finlex.fi/fi/laki/ajantasa/1999/19990621#L5P19)
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+## Työkalut
+
+- **Lausuntopalvelu.fi** — lausuntopyynnöt ja lausunnot (ks. lausunnonantajan
+  näkökulma: plugari `lausunnot`)
+- **Hankeikkuna** ja **VAHVA** — julkaisu ja asianhallinta
+- **Säädösvalmistelun kuulemisopas** — kuulemisen ohjeistus
+
+## Lukulähde
+
+Lainvalmistelun prosessiopas, vaihe 3: Lausuntomenettely
+(https://lainvalmistelu.finlex.fi/3-lausuntomenettely/).

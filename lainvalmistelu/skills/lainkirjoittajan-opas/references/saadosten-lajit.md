@@ -1,163 +1,105 @@
 # Säädösten lajit ja säädöstaso
 
-Säädöksiin on erilaisia lajeja ja eri säädöstasoja, joilla on oma asemansa ja merkityksensä oikeusjärjestelmässä.
+Säädöksillä on hierarkia ja kullakin säädöslajilla oma asemansa. Säädöslajin
+valinta (laki vai asetus, uusi säädös vai muutossäädös) on yksi
+lainkirjoittamisen perusratkaisuista.
 
-## Säädösten hierarkia Suomessa
+## Säädöshierarkia
 
-Suomalainen oikeusjärjestelmä noudattaa seuraavaa hierarkiaa:
+1. **Perustuslaki** (731/1999) — valtiojärjestyksen perusteet ja
+   perusoikeudet. Lakia alemmanasteista säädöstä ei saa soveltaa, jos se on
+   ristiriidassa perustuslain tai muun lain kanssa (perustuslaki 107 §).
+2. **Laki** — eduskunnan säätämä säädös.
+3. **Asetus** — tasavallan presidentin, valtioneuvoston tai ministeriön
+   antama säädös, joka perustuu perustuslaissa tai muussa laissa säädettyyn
+   valtuuteen (perustuslaki 80 §).
+4. **Viranomaisen oikeussäännöt ja määräykset** — muu viranomainen voidaan
+   lailla valtuuttaa antamaan oikeussääntöjä määrätyistä asioista, jos
+   siihen on sääntelyn kohteeseen liittyviä erityisiä syitä (perustuslaki
+   80 § 2 mom.).
 
-1. **Perustuslaki** - Suomen ylin säädös
-2. **Tavalliset lait** - Eduskunnan hyväksymät lait
-3. **Asetukset** - Tasavallan presidentin tai ministerien antamat asetukset
-4. **Määräykset** - Viranomaisten antamat määräykset ja päätökset
-5. **Muut oikeuslähteeet** - Kuten sopimukset, oikeuskäytäntö ja tutkimusperinta
+Lisäksi sovellettavaksi tulevat EU-oikeus (asetukset suoraan
+sovellettavina, direktiivit kansallisesti täytäntöönpantuina) ja Suomea
+sitovat kansainväliset velvoitteet.
 
-## Perustuslaki
+## Laki
 
-Perustuslaki (731/1999) on Suomen ylin oikeuslähde. Se:
+- Lainsäädäntövaltaa käyttää eduskunta. Lakiehdotus tulee vireille
+  hallituksen esityksellä tai kansanedustajan lakialoitteella (perustuslaki
+  70 §).
+- Eduskunta käsittelee lakiehdotuksen **kahdessa täysistuntokäsittelyssä**
+  valiokuntakäsittelyn jälkeen (perustuslaki 72 §) ja hyväksyy tavallisen
+  lain **yksinkertaisella enemmistöllä**.
+- **Perustuslain säätämisjärjestys** (perustuslaki 73 §): ehdotus
+  hyväksytään ensin lepäämään yli vaalien ja vaalien jälkeen **2/3
+  enemmistöllä** — tai julistetaan kiireelliseksi **5/6 enemmistöllä** ja
+  hyväksytään sitten 2/3 enemmistöllä. Pelkkä 5/6-vaatimus ei siis koske
+  hyväksymistä vaan kiireelliseksi julistamista.
+- **Lailla säädettävät asiat:** yksilön oikeuksien ja velvollisuuksien
+  perusteista sekä asioista, jotka perustuslain mukaan muuten kuuluvat lain
+  alaan, on säädettävä lailla (perustuslaki 80 § 1 mom.).
 
-- Määrittelee Suomen valtiojärjestyksen ja hallinnon perusperiaatteet
-- Suojelee perusoikeuksia
-- Sääntelee lainsäädäntövallan käyttöä
-- Määrittelee kenen velvollisuus on antaa eri tasoisia säädöksiä
+## Asetus
 
-Perustuslain muuttaminen vaatii erityisen suurta enemmistöä (5/6 äänistä) eduskunnassa.
+Asetuksen antaminen edellyttää **valtuussäännöstä** perustuslaissa tai
+muussa laissa (perustuslaki 80 §). Asetuksenantajia on kolme:
 
-## Tavalliset lait
+- **Valtioneuvoston asetus** — pääsääntö: jos asetuksen antajasta ei ole
+  erikseen säädetty, asetuksen antaa valtioneuvosto.
+- **Ministeriön asetus** — teknisluonteiset ja yhteiskunnalliselta
+  merkitykseltään vähäisemmät asiat.
+- **Tasavallan presidentin asetus** — nykyisin suppea käyttöala, mm.
+  kansainvälisten velvoitteiden voimaansaattamiseen ja Ahvenanmaata
+  koskeviin sopimusasetuksiin liittyen.
 
-Tavalliset lait (lait) ovat eduskunnan hyväksymiä säädöksiä. Ne:
+Asetus ei saa olla ristiriidassa lain kanssa, eikä asetuksella voida antaa
+säännöksiä asioista, jotka kuuluvat lain alaan. Asetuksen johtolauseessa
+mainitaan valtuussäännös (ks. `johtolause.md`).
 
-- Ovat hierarkiassa perustuslain jälkeen
-- Antavat yleiset säännöt yhteiskunnassa
-- Voivat kumota tai muuttaa alempia säädöksiä
-- Edellyttävät eduskunnan kahden kolmasosan enemmistöä (tai yksinkertaista enemmistöä riippuen asiasta)
-
-### Lain antamisen edellytykset
-
-Lain antamiselle Suomessa on joitakin edellytyksiä:
-
-- **Perustuslain mukainen edellytys**: Perustuslain 80 §:n 1 momentissa määrätään, että eduskunta hyväksyy lain
-- **Tarve säädökselle**: Lainvalmistelulle tulee olla oikeuspoliittinen perustelu
-- **Valmistelu**: Lain valmistelusta tulee noudattaa valtiosääntöisiä menettelytapoja
-
-## Asetukset
-
-Asetukset ovat pienempiä säädöksiä kuin lait. Asetuksista voidaan antaa:
-
-- **Tasavallan presidentin asetukset** - Tasavallan presidentin antamat asetukset
-- **Valtioneuvoston asetukset** - Valtioneuvoston antamat asetukset
-- **Ministeriöiden asetukset** - Yksittäisten ministeriöiden antamat asetukset
-
-### Asetuksen antamisperusteet
-
-Asetuksen antamista varten tarvitaan:
-
-- Laillinen peruste (lain säännös, joka valtuuttaa asetuksen antamisen)
-- Asetuksen on oltava lain mukainen
-- Asetuksen valmistelu tulee noudattaa hallintolakia ja muita menettelysääntöjä
-
-### Eri asetustasot
-
-**Tasavallan presidentin asetus** annetaan merkittävissä asioissa, usein kun kyseessä on lainsäädäntövallan delegointi.
-
-**Valtioneuvoston asetus** annetaan yleensä koti- ja hallintopolitiikkaa koskevissa asioissa.
-
-**Ministeriön asetus** annetaan pienemmissä asioissa, joissa on valtuutus lainopillisella tasolla.
-
-## Määräykset
-
-Määräykset ovat viranomaisten antamia säädöksiä tai päätöksiä. Ne:
-
-- Ovat hierarkiassa alempia kuin asetukset
-- Koskevat usein käytännön asioideen tai hallintotehtäviä
-- Voivat antaa esimerkiksi kunta tai julkinen viranomainen
-- Voivat koskea vain niille määrättyjä tehtäviä
-
-Määräykset voivat olla esimerkiksi:
-- Kunnan päätökset
-- Virastopäällikön päätökset
-- Luvat ja tutkinnot
-
-## Muut säädöstyypit
+## Uusi säädös, muutossäädös ja kumoaminen
 
 ### Uusi säädös
 
-Uusi säädös on sellainen, jonka tarkoituksena on:
-
-- Tuoda täysin uusia säännöksiä oikeusjärjestelmään
-- Säännellä uutta aihetta, josta ei ole aiemmin ollut säännöksiä
-- Luoda kokonaan uusia instituutioita tai velvoitteita
-
-Uudella säädöksellä on yleensä johdanto, jossa selvitetään säädöksen tarve.
+Annetaan, kun säänneltävä asia on uusi tai kun voimassa olevaan säädökseen
+tulisi niin paljon muutoksia, että kokonaisuudistus on selkeämpi. Uusi laki
+kumoaa yleensä samalla vanhan (kumoamissäännös loppusäännöksissä).
 
 ### Muutossäädös
 
-Muutossäädös muuttaa osittain tai kokonaan aiemmin voimassa olleita säädöksiä:
-
-- Säädökseen lisätään uusia säännöksiä
-- Säädöksestä poistetaan joitakin säännöksiä
-- Säädöksen joitakin säännöksiä muutetaan
-
-Muutossäädös tehdään joko muuttamalla vain ne kohdat, jotka muutetaan (teksti-muuttamistekniikka) tai korvaamalla koko säädös uudella.
+Muuttaa voimassa olevaa säädöstä: säännöksiä muutetaan, lisätään tai
+kumotaan. Muutossäädöksen johtolause yksilöi muutettavat kohdat
+(muutetaan / lisätään / kumotaan). Muutettaessa noudatetaan alkuperäisen
+säädöksen rakennetta ja numerointia; uudet pykälät lisätään tarvittaessa
+a-pykälinä (esim. 5 a §).
 
 ### Kumoamissäädös
 
-Kumoamissäädös on säädös, jonka tarkoituksena on kumota (poistaa voimasta) aiemmin voimassa olleita säädöksiä:
+Kumoaa säädöksen tai sen osan ilman korvaavaa sääntelyä. Kumoamisen
+yhteydessä annetaan tarvittaessa **siirtymäsäännökset** siitä, miten
+vanhan säädöksen aikaisia tilanteita kohdellaan.
 
-- Kokonaan kumottava säädös
-- Osittain kumottava säädös
-- Säädös, jossa kumotaan joitakin erityisiä kohtia
+## Säädösten soveltamisen perussäännöt
 
-Kumoamisen yhteydessä yleensä annetaan siirtymäsäännökset, joissa määritellään, kuinka siirrytään vanhasta säädöksestä uuteen.
+- **Hierarkia (lex superior):** alemmanasteinen väistyy ristiriidassa
+  ylemmänasteisen kanssa; perustuslain etusijasta säädetään perustuslain
+  106–107 §:ssä.
+- **Myöhemmyys (lex posterior):** samantasoisista myöhempi syrjäyttää
+  aiemman.
+- **Erityisyys (lex specialis):** erityissäännös syrjäyttää
+  yleissäännöksen.
 
-## Säädösten lajintaminen muiden perusteiden mukaan
+## Lain antamisen kulku tiivistettynä
 
-### Tekijänsä mukaan
+1. Valtioneuvoston yleisistunto antaa hallituksen esityksen eduskunnalle.
+2. Eduskunta käsittelee lakiehdotuksen valiokuntakäsittelyn jälkeen
+   kahdessa täysistuntokäsittelyssä.
+3. Tasavallan presidentti vahvistaa lain (perustuslaki 77 §).
+4. Laki julkaistaan Suomen säädöskokoelmassa ja tulee voimaan siinä
+   säädettynä ajankohtana (perustuslaki 79 §).
 
-- **Eduskunnan säädökset** (lait)
-- **Tasavallan presidentin antamat säädökset** (asetukset)
-- **Hallituksen tai ministeriin antamat säädökset** (asetukset, määräykset)
-- **Kuntien antamat säädökset** (kunnan määräykset, päätökset)
-
-### Säännöstasoittain
-
-- **Yleissäädökset** - Koskevat koko yhteiskuntaa
-- **Erityissäädökset** - Koskevat erityisiä ryhmiä (esim. julkisia virkamiehiä)
-- **Yksityisissä oikeussuhteissa sovellettavat säädökset** - Koskevat yksityisiä sopimuksia (esim. kauppaa)
-- **Julkisoikeudellisen suhteen säädökset** - Koskevat valtaa ja julkista hallintoa
-
-## Säädösten antamisen muodollisuudet
-
-### Lain antamisen menettely
-
-1. Hallitus valmisttelee lain esityksen
-2. Esitys lähetetään eduskuntaan
-3. Eduskunta käsittelee esitystä kolmella lukemisella
-4. Eduskunta äänestää ja hyväksyy tai hylkää lain
-5. Laki annetaan kirjallisen muodossa ja viestitään Suomen säädöskokoelmaan
-
-### Asetuksen antamisen menettely
-
-1. Asetuksen valmistelu (usein ministeriö)
-2. Lausuntokierros
-3. Hallituksen tai presidentin päätös
-4. Asetuksen antaminen
-5. Julkaiseminen säädöskokoelmassa
-
-## Säädösten soveltamisen säännöt
-
-### Hierarkia-sääntö
-
-Alempi säädös ei voi olla ristiriidassa ylemmän kanssa. Jos ristiriita on, ylempi säädös voittaa.
-
-### Myöhemmän säädöksen sääntö
-
-Jos kaksi samantasoista säädöstä on ristiriidassa, myöhemmin annettu säädös kumoaa vanhemman.
-
-### Erityissäännökset ennen yleissäännöksiä
-
-Erityissäännökset voittavat yleissäännöksistä, jos niissä säädetään tietystä asiasta toisin.
+Yksityiskohdat: skill `lainvalmistelun-prosessiopas`.
 
 ## Lukulähde
 
-Lainkirjoittajan opas, Oikeusministeriö. Jakso 13: Säädösten lajit ja säädöstaso.
+Lainkirjoittajan opas (Oikeusministeriö), säädöslajeja koskevat jaksot, sekä
+Suomen perustuslaki (731/1999) 70–80 §, 106–107 § (Finlex, varmistettu).

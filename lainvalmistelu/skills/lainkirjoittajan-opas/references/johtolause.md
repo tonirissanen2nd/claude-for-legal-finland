@@ -1,205 +1,144 @@
-# Johtolause (Preambuuli)
+# Johtolause
 
-Johtolause on säädöksen alussa oleva teksti, joka sisältää säädöksen johdantotiedot. Johtolauseella on erityinen rakenne ja sisältö, jota noudatetaan johdonmukaisesti.
+Johtolause on säädöksen nimikkeen jälkeen, ennen pykäliä oleva virke, joka
+ilmoittaa säädöksen antajan, säätämisjärjestyksen ja asetuksissa
+oikeusperustan (valtuussäännöksen). Johtolause on tiukasti vakiomuotoinen —
+sitä ei muotoilla vapaasti.
 
-## Johtolauseen tarkoitus
+Kaikki tämän tiedoston mallimuodot on varmistettu Suomen säädöskokoelmasta
+(Finlex); varmistuslähde mainitaan kunkin muodon kohdalla.
 
-Johtolauseen tarkoituksena on:
+## Mitä johtolause sisältää — ja mitä ei
 
-1. Ilmoittaa säädöksen antaja (esim. tasavallan presidentti, ministerio)
-2. Viitata säädöksen antamisen oikeusperusteeseen (perustuslaki, korkealaatuinen laki)
-3. Antaa oleellisia tietoja säädöksestä
-4. Kertoa säädöksen voimaantulosta
+Johtolause kertoo:
 
-Johtolause on hyvin muodollinen ja noudattaa tiettyjä vakiintuneita ilmaisuja.
+1. **Säädöksen antajan** (eduskunta, valtioneuvosto, ministeriö, tasavallan presidentti)
+2. **Säätämisjärjestyksen**, jos se poikkeaa tavallisesta (perustuslainsäätämisjärjestys)
+3. **Asetuksissa oikeusperustan**: lain valtuussäännös, jonka nojalla asetus annetaan
+   (perustuslain 731/1999 mukaan asetuksen antaminen edellyttää laissa säädettyä valtuutta)
+4. **Muutossäädöksessä** sen, mitä säännöksiä muutetaan, lisätään tai kumotaan
 
-## Johtolauseen rakenne
+Johtolauseessa **ei** kerrota säädöksen voimaantulosta — siitä säädetään
+säädöksen lopussa voimaantulosäännöksessä.
 
-### Tavallisen lain johtolause
+## Lain johtolause
 
-Tavallisen lain johtolauseessa on seuraava rakenne:
-
-```
-Eduskunnan päätöksen mukaisesti säädetään seuraavasti:
-```
-
-Tai jos laki seurataan perustuslain säännöksiä:
-
-```
-Perustuslaissa (***/**** vp) ****§:n 1 momentissa säädetään, että eduskunta antaa tarvittavat säännökset.
-
-Eduskunnan päätöksen mukaisesti säädetään seuraavasti:
-```
-
-### Tasavallan presidentin asetuksen johtolause
-
-Tasavallan presidentin asetuksessa johtolauseen rakenne on seuraava:
+### Uusi laki
 
 ```
-Tasavallan presidentin päätöksen mukaisesti säädetään seuraavasti:
+Eduskunnan päätöksen mukaisesti säädetään:
 ```
 
-Esimerkki täydellisestä johtolauseesta:
+Huomaa: nykymuodossa **ei** ole sanaa "seuraavasti". *(Varmistettu: kuntalaki
+410/2015, Finlex.)*
+
+### Perustuslainsäätämisjärjestyksessä säädetty laki
 
 ```
-Tasavallan presidentin päätöksen mukaisesti, kun eduskunta on hyväksynyt lain [lain numero ja vuosi], säädetään seuraavasti:
+Eduskunnan päätöksen mukaisesti, joka on tehty perustuslain 73 §:ssä
+määrätyllä tavalla, säädetään:
 ```
 
-### Ministeriasetuksen johtolause
+*(Varmistettu: valmiuslaki 1552/2011, Finlex.)*
 
-Ministeriön asetuksessa johtolauseen rakenne on:
+### Muutoslaki
 
-```
-[Ministeriön nimi] päätöksen mukaisesti säädetään seuraavasti:
-```
-
-Esimerkiksi:
+Muutossäädöksen johtolause yksilöi muutettavat, lisättävät ja kumottavat
+säännökset ja päättyy sanaan "seuraavasti:". Rakenne:
 
 ```
-Oikeusministeriön päätöksen mukaisesti, joka on tehty [lain nimi] ***/**** nojalla, säädetään seuraavasti:
+Eduskunnan päätöksen mukaisesti
+muutetaan [lain nimi genetiivissä] ([numero/vuosi]) [pykälät], sellaisina
+kuin ne ovat [aiemmissa muutoslaeissa], sekä
+lisätään [lakiin uusi pykälä] seuraavasti:
 ```
 
-### Asetuksen erityistapaukset
+Verbit *muutetaan*, *lisätään* ja *kumotaan* aloittavat kukin oman
+osansa. "Sellaisena kuin se on" -lauseke mainitaan, jos muutettava säännös on
+jo aiemmin muutettu. *(Rakenne varmistettu: laki kuntalain muuttamisesta
+419/2021, Finlex.)*
 
-Jos asetuksessa viitataan useampaan lainsäädäntöpohjaan, ne kaikki mainitaan:
+## Asetuksen johtolause
 
-```
-Valtioneuvoston päätöksen mukaisesti säädetään seuraavasti:
-```
+Asetuksen johtolauseessa mainitaan aina valtuussäännös: minkä lain ja
+pykälän nojalla asetus annetaan.
 
-## Johtolauseen sisältö
-
-Johtolauseen tulee sisältää:
-
-1. **Säädöksen antaja**: Kuka antaa säädöksen (eduskunta, tasavallan presidentti, ministerio jne.)
-
-2. **Oikeusperusta**: Viittaus perustuslakiin tai muuhun ylempään säädökseen, jonka nojalla säädös annetaan
-
-3. **Muutossäädösten erityispiirteet**: Jos kyseessä on muutossäädös, mainita mitä aiempia säädöksiä muutetaan
-
-## Esimerkkejä johtolauseista
-
-### Esimerkki 1: Tavallinen laki
+### Valtioneuvoston asetus
 
 ```
-Eduskunnan päätöksen mukaisesti säädetään seuraavasti:
+Valtioneuvoston päätöksen mukaisesti säädetään [lain nimi genetiivissä]
+([numero/vuosi]) [valtuuspykälä]:n nojalla:
 ```
 
-### Esimerkki 2: Perustuslain säädökseen perustuva laki
+Varmistettu esimerkki säädöskokoelmasta:
 
 ```
-Perustuslaissa (731/1999) säädetään, että lailla voidaan antaa tarkempia säännöksiä.
-
-Eduskunnan päätöksen mukaisesti säädetään seuraavasti:
+Valtioneuvoston päätöksen mukaisesti säädetään mittayksiköistä ja
+mittanormaalijärjestelmästä annetun lain (1156/1993) 3 §:n 2 ja 3 momentin
+sekä 4 §:n 2 momentin nojalla:
 ```
 
-### Esimerkki 3: Tasavallan presidentin asetus
+*(Valtioneuvoston asetus mittayksiköistä 1015/2014, Finlex.)*
+
+### Ministeriön asetus
 
 ```
-Tasavallan presidentin päätöksen mukaisesti, joka on tehty Kuntalain (365/1995) nojalla, säädetään seuraavasti:
+[Ministeriön] päätöksen mukaisesti säädetään [lain nimi genetiivissä]
+([numero/vuosi]) [valtuuspykälä]:n nojalla:
 ```
 
-### Esimerkki 4: Valtioneuvosto
-
-Valtioneuvoston asetuksissa käytetään formulaatiota:
-
-```
-Valtioneuvoston päätöksen mukaisesti säädetään seuraavasti:
-```
-
-Tai tarkemmalla viitauksella:
+Varmistettu esimerkki — huomaa myös "sellaisena kuin se on" -lauseke, kun
+valtuuspykälää on muutettu:
 
 ```
-Hallitusmuoto (94/1919) 45 §:n nojalla säädetään seuraavasti:
+Sosiaali- ja terveysministeriön päätöksen mukaisesti säädetään valtion
+maksuperustelain (150/1992) 8 §:n nojalla, sellaisena kuin se on laissa
+348/1994:
 ```
 
-## Johtolauseen muodollisuus
+*(Sosiaali- ja terveysministeriön asetus 1055/2024, Finlex.)*
 
-### Vakiintunut kieli
+### Tasavallan presidentin asetus
 
-Johtolauseet noudattavat vakiintuneita muotoja ja ilmaisuja, jotka ovat säilyneet samanlaisina vuosia. Näitä vakimuotoja tulee noudattaa johdonmukaisesti.
-
-### Viitatut säädökset
-
-Kun johtolauseessa viitataan säädöksiin, käytetään seuraavaa muotoa:
-
-- Koko säädösnimi (esim. "Kuntalaki (365/1995)")
-- Numerointiviittaus (esim. "45 § momentissa")
-- Pykälän numero ja momentti (esim. "Perustuslain (731/1999) 80 §:n 1 momentissa")
-
-## Erityisiä johtolauseiden tapauksiin
-
-### Muutossäädös
-
-Kun säädöstä muutetaan, johtolauseessa mainitaan:
+Sama rakenne kuin muissa asetuksissa: antaja + valtuussäännös. Ahvenanmaata
+koskevissa sopimusasetuksissa johtolauseeseen sisältyy myös maakunnan
+hallituksen suostumus:
 
 ```
-Eduskunnan päätöksen mukaisesti muutetaan [säädöksen nimi ja numero] seuraavasti:
+Tasavallan presidentin päätöksen mukaisesti säädetään Ahvenanmaan
+itsehallintolain (1144/1991) 32 §:n nojalla, sellaisena kuin se on osaksi
+laeissa 1556/1994 ja 68/2004, sekä Ahvenanmaan maakunnan hallituksen
+suostumuksella:
 ```
 
-Esimerkki:
+*(Tasavallan presidentin asetus 1088/2024, Finlex.)*
 
-```
-Eduskunnan päätöksen mukaisesti muutetaan kuntalaki (365/1995) seuraavasti:
-```
+## Tyypilliset virheet
 
-### Kumoamissäädös
+- **"säädetään seuraavasti:" uudessa laissa** — vanhentunut muoto; uuden lain
+  johtolause päättyy "säädetään:". Sana "seuraavasti" kuuluu vain
+  muutossäädöksen johtolauseeseen.
+- **Valtuussäännös puuttuu asetuksesta** — asetuksen johtolauseessa on aina
+  mainittava laki ja pykälä, johon asetuksenantovaltuus perustuu.
+- **Kumottu valtuuslaki** — tarkista Finlexistä, että valtuussäännös on
+  voimassa ja oikea (pykälänumerointi on voinut muuttua). Älä viittaa
+  kumottuun säädökseen (esim. hallitusmuoto 94/1919 on kumottu perustuslailla
+  731/1999).
+- **Voimaantulotieto johtolauseessa** — voimaantulosta säädetään
+  voimaantulosäännöksessä, ei johtolauseessa.
+- **Vapaa muotoilu** — johtolause ei ole perusteluteksti. Se noudattaa
+  vakiomuotoa sanasta sanaan.
 
-Kun säädös kumotaan ja korvataan uudella, johtolausessa mainitaan:
+## Tarkistuslista
 
-```
-Eduskunnan päätöksen mukaisesti säädetään seuraavasti:
-```
-
-Ja säädöksen lopussa oleva kumoamislauseke kertoo mitä kumotaan.
-
-### Asetuksen antaminen lain nojalla
-
-Jos asetus annetaan lain nojalla, viittaus on:
-
-```
-Tasavallan presidentin päätöksen mukaisesti, joka on tehty [lain nimi] [numero]/[vuosi] nojalla, säädetään seuraavasti:
-```
-
-## Johtolauseen sijoituspaikka
-
-Johtolause on aina säädöksen alussa, ennen muita säädöksen osia. Se on erotettu muusta tekstistä.
-
-## Ahvenanmaan erityispiirteet
-
-Ahvenanmaata koskevissa säädöksissä johtolauseessa mainitaan Ahvenanmaan itsehallinon erityisasema:
-
-```
-Tasavallan presidentin päätöksen mukaisesti, jonka antamisen edellytyksenä on ollut Ahvenanmaan hallituksen myötymielisyys, säädetään seuraavasti:
-```
-
-## Valtiosopimuksiin perustuva säädöksien johtolause
-
-Jos säädös perustuu kansainväliseen sopimukseen, johtolauseessa viitataan siihen:
-
-```
-Eduskunnan päätöksen mukaisesti [valtiosopimukseen liittymisestä] annetun lain nojalla säädetään seuraavasti:
-```
-
-## Ministeriöittäisten asetuksien johtolauseet
-
-Eri ministeriöt käyttävät omia johtolauseitaan. Tyypillisiä muotoja:
-
-- Oikeusministeriö: "Oikeusministeriön päätöksen mukaisesti..."
-- Valtiovarainministeriö: "Valtiovarainministeriön päätöksen mukaisesti..."
-- Sosiaali- ja terveysministeriö: "Sosiaali- ja terveysministeriön päätöksen mukaisesti..."
-
-## Johtolauseen tarkistuslistaa
-
-Kun laadinnassa olevaan säädökseen kirjoitetaan johtolause, tarkista seuraavat:
-
-- [ ] Säädöksen antaja on mainittu oikein
-- [ ] Oikeusperusta on viitattava oikein
-- [ ] Viittaukset muihin säädöksiin ovat oikeita
-- [ ] Muodollisuus noudattaa vakiintuneita muotoja
-- [ ] Johtolause on sijoitettu säädöksen alkuun
-- [ ] Kielioppi ja oikeinkirjoitus ovat oikeat
+- [ ] Antaja oikein (eduskunta / valtioneuvosto / ministeriö / tasavallan presidentti)
+- [ ] Uusi laki: "Eduskunnan päätöksen mukaisesti säädetään:" — ei "seuraavasti"
+- [ ] Muutossäädös: muutetaan / lisätään / kumotaan -rakenne ja lopussa "seuraavasti:"
+- [ ] Asetus: valtuuslaki ja -pykälä mainittu, ja ne on tarkistettu Finlexistä
+- [ ] "Sellaisena kuin se on" -lausekkeet paikallaan, jos säännöksiä on muutettu
+- [ ] Säädösnumerot oikein ja voimassa (ei kumottuja säädöksiä)
 
 ## Lukulähde
 
-Lainkirjoittajan opas, Oikeusministeriö. Jakso 17: Johtolause.
+Lainkirjoittajan opas (Oikeusministeriö), johtolausetta koskeva jakso, sekä
+yllä mainitut säädökset Suomen säädöskokoelmasta (Finlex).

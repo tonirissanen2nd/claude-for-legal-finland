@@ -1,129 +1,121 @@
-# Esivalmistelu
+# Esivalmistelu (vaihe 1)
 
-Esivalmistelu on lainsäädäntöprosessin ensimmäinen vaihe. Siinä koottaa tietoa nykemyksistä lainsäädäntäelua koskevasta aikaista ja ongelmalista, arvioitaan lainsäädänteluhankkeen käynnistämisen tarve ja sunnnitellaan tulevaa hankkeita.
+Esivalmistelu on lainvalmisteluprosessin ensimmäinen vaihe. Siinä kootaan
+tieto aloitteen kohteena olevasta ongelmasta ja nykytilasta, arvioidaan
+lainsäädäntöhankkeen käynnistämisen tarve ja suunnitellaan tuleva hanke.
+Vaihe päättyy päätökseen hankkeen asettamisesta — tai siihen, ettei hanketta
+käynnistetä.
 
 ## 1.1 Tavoitteen tai ongelman määrittäminen
 
-Hallitus, ministeri tai virkamieshohto päättää antaa toimeksiannon lainsäädäntäelua koskevan aloitteen käsittelemisestä. Toimeksiannon sisältönä on selvitettävä osiin:
+**Tekijät:** hallitus, ministeri tai virkamiesjohto.
 
-- mikä on esillä oleva ongelma
-- mikä on tavoitteita ja millaiset tavoitteet teloutetavat sitä; sekä
-- onko kyse selkeästi lainsäädäntöasiasta vai vaatiko tämä erilistä pohditava
+Aloitteen käsittelystä annetaan toimeksianto. Toimeksiannossa määritellään:
 
-EU-säädösten osalta toimeksianto annetaan hetki, kun on saatu tieto kansallista täytäntöönpanoa edellyttävän ehdon mahdollisuista vireille tulosta.
+- mikä on esillä oleva ongelma,
+- mitkä ovat tavoitteet ja millaiset keinot toteuttaisivat niitä, sekä
+- onko kyse ylipäätään lainsäädäntöasiasta vai ratkeaisiko asia muilla keinoin.
 
-### Loppututulokset
+EU-säädösten osalta toimeksianto annetaan, kun on saatu tieto kansallista
+täytäntöönpanoa edellyttävän säädöksen vireilletulosta.
 
-- Toimeksiannon alustavan kartoituksen tekemisestä
+**Lopputulos:** toimeksianto alustavan kartoituksen tekemisestä.
 
 ## 1.2 Alustava kartoitus
 
-Valmisteija/valmistelutiimt selvittää lainsäädäntäelua koskevan aloitteen pohjalta:
+**Tekijät:** valmistelija tai valmistelutiimi.
 
-- mitä asiasta tietotaan;
-- miten asiaa on aiemmin käsitelty;
-- mitä ehdotuksia tai linjauksia asiasta on tehty;
-- mitä jutkisuudessa ja mediassa ml. sosiaalinen media keskustellaan asiasta
-- mitä asiaan liittyviä tarvittiinsa on voimassa; sekä
-- mitä lisäseltyksiksia tarvittaisiin.
+Aloitteen pohjalta selvitetään:
 
-Valmisteija/valmistelutiimt selvittää vaihtoehtoisia tapoja edettä ongelman ratkaisemisessa ja asiaintuntija-avun käyttöön ja valmisteles tarvitta asiassa viestintään asiantuntijoden kanssa. Toteututuksessa voidaan käyttää Otakantaa.fi (http://www.otakantaa.fi/fi-FI):n palveluita tai lausuntopälveluia.
+- mitä asiasta tiedetään ja miten sitä on aiemmin käsitelty,
+- mitä ehdotuksia tai linjauksia asiasta on tehty,
+- mitä asiasta keskustellaan julkisuudessa ja mediassa (ml. sosiaalinen media),
+- mitä asiaan liittyvää sääntelyä on voimassa, sekä
+- mitä lisäselvityksiä tarvittaisiin.
 
-Sidosryhmien osallistuminen ja vuorovaikutuksen käytännön toteutumisesta asiatuntijoden kanssa. Toteututuksessa voidaan käyttää Otakantaa.fi (http://www.otakantaa.fi/fi-FI) palveluita tai lausuntopälveluia. Sidosryhmien osallistuminen on opiaista.
+Samalla kartoitetaan vaihtoehtoiset ratkaisutavat ja tunnistetaan
+lainsäädännölle vaihtoehtoiset ohjauskeinot.
 
-### Loppututulokset
+**Lopputulokset:** muistio tai arviomuistio; päätös sidosryhmien kuulemisesta.
 
-- Muistio, arvioinisto tms. taustaselvitys
-- Päätös sidosryhmien kuulemisesta
+## 1.3 Näkemysten hankkiminen kartoituksesta
 
-## 1.3 Näkemyksen esittäminen
+**Tekijät:** valmistelutiimi ja sidosryhmät.
 
-Valmisteija/valmistelutiimt tunnistaa asiaan liittyvät sidosryhmät ja muita sidosryhmät sekä selvittää näiden näkemyksettä asiatuntijoden kanssa.
+Tunnistetaan asiaan liittyvät viranomaiset, asiantuntijat ja sidosryhmät ja
+hankitaan niiden näkemykset sääntelyn tarpeesta. Kuuleminen suunnitellaan
+tarvittaessa viestinnän asiantuntijoiden kanssa; välineinä voidaan käyttää
+Otakantaa.fi- ja Lausuntopalvelu.fi-palveluita.
 
-Valmisteija/valmistelutiimt tekee jo aikaisen vaiheen hankkeen suunnittelussa, jossa määritellään:
-
-- tausta, ongelmat ja tavoitteet;
-- suhde oikeusjarjesteltuelmiin;
-- alustavat ratkaisuvaihtoehot;
-- alustavaa arvio vaikutuksista;
-- suunnitelma tietopohjan hankkimisesta ja vaikutusten arvioimisesta;
-- suunnitelma uikopoliisten selviytyseen ja asiantuntija-avun hankkimisesta;
-- toimeriteljä lain kielen seikkeyttämisen sekä termien ja nimistön suunittelluun.
-
-Valmisteija/valmistelutiimt määrittelee valmistelun loppuvaiheen ja perustuslaakin ilmoittaen asiaa selvittävien hankkeet, sisällötä ja laajuus joten, että valmistelun voidaan antaa selkeä toimeksianto. Hankesunnnitelmassa käsitellään soveltuviin osiin:
-
-- tausta, ongelmat ja tavoitteet;
-- suhde oikeusjarjesteltuelmiin;
-- alustavat ratkaisuvaihtoehot;
-- alustavaa arvio vaikutuksista;
-- suunnitelma tietopohjan hankkimisesta ja vaikutusten arvioimisesta;
-- suunnitelma uikopoliisten selviytyseen ja asiantuntija-avun hankkimisesta;
-- toimeriteljä lain kielen seikkeyttämisen sekä termien ja nimistön suunittelluun.
-
-Valmisteija/valmistelutiimt asettaa ministerin tai virkamieshohdon aloitteesta tai sitä selvittävien hankkeet ja muut selvitykset. Luonnosten sisällössä on nähty, mitä oikeusjarjesteltuelmiin nähden ratkaistavaksi ja mitä vaikutusarvioita tehtävä.
-
-### Loppututulokset
-
-- Hankkeen asetmamispäätös
-- Hyväksytty hankesuunnitelma
-- Ministerion tulossopimus
-- Tiedote
+**Lopputulokset:** yhteenveto sidosryhmien palautteesta; päivitetty selvitys.
 
 ## 1.4 Päätös esivalmistelun käynnistämisestä
 
-Virkamieshohto tekee päätöksen esivalmistelun käynnistämisestä, nimeää valmistejumisen henkilöt ja informoima. Hallitusohjelman ulkopuolisessa, periaaatteellisesti tai taloullisesti merkittävässä asiassa ministeri kuitenkin tekee päätöksen.
+**Tekijät:** virkamiesjohto (merkittävissä asioissa ministeri).
 
-Päätöksenteon vaihtoehot:
+Päätetään, käynnistetäänkö esivalmistelu, palataanko aikaisempiin vaiheisiin,
+hylätäänkö hanke vai valmistellaanko lainsäädäntöä korvaavia keinoja.
+Valmistelutiimi nimetään. Hankkeen tiedot viedään asianhallintaan (VAHVA) ja
+Hankeikkunaan.
 
-- lainsäädäntöhankkeita ryhdyttävän valmistelemaaan;
-- paalaatan vaiheisin 1.2-1.3; tai
-- lainsäädäntöhankkeeta ei jatketaa lainsäädäntöä tai korvaavien ohjauskeinoja valmistelua.
-
-EU-säädösten osalta hanke kansallisen lainsäädännön valmistelumiseksi asetetaan hetki, kun ehdotus kansallista täytäntöönpanoa edellyttävä EU-säädös on hyväksytty.
-
-Esivalmistelun käynnistämisestä viedään tietoidot VAHVAan ja jukisesti asiakirjat siirretään siirtää siellä Hankeikkunaan. Hankeikkunassa Hankeikkunaan taytettain muutkin hankkeen tiedot kuin VAHVAsti siirretään. Tämän jälkeen tehdään hankkeen julkiasu valtioneuvostos verkkosivuilla (www.valtioneuvosto.fi/hankkeet). Hankkeen julkaisumisilla tiedot siirtyvät verkkon laajaisaisten laillisesti ja muuden kiinnostuneiden nähtäviksi.
-
-Esivalmistelun käynnistämisestä viedään tietoidot myös eriseen.
-
-### Loppututulokset
-
-- Hankkeen asetamispaatos
-- Hyväksytty hankesuunnitelma
-- Ministerion tulossopimus
-- Tiedote
-- VAHVAan ja Hankeikkunaan päivitys
-- [H]Hankeikkunan päivitys[;v]Projektirekistrei uppdateras[;en]Hankerekisteriin päivitys[;]
+**Lopputulokset:** hankkeen tiedot järjestelmissä; verkkosivujen päivitys; tiedote.
 
 ## 1.5 Esivalmistelun tekeminen
 
-Valmisteija/valmistelutiimt suorittaa esivalmistelun. Tavoitteena on koota aineisto, jonka pohjalra voidaan päättää säädöshankkeesta ja valmistelun toimensaannosta. Tarvitta esivalmistelua varissa aserutaan valmisteleuille, tilaisuuksissa tai kirjallisesti asiantuntija-apua. Keskustelusi käsitellään sovaltuviin osiin:
+**Tekijät:** valmistelutiimi.
 
-- tausta, ongelmat ja tavoitteet;
-- suhde oikeusjarjesteltuelmiin;
-- alustavat ratkaisuvaihtoehot;
-- alustavaa arvio vaikutuksista;
-- suunnitelma tietopohjan hankkimisesta ja vaikutusten arvioimisesta;
-- suunnitelma uikopoliisten selviytyseen ja asiantuntija-avun hankkimisesta;
-- toimeriteljä lain kielen seikkeyttämisen sekä termien ja nimistön suunittelluun.
+Kootaan aineisto, jonka pohjalta voidaan päättää hankkeen tarpeellisuudesta
+ja antaa valmistelun toimeksianto:
 
-Valmisteija/valmistelutiimt määrittelee valmistelun alkeista ja perustuslaakin ilmoittaen asiaa selvittävien hankkeet, sisällötä ja laajuus joten, että valmistelun voidaan antaa selkeä toimeksianto. Hankesuunnitelma laadillaan päässäntöisesti suomeksi. Säädösvalmistelun kuulemusopas ja lausuntopälvelua.
+- kerätään ja arvioidaan aiemmat kannanotot, nykytilan kuvaus, kansainväliset
+  kokemukset, tutkimukset, oikeuskäytäntö ja kirjallisuus,
+- määritellään valmistelun pääkysymykset,
+- kartoitetaan ratkaisuvaihtoehdot ja tunnistetaan alustavasti vaikutukset,
+- arvioidaan ulkopuolisten selvitysten ja asiantuntija-avun tarve,
+- suunnitellaan tietopohjan hankkiminen ja vaikutusten arviointi sekä
+- kiinnitetään huomiota säädöskielen selkeyteen sekä termien ja nimistön
+  suunnitteluun jo tässä vaiheessa.
 
-### Loppututulokset
+**Lopputulokset:** hankesuunnitelma; mahdollinen valmisteluelimen raportti;
+arviomuistio; alustava vaikutusten arviointi.
 
-- Hankesuunnitelma
-- Päätös sidosryhmien kuulemisesta
-- Valmistelijajuden raportti, arvioinisto ja alusava vaikututsten arvioinista
+## 1.6 Näkemysten hankkiminen esivalmistelun tuloksista
 
-## 1.6 Näkemyksen esittäminen
+**Tekijät:** valmistelutiimi ja sidosryhmät.
 
-Esivalmistelun tulotkset, esim. arvioinistio tai valmistelujeljinen raporti julkaisitaan siinä kuullaan sidosryhmia. Osallistuminen ja vuorovaikutuksen käytännön toteutumisesta asiatuntijoden kanssa. Toteututuksessa voidaan käyttä Otakantaa.fi (http://www.otakantaa.fi/fi-FI):n palveluita tai lausuntopälveluia. Esivalmistelun aikana saatu saaut palaute kootaan.
+Esivalmistelun tulokset julkaistaan ja sidosryhmiä kuullaan niistä
+(Otakantaa.fi, Lausuntopalvelu.fi). Palaute kootaan yhteen ja selvitys sekä
+hankesuunnitelma päivitetään sen pohjalta.
 
-### Loppututulokset
+**Lopputulokset:** päivitetty selvitys; päivitetty hankesuunnitelma;
+yhteenveto sidosryhmien palautteesta.
 
-- Päivitellä arvioinisto tai muu selvitys
-- Päivitellä hankesuunnitelma
-- Yhteenveto sidosryhmien palautteesta
+## 1.7 Päätös hankkeen asettamisesta
 
-### Liätetoja
+**Tekijät:** ministeri tai virkamiesjohto.
 
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+Päätetään lainsäädäntöhankkeen käynnistämisestä. Asettamispäätökseen
+kirjataan:
+
+- yhteiskunnalliset ja oikeusjärjestystä koskevat tavoitteet sekä
+  lainvalmistelun laatutavoitteet,
+- tehtävän määrittely ja määräaika,
+- valmistelijoiden roolit ja mahdollisen valmisteluelimen kokoonpano,
+- rahoitus sekä seuranta ja raportointi.
+
+Tiedot päivitetään VAHVAan ja Hankeikkunaan.
+
+**Lopputulokset:** hankkeen asettamispäätös; hyväksytty hankesuunnitelma;
+tiedote.
+
+## Työkalut ja palvelut
+
+- **Otakantaa.fi** — varhaisen vaiheen kuuleminen ja keskustelu
+- **Lausuntopalvelu.fi** — lausuntojen ja palautteen kerääminen
+- **Hankeikkuna** — valtioneuvoston yhteinen hanketietopalvelu (julkinen)
+- **VAHVA** — valtioneuvoston asianhallintajärjestelmä (sisäinen)
+
+## Lukulähde
+
+Lainvalmistelun prosessiopas, vaihe 1: Esivalmistelu
+(https://lainvalmistelu.finlex.fi/1-esivalmistelu/).

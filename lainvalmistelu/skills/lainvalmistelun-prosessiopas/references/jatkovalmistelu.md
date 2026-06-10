@@ -1,157 +1,121 @@
-# Jatkovalmistelu
+# Jatkovalmistelu (vaihe 4)
 
-Jatkovalmistelu on lainsäädäntöprosessin neljäs päävaihe. Lausuntomenettelyä säadua palautetta käytetään hallituksen esitysluonnoksen viimeistelemiseen. Jatkovalmistelussa tehdään oikeudellinen tarkastelu, käännökset ja muun tekniikan viimeisteleminen ennen valtioneuvoston käsittelyä.
+Jatkovalmistelussa hallituksen esityksen luonnos viimeistellään
+lausuntomenettelyssä saadun palautteen pohjalta: päätetään lopullisesta
+sisällöstä, tehdään käännökset ja laintarkastus sekä valmistellaan esitys
+teknisesti valtioneuvoston käsittelyä varten.
 
-## 4.1 Palautteen anto lausujille / neuvottelu
+## 4.1–4.2 Palaute lausunnonantajille ja neuvottelut
 
-Sidosryhmille kerrootaan esim. kirjallisesti tai keskusteluissa, mitä saaduista kannanodot on käsitelty ja miiten ne voi vaikuttanut hankkeen käsittelyyn. Yksitaisten sidosryhmien kanssa voitaan käydä neuvotteluita, mikäli saadut kannanodot on käsitelty ja miiten ne voi vaikuttanut hankkeen käsittelyyn.
+**Tekijät:** valmistelutiimi, virkamiesjohto ja sidosryhmät.
 
-Valmistelutiimi vastaa palautteen antamisesta sidosryhmille sekä neuvotteluista.
+Sidosryhmille kerrotaan, miten kannanotot on käsitelty ja miten ne ovat
+vaikuttaneet hankkeeseen. Tarvittaessa järjestetään keskustelu- ja
+neuvottelutilaisuuksia.
 
-### Loppututulokset
+**Lopputulokset:** kutsut tilaisuuksiin; päivitetty muutosmuistio.
 
-- Kutsu kuulemistilaisuuksien tai neuvottelua
-- Päivitelly muistiota
+## 4.3 Päätös esityksen sisällöstä
 
-### Liätetoja
+**Tekijät:** ministeri (tai hallitus), virkamiesjohto.
 
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+Päätetään esityksen lopullisesta sisällöstä tai palataan aikaisempiin
+vaiheisiin. Varmistetaan taloudellisten vaikutusten ja kuntien tehtäviä
+koskevien muutosten käsittely.
 
-## 4.2 Palautteen vastaanotto / osallistuminen neuvotteluun
-
-Sidosryhmät ottavat vastaan palautteen ja osallistuvat neuvotteluihin. Valmistelutiimt kirjaa liaisuksien ja keskustelujen tulokset.
-
-### Loppututulokset
-
-- Päivitelly muistiota
-
-## 4.3 Päätös HE:n sisällöstä
-
-Ministeräi informoidaan palauteesta ja neuvotteluista sekä hän päättää esityksen muuttamisen käsittelemisestä. Ministeri voi päättää asioista itse, vieä asian käsittelyyn hallituksen piirissä tai delegoida asian virkamiesjohtolle. Esityksen käsittelyn tuloksena:
-
-- päätettään etenemiestä esityksen valmistelukaa;
-- paalaataan vaiheisin 2A tai 2B ; ja
-- valmistelua ei jatketaa.
-
-Päätöksenteon yhteydessä ratkaisuita:
-- päätettään etenemiestä esityksen valmistelukaa;
-- paalaataan vaiheisin 2.1-2.9.; tai
-- valmistelua ei jatketaa. Jos poliittisesti on sovittu hankkeen eteenpäin vietemisestä tai perussalpasidoista, valmistelutiimt on mahdollisten edellyttävä valmistelu tarkoitetaan valtiouton rahastotalouden kehyksiä ja taloustarvisarvosta.
-
-### Loppututulokset
-
-- Päivitelly hallituksen esityksen luonnos
-- Päivitellyt luonnokset
-- Päivitellyt asetusluonnokset
-
-### Liätetoja
-
-- Päätös hallituksen esityksen sisällöstä
+**Lopputulos:** päätös hallituksen esityksen sisällöstä.
 
 ## 4.4 Jatkovalmistelun suunnittelu
 
-Valmistelutiimi suunnittelee valmistelun loppuun saattamiseen työväihelvät ja aikataulut aika-aulustan sekä päivittää hankkeen työsuunnitelman. Aikataulussa informoidaan
+**Tekijät:** valmistelutiimi.
 
-- VNHY:n ruotsin kielen yksikkö;
-- oikeuusministerion laintarkastuskyksiköä; sekä
-- eduskunnan valiokunnan käsittelyyheksi (HE:n).
+Suunnitellaan valmistelun loppuunsaattamisen vaiheet ja aikataulu.
+Ennakkoon informoidaan valtioneuvoston kanslian ruotsin kielen yksikköä
+(käännökset), oikeusministeriön laintarkastusta ja tarvittaessa eduskunnan
+valiokuntia.
 
-### Loppututulokset
+**Lopputulos:** päivitetty työsuunnitelma.
 
-- Päivitelly hankkeen työsuunnitelma
+## 4.5 Esityksen muokkaaminen
 
-## 4.5 HE:n muokkaaminen
+**Tekijät:** valmistelutiimi.
 
-Valmistelutiimi toteuttaa vaihessa 4.3. päätettyt muutokset hallituksen esitysluonnokseen (HE-luonnos). Lisäksi HE:n perusteluihin kirjoitetaan yhteisveto valmistelun aikana toteutusta kuulemisista, saadusta palauteesta ja sen vaikutuksista esitykseen.
+Päätetyt muutokset toteutetaan ja perusteluihin kirjoitetaan yhteenveto
+kuulemisesta ja lausuntopalautteesta.
 
-Lain täytäntöönpanon resurssinta tarkennetaan lausuntopalauta pohjalra ja varmistetaan sen sisältyminen taloussarvioon ja kehyspoäätökseen.
+Tähän vaiheeseen kytkeytyvät kaksi ulkoista tarkastusta:
 
-Jos lainsäädännön arvoitineuvosto ottaa hallituksen esityksen käsitettäväksi, sitä limitetaan vipymättä asianomaiselle valmisteliale. Hallituksen esityksen valmistelusta vastaa ministeriö lähettää arvoitainnusto jäljelle viikkoa. Arvoitainnus toimittavan esityssuunnoksien tulee olla kunnolliset kuninkaan mukaisia. Arvoitainnuksen tulee olla valmis hetken ja lain saattaminen kanssaan. Ministeriö voi myös omasta aloitteestaan lähettää hallituksen esityksen arvoitainnus oikeuskanslerin inhivisaan vastaamuksessa. Täpeen mukaan kiimittely käyttävät kosyymsykset, onko esityssesilla tunnisettu perustuslain antamisen ja tiivistelma siitä kirjoitettaan HE-luonnoksen perusteluja esitykseen. Arvoitainnus toimittavien esitysten kohdalla koska esitysten johdoneittamisen ja siinä johtuvat erityisesti, jotka noudattavat myös tulkineet muotokaksiksi. Arvoitainnus jälkeen hallintoon kanssaan. Ministeriö voi myös omasta aloitteestaan lähettää hallituksen esityksen arvoitainnus oikeuskanslerin vastaamuksessa. Täpeen mukaan kiimittely käyttävät kosyymsykset, onko esityssesilla tunnisettu perustuslain antamisen ja tiivistelma siitä kirjoitettään HE-luonnoksen perusteluja esitykseen. Arvoitainnus toimittavien esitysten kohdalla koska esitysten johdoneittamisen ja siinä johtuvat erityisesti, jotka noudattavat myös tulkineet muotokaksiksi.
+- **Lainsäädännön arviointineuvosto** (valtioneuvoston kanslian yhteydessä
+  toimiva riippumaton neuvosto, https://vnk.fi/arviointineuvosto) voi ottaa
+  esitysluonnoksen käsiteltäväkseen ja antaa lausunnon erityisesti
+  vaikutusten arvioinnista. Käsittelyyn on varattava noin **neljä viikkoa**,
+  ja neuvoston lausunto julkaistaan.
+- **Oikeuskansleri** voi pyytää esityksen ennakkotarkastukseen; siihen on
+  varattava **viikosta kahteen**.
 
-### Loppututulokset
+**Lopputulos:** päivitetty HE-luonnos.
 
-- Päivitelly hallituksen esityksen luonnos
-- HE-luonnos
-- Päätös sidosryhmien kuulemisesta
+## 4.6 Sidosryhmien kuuleminen merkittävistä muutoksista
 
-### Liätetoja
+**Tekijät:** sidosryhmät.
 
-- Hallituksen esityksen laatimisohjeet (HELO-ohje) (http://helo.finlex.fi/)
-- Lainkirjoittajan opas (http://lainkirjoittaja.finlex.fi/)
-- Lainsäädännön arvoitineuvosto (http://vnk.fi/svradet-for-bedomning-av-lagstiftningen)
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+Jos esitykseen tehdään lausuntokierroksen jälkeen merkittäviä muutoksia,
+sidosryhmiä kuullaan niistä.
 
-## 4.6 Näkemyksen esittäminen
+**Lopputulos:** viimeistelty HE-luonnos.
 
-Jos esityksen tehdään merkittäviä muutoksia, sidosryhmille kuullaan muutetusta, sidosryhmille kuullaan uudelleen.
+## 4.7–4.8 Kääntäminen ja käännöksen tarkastaminen
 
-### Loppututulokset
+**Tekijät:** valtioneuvoston kanslian kielipalvelut; valmistelutiimi.
 
-- Viimeistelly HE-luonnos
+Esitys käännetään ruotsiksi (tarvittaessa myös saamen kielille).
+Valmistelutiimi vertaa käännöksen ja suomenkielisen tekstin vastaavuuden ja
+neuvottelee kääntäjän kanssa tarvittavista korjauksista.
 
-### Liätetoja
+**Lopputulokset:** HE-luonnoksen käännös; viimeistelty käännös.
 
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+## 4.9–4.10 Laintarkastus ja korjausten tekeminen
 
-## 4.7 HE:n käänteäminen
+**Tekijät:** oikeusministeriön laintarkastus; valmistelutiimi.
 
-Valtioneuvostos hallintoyskion ruotsin kielen yksikkö käännettää hallituksen esityksen (HE) ruotsiksi. VNHY:n ruotsin kielen yksikkö käännettää hallituksen esityksen kielipalveluiden huolettiin siitä, ettehdotus laisia käännettään samalla kielella.
+Laintarkastus tarkastaa, että säädösteksti ja esitys noudattavat
+Lainkirjoittajan opasta ja HELO-ohjeita, sekä suomen- ja ruotsinkielisen
+tekstin vastaavuuden. Puutteellinen luonnos voidaan palauttaa
+valmistelijalle. Tarkastuksen jälkeen ehdotetut muutokset tehdään molempiin
+kieliversioihin.
 
-### Loppututulokset
+**Lopputulokset:** tarkastusseloste; korjatut HE-luonnokset (suomi ja
+ruotsi).
 
-- HE-luonnoksen käännös
+## 4.11–4.12 Tekninen viimeistely ja hyväksyminen
 
-### Liätetoja
+**Tekijät:** valmistelutiimi; virkamiesjohto.
 
-- Laki Suomen säädöskokoelmasta 11 (https://www.finlex.fi/fi/laki/ajantasa/2000/20000188#L4P11)
-- Saamen kielilaki 9 (http://www.finlex.fi/fi/laki/ajantasa/2003/20031086#L2P9)
-- Suomen perustuslaki 51 (http://www.finlex.fi/fi/laki/ajantasa/1999/19990731#L4P51)
-- Suomen perustuslaki 79 (http://www.finlex.fi/fi/laki/ajantasa/1999/19990731#L5P79)
-- Säädösten käänteäminen ruotsiksi (Kampus) (https://kampus.vnv.fi/palvelut/Sivut/Säädösten-käänteäminen-ruotsiksi.aspx)
+Tekstit taitetaan valtioneuvoston asiakirjapohjalle ja varmistetaan
+valtioneuvoston yleisistunnon ajankohta. Virkamiesjohto hyväksyy esityksen
+esittelyä varten.
 
-## 4.8 Käännöksen tarkastaminen
+**Lopputulokset:** taitetut, lopulliset HE-luonnokset.
 
-Valmistelutiimi vertaa käännöksen ja suomenkielisten tekstin, käsittelee käänteämisen aikana huomioidut kysymykset sekä neuvottelee käännöksistä.
+## 4.13–4.17 Esittelylupa, esittelylistat ja jakolupa
 
-### Loppututulokset
+**Tekijät:** valmistelutiimi, asian esittelijä, ministeri.
 
-- HE-luonnoksen viimeistelly käännös
+- Jos esityksessä on toisen ministeriön toimialaan kuuluvia asioita,
+  pyydetään **esittelylupa** kyseiseltä ministeriöltä.
+- Esittelylistat laaditaan PTJ-järjestelmällä valtioneuvoston
+  yleisistuntoon ja tarvittaessa raha-asiainvaliokuntaan.
+- Laillisuus-, menettely- ja raha-asianeuvontaa antavat
+  oikeuskanslerinvirasto, valtioneuvoston istuntoyksikkö ja
+  valtiovarainministeriö.
+- Ministeri antaa **jakoluvan**, minkä jälkeen esittelylistat jaetaan.
 
-## 4.9 Laintarkastus
+**Lopputulokset:** esittelylupa; jakolupa; jaetut esittelylistat.
 
-Oikeusministerion laintarkastus tarkastaa hallituksen esityksen (HE-luonnos) ja sen ruotsinkielisen käännöksen. Laintarkastus tarkastaa säädösteissa kirjoittamista ja hallituksen esityksen tekijöiden noudattamista sekä suomen- ja ruotsinkielisen teksteien vastaavuutta. Laintarkastus voi palauttaa puuttellisen HE-luonnoksen takaisin valmisteliale.
+Tämän jälkeen siirrytään vaiheeseen 5 (valtioneuvoston päätöksenteko) — ks.
+`paatoksenteko-ja-eduskunta.md`.
 
-### Loppututulokset
+## Lukulähde
 
-- Valtioneuvostos ohjesääntö 30 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030262#L4P30)
-- Laintarkastus (Kampus) (https://kampus.vnv.fi/yhteiseet-toiminnot/Sivut/Laintarkastus.aspx)
-- Oikeusministeriön asetus oikeusministeriön töijärjestyksestä (https://www.finlex.fi/fi/laki/ajantasa/2019/20190595)
-
-## 4.10 Laintarkastuksen muutosten tekeminen
-
-Valmistelutiimi käy läpi laintarkastuksessa tehdyt korjaukset ja tekee niiden edellymaäet muutokset suomen- ja ruotsinkielisen hallituksen esityksen tekstiin.
-
-### Loppututulokset
-
-- Korjattu HE-luonnokset
-
-## 4.11 Esityksen tekninen viimeistely
-
-Valmistelutiimi huolettii hallituksen esityksen (HE:n) tekstin taittamista RaKAS-asiakiriapojalla. Valmistelutiimt varmistaa valtioneuvostos yhteistyöstä päivämäärän sekä ministerion läsnäolon.
-
-### Loppututulokset
-
-- Taiteltu HE-luonnokset
-
-### Liätetoja
-
-- Istuntojaat (Kampus) (https://kampus.vnv.fi/yhteiseet-toiminnot/Sivut/Istuntojaat-ja-esittelyteojen-jakelu.aspx)
-- PTJ-asiakiriapohja -käyttöopas (Kampus) (https://kampus.vnv.fi/yhteiseet-toiminnot/Sivut/PTJ-asiakiriapohja-ja-VaRa-.aspx)
-
-## 4.12 Esityksen hyväksyminen
-
-Virkamieshohto hyväksyy hallituksen esityksen luonnoksen (HE-luonnos) viemisen esittelemiselle.
-
-### Loppututulokset
-
-- Loppulliset HE-luonnokset (suomi ja ruotsi)
+Lainvalmistelun prosessiopas, vaihe 4: Jatkovalmistelu
+(https://lainvalmistelu.finlex.fi/4-jatkovalmistelu/).

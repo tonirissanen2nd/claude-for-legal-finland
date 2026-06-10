@@ -1,197 +1,146 @@
-# Perusvalmistelu
+# Perusvalmistelu (vaihe 2)
 
-Perusvalmistelu on lainsäädäntöprosessin toinen päävaihe. Sitä voidaan toteuttaa joko virkatyönä (2a) tai valmisteluelimen (2b) kautta. Perusvalmistelun tehtävänä on hallituksen esitysluonnoksen (HE-luonnos) valmistelu lausuntojen perusteella.
+Perusvalmistelu on yleensä eniten työpanosta vaativa lainvalmistelun vaihe.
+Se alkaa hankkeen asettamispäätöksestä ja päättyy hallituksen esityksen
+luonnoksen valmistumiseen lausuntomenettelyä varten.
 
-## 2a. Perusvalmistelu - Virkatyö
+Perusvalmistelu tehdään joko **virkatyönä** (prosessioppaan vaihe 2a) tai
+**valmisteluelimessä** — esimerkiksi työryhmässä tai komiteassa — (vaihe 2b).
+Alla kuvataan virkatyön kulku; valmisteluelimessä vaiheet ovat vastaavat,
+mutta päätöksiä tekee ja luonnoksia käsittelee valmisteluelin.
 
-Perusvalmistelu tehdään virkatyönä silloin, kun valmistelu tapahtuu ministeriön sisäisesti. Ministeriö antaa toimeksiannon valmistelutiimiille, kun hankkeen perusvalmistelu on asetettu.
+## 2.1 Valmistelun organisointi
 
-### 2.1 Valmistelun organisointi
+**Tekijät:** virkamiesjohto ja valmistelutiimi.
 
-Valmistelutiimin laatii hankesuunnitelman pohjalra työsuunnnitelman, joka sisältää hankkeen toteuttuksen tarkemmat työväihelvät ja niiden aikataulut. Työsuunnitelmassa otetaan huomioon prosessin vaiheet lain voimaantuloon asti ja varataan riittävä aika myös muiden toimijoiden suorittamien vaiheisien, kun mahdollisteen lausuntomennettelyyn, oikeudelliseen tarkastukseen sekä laintarkastukseen.
+Valmistelutiimi laatii hankesuunnitelman pohjalta työsuunnitelman sekä
+suunnittelee viestinnän ja kuulemisen yhteistyössä viestinnän
+asiantuntijoiden kanssa. Virkamiesjohto hyväksyy työsuunnitelman ja päättää
+rahoituksesta.
 
-Valmistelutiimin suunnittele yhteistyössä vieintävässä ja kuulemileen asiantuntijoden kanssa, miten hankkeen todettaen ja niiden sidosryhmia kuulaan ratkaisuvaihtoehdot. Lisaksi virkamiesjohto päättää valmistelutiimin kuuluvista henkilöistä, ellei soko valmistelutiimiä ole nimetty jo hankkeen asettamisessa. Ministeräi informoidaan, jos tuotamietoimessa otaa kantaa asetetuksista merkitä hankkeen käsittelyyn.
-
-Valmistelutiimt suunnittele yhteistyössä vieentävässä ja kuulemileen asiantuntijoden kanssa, miten hankkeen todentetaan ja niiden sidosryhmia kuulaan ratkaisuvaihtoehdot. Samalla selvitettään, millalita tukaa taarvitaan ministeriön sisältä ja muista ministeriöistä sekä sovitaan käytännön yhteistyöstä.
-
-Valmistelutiimt suunnittele yhteistyössä vieintävässä ja kuulemileen asiantuntijoden kanssa, miten hankkeen todentetaan ja niiden sidosryhmia kuulaan ratkaisuvaihtoehdot.
-
-### Loppututulokset
-
-- Hankkeen omat verkkosivut
-- Hankkeen työsuunnnittelma
-- Vieintä- ja kuulemissuunnnittelma
-
-### Liätetoja
-
-- Asetua viranomaisten toiminnan julkisuudesta ja hyväste tiedonhallintavasta 8b (http://www.finlex.fi/fi/laki/ajantasa/2003/20030430#L7P8b)
-- Laki valtioneuvostosta 2 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030175#L1P2)
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Lopputulokset:** hankkeen työsuunnitelma; viestintä- ja
+kuulemissuunnitelma; hankkeen verkkosivut.
 
 ## 2.2 Tietopohjan kokoaminen
 
-Valmistelutiimt täydentää ja syventää esivalmistelussa keräyttyä tietoa. Tiedon hankinnan toimintaan yhteisteisyössä valtioneuvostos kanslian leiketuki- ja julkaistuksikon, eduskunnan kirjaston, muiden ministeriöiden, virastojen, tutkimuslaitosten ja sidosryhmien kanssa. Lainsäädännön tietopohjan kuuluu esim.:
+**Tekijät:** valmistelutiimi.
 
-- kuvaukset ja analyysit nykytilateesta;
-- arviot tulevasta kehityksestä;
-- perustuslakia, perus- ja ihmsioikeusksia, yleislakeja, Ahvenanmaan itsehalinta ja EU-oikeutta koskevien kysymsysten selvittäminen;
-- oikeustalliaisesti pohjioismaien ja muiden keskeisten maiden lainsäädäntöä ja oikeuskäytäntöä;
-- analyysien lain kielisäisi parametamiesista; sekä
-- termi- ja nimistöyn tulokkeet.
+Esivalmistelussa kerättyä tietoa täydennetään: nykytila-analyysit,
+kansainvälinen vertailu, perustuslakikytkentöjä koskevat selvitykset.
+Samalla arvioidaan ulkopuolisten selvitysten tarve.
 
-Valmistelutiimt arviot tarpeet uikopoliisten selvysten ja asiantuntija-avun käyttöön ja valmisteles tarvitta asiassa viestintään asiantuntijoden kanssa. Esityksessä otetaan huomioon uikopoliisten selvysten ja asiantuntijoden käytöstä huomioin virastojen ja laitosten toiminnan ja raholtuksen suunitteloiun aikataulut. Valmistelutiimt valmisteles tarvitta asiassa viestintään asiantuntijoden kanssa, jotka selvyksien selvytyjen ja asiantuntijoden käytöstä.
+**Lopputulokset:** selvitykset nykytilasta ja kehityksestä; kansainvälinen
+vertailu; esitys ulkopuolisten selvitysten tilaamisesta.
 
-### Loppututulokset
+## 2.3 Sidosryhmien kuuleminen tietopohjasta
 
-- Esitys uikopolisten selvysten tilaamista
-- Kansainvälinen vertailo
-- Päätös sidosryhmien kuulemisesta
-- Selvitykkset nykytilasta ja kehityksestä
+**Tekijät:** sidosryhmät.
 
-### Liätetoja
+Asiantuntijoita ja sidosryhmiä kuullaan kootusta tietopohjasta
+(Otakantaa.fi, Lausuntopalvelu.fi). Palaute kootaan ja selvitykset
+päivitetään.
 
-- Lainkirjoittajan opas (http://lainkirjoittaja.finlex.fi/)
-- Tiedonhakupalvelut (Kampus) (https://kampus.vnv.fi/palvelut/Sivut/Tiedonhakupalvelut.aspx?origin?servicecatalog)
+**Lopputulokset:** päivitetyt selvitykset; yhteenveto palautteesta.
 
-## 2.3 Näkemyksen esittäminen
+## 2.4 Hankintapäätös ulkopuolisista selvityksistä
 
-Tietopohja kuullaan asiantuntijelta ja muita sidosryhmia. Osallistuminen ja vuorovaikutuksen käytännön toteutumisesta asiatuntijoden kanssa. Toteututuksessa voidaan käyttää Otakantaa.fi (http://www.otakantaa.fi/fi-FI) palveluita tai lausuntopälveluia. Sidosryhmien palaute kootaan.
+**Tekijät:** virkamiesjohto.
 
-### Loppututulokset
+Päätetään ulkopuolisten selvitysten ja asiantuntija-avun hankkimisesta ja
+rahoituksesta.
 
-- Päivitelly esitys uikopolisen selvysten tilamista
-- Päivittelty selvykkset nykytilasta ja kehityksestä
-- Yhteenveto sidosryhmien palautteesta
+**Lopputulokset:** hankintasopimus; ulkopuoliset selvitykset.
 
-### Liätetoja
+## 2.5 Ratkaisuvaihtoehdot ja vaikutusten arviointi
 
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Tekijät:** valmistelutiimi; ministeriä informoidaan.
 
-## 2.4 Hankintapäätös uikopolisista selvytksisstä
+Pääkysymysten ratkaisuvaihtoehdot täsmennetään ja alustavaa vaikutusten
+arviointia täydennetään. Vaikutusten arviointi kirjataan erilliseen
+asiakirjaan (taloudelliset vaikutukset, viranomaisvaikutukset,
+ympäristövaikutukset, muut yhteiskunnalliset vaikutukset).
 
-Virkamieshohto päättää uikopolisten selvysten ja asiantuntija-avun hankinnasta. Jos hankkinta rahcitettaan ministerion määräraho, päätettään myös raholtuksesta.
+**Lopputulokset:** vaikutusten arviointi; päivitykset verkkosivuille ja
+Hankeikkunaan.
 
-### Loppututulokset
+## 2.6 Sidosryhmien kuuleminen vaihtoehdoista
 
-- Hankintasopimus
-- Tulossopimus ministerion alaisen viraston tai laitoisen kanssa
-- Uikopoliisien selvytkset
+**Tekijät:** sidosryhmät.
 
-## 2.5 Ratkaisuvaihtoehot ja niiden vaikutusten arviointi
+Kuullaan ratkaisuvaihtoehdoista ja vaikutusten arvioinnista. Jos esityksellä
+on vaikutuksia julkisen hallinnon tiedonhallintaan, pyydetään
+valtiovarainministeriön lausunto (laki julkisen hallinnon tiedonhallinnasta
+906/2019, 9 §).
 
-Valmistelutiimt täydentää ja syventää esivalmistelussa tehtyä vaikutusten arviontia. Valmistelutiimt kokoa ja arviot seuraavata:
-
-- asiaa koskevat aiemmat kannanodot ja ehdotukset;
-- asian ryykkila ja muutoksen tarve;
-- kansainväliset kokemukset;
-- turkmuskeita ja selvyyksiksi;
-- oikeuskeisen asiakirja erilistisen asiakijaan asiakirjailisissa oikeusjalissa ja lähettävyksiksi.
-
-Vaikutusten arviointi kirjtaan erilistisen asiakijaan asiakirja arioisitaan muutaksi. Vaikutusten arviointi voidaan myös julistaa tarvittaessa asiakijaan asiakirja asiakijaan arviointiin liittyvissä oloissa.
-
-### Loppututulokset
-
-- Päätös sidosryhmien kuulemisesta
-- Päivitellyt selvykkset nykytilasta ja kehityksestä
-- Tiedote
-- Vaikutusten arviointi
-- [H]Verkkosivujen ja Hankeikkunan päivitys[;sv]Uppdatering av webbsidorna och projektregistret HARE[;en]Verkkosivujen ja Hankeikkunan päivitys[;]
-
-### Liätetoja
-
-- Kielilaki 32 (http://www.finlex.fi/fi/laki/ajantasa/2003/20030423#L7P32)
-- Ohjeet säädösehdotusten vaikutusten arviointista (http://julkaisut.valtioneuvosto.fi/handle/10024/76082)
-- Laki viranomaisten toiminnan julkisuudesta 19–20 (http://www.finlex.fi/fi/laki/ajantasa/1999/19990621#L5P19)
-- Vaikutusten arvioinit (Kampus) (https://kampus.vnv.fi/yhteiseet-toiminnot/Sivut/Vaikutusten-arviointi.aspx)
-
-## 2.6 Näkemyksen esittäminen
-
-Ratkaisuvaihtoehot ja niiden vaikutusten arviointi kuullaan sidosryhmia. Osallistuminen ja vuorovaikutuksen käytännön toteutumisesta asiatuntijoden kanssa. Toteututuksessa voidaan käyttää Otakantaa.fi (http://www.otakantaa.fi/fi-FI) palveluita tai lausuntopälveluia. Sidosryhmien palaute kootaan.
-
-### Loppututulokset
-
-- Päivitelly ratkaisuvaihtoehdot ja niiden vaikutusten arviointi
-- Yhteenveto sidosryhmien palautteesta
-
-### Liätetoja
-
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Lopputulokset:** päivitetty vaikutusten arviointi; yhteenveto palautteesta.
 
 ## 2.7 Arvio tietopohjan riittävyydestä
 
-Valmistelutiimt arviot käyttävässä olevan tietopohjaan riittävyyden. Virkamiesjohto päättää, voidaanko valmistelua jatkaa hankkeella vai tarvitaan lisätietoa.
+**Tekijät:** virkamiesjohto ja valmistelutiimi.
 
-### Loppututulokset
+Arvioidaan, riittääkö käytettävissä oleva tietopohja sisältölinjausten
+tekemiseen, ja päätetään jatkomenettelystä.
 
-- Ehdotus HE-luonnoksen sisällön linjjauksista
+**Lopputulos:** ehdotus HE-luonnoksen sisällön linjauksista.
 
 ## 2.8 Linjaukset HE-luonnoksen sisällöstä
 
-Ministeräi informoidaan ja hän päättää, miten sisälön hallituksen esitysluonnoksen (HE-luonnos) päätössymsyksissä ja paalaataan vaiheisin 2.1-2.7; tai valmistelua ei jatketaa.
+**Tekijät:** ministeri (tai hallitus), virkamiesjohto.
 
-### Loppututulokset
+Ministeri päättää sisällön linjauksista tai vie asian hallituksen
+käsiteltäväksi. Samalla suunnitellaan täytäntöönpanon resursointi ja
+varmistetaan, että tarvittavat määrärahat sisältyvät talousarvioon.
 
-- Luonnos taytäntöönpano- ja seurantasuunnittelmaksi
-- Sisälön linjaukset
+**Lopputulokset:** sisällön linjaukset; luonnos täytäntöönpano- ja
+seurantasuunnitelmaksi.
 
 ## 2.9 HE-luonnoksen laatiminen
 
-Valmistelutiimt kirjoittaa lakiehdotuksen ja sen perusteltu hallituksen esitysluonnoksen. Valmistelu määreittelee valmistelun lopputulos. Osallistuminen ja vuorovaikutuksen käytännön toteutumisesta asiatuntijoden kanssa. Toteututuksessa voidaan käyttää Otakantaa.fi (http://www.otakantaa.fi/fi-FI) palveluita tai lausuntopälveluia. Sidosryhmien palaute kootaan ja julistaan.
+**Tekijät:** valmistelutiimi.
 
-### Loppututulokset
+Lakiehdotus ja perustelut kirjoitetaan hallituksen esityksen muotoon
+noudattaen Hallituksen esitysten laatimisohjeita (HELO) ja Lainkirjoittajan
+opasta. Vaikutusten arviointia täydennetään, tarvittavat asetusluonnokset
+laaditaan ja keskeisten termien luettelo toimitetaan kääntäjille.
 
-- Asetuluonnokset
-- HE-luonnos
-- Päätös sidosryhmien kuulemisesta
+**Lopputulokset:** HE-luonnos; asetusluonnokset; päätös sidosryhmien
+kuulemisesta.
 
-### Liätetoja
+## 2.10 Sidosryhmien kuuleminen luonnoksesta
 
-- Hallituksen esityksen laatimisohjeet (HELO-ohje) (http://helo.finlex.fi/)
-- Lainkirjoittajan opas (http://lainkirjoittaja.finlex.fi/)
+**Tekijät:** sidosryhmät.
 
-## 2.10 HE-luonnoksen näkemyksen esittäminen
+Kuullaan säädösluonnoksista ja niiden täytäntöönpanosta ja esitetään arvio
+lausuntomenettelyn aikataulusta.
 
-Säädösluonnoksiista sekä niiden täytäntöönpanosta ja vaikutusten seuraamisesta kuullaan sidosryhmät. Osallistuminen ja vuorovaikutuksen käytännön toteutumisesta asiatuntijoden kanssa. Toteututuksessa voidaan käyttää Otakantaa.fi (http://www.otakantaa.fi/fi-FI) palveluita tai lausuntopälveluia. Sidosryhmien palaute kootaan.
+**Lopputulokset:** päivitetty HE-luonnos; päivitetty täytäntöönpano- ja
+seurantasuunnitelma; yhteenveto palautteesta.
 
-### Loppututulokset
+## 2.11 HE-luonnoksen hyväksyminen lausuntokierrokselle
 
-- Päivitelly hallituksen esityksen luonnos
-- Päivittelty luonnokset
-- Asetusluonnokset
-- Yhteenveto sidosryhmien palautteesta
+**Tekijät:** ministeri, virkamiesjohto (tai hallitus).
 
-### Liätetoja
+Ministeri päättää luonnoksen viemisestä lausuntomenettelyyn. Vaihtoehtoina
+on myös palata aikaisempiin vaiheisiin tai lopettaa valmistelu.
 
-- Säädösvalmistelun kuulemisopas (http://kuulemisopas.finlex.fi/)
+**Lopputulokset:** hyväksytty HE-luonnos; hyväksytyt asetusluonnokset;
+täytäntöönpano- ja seurantasuunnitelma.
 
-## 2.11 HE-luonnoksen hyväksyminen
+## Työkalut, ohjeet ja keskeiset säädökset
 
-Ministeräi informoidaan hallituksen esityksen luonnoksesta (HE-luonnos) ja hän päättää luonnoksen käsittelemisestä. Ministeri voi päättää asioista itse, vieä asian käsittelyyn hallituksen piirissä tai delegoida asian virkamiesjohtolle. Esityksen käsittelyn tuloksena:
+- **Otakantaa.fi** ja **Lausuntopalvelu.fi** — kuuleminen
+- **Hankeikkuna** ja **VAHVA** — hanke- ja asianhallinta
+- **HELO** — Hallituksen esitysten laatimisohjeet (ks. skill
+  `hallituksen-esityksen-laatimisohjeet`)
+- **Lainkirjoittajan opas** — säädöstekniikka (ks. skill
+  `lainkirjoittajan-opas`)
+- Julkisuusperiaate valmistelussa: laki viranomaisten toiminnan
+  julkisuudesta (621/1999) 19–20 § sekä asetus viranomaisten toiminnan
+  julkisuudesta ja hyvästä tiedonhallintatavasta (1030/1999)
+- Tiedonhallintavaikutukset: laki julkisen hallinnon tiedonhallinnasta
+  (906/2019) 9 §
 
-- päätettään etenemiestä esityksen valmistelukaa;
-- paalaataan vaiheisin 2.1-2.9.; tai
-- valmistelua ei jatketaa.
+## Lukulähde
 
-### Loppututulokset
-
-- Hyväksytty asetuluonnokset
-- Hyväksytty HE-luonnos
-- Täytäntöönpano- ja seurantasuunnitelma
-
-## 2b. Perusvalmistelu - Valmisteluelin
-
-Perusvalmistelu tehdään valmisteluelimen kautta silloin, kun valmistelu tapahtuu ministeriön ulkopuolisessa organisaatiossa, kuten komiteassa tai työryhmässä. Valmisteluelin noudattaa samaa prosessia kuin virkatyö, mutta on erillinen organisaatio.
-
-Valmisteluelin määritellään hankkeen asettamiseksi perustuslain mukaisesti. Valmisteluelin voi olla komitea, työryhmä tai muu hallinnon elin. Valmisteluelin asettaa työsuunnitelman, jonka hyväksyy ministeri.
-
-Valmisteluelin noudattaa samaa prosessia kuin virkatyö:
-- Valmistelun organisointi
-- Tietopohjan kokoaminen
-- Näkemyksen esittäminen (useita kierroksia)
-- Ratkaisuvaihtoehtojen ja vaikutusten arviointi
-- Arvio tietopohjan riittävyydestä
-- Linjaukset HE-luonnoksen sisällöstä
-- HE-luonnoksen laatiminen
-- HE-luonnoksen hyväksyminen
-
-Valmisteluelin lopettaa työnsä, kun se on toimittanut loppuraporttinsa ministeriolle.
+Lainvalmistelun prosessiopas, vaiheet 2a–2b: Perusvalmistelu
+(https://lainvalmistelu.finlex.fi/2a-perusvalmistelu-virkatyo/).

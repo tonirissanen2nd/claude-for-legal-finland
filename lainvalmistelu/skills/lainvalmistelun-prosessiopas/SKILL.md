@@ -5,148 +5,121 @@ description: "Opas lainsäädännön valmisteluprosessista Suomessa. Sisältää
 
 # Lainvalmistelun prosessiopas
 
-Oikeusministeriön julkaisema opas kuvaa lainsäädännön valmistelun prosessia Suomessa. Tämä opas auttaa ymmärtämään, miten lait valmistellaan ministeriöissä ja kuinka ne siirtyvät eduskunnan käsittelyyn.
+Tämä skill kuvaa lainvalmistelun kulun Suomessa Lainvalmistelun
+prosessioppaan (https://lainvalmistelu.finlex.fi/) mukaisesti: kuka tekee,
+mitä tehdään ja mitä kustakin vaiheesta syntyy. Käytä sitä hankkeen
+vaiheistamiseen, aikataulutukseen ja sen hahmottamiseen, mitä missäkin
+vaiheessa pitää olla valmiina.
 
-## Lakien säätäminen
+## Lähtökohdat
 
-Suomen perustuslain mukaan lainsäädäntövaltaa käyttää eduskunta. Lait valmistellaan ministeriöissä ja hallinnolla on merkittävä rooli lainsäädäntöprosessissa.
+- Lainsäädäntövaltaa käyttää eduskunta (perustuslaki 731/1999). Lait
+  valmistellaan ministeriöissä, ja valmistelun laatu ratkaisee pitkälti
+  lopputuloksen laadun.
+- Kuuleminen on osa hyvää lainvalmistelua: sidosryhmillä on mahdollisuus
+  lausua kantansa valmistelun aikana, ei vasta eduskuntakäsittelyssä.
+- EU-säädöksen kansallinen täytäntöönpano kulkee saman prosessin läpi;
+  liikkumavara ja täytäntöönpanon määräajat selvitetään valmistelussa.
 
-### Lainsäädäntöprosessin periaatteet
-
-- **Perustuslain soveltaminen**: Hallituksen esitykset käsitellään eduskunnassa valittujen menettelyiden mukaisesti
-- **Lausuntomenettelyt**: Sidosryhmille ja asianosaisille annetaan mahdollisuus lausua kantansa ennen eduskuntakäsittelyä
-- **Yhteistoiminta**: Virkamiehet ja asiantuntijat yhteistyössä valmistelevat lainsäädäntöä
-- **EU-sääntöjen huomioiminen**: Kun EU-säädösten osalta hankkeen valmistelua käsitellään, Suomi noudattaa EU:n vaatimuksia
-
-## Lainvalmistelun prosessin yleiskatsaus
+## Prosessin yleiskatsaus
 
 ```
-Aloite → 1 Esivalmistelu → 2a Perusvalmistelu (Virkatyö) / 2b Perusvalmistelu (Valmisteluelin)
+Aloite → 1 Esivalmistelu → 2a Perusvalmistelu (virkatyö) / 2b (valmisteluelin)
   → 3 Lausuntomenettely → 4 Jatkovalmistelu → 5 Valtioneuvoston päätöksenteko
-  → 6 Eduskuntakäsittely → 7 Lain vahvistaminen → Säädöskokoelmassa julkaistu laki
+  → 6 Eduskuntakäsittely → 7 Lain vahvistaminen → julkaisu säädöskokoelmassa
   → Täytäntöönpano ja seuranta
 ```
 
-## Prosessin pääaskeleet
+## Prosessin päävaiheet
 
 ### 1. Esivalmistelu
 
-Esivalmistelu on lainsäädäntöprosessin ensimmäinen vaihe. Siinä koottaa tietoa nykemyksistä lainsäädäntäelua koskevasta aikaista ja ongelmalista, arvioitaan lainsäädänteluhankkeen käynnistämisen tarve ja sunnnitellaan tulevaa hankkeita.
-
-**Pääaskeleet:**
-- Tavoitteen tai ongelman määrittäminen
-- Alustava kartoitus
-- Näkemyksen esittäminen sidosryhmille
-- Päätös esivalmistelun käynnistämisestä
-- Esivalmistelun tekeminen
-- Näkemyksen esittäminen uudelleen
-- Päätös hankkeen asettamisesta
+Kootaan tieto ongelmasta ja nykytilasta, arvioidaan hankkeen tarve ja
+suunnitellaan hanke. Päävaiheet: tavoitteen tai ongelman määrittäminen →
+alustava kartoitus → sidosryhmien näkemykset → päätös esivalmistelun
+käynnistämisestä → esivalmistelun tekeminen → näkemykset tuloksista →
+päätös hankkeen asettamisesta.
 
 [Katso yksityiskohtainen ohje: Esivalmistelu](references/esivalmistelu.md)
 
-### 2a. Perusvalmistelu - Virkatyö
+### 2a–2b. Perusvalmistelu
 
-Perusvalmistelu tehdään joko virkatyönä tai valmisteluelin. Perusvalmistelun tehtäviin kuuluu tietojen kokoaminen, hallituksen esitysluonnoksen (HE) valmistelu sekä lausuntojen huomioon ottaminen.
-
-**Pääaskeleet virkatyössä:**
-- Valmistelun organisointi
-- Tietopohjan kokoaminen
-- Näkemyksen esittäminen (useita kierroksia)
-- Arvio tietopohjan riittävyydestä
-- Linjaukset HE-luonnoksen sisällöstä
-- HE-luonnoksen laatiminen
-- HE-luonnoksen hyväksyminen
-
-[Katso yksityiskohtainen ohje: Perusvalmistelu](references/perusvalmistelu.md)
-
-### 2b. Perusvalmistelu - Valmisteluelin
-
-Valmisteluelimenä voi olla komitea, työryhmä tai muu hallinnon elin. Valmisteluelin noudattaa samaa prosessia kuin virkatyö, mutta on erillinen organisaatio ministeriön sisällä tai ulkopuolella.
+Työläin vaihe: tietopohja, ratkaisuvaihtoehdot, vaikutusten arviointi ja
+HE-luonnoksen kirjoittaminen. Tehdään virkatyönä (2a) tai
+valmisteluelimessä, kuten työryhmässä tai komiteassa (2b). Päävaiheet:
+valmistelun organisointi → tietopohjan kokoaminen → kuulemiset →
+ratkaisuvaihtoehdot ja vaikutusten arviointi → linjaukset → HE-luonnoksen
+laatiminen → luonnoksen hyväksyminen lausuntokierrokselle.
 
 [Katso yksityiskohtainen ohje: Perusvalmistelu](references/perusvalmistelu.md)
 
 ### 3. Lausuntomenettely
 
-Lausuntomenettelyä siirrellään lausuntoja sidosryhmiltä ja asianosaisilta. Lausuntopyyntö liitetään yleensä hallituksen esitysluonnokseen (HE-luonnos) tai valmisteluelimen lopputulokseen.
-
-**Pääaskeleet:**
-- Päätös lausuntojen antamisesta
-- Lausuntopyyntöjen valmistelu
-- Käänteäminen
-- Lausuntojen lähettäminen
-- Lausuntojen käsittely
-- Lausuntojen analysointi ja tiivistelmän laatiminen
-- Lausuntopalautteen julkaiseminen
-- Päätös valmistelun jatkamisesta
+HE-luonnoksesta pyydetään kirjalliset lausunnot; pyyntö ja lausunnot ovat
+julkisia. Päävaiheet: päätös lausuntomenettelystä → lausuntopyynnön
+valmistelu → kääntäminen → pyynnön lähettäminen ja julkaisu → lausuntojen
+antaminen → läpikäynti ja tiivistelmä → palautteen julkaiseminen → päätös
+valmistelun jatkamisesta.
 
 [Katso yksityiskohtainen ohje: Lausuntomenettely](references/lausuntomenettely.md)
 
 ### 4. Jatkovalmistelu
 
-Jatkovalmistelun tehtävänä on hallituksen esityksen (HE) viimeisteleminen lausuntojen perusteella. Tämä sisältää oikeudellisen tarkastelun, käännökset ja muun tekniikan viimeistelemisen.
-
-**Pääaskeleet:**
-- Palautteen anto lausujille
-- Neuvottelu (tarvittaessa)
-- Päätös HE:n sisällöstä
-- Oikeudellinen tarkastelu
-- Käännökset
-- Muistio muutoksista
-- Tekniikan viimeistely
-- Laintarkastus
-- HE:n käänteäminen
-- HE:n valmistelu valtioneuvoston käsittelyä varten
+Esitys viimeistellään palautteen pohjalta: sisältöpäätös, mahdollinen
+lainsäädännön arviointineuvoston käsittely (varaa noin neljä viikkoa),
+kääntäminen, oikeusministeriön laintarkastus, tekninen viimeistely ja
+esittelylistat.
 
 [Katso yksityiskohtainen ohje: Jatkovalmistelu](references/jatkovalmistelu.md)
 
 ### 5. Valtioneuvoston päätöksenteko
 
-Ministerineuvosto käsittelee hallituksen esityksen ja hyväksyy sen eduskuntaan lähetettäväksi.
+Valtioneuvoston yleisistunto päättää hallituksen esityksen antamisesta
+eduskunnalle. Taloudellisesti merkittävät asiat käsitellään sitä ennen
+raha-asiainvaliokunnassa.
 
 ### 6. Eduskuntakäsittely
 
-Eduskunta käsittelee hallituksen esityksen kolmella käsittelykerralla ja antaa sille ensimmäisen, toisen ja kolmannen lukemisen.
+Lakiehdotus käsitellään täysistunnossa **kahdessa käsittelyssä**:
+lähetekeskustelun jälkeen asia menee valiokuntaan, jonka mietinnön pohjalta
+ensimmäisessä käsittelyssä päätetään lakiehdotuksen sisällöstä ja toisessa
+käsittelyssä sen hyväksymisestä tai hylkäämisestä. Eduskunnan vastaus
+toimitetaan valtioneuvostolle.
 
 ### 7. Lain vahvistaminen
 
-Kun eduskunta on hyväksynyt lain, se lähetetään kuninkaan vahvistettavaksi ja julkaistaan säädöskokoelmassa.
+**Tasavallan presidentti vahvistaa** eduskunnan hyväksymän lain
+(perustuslaki 731/1999, 77 §). Laki julkaistaan Suomen säädöskokoelmassa.
 
 [Katso yksityiskohtainen ohje: Valtioneuvoston päätöksenteko ja eduskuntakäsittely](references/paatoksenteko-ja-eduskunta.md)
 
 ## Täytäntöönpano ja seuranta
 
-Lain tultua voimaan sen täytäntöönpanosta ja vaikutuksista seurataan. Hallinto vastaa lain noudattamisesta ja käyttöönotto-ohjeista.
+Lain tultua voimaan huolehditaan toimeenpanosta (ohjeistus, koulutus,
+tietojärjestelmät, viestintä) ja seurataan vaikutuksia sekä mahdollisia
+korjaustarpeita.
 
 [Katso yksityiskohtainen ohje: Täytäntöönpano ja seuranta](references/taytantoonpano.md)
 
-## Aloitteen lähteet
+## Mistä hanke saa alkunsa
 
-Lainsäädäntäprosessin aloite voi tulla:
-
-- **Hallitusohjelma**: Hallituksen poliittiset tavoitteet
-- **Eduskunnan lausuma**: Eduskunnan antama lausuma
-- **Kansalaisaloite**: Kansalaisille annettu mahdollisuus tehdä aloite
-- **Valtio talousarvio**: Hallituksen taloussuunnittelu
-- **Kansallinen lainsäädäntö**: Muiden lakien muutostarpeet
-- **EU-tuomioistuimen ratkaisut**: EU:n oikeuskäytäntö
-- **Sidosryhmien esitykset**: Eri tahojen ehdotukset
-
-## Osallistujat prosessissa
-
-- **Ministeriö**: Vastuussa lain valmistelusta
-- **Virkamiehet**: Suorittavat valmistelun operatiivisen työn
-- **Asiantuntijat**: Antavat tietoa ja neuvontaa
-- **Sidosryhmät**: Antavat lausuntonsa
-- **Eduskunta**: Käsittelee ja hyväksyy lain
-- **Kuninkaan neuvonantajat**: Vahvistavat lain
+- **Hallitusohjelma** — hallituksen poliittiset tavoitteet
+- **EU-säädös** — täytäntöönpanoa edellyttävä direktiivi tai asetus
+- **Eduskunnan lausuma** — eduskunnan edellyttämä valmistelu
+- **Kansalaisaloite** — vähintään 50 000 allekirjoitusta
+- **Tuomioistuinratkaisut** — kansallinen tai EU-oikeuskäytäntö paljastaa muutostarpeen
+- **Viranomaisten ja sidosryhmien aloitteet** — soveltamisessa havaitut ongelmat
 
 ## Hyödyllisiä lähteitä
 
-- **Säädösvalmistelun kuulemisopas**: Opas lausuntojen käsittelyyn
-- **Hallituksen esityksen laatimisohjeet (HELO-ohje)**: Hallituksen esitysten valmistelun ohjeet
-- **Lainkirjoittajan opas**: Lain kirjoittamisen tekniikka
-- **Otakantaa.fi**: Valtioneuvostojen kuulemispalvelu
-- **Finlex**: Suomen lainsäädännön tietokanta
+- **Lainvalmistelun prosessiopas**: https://lainvalmistelu.finlex.fi/
+- **Säädösvalmistelun kuulemisopas** — kuulemisen ohjeistus
+- **Hallituksen esitysten laatimisohjeet (HELO)** — ks. skill
+  `hallituksen-esityksen-laatimisohjeet`
+- **Lainkirjoittajan opas** — ks. skill `lainkirjoittajan-opas`
+- **Hankeikkuna** — valtioneuvoston hanketietopalvelu
+- **Otakantaa.fi** ja **Lausuntopalvelu.fi** — kuulemisen palvelut
+- **Finlex** — säädökset ja esityöt
 
 ## Mitä tämä skill EI tee
 
