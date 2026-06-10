@@ -22,7 +22,12 @@ tai paikallisesta polusta kehittäessä:
 /plugin install juristi@claude-for-legal-finland
 ```
 
-Saatavilla myös `lainvalmistelu@claude-for-legal-finland` (säädösvalmistelu).
+`juristi` on läpileikkaava perusta, joka kannattaa asentaa aina. Sen päälle
+asennetaan oman alan plugarit samalla kaavalla
+(`<plugari>@claude-for-legal-finland`): `lainvalmistelu`, `lausunnot`,
+`sopimukset`, `tyooikeus`, `tietosuoja`, `tekoalysaantely`, `hallinto-oikeus`,
+`riidanratkaisu`, `yhtiooikeus`, `insolvenssi` ja `immateriaalioikeus`.
+Koko luettelo skilleineen: [SKILLS.md](SKILLS.md).
 
 Kun kysytään "this project / all projects", **valitse user scope.** Muuten plugari
 ei saa lukea projektikansion ulkopuolisia tiedostoja (esim. sopimus Downloadsissa).
@@ -56,10 +61,13 @@ redlineäminen jälkimuutoksina) dokumenttiplugareissa ja **EU AI Act** (`@lexbe
 
 ## 5. Kokeile
 
+- "Sain tämän asiakirjan, mitä teen?" → `toimeksianto` (määräaikaskannaus ensin)
 - "Tarkista tämä sopimus" → `asiakirjan-tarkistus`
 - "Mitä kuntalaki sanoo toimivallan siirrosta? Onko KHO-käytäntöä?" → `oikeustutkimus`
 - "Korjaa tämän pykäläviittauksen muoto" → `juristi`
 - "Laadi muutos kuntalain 7 §:ään ja sen perustelut HE-muotoon" → `lainvalmistelu`
+- "Käy tämä osakassopimusluonnos läpi" → `osakassopimus`
+- "Asiakas ei maksa laskuja — mitä vaihtoehtoja?" → `saatavien-perinta` / `maksukyvyttomyysarvio`
 
 ## Muista
 
