@@ -105,8 +105,7 @@ Esimerkki: "Kumotaan laki X päivän y kuusta z vuonna n annetusta laista."
 Pykälät numeroidaan yhtenä juoksevana sarjana koko säädöksen läpi. Säädöksen pykälät numeroidaan 1 §:stä alkaen.
 
 Pykälän numero merkitään §-merkillä:
-- 1 § (lue: yksi pykälä)
-- 2 § (lue: kaksi pykälää)
+- 1 §, 2 § — luetaan järjestyslukuna: ensimmäinen pykälä, toinen pykälä
 
 ### Momentit
 

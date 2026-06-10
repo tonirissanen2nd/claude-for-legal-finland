@@ -101,8 +101,7 @@ Termit, joita käytetään yleisesti lain soveltajien keskuudessa, voidaan jätt
 ### Pykälän merkintä
 
 Pykälä merkitään symbolilla §:
-- "1 §" (lue: yksi pykälä)
-- "2 §" (lue: kaksi pykälää)
+- "1 §", "2 §" — luetaan järjestyslukuna: ensimmäinen pykälä, toinen pykälä
 
 Kun viitataan pykälään, käytetään tätä merkintää.
 
