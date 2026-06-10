@@ -111,6 +111,7 @@ Kun kirjoitat tai tarkistat juridista tekstiä, käy läpi:
 
 ## Jatka tästä
 
+- Uusi toimeksianto alkaa tai käyttäjä antaa aineiston ilman ohjetta → /juristi:toimeksianto (määräaikaskannaus ensin)
 - Lain sisältö, voimassaolo tai oikeuskäytäntö pitää varmistaa lähteestä → /juristi:oikeustutkimus
 - Valmis juridinen asiakirja pitää tarkistaa järjestelmällisesti ennen käyttöä → /juristi:asiakirjan-tarkistus
 - Suomenkielinen teksti pitää oikolukea ja viimeistellä kielellisesti → /juristi:suomen-kieli

@@ -12,6 +12,7 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 | Skill | Mitä tekee |
 |---|---|
 | **juristi** | Suomalaisen lakikielen ja lainsäädännön yleisapuri: säädösten rakenne, pykäläviittausten oikea muoto, lakikielen kirjoitussäännöt, sopimukset ja oikeuslähteet. Käynnistyy automaattisesti, kun työskennellään juridisen sisällön kanssa. |
+| **toimeksianto** | Uuden jutun aloitus ja aineiston haltuunotto: määräaikaskannaus ensin, toimeksiantohaastattelu, esteellisyysmuistilista ja juttukansion työtilarakenne. Sisältää hiljaisen latauksen protokollan — asiakirja ilman ohjetta otetaan haltuun määräajat edellä. |
 | **oikeustutkimus** | Hakee voimassa olevan lain ja oikeuskäytännön oik.ai-/Finlex-MCP:stä, lukee ne ja viittaa oikein. Estää muistinvaraiset ja keksityt pykälät ja ratkaisutunnukset. |
 | **asiakirjan-tarkistus** | Juridisen asiakirjan monivaiheinen laaduntarkistus suomalaisessa kontekstissa: konteksti, käytettävyys, kieli, rakenne, oikeellisuus (lähdetarkistus), täydellisyys, riski ja käyttövalmius. |
 | **suomen-kieli** | Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeet (Kielitoimiston ohjepankki). Juristi-skill viittaa tähän kielenhuollossa. |
