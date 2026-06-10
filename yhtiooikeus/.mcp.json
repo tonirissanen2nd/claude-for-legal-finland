@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Yhtiöoikeudessa: muokkaa olemassa olevaa osakassopimusta, yhtiöjärjestystä tai kauppakirjaa natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Yhtiöoikeudessa: tarkista osakeyhtiölain (624/2006), kaupparekisterilain (564/2023) ja kilpailulain (948/2011) voimassa oleva sanamuoto sekä oikeuskäytäntö (mm. KKO). Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "corporate",
+    "documents"
+  ]
+}

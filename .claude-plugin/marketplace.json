@@ -86,6 +86,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "yhtiooikeus",
+      "displayName": "Yhtiöoikeus",
+      "source": "./yhtiooikeus",
+      "description": "Suomen yhtiöoikeus (osakeyhtiölaki 624/2006): perustaminen ja hallinto, yhtiökokous ja hallitustyö, johdon vastuu, varojenjaon kaksoistesti, osakassopimusten laatiminen ja riskitarkistus sekä yritysjärjestelyt due diligence -listoineen.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
