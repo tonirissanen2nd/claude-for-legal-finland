@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **9 plugaria** ja **27 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **11 plugaria** ja **33 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -112,6 +112,30 @@ Riita-asian ratkaiseminen yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/17
 | [`haastehakemus`](riidanratkaisu/skills/haastehakemus/SKILL.md) | Riita-asian haastehakemuksen laatiminen ja tarkistus oikeudenkäymiskaaren (4/1734) mukaan: kantajan vaatimukset, niiden perusteet, todisteet, oikeudenkäyntikulut, toimivalta ja prosessiosoite. Käytä tätä skilliä, kun käyttäjä panee vireill… |
 | [`muutoksenhaku-tuomioon`](riidanratkaisu/skills/muutoksenhaku-tuomioon/SKILL.md) | Muutoksenhaku yleisen tuomioistuimen tuomioon oikeudenkäymiskaaren (4/1734) mukaan: valitus käräjäoikeuden tuomiosta hovioikeuteen ja jatkokäsittelylupa, valitus korkeimpaan oikeuteen ja valituslupa, tyytymättömyyden ilmoitus, määräajat ja… |
 | [`todistelu`](riidanratkaisu/skills/todistelu/SKILL.md) | Riita-asian todistelun suunnittelu ja arviointi oikeudenkäymiskaaren (4/1734) 17 luvun mukaan: näyttötaakka, todistuskeinot (asiakirjat, todistajat, asiantuntijat, katselmus, asianosaisen kuuleminen), todistusteemat ja todistelun rajoituks… |
+
+## Yhtiöoikeus
+
+`/plugin install yhtiooikeus@claude-for-legal-finland` — [`./yhtiooikeus/`](./yhtiooikeus/)
+
+Suomen yhtiöoikeus (osakeyhtiölaki 624/2006): perustaminen ja hallinto, yhtiökokous ja hallitustyö, johdon vastuu, varojenjaon kaksoistesti, osakassopimusten laatiminen ja riskitarkistus sekä yritysjärjestelyt due diligence -listoineen.
+
+| Skill | Kuvaus |
+|---|---|
+| [`osakassopimus`](yhtiooikeus/skills/osakassopimus/SKILL.md) | Osakassopimuksen laatiminen ja riskitarkistus Suomen oikeuden mukaan. Käytä tätä skilliä, kun käyttäjä laatii, neuvottelee, tarkistaa tai tulkitsee osakassopimusta tai sen lausekkeita: päätöksenteko ja hallituspaikat, osakkeiden luovutusra… |
+| [`yhtion-hallinto`](yhtiooikeus/skills/yhtion-hallinto/SKILL.md) | Osakeyhtiön perustaminen, hallinto ja johdon vastuu Suomen osakeyhtiölain (624/2006) mukaan. Käytä tätä skilliä, kun käyttäjä perustaa osakeyhtiötä, laatii tai muuttaa yhtiöjärjestystä, valmistelee yhtiökokousta tai hallituksen kokousta (k… |
+| [`yritysjarjestelyt`](yhtiooikeus/skills/yritysjarjestelyt/SKILL.md) | Yritysjärjestelyjen oikeudellinen jäsennys Suomen oikeuden mukaan: osakekauppa, liiketoimintakauppa, sulautuminen, jakautuminen ja oikeudellinen due diligence. Käytä tätä skilliä, kun käyttäjä valmistelee, arvioi tai dokumentoi yrityskaupp… |
+
+## Insolvenssi
+
+`/plugin install insolvenssi@claude-for-legal-finland` — [`./insolvenssi/`](./insolvenssi/)
+
+Suomen insolvenssioikeus: maksukyvyttömyystilanteen arviointi ja menettelyn valinta (konkurssi 120/2004, yrityssaneeraus 47/1993, velkajärjestely 57/1993), konkurssimenettely velkojan ja velallisen näkökulmasta sekä saatavien perintä, vanhentuminen ja ulosotto.
+
+| Skill | Kuvaus |
+|---|---|
+| [`konkurssimenettely`](insolvenssi/skills/konkurssimenettely/SKILL.md) | Konkurssimenettelyn kulku Suomen konkurssilain (120/2004) mukaan velkojan ja velallisen näkökulmasta. Käytä tätä skilliä, kun käyttäjä valmistelee tai arvioi konkurssihakemusta, on saanut tiedon vastapuolen konkurssista, valvoo saatavaa ko… |
+| [`maksukyvyttomyysarvio`](insolvenssi/skills/maksukyvyttomyysarvio/SKILL.md) | Maksukyvyttömyystilanteen jäsennys ja menettelyn valinta Suomen insolvenssioikeuden mukaan. Käytä tätä skilliä, kun yrityksen tai yksityishenkilön maksukyky horjuu tai velkaa ei pystytä maksamaan ja pitää arvioida vaihtoehdot: vapaaehtoine… |
+| [`saatavien-perinta`](insolvenssi/skills/saatavien-perinta/SKILL.md) | Saatavan perinnän elinkaari Suomen oikeuden mukaan: vapaaehtoinen perintä ja hyvä perintätapa (perintälaki 513/1999), velan vanhentumisen hallinta ja katkaisu (728/2003), oikeudellinen perintä ja ulosotto (ulosottokaari 705/2007). Käytä tä… |
 
 ---
 

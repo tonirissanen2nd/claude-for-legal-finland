@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Insolvenssiasioissa: muokkaa olemassa olevaa maksusopimusluonnosta, valvontakirjelmää tai saneerausohjelmaluonnosta natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Insolvenssiasioissa: tarkista konkurssilain (120/2004), yrityssaneerauslain (47/1993), velkajärjestelylain (57/1993), ulosottokaaren (705/2007) ja vanhentumislain (728/2003) voimassa oleva sanamuoto sekä KKO:n ratkaisukäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "insolvency",
+    "documents"
+  ]
+}

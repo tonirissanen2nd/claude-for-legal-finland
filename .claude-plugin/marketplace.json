@@ -95,6 +95,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "insolvenssi",
+      "displayName": "Insolvenssi",
+      "source": "./insolvenssi",
+      "description": "Suomen insolvenssioikeus: maksukyvyttömyystilanteen arviointi ja menettelyn valinta (konkurssi 120/2004, yrityssaneeraus 47/1993, velkajärjestely 57/1993), konkurssimenettely velkojan ja velallisen näkökulmasta sekä saatavien perintä, vanhentuminen ja ulosotto.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }

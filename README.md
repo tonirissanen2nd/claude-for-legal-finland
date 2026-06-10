@@ -54,6 +54,7 @@ markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
 | **[hallinto-oikeus](hallinto-oikeus/)** | Hallintopäätös (hallintolaki 434/2003), muutoksenhaku (808/2019) ja asiakirjajulkisuus/tietopyynnöt (julkisuuslaki 621/1999). | ✅ Saatavilla |
 | **[riidanratkaisu](riidanratkaisu/)** | Riita-asia yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/1734): haastehakemus, todistelu, muutoksenhaku. | ✅ Saatavilla |
 | **[yhtiöoikeus](yhtiooikeus/)** | Osakeyhtiölaki (624/2006): perustaminen ja hallinto, johdon vastuu, varojenjako, osakassopimukset, yritysjärjestelyt ja DD. | ✅ Saatavilla |
+| **[insolvenssi](insolvenssi/)** | Maksukyvyttömyys: menettelyn valinta (konkurssi 120/2004, saneeraus 47/1993, velkajärjestely 57/1993), konkurssimenettely, perintä ja ulosotto. | ✅ Saatavilla |
 
 ## Aloitus
 

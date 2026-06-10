@@ -1,0 +1,8 @@
+{
+  "name": "insolvenssi",
+  "version": "0.1.0",
+  "description": "Suomen insolvenssioikeus: maksukyvyttömyystilanteen arviointi ja menettelyn valinta (konkurssi, yrityssaneeraus, velkajärjestely), konkurssimenettely velkojan ja velallisen näkökulmasta sekä saatavien perintä, vanhentuminen ja ulosotto.",
+  "author": {
+    "name": "Aku Nikkola"
+  }
+}
