@@ -99,3 +99,5 @@ Ehdota laajan tai suuririskisen sopimuksen kohdalla `sopimuksen-tarkistus`-skill
 - Työsopimuksen laatiminen Suomen työoikeuden mukaan → /tyooikeus:tyosopimus
 - Henkilötietojen käsittely sopimuksessa (käsittelysopimus, tietosuojaehdot) → /tietosuoja:tietosuoja-arviointi
 - Valmiin sopimustekstin perusteellinen laadun- ja kielentarkistus → /juristi:asiakirjan-tarkistus
+- Osakassopimus tai yhtiöoikeudellinen kytkös → /yhtiooikeus:osakassopimus
+- NDA tai liikesalaisuuksien suojaehdot → /immateriaalioikeus:liikesalaisuudet

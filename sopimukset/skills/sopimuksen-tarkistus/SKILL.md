@@ -95,3 +95,5 @@ tutussa Track Changes -muodossa. Aseta `author_name` selkeästi.
 - Perusteellinen rakenteellinen laadun- ja kielentarkistus (8 vaihetta) → /juristi:asiakirjan-tarkistus
 - Sopimuksen henkilötietoehtojen tietosuoja-arviointi → /tietosuoja:tietosuoja-arviointi
 - Jos sopimus on riitautunut tai rikottu → /riidanratkaisu:haastehakemus
+- Osakassopimuksen erityiskysymykset (drag/tag, vesting, deadlock) → /yhtiooikeus:osakassopimus
+- Vastapuolen maksukyky epävarma → /insolvenssi:maksukyvyttomyysarvio
