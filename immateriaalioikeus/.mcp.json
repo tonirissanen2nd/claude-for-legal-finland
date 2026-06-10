@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. IPR-asioissa: muokkaa olemassa olevaa lisenssisopimusta, NDA:ta tai varoituskirjettä natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. IPR-asioissa: tarkista tavaramerkkilain (544/2019), tekijänoikeuslain (404/1961), liikesalaisuuslain (595/2018) ja patenttilain (550/1967) voimassa oleva sanamuoto sekä markkinaoikeuden ja KKO:n ratkaisukäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "intellectual-property",
+    "documents"
+  ]
+}

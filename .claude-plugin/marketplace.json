@@ -104,6 +104,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "immateriaalioikeus",
+      "displayName": "Immateriaalioikeus",
+      "source": "./immateriaalioikeus",
+      "description": "Suomen immateriaalioikeus: tavaramerkin ja toiminimen suojastrategia ja sekaannusvaara-arvio (544/2019 ja 128/1979), tekijänoikeus DSM-uudistuksineen ja lisensointi (404/1961) sekä liikesalaisuuksien suojaohjelma ja loukkaustilanteet (595/2018). Markkinaoikeus, PRH ja EUIPO -kytkennät.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
