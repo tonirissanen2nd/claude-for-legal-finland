@@ -158,6 +158,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "kilpailuoikeus",
+      "displayName": "Kilpailuoikeus",
+      "source": "./kilpailuoikeus",
+      "description": "Suomen ja EU:n kilpailuoikeus: kielletyt kilpailunrajoitukset ja määräävän aseman väärinkäyttö itsearviointikehikoineen (kilpailulaki 948/2011, SEUT 101 ja 102 artikla), yrityskauppavalvonta täytäntöönpanokieltoineen sekä compliance-ohjelmat, tietojenvaihdon pelisäännöt ja dawn raid -valmius.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }

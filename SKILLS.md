@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **17 plugaria** ja **52 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **18 plugaria** ja **55 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -209,6 +209,18 @@ Suomen kiinteistö- ja asunto-oikeus: kiinteistökaupan määrämuoto, kirjaukse
 | [`asuntokauppa`](kiinteistot-ja-asuminen/skills/asuntokauppa/SKILL.md) | Asunto-osakkeiden kauppa Suomessa asuntokauppalain (843/1994) mukaan. Käytä tätä skilliä, kun käyttäjä valmistelee tai tarkistaa asunnon ostoa tai myyntiä, arvioi uudiskohteen (RS-kohteen) kauppaa, arvioi kaupan jälkeen ilmennyttä virhettä… |
 | [`kiinteistokauppa`](kiinteistot-ja-asuminen/skills/kiinteistokauppa/SKILL.md) | Kiinteistön kauppa Suomessa maakaaren (540/1995) mukaan. Käytä tätä skilliä, kun käyttäjä valmistelee tai tarkistaa kiinteistön, määräalan tai määräosan kauppaa tai esisopimusta, laatii kauppakirjaa, selvittää lainhuutoa, kiinnityksiä tai… |
 | [`vuokrasopimukset`](kiinteistot-ja-asuminen/skills/vuokrasopimukset/SKILL.md) | Asuin- ja liikehuoneiston vuokrasuhteet Suomessa (laki asuinhuoneiston vuokrauksesta 481/1995 ja laki liikehuoneiston vuokrauksesta 482/1995). Käytä tätä skilliä, kun käyttäjä laatii tai tarkistaa vuokrasopimusta, arvioi vuokrankorotuksen,… |
+
+## Kilpailuoikeus
+
+`/plugin install kilpailuoikeus@claude-for-legal-finland` — [`./kilpailuoikeus/`](./kilpailuoikeus/)
+
+Suomen ja EU:n kilpailuoikeus: kielletyt kilpailunrajoitukset ja määräävän aseman väärinkäyttö itsearviointikehikoineen (kilpailulaki 948/2011, SEUT 101 ja 102 artikla), yrityskauppavalvonta täytäntöönpanokieltoineen sekä compliance-ohjelmat, tietojenvaihdon pelisäännöt ja dawn raid -valmius.
+
+| Skill | Kuvaus |
+|---|---|
+| [`kilpailu-compliance`](kilpailuoikeus/skills/kilpailu-compliance/SKILL.md) | Kilpailuoikeudellinen compliance ja viranomaistarkastuksiin varautuminen Suomessa. Käytä tätä skilliä, kun organisaatio rakentaa tai päivittää kilpailu-compliance-ohjelmaa, laatii pelisääntöjä kilpailijakontakteille, toimialajärjestötoimin… |
+| [`kilpailunrajoitukset`](kilpailuoikeus/skills/kilpailunrajoitukset/SKILL.md) | Kiellettyjen kilpailunrajoitusten ja määräävän markkina-aseman väärinkäytön arviointi Suomen ja EU:n kilpailuoikeuden mukaan (kilpailulaki 948/2011, SEUT 101 ja 102 artikla). Käytä tätä skilliä, kun käyttäjä arvioi sopimuksen, yhteistyön t… |
+| [`yrityskauppavalvonta`](kilpailuoikeus/skills/yrityskauppavalvonta/SKILL.md) | Yrityskauppavalvonta Suomessa ja EU:ssa (kilpailulaki 948/2011 4 luku, EU:n sulautuma-asetus). Käytä tätä skilliä, kun käyttäjä arvioi, pitääkö yrityskauppa ilmoittaa KKV:lle tai komissiolle, valmistelee yrityskauppailmoitusta, suunnittele… |
 
 ---
 

@@ -27,7 +27,8 @@ asennetaan oman alan plugarit samalla kaavalla
 (`<plugari>@claude-for-legal-finland`): `lainvalmistelu`, `lausunnot`,
 `sopimukset`, `tyooikeus`, `tietosuoja`, `tekoalysaantely`, `hallinto-oikeus`,
 `riidanratkaisu`, `yhtiooikeus`, `insolvenssi`, `immateriaalioikeus`,
-`verotus`, `julkiset-hankinnat`, `rikosprosessi` ja `ymparisto-ja-kaavoitus`.
+`verotus`, `julkiset-hankinnat`, `rikosprosessi`, `ymparisto-ja-kaavoitus`,
+`kiinteistot-ja-asuminen` ja `kilpailuoikeus`.
 Koko luettelo skilleineen: [SKILLS.md](SKILLS.md).
 
 Kun kysytään "this project / all projects", **valitse user scope.** Muuten plugari
