@@ -85,10 +85,15 @@ ennen analyysiä (PII Shield, ks. `tietosuoja`-plugarin README).
 
 ## Vaihe 4: Suostumukset, ilmoitukset ja closing
 
-- **Yrityskauppavalvonta (kilpailulaki 948/2011)**: tarkista
-  liikevaihtorajat ja ilmoitusvelvollisuus **lähteestä** — rajat ovat
-  muuttuneet, älä käytä muistinvaraisia lukuja. Ilmoitettava kauppa ei saa
-  pääsääntöisesti täytäntöönpanna ennen hyväksyntää.
+- **Yrityskauppavalvonta (kilpailulaki 948/2011)**: älä koskaan kirjoita
+  johtopäätöstä "ilmoitusvelvollisuus täyttyy / ei täyty" muistinvaraisilla
+  liikevaihtorajoilla — rajat ovat muuttuneet (mm. 2023) ja muistinvarainen
+  luku on todennäköisesti vanhentunut. Oikea muotoilu ilman tarkistettua
+  lähdettä: "laske osapuolten liikevaihdot kilpailulain mukaisesti ja
+  tarkista voimassa olevat rajat 22 §:stä `[tarkista lähteestä]`". Arvio
+  ja prosessi → `kilpailuoikeus:yrityskauppavalvonta`. Ilmoitettavaa
+  kauppaa ei pääsääntöisesti saa panna täytäntöön ennen hyväksyntää
+  (täytäntöönpanokielto).
 - **Kolmansien suostumukset** — change of control -sopimukset, vuokrat,
   rahoittajat, mahdolliset viranomaisluvat (ml. ulkomaisten
   yritysostojen seuranta, jos ostaja EU:n ulkopuolelta — tarkista
@@ -113,6 +118,10 @@ ennen analyysiä (PII Shield, ks. `tietosuoja`-plugarin README).
 
 ## Jatka tästä
 
+- Ilmoitusvelvollisuuden arviointi ja KKV-prosessi → /kilpailuoikeus:yrityskauppavalvonta
+- Ympäristövastuut ja ympäristö-DD → /ymparisto-ja-kaavoitus:ymparistovastuut
+- Ulkomaisen työvoiman työnteko-oikeudet ja tilaajavastuu → /ulkomaalaisoikeus:tyonantajan-velvollisuudet
+- Rahoitus- ja vakuusjärjestelyt → /pankki-ja-rahoitus:rahoitus-ja-vakuudet
 - Kauppakirjan tai NDA:n lausekkeet → /sopimukset:sopimuksen-laatiminen
 - Saadun sopimusluonnoksen riskikäynti → /sopimukset:sopimuksen-tarkistus
 - Sulautumis-/jakautumispäätökset ja pöytäkirjat → /yhtiooikeus:yhtion-hallinto

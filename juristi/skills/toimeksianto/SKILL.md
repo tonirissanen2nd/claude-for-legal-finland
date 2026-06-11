@@ -11,7 +11,10 @@ description: >
   tai tehdä esteellisyys- ja eturistiriitatarkistuksen muistilista.
   Triggeröi ilmaisuista: uusi juttu, uusi toimeksianto, uusi asiakas,
   asiakas toimitti, saimme aineiston, mitä tälle pitäisi tehdä, järjestä
-  tämä, juttukansio, asiakansio, määräaikojen kartoitus.
+  tämä, juttukansio, asiakansio, määräaikojen kartoitus. Kun käyttäjä on
+  saanut kirjelmän, haasteen, lausumapyynnön tai päätöksen ja kysyy mistä
+  aloittaa, ÄLÄ vastaa sisältöön suoraan — tämä skill kartoittaa määräajat
+  ensin, ja sen ohittaminen voi hukata valitus- tai vastausajan.
 ---
 
 # Toimeksianto — jutun aloitus ja aineiston haltuunotto

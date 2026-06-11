@@ -40,8 +40,15 @@ ohjeista `[tarkista]`. EU-tason rajat sulautuma-asetuksesta
    määräysvallan.
 2. **Liikevaihtorajat**: osapuolten liikevaihdot lasketaan
    konsernitasolla; laskentasäännöt (mihin liikevaihto kohdistetaan,
-   ostajan ryhmä, myyjän osalta vain kohde) lähteestä
-   `[rajat — tarkista]`.
+   ostajan ryhmä, myyjän osalta vain kohde) lähteestä. **Jos rajoja ei
+   ole haettu lähteestä tässä istunnossa, älä kirjoita tuotokseen
+   mitään euromääräistä rajalukua — ei edes `[tarkista]`-varauksella.**
+   Muistinvarainen luku on todennäköisesti vanhentunut (rajat muuttuivat
+   2023 olennaisesti alaspäin), ja varauksellakin esitetty vanha luku
+   ohjaa lukijan väärään johtopäätökseen. Kirjoita sen sijaan:
+   "voimassa olevat rajat: kilpailulain 22 § — hae lähteestä ennen
+   johtopäätöstä". Älä esitä johtopäätöstä "ilmoitusvelvollisuus
+   täyttyy / ei täyty" ennen kuin rajat on tarkistettu.
 3. **EU vai KKV?** Sulautuma-asetuksen rajat ylittävä kauppa
    komissiolle (one stop shop); siirtomekanismit molempiin suuntiin —
    tarkista myös komission nykyinen siirtokäytäntö raja-arvot

@@ -63,12 +63,20 @@ kullakin oma virhesäännöstönsä.
    piilevän virheen merkittävyyskynnys lähteestä), tiedonantovirhe,
    **taloudellinen virhe** (yhtiön velat/vastuut kerrottua suuremmat) —
    pinta-alavirheen arviointi käytännön mukaan.
+5. **Kunnossapitovastuun jako** (märkätilavaurioissa keskeinen):
+   tarkistetaan asunto-osakeyhtiölaista **ja yhtiöjärjestyksestä** —
+   älä jaa vastuuta yhtiön ja osakkaan välillä näkemättä
+   yhtiöjärjestystä → `asunto-osakeyhtio`-skill.
 
 ## Reklamaatio ja seuraamukset
 
 - **Kohtuullinen aika havaitsemisesta + ehdoton takaraja** `[ajat —
   tarkista lähteestä; eri kuin kiinteistössä]`. Yksilöi virhe ja
   vaatimus; varauma täydentämisestä.
+- **Todistelun turvaaminen**: ennen korjaus- tai purkutöiden jatkamista
+  dokumentoi vaurio ja varaa **myyjälle** (ja tarvittaessa taloyhtiölle
+  ja vakuutusyhtiölle) tilaisuus tarkastaa se — korjaaminen ennen
+  tarkastusta heikentää näyttöä ja voi kaventaa ostajan oikeuksia.
 - Seuraamukset: hinnanalennus, vahingonkorvaus, purku (olennaisuus).
   Vertailukäytäntö (KKO, kuluttajariitalautakunta) lähteestä.
 - Kuluttaja vs. elinkeinonharjoittaja -asetelma muuttaa keinoja

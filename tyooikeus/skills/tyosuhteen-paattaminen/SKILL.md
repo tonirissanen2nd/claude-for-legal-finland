@@ -40,6 +40,12 @@ oikeuskäytäntö (esim. KKO, Työtuomioistuin). Älä arvioi muistinvaraisesti.
 Tunnista myös **erityissuojatut ryhmät** (esim. raskaana/perhevapaalla oleva, luottamusmies/
 -valtuutettu): korotettu suoja → auto-nosta riski ja merkitse.
 
+Jos laskennan perustana oleva tosiseikka (työsuhteen alkamispäivä, koeajan pituus,
+sopimuksen kesto) on aineistossa **ristiriitainen**, laske kaikki skenaariot rinnakkain
+ja merkitse jokainen `[mallin laskelma — tarkista]` — älä valitse yhtä tulkintaa hiljaa,
+vaikka yksi lähde vaikuttaisi vahvimmalta. Arvioi koeaikapurussa aina myös syrjintäkielto
+ja erityissuoja erillisenä kysymyksenä, vaikka purku näyttäisi kariutuvan jo määräaikaan.
+
 ## Vaihe 2: Arvioi menettely
 - Onko **varoitus** annettu (henkilöperusteinen, kun edellytetään)?
 - Onko työntekijää **kuultu** ennen päätöstä?
@@ -48,6 +54,7 @@ Tunnista myös **erityissuojatut ryhmät** (esim. raskaana/perhevapaalla oleva, 
 - Onko **työn tarjoamis-/koulutusvelvollisuus** selvitetty (kollektiiviperuste)?
 - Onko **irtisanomisaikaa** noudatettu (laki/TES)?
 - Onko päätös tehty määräajassa (purku) ja annettu kirjallisesti perusteluineen pyydettäessä?
+- Onko **päättämisilmoituksen** sisältö ja toimitustapa lain mukainen — tarkista lähteestä.
 
 ## Vaihe 3: Luokittele riski
 - **🟢 VIHREÄ** — peruste vaikuttaa asialliselta ja painavalta, menettely täyttää vaatimukset, ei erityissuojaa loukkaavaa.
