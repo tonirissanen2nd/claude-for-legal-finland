@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **19 plugaria** ja **59 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **20 plugaria** ja **62 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -234,6 +234,18 @@ Suomen pankki- ja rahoitusoikeus: rahoitussopimukset kovenantteineen ja vakuuspa
 | [`arvopaperimarkkinat`](pankki-ja-rahoitus/skills/arvopaperimarkkinat/SKILL.md) | Arvopaperimarkkinasääntely Suomessa (arvopaperimarkkinalaki 746/2012, EU:n markkinoiden väärinkäyttöasetus MAR). Käytä tätä skilliä, kun listayhtiö tai sen neuvonantaja käsittelee tiedonantovelvollisuutta (pörssitiedote, sisäpiiritiedon ju… |
 | [`rahanpesun-estaminen`](pankki-ja-rahoitus/skills/rahanpesun-estaminen/SKILL.md) | Rahanpesun ja terrorismin rahoittamisen estäminen Suomessa (laki 444/2017). Käytä tätä skilliä, kun organisaatio arvioi, onko se ilmoitusvelvollinen, rakentaa tai päivittää AML-compliance-ohjelmaa (riskiarvio, asiakkaan tunteminen, monitor… |
 | [`rahoitus-ja-vakuudet`](pankki-ja-rahoitus/skills/rahoitus-ja-vakuudet/SKILL.md) | Rahoitussopimukset ja vakuudet Suomen oikeuden mukaan. Käytä tätä skilliä, kun käyttäjä laatii tai tarkistaa velkakirjaa, lainasopimusta tai rahoitussopimusta kovenantteineen, suunnittelee tai arvioi vakuuksia (pantti, kiinteistöpanttioike… |
+
+## Ulkomaalaisoikeus
+
+`/plugin install ulkomaalaisoikeus@claude-for-legal-finland` — [`./ulkomaalaisoikeus/`](./ulkomaalaisoikeus/)
+
+Suomen ulkomaalaisoikeus työnantajan ja avustajan näkökulmasta: työperusteiset oleskeluluvat saatavuusharkintoineen (ulkomaalaislaki 301/2004), työnantajan varmistusvelvollisuudet ja seuraamukset, lähetetyt työntekijät (447/2016) sekä EU-oleskelu, perheenyhdistäminen, pysyvä lupa ja kansalaisuus (359/2003).
+
+| Skill | Kuvaus |
+|---|---|
+| [`eu-ja-perheperusteinen-oleskelu`](ulkomaalaisoikeus/skills/eu-ja-perheperusteinen-oleskelu/SKILL.md) | EU-kansalaisen oleskeluoikeus, perheperusteinen oleskelu, pysyvä oleskelulupa ja Suomen kansalaisuus (ulkomaalaislaki 301/2004, kansalaisuuslaki 359/2003). Käytä tätä skilliä, kun käsitellään EU/ETA-kansalaisen rekisteröintiä ja perheenjäs… |
+| [`tyonantajan-velvollisuudet`](ulkomaalaisoikeus/skills/tyonantajan-velvollisuudet/SKILL.md) | Työnantajan velvollisuudet ulkomaalaisen työvoiman käytössä Suomessa (ulkomaalaislaki 301/2004, laki työntekijöiden lähettämisestä 447/2016). Käytä tätä skilliä, kun työnantaja varmistaa työntekijän työnteko-oikeutta, rakentaa kansainvälis… |
+| [`tyoperusteiset-oleskeluluvat`](ulkomaalaisoikeus/skills/tyoperusteiset-oleskeluluvat/SKILL.md) | Työperusteiset oleskeluluvat Suomessa (ulkomaalaislaki 301/2004). Käytä tätä skilliä, kun työnantaja rekrytoi ulkomaalaisen työntekijän EU/ETA-alueen ulkopuolelta tai työntekijälle haetaan lupaa: lupatyypin valinta (työntekijän oleskelulup… |
 
 ---
 

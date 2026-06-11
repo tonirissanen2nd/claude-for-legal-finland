@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Ulkomaalaisasioissa: muokkaa olemassa olevaa hakemusliitettä, selvitystä tai valituskirjelmää natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Ulkomaalaisasioissa: tarkista ulkomaalaislain (301/2004) ja kansalaisuuslain (359/2003) voimassa oleva sanamuoto sekä KHO:n ratkaisukäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "immigration",
+    "documents"
+  ]
+}

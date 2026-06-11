@@ -176,6 +176,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "ulkomaalaisoikeus",
+      "displayName": "Ulkomaalaisoikeus",
+      "source": "./ulkomaalaisoikeus",
+      "description": "Suomen ulkomaalaisoikeus työnantajan ja avustajan näkökulmasta: työperusteiset oleskeluluvat saatavuusharkintoineen (ulkomaalaislaki 301/2004), työnantajan varmistusvelvollisuudet ja seuraamukset, lähetetyt työntekijät (447/2016) sekä EU-oleskelu, perheenyhdistäminen, pysyvä lupa ja kansalaisuus (359/2003).",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
