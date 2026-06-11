@@ -167,6 +167,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "pankki-ja-rahoitus",
+      "displayName": "Pankki ja rahoitus",
+      "source": "./pankki-ja-rahoitus",
+      "description": "Suomen pankki- ja rahoitusoikeus: rahoitussopimukset kovenantteineen ja vakuuspaketit julkivarmistuksineen (velkakirjalaki 622/1947, takauslaki 361/1999), rahanpesun estämisen compliance (444/2017) sekä listayhtiön tiedonantovelvollisuus ja sisäpiirihallinto (AML 746/2012, MAR).",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Rahoitusasioissa: muokkaa olemassa olevaa velkakirjaa, takaussitoumusta tai rahoitussopimusta natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Rahoitusasioissa: tarkista velkakirjalain (622/1947), takauslain (361/1999), rahanpesulain (444/2017) ja arvopaperimarkkinalain (746/2012) voimassa oleva sanamuoto sekä KKO:n ratkaisukäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "finance",
+    "documents"
+  ]
+}

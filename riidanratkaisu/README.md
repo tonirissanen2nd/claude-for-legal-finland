@@ -13,6 +13,7 @@ vireillepano, todistelu ja muutoksenhaku.
 | **haastehakemus** | Riita-asian haastehakemuksen laatiminen ja tarkistus (OK 5:2 §): vaatimukset, perusteet, todisteet, kulut, toimivalta, prosessiosoite. Sisältää riidanratkaisun perusteiden referenssin. |
 | **todistelu** | Todistelun suunnittelu ja arviointi (OK 17 luku): näyttötaakka, todistuskeinot, todistusteemat, rajoitukset, todistelusuunnitelma. |
 | **muutoksenhaku-tuomioon** | Valitus hovioikeuteen (jatkokäsittelylupa, OK 25/25 a luku) ja korkeimpaan oikeuteen (valituslupa, OK 30 luku): tyytymättömyyden ilmoitus, määräajat, kirjelmät. |
+| **vahingonkorvaus** | Korvausvastuun yleiset opit (vahingonkorvauslaki 412/1974): vastuuperusteen rajanveto (sopimus/delikti/ankara vastuu), tuottamus, syy-yhteys, vahinkolajit ml. puhdas varallisuusvahinko, isännänvastuu, sovittelu ja vaatimuksen jäsennys. |
 
 ## Perustana varmistetut säädökset
 

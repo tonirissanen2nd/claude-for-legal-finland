@@ -62,6 +62,7 @@ markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
 | **[ympäristö ja kaavoitus](ymparisto-ja-kaavoitus/)** | Ympäristöluvat (YSL 527/2014), kaavoitus ja rakentaminen (rakentamislaki 751/2023), ympäristövastuut ja -DD. LVV-uudistus 2026 huomioitu. | ✅ Saatavilla |
 | **[kiinteistöt ja asuminen](kiinteistot-ja-asuminen/)** | Kiinteistökauppa (maakaari 540/1995), asuntokauppa (843/1994), asunto-osakeyhtiö (1599/2009), vuokrasopimukset (481–482/1995). | ✅ Saatavilla |
 | **[kilpailuoikeus](kilpailuoikeus/)** | Kilpailunrajoitukset ja määräävä asema (948/2011, SEUT 101–102), yrityskauppavalvonta, compliance ja dawn raid -valmius. | ✅ Saatavilla |
+| **[pankki ja rahoitus](pankki-ja-rahoitus/)** | Rahoitussopimukset ja vakuudet (622/1947, 361/1999), rahanpesun estäminen (444/2017), arvopaperimarkkinat (746/2012, MAR). | ✅ Saatavilla |
 
 ## Aloitus
 

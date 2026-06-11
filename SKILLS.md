@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **18 plugaria** ja **55 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **19 plugaria** ja **59 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -112,6 +112,7 @@ Riita-asian ratkaiseminen yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/17
 | [`haastehakemus`](riidanratkaisu/skills/haastehakemus/SKILL.md) | Riita-asian haastehakemuksen laatiminen ja tarkistus oikeudenkäymiskaaren (4/1734) mukaan: kantajan vaatimukset, niiden perusteet, todisteet, oikeudenkäyntikulut, toimivalta ja prosessiosoite. Käytä tätä skilliä, kun käyttäjä panee vireill… |
 | [`muutoksenhaku-tuomioon`](riidanratkaisu/skills/muutoksenhaku-tuomioon/SKILL.md) | Muutoksenhaku yleisen tuomioistuimen tuomioon oikeudenkäymiskaaren (4/1734) mukaan: valitus käräjäoikeuden tuomiosta hovioikeuteen ja jatkokäsittelylupa, valitus korkeimpaan oikeuteen ja valituslupa, tyytymättömyyden ilmoitus, määräajat ja… |
 | [`todistelu`](riidanratkaisu/skills/todistelu/SKILL.md) | Riita-asian todistelun suunnittelu ja arviointi oikeudenkäymiskaaren (4/1734) 17 luvun mukaan: näyttötaakka, todistuskeinot (asiakirjat, todistajat, asiantuntijat, katselmus, asianosaisen kuuleminen), todistusteemat ja todistelun rajoituks… |
+| [`vahingonkorvaus`](riidanratkaisu/skills/vahingonkorvaus/SKILL.md) | Vahingonkorvausvastuun arviointi Suomen oikeuden mukaan (vahingonkorvauslaki 412/1974). Käytä tätä skilliä, kun käyttäjä arvioi korvausvastuun syntymistä tai puolustautuu korvausvaatimusta vastaan: tuottamus, syy-yhteys, vahinkolajit ja ko… |
 
 ## Yhtiöoikeus
 
@@ -221,6 +222,18 @@ Suomen ja EU:n kilpailuoikeus: kielletyt kilpailunrajoitukset ja määräävän 
 | [`kilpailu-compliance`](kilpailuoikeus/skills/kilpailu-compliance/SKILL.md) | Kilpailuoikeudellinen compliance ja viranomaistarkastuksiin varautuminen Suomessa. Käytä tätä skilliä, kun organisaatio rakentaa tai päivittää kilpailu-compliance-ohjelmaa, laatii pelisääntöjä kilpailijakontakteille, toimialajärjestötoimin… |
 | [`kilpailunrajoitukset`](kilpailuoikeus/skills/kilpailunrajoitukset/SKILL.md) | Kiellettyjen kilpailunrajoitusten ja määräävän markkina-aseman väärinkäytön arviointi Suomen ja EU:n kilpailuoikeuden mukaan (kilpailulaki 948/2011, SEUT 101 ja 102 artikla). Käytä tätä skilliä, kun käyttäjä arvioi sopimuksen, yhteistyön t… |
 | [`yrityskauppavalvonta`](kilpailuoikeus/skills/yrityskauppavalvonta/SKILL.md) | Yrityskauppavalvonta Suomessa ja EU:ssa (kilpailulaki 948/2011 4 luku, EU:n sulautuma-asetus). Käytä tätä skilliä, kun käyttäjä arvioi, pitääkö yrityskauppa ilmoittaa KKV:lle tai komissiolle, valmistelee yrityskauppailmoitusta, suunnittele… |
+
+## Pankki ja rahoitus
+
+`/plugin install pankki-ja-rahoitus@claude-for-legal-finland` — [`./pankki-ja-rahoitus/`](./pankki-ja-rahoitus/)
+
+Suomen pankki- ja rahoitusoikeus: rahoitussopimukset kovenantteineen ja vakuuspaketit julkivarmistuksineen (velkakirjalaki 622/1947, takauslaki 361/1999), rahanpesun estämisen compliance (444/2017) sekä listayhtiön tiedonantovelvollisuus ja sisäpiirihallinto (AML 746/2012, MAR).
+
+| Skill | Kuvaus |
+|---|---|
+| [`arvopaperimarkkinat`](pankki-ja-rahoitus/skills/arvopaperimarkkinat/SKILL.md) | Arvopaperimarkkinasääntely Suomessa (arvopaperimarkkinalaki 746/2012, EU:n markkinoiden väärinkäyttöasetus MAR). Käytä tätä skilliä, kun listayhtiö tai sen neuvonantaja käsittelee tiedonantovelvollisuutta (pörssitiedote, sisäpiiritiedon ju… |
+| [`rahanpesun-estaminen`](pankki-ja-rahoitus/skills/rahanpesun-estaminen/SKILL.md) | Rahanpesun ja terrorismin rahoittamisen estäminen Suomessa (laki 444/2017). Käytä tätä skilliä, kun organisaatio arvioi, onko se ilmoitusvelvollinen, rakentaa tai päivittää AML-compliance-ohjelmaa (riskiarvio, asiakkaan tunteminen, monitor… |
+| [`rahoitus-ja-vakuudet`](pankki-ja-rahoitus/skills/rahoitus-ja-vakuudet/SKILL.md) | Rahoitussopimukset ja vakuudet Suomen oikeuden mukaan. Käytä tätä skilliä, kun käyttäjä laatii tai tarkistaa velkakirjaa, lainasopimusta tai rahoitussopimusta kovenantteineen, suunnittelee tai arvioi vakuuksia (pantti, kiinteistöpanttioike… |
 
 ---
 
