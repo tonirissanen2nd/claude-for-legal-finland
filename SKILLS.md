@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **12 plugaria** ja **36 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **13 plugaria** ja **39 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -148,6 +148,18 @@ Suomen immateriaalioikeus: tavaramerkin ja toiminimen suojastrategia ja sekaannu
 | [`liikesalaisuudet`](immateriaalioikeus/skills/liikesalaisuudet/SKILL.md) | Liikesalaisuuksien suoja Suomen oikeuden mukaan (liikesalaisuuslaki 595/2018). Käytä tätä skilliä, kun käyttäjä suojaa yrityksen luottamuksellista tietoa (asiakastiedot, hinnoittelu, reseptit, algoritmit, prosessit), arvioi täyttyykö liike… |
 | [`tavaramerkki-ja-toiminimi`](immateriaalioikeus/skills/tavaramerkki-ja-toiminimi/SKILL.md) | Tavaramerkin ja toiminimen suoja Suomen oikeuden mukaan (tavaramerkkilaki 544/2019, toiminimilaki 128/1979). Käytä tätä skilliä, kun käyttäjä suunnittelee tuotteen, palvelun tai yrityksen nimeä tai logoa, valmistelee tavaramerkin rekisterö… |
 | [`tekijanoikeus`](immateriaalioikeus/skills/tekijanoikeus/SKILL.md) | Tekijänoikeus Suomen oikeuden mukaan (tekijänoikeuslaki 404/1961 DSM-uudistuksineen). Käytä tätä skilliä, kun käyttäjä kysyy teoksen, ohjelmiston, kuvan, tekstin, musiikin tai muun sisällön tekijänoikeudesta, oikeuksien omistuksesta työ- t… |
+
+## Verotus
+
+`/plugin install verotus@claude-for-legal-finland` — [`./verotus/`](./verotus/)
+
+Suomen verotus ammattilaisille: verotusmenettely ja muutoksenhaku oikaisuvaatimuksesta KHO:hon (VML 1558/1995), yritysverotus konserniavustuksineen ja yritysjärjestelyineen (EVL 360/1968) sekä arvonlisäverotus (AVL 1501/1993). Verokannat ja euromäärät aina lähteestä; tulkinnanvaraisissa ennakkoratkaisu.
+
+| Skill | Kuvaus |
+|---|---|
+| [`arvonlisaverotus`](verotus/skills/arvonlisaverotus/SKILL.md) | Arvonlisäverotus Suomessa (arvonlisäverolaki 1501/1993). Käytä tätä skilliä, kun käyttäjä arvioi myynnin arvonlisäverollisuutta tai verokantaa, ostojen vähennysoikeutta, käännettyä verovelvollisuutta (rakennusala, EU-hankinnat), kansainväl… |
+| [`verotusmenettely-ja-muutoksenhaku`](verotus/skills/verotusmenettely-ja-muutoksenhaku/SKILL.md) | Verotusmenettely ja muutoksenhaku verotukseen Suomessa (laki verotusmenettelystä 1558/1995). Käytä tätä skilliä, kun käyttäjä on saanut verotuspäätöksen, jälkiverotus- tai veronkorotuspäätöksen tai verotarkastuskertomuksen ja harkitsee muu… |
+| [`yritysverotus`](verotus/skills/yritysverotus/SKILL.md) | Yritysverotus Suomessa (laki elinkeinotulon verottamisesta 360/1968). Käytä tätä skilliä, kun käyttäjä arvioi yrityksen tulon veronalaisuutta tai menon vähennyskelpoisuutta, suunnittelee konserniavustusta, osingonjaon verotusta tai yritysj… |
 
 ---
 

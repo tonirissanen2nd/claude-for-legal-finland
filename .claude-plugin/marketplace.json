@@ -113,6 +113,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "verotus",
+      "displayName": "Verotus",
+      "source": "./verotus",
+      "description": "Suomen verotus ammattilaisille: verotusmenettely ja muutoksenhaku oikaisuvaatimuksesta KHO:hon (VML 1558/1995), yritysverotus konserniavustuksineen ja yritysjärjestelyineen (EVL 360/1968) sekä arvonlisäverotus (AVL 1501/1993). Verokannat ja euromäärät aina lähteestä; tulkinnanvaraisissa ennakkoratkaisu.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
