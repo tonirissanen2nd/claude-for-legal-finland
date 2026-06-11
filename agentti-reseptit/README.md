@@ -9,6 +9,8 @@ tarkistusrytmiisi — ne eivät toimi ilman tätä sovitusta, ja se on tarkoitus
 | Agentti | Mitä valvoo | Lehti-työntekijät (leaf) |
 |---|---|---|
 | [`maaraaika-vahti`](maaraaika-vahti/) | Asiakirja-/kalenterilähde määräajoista (valitusaika, kanteen vanhentuminen, YT-ajat, GDPR-vastausaika) | aineisto-lukija · maaraaika-laskija · **varoitus-kirjoittaja** |
+| [`ennakkopaatos-vahti`](ennakkopaatos-vahti/) | Uudet KKO/KHO/MAO/TT/VakO-ratkaisut määritellyistä aiheista (oik.ai/Finlex-MCP) | ratkaisu-hakija · relevanssi-arvioija · **kooste-kirjoittaja** |
+| [`saados-vahti`](saados-vahti/) | Nimettyjen säädösten muutokset, voimaantulot ja vireillä olevat HE:t | saados-tarkkailija · vaikutus-analysoija · **raportti-kirjoittaja** |
 
 **Lihavoitu** leaf on ainoa, jolla on `Write`.
 
