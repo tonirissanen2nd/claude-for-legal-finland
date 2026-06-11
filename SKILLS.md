@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **15 plugaria** ja **45 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **16 plugaria** ja **48 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -184,6 +184,18 @@ Suomen rikosprosessi avustajan työhön: esitutkinta ja pakkokeinot (805/2011 ja
 | [`asianomistajan-asema`](rikosprosessi/skills/asianomistajan-asema/SKILL.md) | Asianomistajan (rikoksen uhrin) asema ja oikeudet Suomen rikosprosessissa: yksityisoikeudelliset vaatimukset, vahingonkorvaus ja valtion korvaus, toissijainen syyteoikeus, avustaja ja tukihenkilö sekä lähestymiskielto. Käytä tätä skilliä,… |
 | [`esitutkinta-ja-pakkokeinot`](rikosprosessi/skills/esitutkinta-ja-pakkokeinot/SKILL.md) | Esitutkinta ja pakkokeinot Suomen rikosprosessissa (esitutkintalaki 805/2011, pakkokeinolaki 806/2011) avustajan näkökulmasta. Käytä tätä skilliä, kun päämies on saanut kutsun kuulusteluun tai tiedon rikosepäilystä, valmistaudutaan kuulust… |
 | [`syyte-ja-vastaus`](rikosprosessi/skills/syyte-ja-vastaus/SKILL.md) | Rikosasian tuomioistuinvaihe Suomessa (laki oikeudenkäynnistä rikosasioissa 689/1997): syyteharkinta, haastehakemus, vastaajan vastaus ja puolustuksen jäsennys, todistelu, tuomioesitysmenettely ja pääkäsittely. Käytä tätä skilliä, kun syyt… |
+
+## Ympäristö ja kaavoitus
+
+`/plugin install ymparisto-ja-kaavoitus@claude-for-legal-finland` — [`./ymparisto-ja-kaavoitus/`](./ymparisto-ja-kaavoitus/)
+
+Suomen ympäristö- ja kaavoitusoikeus uudistuneen lainsäädännön mukaan: ympäristöluvat ja valvonta (YSL 527/2014), kaavoitus ja rakentaminen (alueidenkäyttölaki ja rakentamislaki 751/2023 uusine lupineen) sekä ympäristövastuut ja ympäristö-DD transaktioissa. Huomioi 2026 viranomaisuudistuksen (Lupa- ja valvontavirasto).
+
+| Skill | Kuvaus |
+|---|---|
+| [`kaavoitus-ja-rakentaminen`](ymparisto-ja-kaavoitus/skills/kaavoitus-ja-rakentaminen/SKILL.md) | Kaavoitus ja rakentaminen Suomessa alueidenkäyttölain (132/1999, ent. maankäyttö- ja rakennuslaki) ja uuden rakentamislain (751/2023) mukaan. Käytä tätä skilliä, kun käyttäjä selvittää kaavatilannetta tai kaavamääräysten tulkintaa, osallis… |
+| [`ymparistolupa-ja-valvonta`](ymparisto-ja-kaavoitus/skills/ymparistolupa-ja-valvonta/SKILL.md) | Ympäristöluvat, ilmoitukset ja valvonta Suomen ympäristönsuojelulain (527/2014) mukaan. Käytä tätä skilliä, kun käyttäjä arvioi toiminnan luvanvaraisuutta tai luvan muutostarvetta, valmistelee tai jäsentää ympäristölupahakemusta tai vesilu… |
+| [`ymparistovastuut`](ymparisto-ja-kaavoitus/skills/ymparistovastuut/SKILL.md) | Ympäristövastuiden arviointi Suomessa: pilaantuneen maaperän ja pohjaveden puhdistusvastuu (YSL 527/2014), ympäristövahinkojen korvaaminen (737/1994), ympäristörikosvastuu sekä ympäristö-due diligence yrityskaupassa ja kiinteistökaupassa.… |
 
 ---
 

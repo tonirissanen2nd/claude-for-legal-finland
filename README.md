@@ -59,6 +59,7 @@ markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
 | **[verotus](verotus/)** | Verotusmenettely ja muutoksenhaku (VML 1558/1995), yritysverotus (EVL 360/1968), arvonlisäverotus (AVL 1501/1993). | ✅ Saatavilla |
 | **[julkiset hankinnat](julkiset-hankinnat/)** | Hankintalaki (1397/2016): suunnittelu ja menettelyt, tarjouspyyntö ja tarjous, hankintapäätös ja muutoksenhaku markkinaoikeuteen. | ✅ Saatavilla |
 | **[rikosprosessi](rikosprosessi/)** | Esitutkinta ja pakkokeinot (805/2011, 806/2011), syyte ja vastaus (ROL 689/1997), asianomistajan asema ja korvaukset. | ✅ Saatavilla |
+| **[ympäristö ja kaavoitus](ymparisto-ja-kaavoitus/)** | Ympäristöluvat (YSL 527/2014), kaavoitus ja rakentaminen (rakentamislaki 751/2023), ympäristövastuut ja -DD. LVV-uudistus 2026 huomioitu. | ✅ Saatavilla |
 
 ## Aloitus
 

@@ -140,6 +140,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "ymparisto-ja-kaavoitus",
+      "displayName": "Ympäristö ja kaavoitus",
+      "source": "./ymparisto-ja-kaavoitus",
+      "description": "Suomen ympäristö- ja kaavoitusoikeus uudistuneen lainsäädännön mukaan: ympäristöluvat ja valvonta (YSL 527/2014), kaavoitus ja rakentaminen (alueidenkäyttölaki ja rakentamislaki 751/2023 uusine lupineen) sekä ympäristövastuut ja ympäristö-DD transaktioissa. Huomioi 2026 viranomaisuudistuksen (Lupa- ja valvontavirasto).",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
