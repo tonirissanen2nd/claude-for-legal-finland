@@ -21,6 +21,24 @@ vaan työakkuja: ristiriitaisia, epätäydellisiä ja juuri siksi hyödyllisiä.
 | Aineisto | Harjoittaa | Sopiva plugari |
 |---|---|---|
 | [`maaraaikainen-tyosuhde-paattyy`](maaraaikainen-tyosuhde-paattyy/) | määräaikaisuuden peruste, koeaikapurku, irtisanomisaika, menettely | `tyooikeus`, `juristi` |
+| [`asuntokauppa-virhe`](asuntokauppa-virhe/) | reklamaatio, virhetyypit, selonottovelvollisuus, taloyhtiön vastuu, välittäjän rooli | `kiinteistot-ja-asuminen`, `juristi` |
+| [`yrityskauppa-dd`](yrityskauppa-dd/) | DD-priorisointi, vähemmistöosakas, change of control, ympäristöriski, KKV-arvio | `yhtiooikeus`, `kilpailuoikeus`, `ymparisto-ja-kaavoitus` |
+
+## Arviointikriteerit
+
+Jokaisessa aineistossa on `arviointikriteerit.md` — **käyttäytymislista,
+ei mallivastaus**. Se kuvaa, mitä hyvä tuotos *tekee* (nostaa ristiriidat
+esiin, merkitsee laskelmat tarkistettaviksi, ei vahvista pykäliä
+muistista), ei aineellista lopputulosta. Käytä sitä kahteen asiaan:
+
+1. **Käyttöönoton pilotointi**: aja aineisto skillillä ja vertaa tuotosta
+   kriteereihin ennen kuin viet työkaluun oikeaa aineistoa
+   (ks. [`../references/kayttoonotto-toimistossa.md`](../references/kayttoonotto-toimistossa.md)).
+2. **Muutosten regressiotestaus**: skillin muokkauksen jälkeen sama ajo
+   kertoo, säilyikö käyttäytyminen.
+
+Älä anna kriteeritiedostoa mallille samassa istunnossa aineiston kanssa —
+se on arvioijan, ei arvioitavan, työkalu.
 
 ## Käyttö
 

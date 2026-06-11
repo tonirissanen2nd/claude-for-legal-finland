@@ -72,6 +72,14 @@ redlineäminen jälkimuutoksina) dokumenttiplugareissa ja **EU AI Act** (`@lexbe
 - "Käy tämä osakassopimusluonnos läpi" → `osakassopimus`
 - "Asiakas ei maksa laskuja — mitä vaihtoehtoja?" → `saatavien-perinta` / `maksukyvyttomyysarvio`
 
+## Organisaatiokäyttöön
+
+Ennen kuin viet työkaluun asiakas- tai toimeksiantoaineistoa, käy läpi
+[käyttöönotto-opas](references/kayttoonotto-toimistossa.md): aineistolinjaus,
+käsittelysopimus (GDPR 28 art), anonymisointi (PII Shield), tarkistusketju ja
+pilotointi [esimerkkiaineistoilla](esimerkkiaineistot/). Talon käytännöt
+kirjataan `juristi:kaytantoprofiili`-skillillä.
+
 ## Muista
 
 Jokainen tuotos on tarkistettava luonnos — ei oikeudellista neuvontaa. Ihminen

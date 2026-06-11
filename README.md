@@ -67,7 +67,11 @@ markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
 
 ## Aloitus
 
-Katso [QUICKSTART.md](QUICKSTART.md). Lyhyesti:
+Katso [QUICKSTART.md](QUICKSTART.md). Organisaatiokäyttöön: tee ensin
+[`references/kayttoonotto-toimistossa.md`](references/kayttoonotto-toimistossa.md)-oppaan
+päätökset (aineistolinjaus, käsittelysopimus, anonymisointi, tarkistusketju) ja
+pilotoi [`esimerkkiaineistoilla`](esimerkkiaineistot/) ennen oikeaa aineistoa.
+Lyhyesti:
 
 ```
 /plugin marketplace add <repo-url tai polku>

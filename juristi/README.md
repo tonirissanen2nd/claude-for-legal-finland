@@ -16,6 +16,13 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 | **oikeustutkimus** | Hakee voimassa olevan lain ja oikeuskäytännön oik.ai-/Finlex-MCP:stä, lukee ne ja viittaa oikein. Estää muistinvaraiset ja keksityt pykälät ja ratkaisutunnukset. |
 | **asiakirjan-tarkistus** | Juridisen asiakirjan monivaiheinen laaduntarkistus suomalaisessa kontekstissa: konteksti, käytettävyys, kieli, rakenne, oikeellisuus (lähdetarkistus), täydellisyys, riski ja käyttövalmius. |
 | **suomen-kieli** | Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeet (Kielitoimiston ohjepankki). Juristi-skill viittaa tähän kielenhuollossa. |
+| **kaytantoprofiili** | Kokoelman räätälöinti organisaatiolle: haastattelee talon käytännöt (pohjat, riskilinjaukset, TES:t, tarkistusketjut) ja kirjoittaa ne plugarien Käytäntöprofiili-osioihin, joita skillit lukevat. Suojauksia ei voi heikentää profiililla. |
+
+## Agentit
+
+| Agentti | Mitä tekee |
+|---|---|
+| **lahdetarkastaja** | Adversariaalinen viitetarkastaja: poimii luonnoksen kaikki säädös-, pykälä- ja ratkaisuviittaukset, tarkistaa jokaisen lähteestä (oik.ai/Finlex) ja palauttaa tarkistustaulukon (✅ Varmistettu / ⚠️ Tarkistettava / ❌ Virhe) korjausehdotuksineen. Vain luku — ei muokkaa asiakirjaa. Aja jokaiselle ulos lähtevälle lausunnolle ja kirjelmälle. |
 
 ## Tietolähteet (`.mcp.json`)
 
