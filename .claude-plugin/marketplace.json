@@ -131,6 +131,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "rikosprosessi",
+      "displayName": "Rikosprosessi",
+      "source": "./rikosprosessi",
+      "description": "Suomen rikosprosessi avustajan työhön: esitutkinta ja pakkokeinot (805/2011 ja 806/2011) kuulusteluvalmistautumisineen ja loppulausuntoineen, syyte ja vastaus tuomioesitysmenettelyineen (ROL 689/1997) sekä asianomistajan vaatimukset ja rikosvahinkokorvaus. Syyttömyysolettaman ja avustajan käytön ehdoilla.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }

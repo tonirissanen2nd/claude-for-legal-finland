@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Rikosasioissa: muokkaa olemassa olevaa loppulausuntoa, vastauskirjelmää tai korvausvaatimusta natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Rikosasioissa: tarkista ROL:n (689/1997), esitutkintalain (805/2011), pakkokeinolain (806/2011) ja rikoslain (39/1889) voimassa oleva sanamuoto sekä KKO:n ennakkopäätökset. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "criminal",
+    "documents"
+  ]
+}
