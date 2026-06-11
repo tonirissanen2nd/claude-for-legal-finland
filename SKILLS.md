@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **16 plugaria** ja **48 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **17 plugaria** ja **52 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -196,6 +196,19 @@ Suomen ympäristö- ja kaavoitusoikeus uudistuneen lainsäädännön mukaan: ymp
 | [`kaavoitus-ja-rakentaminen`](ymparisto-ja-kaavoitus/skills/kaavoitus-ja-rakentaminen/SKILL.md) | Kaavoitus ja rakentaminen Suomessa alueidenkäyttölain (132/1999, ent. maankäyttö- ja rakennuslaki) ja uuden rakentamislain (751/2023) mukaan. Käytä tätä skilliä, kun käyttäjä selvittää kaavatilannetta tai kaavamääräysten tulkintaa, osallis… |
 | [`ymparistolupa-ja-valvonta`](ymparisto-ja-kaavoitus/skills/ymparistolupa-ja-valvonta/SKILL.md) | Ympäristöluvat, ilmoitukset ja valvonta Suomen ympäristönsuojelulain (527/2014) mukaan. Käytä tätä skilliä, kun käyttäjä arvioi toiminnan luvanvaraisuutta tai luvan muutostarvetta, valmistelee tai jäsentää ympäristölupahakemusta tai vesilu… |
 | [`ymparistovastuut`](ymparisto-ja-kaavoitus/skills/ymparistovastuut/SKILL.md) | Ympäristövastuiden arviointi Suomessa: pilaantuneen maaperän ja pohjaveden puhdistusvastuu (YSL 527/2014), ympäristövahinkojen korvaaminen (737/1994), ympäristörikosvastuu sekä ympäristö-due diligence yrityskaupassa ja kiinteistökaupassa.… |
+
+## Kiinteistöt ja asuminen
+
+`/plugin install kiinteistot-ja-asuminen@claude-for-legal-finland` — [`./kiinteistot-ja-asuminen/`](./kiinteistot-ja-asuminen/)
+
+Suomen kiinteistö- ja asunto-oikeus: kiinteistökaupan määrämuoto, kirjaukset ja virhevastuu (maakaari 540/1995), asuntokauppa RS-järjestelmineen ja reklamaatioineen (843/1994), asunto-osakeyhtiön kunnossapitovastuu ja hallinto (1599/2009) sekä asuin- ja liikehuoneistojen vuokrasopimukset pakottavuuseroineen.
+
+| Skill | Kuvaus |
+|---|---|
+| [`asunto-osakeyhtio`](kiinteistot-ja-asuminen/skills/asunto-osakeyhtio/SKILL.md) | Asunto-osakeyhtiön hallinto ja osakkaan asema Suomessa asunto-osakeyhtiölain (1599/2009) mukaan. Käytä tätä skilliä, kun käyttäjä selvittää kunnossapitovastuun jakoa yhtiön ja osakkaan välillä, suunnittelee tai arvioi osakkaan muutostyötä,… |
+| [`asuntokauppa`](kiinteistot-ja-asuminen/skills/asuntokauppa/SKILL.md) | Asunto-osakkeiden kauppa Suomessa asuntokauppalain (843/1994) mukaan. Käytä tätä skilliä, kun käyttäjä valmistelee tai tarkistaa asunnon ostoa tai myyntiä, arvioi uudiskohteen (RS-kohteen) kauppaa, arvioi kaupan jälkeen ilmennyttä virhettä… |
+| [`kiinteistokauppa`](kiinteistot-ja-asuminen/skills/kiinteistokauppa/SKILL.md) | Kiinteistön kauppa Suomessa maakaaren (540/1995) mukaan. Käytä tätä skilliä, kun käyttäjä valmistelee tai tarkistaa kiinteistön, määräalan tai määräosan kauppaa tai esisopimusta, laatii kauppakirjaa, selvittää lainhuutoa, kiinnityksiä tai… |
+| [`vuokrasopimukset`](kiinteistot-ja-asuminen/skills/vuokrasopimukset/SKILL.md) | Asuin- ja liikehuoneiston vuokrasuhteet Suomessa (laki asuinhuoneiston vuokrauksesta 481/1995 ja laki liikehuoneiston vuokrauksesta 482/1995). Käytä tätä skilliä, kun käyttäjä laatii tai tarkistaa vuokrasopimusta, arvioi vuokrankorotuksen,… |
 
 ---
 

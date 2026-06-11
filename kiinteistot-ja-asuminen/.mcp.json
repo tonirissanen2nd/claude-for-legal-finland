@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Kiinteistöasioissa: muokkaa olemassa olevaa kauppakirjaluonnosta, vuokrasopimusta tai reklamaatiota natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Kiinteistöasioissa: tarkista maakaaren (540/1995), asuntokauppalain (843/1994), asunto-osakeyhtiölain (1599/2009) ja vuokralakien voimassa oleva sanamuoto sekä KKO:n ratkaisukäytäntö. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "real-estate",
+    "documents"
+  ]
+}

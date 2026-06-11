@@ -149,6 +149,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "kiinteistot-ja-asuminen",
+      "displayName": "Kiinteistöt ja asuminen",
+      "source": "./kiinteistot-ja-asuminen",
+      "description": "Suomen kiinteistö- ja asunto-oikeus: kiinteistökaupan määrämuoto, kirjaukset ja virhevastuu (maakaari 540/1995), asuntokauppa RS-järjestelmineen ja reklamaatioineen (843/1994), asunto-osakeyhtiön kunnossapitovastuu ja hallinto (1599/2009) sekä asuin- ja liikehuoneistojen vuokrasopimukset pakottavuuseroineen.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
