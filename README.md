@@ -35,7 +35,12 @@ Rakenne mukailee Anthropicin claude-for-legalia: markkinapaikka
 ([`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)) listaa
 käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 (`skills/<nimi>/SKILL.md`), jaetut suojaukset (`CLAUDE.md`) ja datakonnektorit
-(`.mcp.json`). Repon juuren [`references/`](references/)-tiedostot määrittävät
+(`.mcp.json`); osa plugareista sisältää lisäksi **agentteja** (`agents/<nimi>.md`)
+— delegoitavia työvaiheita kuten viitteiden adversariaalinen tarkistus
+(`lahdetarkastaja`), aineiston määräaikaskannaus (`maaraaikaskanneri`),
+vastapuolen argumentaation simulointi (`vastapuoli`), datahuoneen inventointi
+(`aineistokartoittaja`), sopimuksen vertaus talon linjaan (`poikkeamatarkastaja`)
+ja julkisuusarvion valmistelu (`salassapitoarvioija`). Repon juuren [`references/`](references/)-tiedostot määrittävät
 jaetut lähde-, vastuu- ja tietoturvastandardit, ja
 [`scripts/validate.mjs`](scripts/validate.mjs) (ajetaan CI:ssä) valvoo
 markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.

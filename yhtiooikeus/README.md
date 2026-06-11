@@ -16,6 +16,12 @@ Osakeyhtiölain (624/2006) ehdoilla.
 | **osakassopimus** | Osakassopimuksen laatiminen ja riskitarkistus: päätöksenteko, luovutusrajoitukset, vesting ja leaver-ehdot, drag/tag, kilpailukielto, deadlock, exit — ja suhde yhtiöjärjestykseen. |
 | **yritysjarjestelyt** | Yritysjärjestelyn jäsennys: osakekauppa vs. liiketoimintakauppa, oikeudellinen due diligence, sulautuminen ja jakautuminen (OYL 16–17 luku), suostumukset, yrityskauppavalvonta ja kaupparekisteri-ilmoitukset. |
 
+## Agentit
+
+| Agentti | Mitä tekee |
+|---|---|
+| **aineistokartoittaja** | Datahuoneen inventoija: luokittelee aineiston DD-alueittain, tuottaa aukkolistan (valmis tietopyyntöpohja) ja punaisten lippujen listan (change of control, riidat, ristiriidat) juristin priorisoitavaksi. Inventaario, ei oikeudellinen arvio. Vain luku. |
+
 ## Perustana varmistetut säädökset
 
 Lähteestä (Finlex) varmistettu: **osakeyhtiölaki (624/2006)** lukurakenteineen ja

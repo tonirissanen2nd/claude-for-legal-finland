@@ -171,6 +171,9 @@ Ehdota (ja luo pyydettäessä) juttukohtainen työtila:
   (`references/viittaustyyli.md`).
 - **Varovaisuusperiaate**: jos kaksi tulkintaa antaa eri määräpäivän,
   taulukkoon merkitään aikaisempi ja ristiriita nostetaan esiin.
+- Laajan aineiston kertaskannaukseen voi delegoida tämän plugarin
+  **`maaraaikaskanneri`-agentin** (`agents/maaraaikaskanneri.md`), joka
+  palauttaa määräaikataulukon lähtöpäiväristiriitoineen.
 - Jatkuvaan valvontaan: agenttiresepti
   [`agentti-reseptit/maaraaika-vahti`](../../../agentti-reseptit/maaraaika-vahti/README.md).
 

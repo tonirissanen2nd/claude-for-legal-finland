@@ -23,6 +23,7 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 | Agentti | Mitä tekee |
 |---|---|
 | **lahdetarkastaja** | Adversariaalinen viitetarkastaja: poimii luonnoksen kaikki säädös-, pykälä- ja ratkaisuviittaukset, tarkistaa jokaisen lähteestä (oik.ai/Finlex) ja palauttaa tarkistustaulukon (✅ Varmistettu / ⚠️ Tarkistettava / ❌ Virhe) korjausehdotuksineen. Vain luku — ei muokkaa asiakirjaa. Aja jokaiselle ulos lähtevälle lausunnolle ja kirjelmälle. |
+| **maaraaikaskanneri** | Määräaikojen skannaaja aineistolle: poimii kaikki määräpäivät ja laskentaa vaativat ajat, laskee varovaisuusperiaatteella (150/1930), palauttaa määräaikataulukon lähtöpäiväristiriitoineen. Vain luku — kalenterivastuu jää ihmiselle. |
 
 ## Tietolähteet (`.mcp.json`)
 

@@ -13,6 +13,12 @@ Sopimusten laatiminen ja tarkistus Suomen oikeuden mukaan.
 | **sopimuksen-laatiminen** | Laatii sopimuksen Suomen oikeuden mukaan: rakenne, kommentoitu lausekekirjasto ja sopimusoikeuden perusteet (sopimusvapaus, pakottava sääntely, kohtuullistaminen, vastuu). |
 | **sopimuksen-tarkistus** | Lausekekohtainen riskiarvio ja luokittelu (🟢 VIHREÄ / 🟡 KELTAINEN / 🔴 PUNAINEN), kohtuullistamis- ja pakottavan lain lippuineen. |
 
+## Agentit
+
+| Agentti | Mitä tekee |
+|---|---|
+| **poikkeamatarkastaja** | Vertaa sopimusluonnoksen talon riskilinjauksiin ja vakiolausekkeisiin (käytäntöprofiili tai annettu playbook) ja palauttaa lausekekohtaisen poikkeamataulukon (✅/🟡/🔴/⚪) eskalointiehdotuksineen. Pysähtyy, jos mittatikkua ei ole. Vain luku. |
+
 ## Perustana varmistetut säädökset
 
 Sisältö nojaa lähteestä (oik.ai/Finlex) varmistettuihin säädöksiin: oikeustoimilaki

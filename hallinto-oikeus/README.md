@@ -14,6 +14,12 @@ asiakirjajulkisuus.
 | **muutoksenhaku** | Oikaisuvaatimus ja valitus (laki oikeudenkäynnistä hallintoasioissa 808/2019): muutoksenhakutie, määräajat, valitusoikeus, valituksen sisältö, valituslupa. |
 | **julkisuus-ja-tietopyynnot** | Asiakirjajulkisuus ja tietopyyntöihin vastaaminen (julkisuuslaki 621/1999): julkisuusperiaate, salassapitoperusteet, määräajat, kielteinen päätös. |
 
+## Agentit
+
+| Agentti | Mitä tekee |
+|---|---|
+| **salassapitoarvioija** | Valmistelee julkisuusarvion (621/1999): käy asiakirjan kohta kohdalta, merkitsee salassapitoehdokkaat säännösperusteineen ja vahinkoedellytyksineen ja tuottaa peittoehdotuksen — osittainen julkisuus pääsääntönä. Esitys; viranhaltija päättää. Vain luku. |
+
 ## Perustana varmistetut säädökset
 
 Lähteestä (oik.ai/Finlex) varmistettu: **hallintolaki (434/2003)**, **laki oikeudenkäynnistä

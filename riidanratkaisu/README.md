@@ -15,6 +15,12 @@ vireillepano, todistelu ja muutoksenhaku.
 | **muutoksenhaku-tuomioon** | Valitus hovioikeuteen (jatkokäsittelylupa, OK 25/25 a luku) ja korkeimpaan oikeuteen (valituslupa, OK 30 luku): tyytymättömyyden ilmoitus, määräajat, kirjelmät. |
 | **vahingonkorvaus** | Korvausvastuun yleiset opit (vahingonkorvauslaki 412/1974): vastuuperusteen rajanveto (sopimus/delikti/ankara vastuu), tuottamus, syy-yhteys, vahinkolajit ml. puhdas varallisuusvahinko, isännänvastuu, sovittelu ja vaatimuksen jäsennys. |
 
+## Agentit
+
+| Agentti | Mitä tekee |
+|---|---|
+| **vastapuoli** | Vastapuolen avustajan simulaattori: hyökkää kirjelmäluonnosta vastaan tosissaan (prosessiväitteet, näytön aukot, vaihtoehtoiset tapahtumainkulut, määräargumentit) ja palauttaa heikkoustaulukon + top 3 -korjaukset ennen jättämistä. Vain luku. |
+
 ## Perustana varmistetut säädökset
 
 Lähteestä (oik.ai/Finlex) varmistettu: **oikeudenkäymiskaari (4/1734)** — mm. haastehakemuksen
