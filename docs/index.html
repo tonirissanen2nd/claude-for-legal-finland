@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude for Legal Finland — 20 plugaria suomalaiseen oikeustyöhön</title>
+<style>
+  :root{
+    --paperi:#f4efe6; --paperi-tumma:#ece5d8; --muste:#1d2430; --muste-haalea:#4a5264;
+    --sinetti:#9e2b25; --sinetti-vaalea:#c4574f; --viiva:#cfc5b2; --kulta:#8a6d3b;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --mono:"SF Mono",ui-monospace,Menlo,Consolas,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:var(--serif); background:var(--paperi); color:var(--muste);
+    line-height:1.55; font-size:17px;
+    background-image:
+      repeating-linear-gradient(0deg,transparent 0 2px,rgba(29,36,48,.012) 2px 4px),
+      radial-gradient(ellipse 80% 60% at 50% -10%,rgba(158,43,37,.05),transparent);
+  }
+  .raami{max-width:1080px;margin:0 auto;padding:0 28px}
+
+  /* ── Hero ── */
+  header{padding:72px 0 48px;border-bottom:3px double var(--muste);position:relative;overflow:hidden}
+  header::before{content:"§";position:absolute;right:-30px;top:-60px;font-size:340px;
+    color:rgba(158,43,37,.06);font-weight:700;line-height:1;pointer-events:none}
+  .ylarivi{display:flex;justify-content:space-between;align-items:baseline;
+    font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--muste-haalea);border-bottom:1px solid var(--viiva);padding-bottom:14px;margin-bottom:42px}
+  .ylarivi .versio{color:var(--sinetti);font-weight:700}
+  h1{font-size:clamp(40px,6.5vw,72px);line-height:1.02;font-weight:700;letter-spacing:-.015em;max-width:13ch}
+  h1 em{font-style:italic;color:var(--sinetti)}
+  .ingressi{margin-top:22px;font-size:19px;max-width:54ch;color:var(--muste-haalea)}
+  .mittarit{display:flex;flex-wrap:wrap;gap:0;margin-top:44px;border:1px solid var(--muste)}
+  .mittari{flex:1 1 140px;padding:18px 20px 14px;border-right:1px solid var(--muste);
+    background:var(--paperi);animation:nouse .6s ease both}
+  .mittari:last-child{border-right:none}
+  .mittari:nth-child(2){animation-delay:.08s}.mittari:nth-child(3){animation-delay:.16s}
+  .mittari:nth-child(4){animation-delay:.24s}.mittari:nth-child(5){animation-delay:.32s}
+  .mittari b{display:block;font-size:40px;line-height:1;font-variant-numeric:tabular-nums}
+  .mittari span{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muste-haalea)}
+  @keyframes nouse{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+  /* ── Osiot ── */
+  section{padding:56px 0}
+  .osio-otsikko{display:flex;align-items:baseline;gap:16px;margin-bottom:30px}
+  .osio-otsikko .nro{font-family:var(--mono);font-size:13px;color:var(--sinetti);letter-spacing:.1em}
+  h2{font-size:30px;font-weight:700;letter-spacing:-.01em}
+  .osio-otsikko::after{content:"";flex:1;border-bottom:1px solid var(--viiva)}
+
+  /* Periaatteet */
+  .periaatteet{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--viiva);border:1px solid var(--viiva)}
+  .periaate{background:var(--paperi);padding:22px}
+  .periaate h3{font-size:17px;margin-bottom:6px}
+  .periaate h3::before{content:"¶ ";color:var(--sinetti)}
+  .periaate p{font-size:14.5px;color:var(--muste-haalea)}
+
+  /* Plugarit */
+  .ryhma{margin-bottom:34px}
+  .ryhma h3{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--kulta);margin-bottom:12px;border-bottom:1px solid var(--viiva);padding-bottom:6px}
+  .kortit{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:14px}
+  .kortti{background:var(--paperi-tumma);border:1px solid var(--viiva);border-left:4px solid var(--muste);
+    padding:16px 18px;transition:border-color .2s,transform .2s}
+  .kortti:hover{border-left-color:var(--sinetti);transform:translateY(-2px)}
+  .kortti h4{font-size:18px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+  .kortti h4 small{font-family:var(--mono);font-size:11px;color:var(--muste-haalea);white-space:nowrap}
+  .kortti p{font-size:14px;color:var(--muste-haalea);margin-top:5px}
+  .kortti .laki{font-family:var(--mono);font-size:11.5px;color:var(--sinetti);margin-top:8px;display:block}
+
+  /* Agentit */
+  .agentit{border:1px solid var(--muste)}
+  .agentti{display:grid;grid-template-columns:220px 1fr;border-bottom:1px solid var(--viiva);background:var(--paperi)}
+  .agentti:last-child{border-bottom:none}
+  .agentti:hover{background:var(--paperi-tumma)}
+  .agentti .nimi{padding:16px 18px;border-right:1px solid var(--viiva)}
+  .agentti .nimi b{font-family:var(--mono);font-size:14px;color:var(--sinetti)}
+  .agentti .nimi span{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--muste-haalea);margin-top:3px}
+  .agentti .kuvaus{padding:16px 18px;font-size:14.5px;color:var(--muste-haalea)}
+  @media (max-width:640px){.agentti{grid-template-columns:1fr}.agentti .nimi{border-right:none;border-bottom:1px dashed var(--viiva)}}
+
+  /* Työnkulku */
+  .virta{display:flex;flex-wrap:wrap;align-items:stretch;gap:0;counter-reset:vaihe}
+  .vaihe{flex:1 1 150px;position:relative;padding:18px 26px 18px 20px;background:var(--paperi-tumma);
+    border:1px solid var(--viiva);margin-right:-1px;counter-increment:vaihe}
+  .vaihe::before{content:counter(vaihe);position:absolute;top:-11px;left:14px;background:var(--sinetti);
+    color:var(--paperi);font-family:var(--mono);font-size:11px;width:22px;height:22px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center}
+  .vaihe b{font-size:14.5px;display:block}
+  .vaihe span{font-size:12.5px;color:var(--muste-haalea)}
+  .vaihe.ihminen{background:var(--muste);color:var(--paperi)}
+  .vaihe.ihminen span{color:var(--paperi-tumma)}
+  .vaihe.ihminen::before{background:var(--kulta)}
+
+  /* Footer */
+  footer{border-top:3px double var(--muste);margin-top:30px;padding:44px 0 60px}
+  .asennus{background:var(--muste);color:var(--paperi);font-family:var(--mono);font-size:13.5px;
+    padding:18px 22px;overflow-x:auto;white-space:pre;border-left:6px solid var(--sinetti)}
+  .asennus .k{color:#d9b98a}
+  .footgrid{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin-top:30px}
+  @media (max-width:720px){.footgrid{grid-template-columns:1fr}}
+  .footgrid h3{font-size:16px;margin-bottom:8px}
+  .footgrid p,.footgrid li{font-size:14px;color:var(--muste-haalea)}
+  .footgrid a{color:var(--sinetti)}
+  .vastuu{margin-top:36px;padding:18px 20px;border:1px dashed var(--sinetti-vaalea);
+    font-size:13.5px;color:var(--muste-haalea);font-style:italic}
+  .pohja{margin-top:28px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--muste-haalea);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="raami">
+    <div class="ylarivi">
+      <span>Claude for Legal Finland</span>
+      <span>Avoin lähdekoodi · MIT</span>
+      <span class="versio">v0.7.0</span>
+    </div>
+    <h1>Suomalaisen oikeustyön <em>koko kaari</em> — aidoista lähteistä.</h1>
+    <p class="ingressi">Skillit, agentit ja suojaukset, jotka tekevät Claudesta suomalaisen
+    oikeudellisen ammattilaisen apulaisen: Finlexin ja oik.ain ehdoilla, kolmiportaisella
+    varmuusmerkinnällä ja ihmisen tarkistusportilla.</p>
+    <div class="mittarit">
+      <div class="mittari"><b>20</b><span>plugaria</span></div>
+      <div class="mittari"><b>63</b><span>skilliä</span></div>
+      <div class="mittari"><b>6</b><span>agenttia</span></div>
+      <div class="mittari"><b>3</b><span>agenttireseptiä</span></div>
+      <div class="mittari"><b>3</b><span>esimerkkicaseä + kriteerit</span></div>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="raami">
+    <div class="osio-otsikko"><span class="nro">I</span><h2>Suoja syntyy mekanismeista</h2></div>
+    <div class="periaatteet">
+      <div class="periaate"><h3>Lähteestä, ei muistista</h3>
+        <p>Säädökset ja oikeuskäytäntö haetaan Finlexistä/oik.aista. Jokainen repon säädösnumero on varmistettu lähteestä ennen julkaisua.</p></div>
+      <div class="periaate"><h3>Kolmiportainen varmuus</h3>
+        <p>Varmistettu · Tarkistettava · Älä käytä — jokainen viittaus ja laskelma kantaa varmuusmerkintänsä rivillään.</p></div>
+      <div class="periaate"><h3>Negatiivirajaus</h3>
+        <p>Jokainen skill kertoo, mitä se EI tee: ei kartelliapua, ei todisteiden hävitystä, ei velkojien välttelyä, ei keksittyjä pykäliä.</p></div>
+      <div class="periaate"><h3>Ihmisen tarkistusportti</h3>
+        <p>Jokainen tuotos on luonnos. Pätevä ihminen tarkistaa, päättää ja kantaa vastuun — työkalu nopeuttaa tarkistusta, ei korvaa sitä.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="raami">
+    <div class="osio-otsikko"><span class="nro">II</span><h2>Plugarit oikeudenaloittain</h2></div>
+
+    <div class="ryhma"><h3>Perusta — asenna aina</h3>
+      <div class="kortit">
+        <div class="kortti"><h4>juristi <small>6 skilliä · 2 agenttia</small></h4>
+          <p>Lakikieli, oikeustutkimus, asiakirjan 8-vaiheinen tarkistus, toimeksiannon haltuunotto (määräaika ensin), suomen kieli ja talon käytäntöprofiili.</p>
+          <span class="laki">Finlex · oik.ai · 150/1930</span></div>
+      </div>
+    </div>
+
+    <div class="ryhma"><h3>Liikejuridiikka</h3>
+      <div class="kortit">
+        <div class="kortti"><h4>sopimukset <small>2 + agentti</small></h4><p>Laatiminen lausekekirjastolla ja 🟢/🟡/🔴-riskikäynti; poikkeamat talon linjasta.</p><span class="laki">OikTL 228/1929 · KSL 38/1978</span></div>
+        <div class="kortti"><h4>yhtiöoikeus <small>3 + agentti</small></h4><p>Hallinto ja varojenjaon kaksoistesti, osakassopimukset, yritysjärjestelyt ja DD.</p><span class="laki">OYL 624/2006 · 564/2023</span></div>
+        <div class="kortti"><h4>kilpailuoikeus <small>3 skilliä</small></h4><p>Kilpailunrajoitukset, yrityskauppavalvonta, compliance ja dawn raid -valmius.</p><span class="laki">948/2011 · SEUT 101–102</span></div>
+        <div class="kortti"><h4>pankki ja rahoitus <small>3 skilliä</small></h4><p>Rahoitussopimukset ja vakuudet, rahanpesun estäminen, arvopaperimarkkinat.</p><span class="laki">622/1947 · 444/2017 · MAR</span></div>
+        <div class="kortti"><h4>immateriaalioikeus <small>3 skilliä</small></h4><p>Tavaramerkki ja toiminimi, tekijänoikeus DSM-uudistuksineen, liikesalaisuudet.</p><span class="laki">544/2019 · 404/1961 · 595/2018</span></div>
+        <div class="kortti"><h4>verotus <small>3 skilliä</small></h4><p>Verotusmenettely ja muutoksenhaku, yritysverotus, arvonlisäverotus.</p><span class="laki">VML 1558/1995 · EVL · AVL</span></div>
+        <div class="kortti"><h4>insolvenssi <small>3 skilliä</small></h4><p>Menettelyn valinta, konkurssi velkojan ja velallisen silmin, perintä ja ulosotto.</p><span class="laki">120/2004 · 47/1993 · 705/2007</span></div>
+      </div>
+    </div>
+
+    <div class="ryhma"><h3>Ihmiset ja työ</h3>
+      <div class="kortit">
+        <div class="kortti"><h4>työoikeus <small>3 skilliä</small></h4><p>Työsopimus, päättämisen riskiluokitus, yhteistoiminta ja muutosneuvottelut.</p><span class="laki">TSL 55/2001 · YTL 1333/2021</span></div>
+        <div class="kortti"><h4>ulkomaalaisoikeus <small>3 skilliä</small></h4><p>Työperusteiset luvat, työnantajan varmistusvastuu, EU- ja perheperusteinen oleskelu.</p><span class="laki">301/2004 · 447/2016 · 359/2003</span></div>
+      </div>
+    </div>
+
+    <div class="ryhma"><h3>Julkinen sektori ja sääntely</h3>
+      <div class="kortit">
+        <div class="kortti"><h4>hallinto-oikeus <small>3 + agentti</small></h4><p>Hallintopäätös, muutoksenhaku, julkisuus ja tietopyynnöt — salassapitoarvio agenttina.</p><span class="laki">434/2003 · 808/2019 · 621/1999</span></div>
+        <div class="kortti"><h4>julkiset hankinnat <small>3 skilliä</small></h4><p>Suunnittelu ja menettelyt, tarjouspyyntö ja tarjous molemmin puolin, MAO-muutoksenhaku.</p><span class="laki">1397/2016</span></div>
+        <div class="kortti"><h4>lainvalmistelu <small>4 skilliä</small></h4><p>Lainkirjoittajan opas, HELO, prosessiopas ja lakikieli — varmistetuin johtolausein.</p><span class="laki">Lainkirjoittajan opas · HELO</span></div>
+        <div class="kortti"><h4>lausunnot <small>1 skilli</small></h4><p>Lausunto lakiehdotukseen 7-vaiheisella työnkululla, vaikutusarviointi mukana.</p><span class="laki">Lausuntopalvelu.fi</span></div>
+        <div class="kortti"><h4>tietosuoja <small>3 skilliä</small></h4><p>Käsittelyn arviointi ja DPIA, selosteet, rekisteröidyn pyynnöt + PII Shield -anonymisointi.</p><span class="laki">GDPR · 1050/2018</span></div>
+        <div class="kortti"><h4>tekoälysääntely <small>3 skilliä</small></h4><p>AI Actin riskiluokittelu, velvoitteet roolin mukaan, määräajat ja FRIA — deterministinen MCP.</p><span class="laki">(EU) 2024/1689</span></div>
+      </div>
+    </div>
+
+    <div class="ryhma"><h3>Prosessit, omaisuus ja ympäristö</h3>
+      <div class="kortit">
+        <div class="kortti"><h4>riidanratkaisu <small>4 + agentti</small></h4><p>Haastehakemus, todistelu, muutoksenhaku ja vahingonkorvauksen yleiset opit.</p><span class="laki">OK 4/1734 · VahL 412/1974</span></div>
+        <div class="kortti"><h4>rikosprosessi <small>3 skilliä</small></h4><p>Esitutkinta ja pakkokeinot, syyte ja puolustus, asianomistajan vaatimukset.</p><span class="laki">ROL 689/1997 · ETL · PKL</span></div>
+        <div class="kortti"><h4>kiinteistöt ja asuminen <small>4 skilliä</small></h4><p>Kiinteistö- ja asuntokauppa virheineen, taloyhtiö, vuokrasopimukset.</p><span class="laki">MK 540/1995 · AOYL 1599/2009</span></div>
+        <div class="kortti"><h4>ympäristö ja kaavoitus <small>3 skilliä</small></h4><p>Ympäristöluvat ja valvonta, kaavoitus ja uusi rakentamislupa, ympäristövastuut ja -DD.</p><span class="laki">YSL 527/2014 · 751/2023 · LVV 2026</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="raami">
+    <div class="osio-otsikko"><span class="nro">III</span><h2>Agentit — delegoitavat työvaiheet</h2></div>
+    <div class="agentit">
+      <div class="agentti"><div class="nimi"><b>lahdetarkastaja</b><span>juristi</span></div>
+        <div class="kuvaus">Olettaa jokaisen viittauksen vääräksi, kunnes lähde todistaa toisin. Palauttaa ✅/⚠️/❌-taulukon korjausehdotuksineen — ajetaan jokaiselle ulos lähtevälle asiakirjalle.</div></div>
+      <div class="agentti"><div class="nimi"><b>maaraaikaskanneri</b><span>juristi</span></div>
+        <div class="kuvaus">Skannaa aineiston kaikki määräajat, laskee varovaisuusperiaatteella molemmilla lähtöpäivillä ja nostaa kiireellisimmät ensin. Kalenterivastuu jää ihmiselle.</div></div>
+      <div class="agentti"><div class="nimi"><b>vastapuoli</b><span>riidanratkaisu</span></div>
+        <div class="kuvaus">Vastapuolen avustajan simulaattori: hyökkää kirjelmääsi vastaan tosissaan ja palauttaa heikkoustaulukon, vahvuudet ja top 3 -korjaukset ennen jättämistä.</div></div>
+      <div class="agentti"><div class="nimi"><b>aineistokartoittaja</b><span>yhtiöoikeus</span></div>
+        <div class="kuvaus">Inventoi datahuoneen DD-alueittain, tuottaa aukkolistan valmiina tietopyyntönä ja punaiset liput priorisointia varten. Inventaario — ei oikeudellinen arvio.</div></div>
+      <div class="agentti"><div class="nimi"><b>poikkeamatarkastaja</b><span>sopimukset</span></div>
+        <div class="kuvaus">Vertaa luonnosta talon riskilinjauksiin lauseke lausekkeelta (✅/🟡/🔴/⚪) ja osoittaa eskaloitavat. Pysähtyy, jos mittatikkua ei ole — ei keksi "markkinakäytäntöä".</div></div>
+      <div class="agentti"><div class="nimi"><b>salassapitoarvioija</b><span>hallinto-oikeus</span></div>
+        <div class="kuvaus">Valmistelee julkisuusarvion kohta kohdalta säännösperusteineen ja tuottaa peittoehdotuksen. Osittainen julkisuus pääsääntönä; viranhaltija päättää.</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="raami">
+    <div class="osio-otsikko"><span class="nro">IV</span><h2>Yksi juttu, koko ketju</h2></div>
+    <div class="virta">
+      <div class="vaihe"><b>Aineisto sisään</b><span>hiljaisen latauksen protokolla</span></div>
+      <div class="vaihe"><b>Määräajat</b><span>maaraaikaskanneri + toimeksianto</span></div>
+      <div class="vaihe"><b>Substanssi</b><span>oikeudenalan skillit + oikeustutkimus</span></div>
+      <div class="vaihe"><b>Vastapaine</b><span>vastapuoli · poikkeamatarkastaja</span></div>
+      <div class="vaihe"><b>Viitteet</b><span>lahdetarkastaja ✅/⚠️/❌</span></div>
+      <div class="vaihe ihminen"><b>Ihminen päättää</b><span>tarkistaa, hyväksyy, vastaa</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="raami">
+    <div class="asennus"><span class="k">/plugin</span> marketplace add akunikkola/claude-for-legal-finland
+<span class="k">/plugin</span> install juristi@claude-for-legal-finland   <span style="opacity:.55"># + oman alan plugarit</span></div>
+    <div class="footgrid">
+      <div>
+        <h3>Organisaatiokäyttöön</h3>
+        <p>Ennen tuotantokäyttöä: aineistolinjaus, käsittelysopimus (GDPR 28 art),
+        anonymisointi työnkulkuna (PII Shield) ja nimetty tarkistusketju —
+        <em>references/kayttoonotto-toimistossa.md</em>. Talon tapa kirjataan
+        <em>kaytantoprofiili</em>-skillillä; pilotointi esimerkkiaineistoilla,
+        joissa on arviointikriteerit.</p>
+      </div>
+      <div>
+        <h3>Lähteet ja ylläpito</h3>
+        <ul style="list-style:none">
+          <li>→ <a href="https://github.com/akunikkola/claude-for-legal-finland">github.com/akunikkola/claude-for-legal-finland</a></li>
+          <li>→ Releaset: plugarikohtaiset ZIPit (v0.1.0–v0.7.0)</li>
+          <li>→ Vahtireseptit: määräajat · ennakkopäätökset · säädösmuutokset</li>
+          <li>→ CI-validaattori jokaisessa muutoksessa</li>
+        </ul>
+      </div>
+    </div>
+    <p class="vastuu">Jokainen tuotos on tarkistettava luonnos — ei oikeudellista neuvontaa,
+    ei oikeudellinen johtopäätös eikä juristin korvaaja. Suojan tuottavat mekanismit,
+    eivät huomautukset. Avoin yhteisöhanke; ei viranomais- tai asianajopalvelu.</p>
+    <div class="pohja">
+      <span>MIT © 2026 Aku Nikkola</span>
+      <span>Suomalainen vastine Anthropicin claude-for-legalille</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
