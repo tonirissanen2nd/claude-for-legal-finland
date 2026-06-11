@@ -122,6 +122,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "julkiset-hankinnat",
+      "displayName": "Julkiset hankinnat",
+      "source": "./julkiset-hankinnat",
+      "description": "Julkiset hankinnat hankintalain (1397/2016) mukaan sekä hankintayksikön että tarjoajan näkökulmasta: suunnittelu ja menettelyn valinta kynnysarvoineen, tarjouspyyntö ja tarjouspyynnönmukainen tarjous sekä hankintapäätös, hankintaoikaisu ja valitus markkinaoikeuteen seuraamuksineen.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }

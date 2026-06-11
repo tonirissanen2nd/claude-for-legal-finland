@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Hankinta-asioissa: muokkaa olemassa olevaa tarjouspyyntöluonnosta, hankintasopimusta tai valituskirjelmää natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Hankinta-asioissa: tarkista hankintalain (1397/2016) ja erityisalojen hankintalain (1398/2016) voimassa oleva sanamuoto sekä markkinaoikeuden ja KHO:n hankintaratkaisut. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "public-procurement",
+    "documents"
+  ]
+}

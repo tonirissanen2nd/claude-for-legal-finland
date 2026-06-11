@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.
 
-Markkinapaikalla on **13 plugaria** ja **39 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **14 plugaria** ja **42 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi — perusta
 
@@ -160,6 +160,18 @@ Suomen verotus ammattilaisille: verotusmenettely ja muutoksenhaku oikaisuvaatimu
 | [`arvonlisaverotus`](verotus/skills/arvonlisaverotus/SKILL.md) | Arvonlisäverotus Suomessa (arvonlisäverolaki 1501/1993). Käytä tätä skilliä, kun käyttäjä arvioi myynnin arvonlisäverollisuutta tai verokantaa, ostojen vähennysoikeutta, käännettyä verovelvollisuutta (rakennusala, EU-hankinnat), kansainväl… |
 | [`verotusmenettely-ja-muutoksenhaku`](verotus/skills/verotusmenettely-ja-muutoksenhaku/SKILL.md) | Verotusmenettely ja muutoksenhaku verotukseen Suomessa (laki verotusmenettelystä 1558/1995). Käytä tätä skilliä, kun käyttäjä on saanut verotuspäätöksen, jälkiverotus- tai veronkorotuspäätöksen tai verotarkastuskertomuksen ja harkitsee muu… |
 | [`yritysverotus`](verotus/skills/yritysverotus/SKILL.md) | Yritysverotus Suomessa (laki elinkeinotulon verottamisesta 360/1968). Käytä tätä skilliä, kun käyttäjä arvioi yrityksen tulon veronalaisuutta tai menon vähennyskelpoisuutta, suunnittelee konserniavustusta, osingonjaon verotusta tai yritysj… |
+
+## Julkiset hankinnat
+
+`/plugin install julkiset-hankinnat@claude-for-legal-finland` — [`./julkiset-hankinnat/`](./julkiset-hankinnat/)
+
+Julkiset hankinnat hankintalain (1397/2016) mukaan sekä hankintayksikön että tarjoajan näkökulmasta: suunnittelu ja menettelyn valinta kynnysarvoineen, tarjouspyyntö ja tarjouspyynnönmukainen tarjous sekä hankintapäätös, hankintaoikaisu ja valitus markkinaoikeuteen seuraamuksineen.
+
+| Skill | Kuvaus |
+|---|---|
+| [`hankinnan-suunnittelu`](julkiset-hankinnat/skills/hankinnan-suunnittelu/SKILL.md) | Julkisen hankinnan suunnittelu ja menettelyn valinta hankintalain (1397/2016) mukaan. Käytä tätä skilliä, kun hankintayksikkö suunnittelee kilpailutusta: soveltuuko hankintalaki, mikä on ennakoitu arvo ja ylittyykö kansallinen tai EU-kynny… |
+| [`hankintapaatos-ja-muutoksenhaku`](julkiset-hankinnat/skills/hankintapaatos-ja-muutoksenhaku/SKILL.md) | Hankintapäätös, hankintaoikaisu ja muutoksenhaku markkinaoikeuteen julkisissa hankinnoissa (hankintalaki 1397/2016). Käytä tätä skilliä, kun hankintayksikkö laatii hankintapäätöstä perusteluineen, soveltaa odotusaikaa tai tekee hankintasop… |
+| [`tarjouspyynto-ja-tarjous`](julkiset-hankinnat/skills/tarjouspyynto-ja-tarjous/SKILL.md) | Tarjouspyynnön laatiminen ja tarjouksen tekeminen julkisessa hankinnassa (hankintalaki 1397/2016). Käytä tätä skilliä, kun hankintayksikkö laatii tarjouspyyntöä, määrittelee soveltuvuusvaatimuksia tai vertailuperusteita tai käsittelee ja v… |
 
 ---
 

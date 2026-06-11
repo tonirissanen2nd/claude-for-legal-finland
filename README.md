@@ -57,6 +57,7 @@ markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
 | **[insolvenssi](insolvenssi/)** | Maksukyvyttömyys: menettelyn valinta (konkurssi 120/2004, saneeraus 47/1993, velkajärjestely 57/1993), konkurssimenettely, perintä ja ulosotto. | ✅ Saatavilla |
 | **[immateriaalioikeus](immateriaalioikeus/)** | IPR: tavaramerkki ja toiminimi (544/2019, 128/1979), tekijänoikeus DSM-uudistuksineen (404/1961), liikesalaisuudet (595/2018). | ✅ Saatavilla |
 | **[verotus](verotus/)** | Verotusmenettely ja muutoksenhaku (VML 1558/1995), yritysverotus (EVL 360/1968), arvonlisäverotus (AVL 1501/1993). | ✅ Saatavilla |
+| **[julkiset hankinnat](julkiset-hankinnat/)** | Hankintalaki (1397/2016): suunnittelu ja menettelyt, tarjouspyyntö ja tarjous, hankintapäätös ja muutoksenhaku markkinaoikeuteen. | ✅ Saatavilla |
 
 ## Aloitus
 
