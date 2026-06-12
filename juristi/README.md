@@ -1,10 +1,10 @@
-# Juristi — perusta
+# Juristi – perusta
 
 Läpileikkaava perusta suomalaiseen juridiseen työhön. Tämä plugari on pohja, johon
 käytäntöaluekohtaiset plugarit (lainvalmistelu, lausunnot, sopimukset, työoikeus,
 tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 
-> **Jokainen tuotos on tarkistettava luonnos — ei oikeudellista neuvontaa.** Lopullisen
+> **Jokainen tuotos on tarkistettava luonnos – ei oikeudellista neuvontaa.** Lopullisen
 > vastuun kantaa sitä käyttävä ihminen. Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
@@ -12,7 +12,7 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 | Skill | Mitä tekee |
 |---|---|
 | **juristi** | Suomalaisen lakikielen ja lainsäädännön yleisapuri: säädösten rakenne, pykäläviittausten oikea muoto, lakikielen kirjoitussäännöt, sopimukset ja oikeuslähteet. Käynnistyy automaattisesti, kun työskennellään juridisen sisällön kanssa. |
-| **toimeksianto** | Uuden jutun aloitus ja aineiston haltuunotto: määräaikaskannaus ensin, toimeksiantohaastattelu, esteellisyysmuistilista ja juttukansion työtilarakenne. Sisältää hiljaisen latauksen protokollan — asiakirja ilman ohjetta otetaan haltuun määräajat edellä. |
+| **toimeksianto** | Uuden jutun aloitus ja aineiston haltuunotto: määräaikaskannaus ensin, toimeksiantohaastattelu, esteellisyysmuistilista ja juttukansion työtilarakenne. Sisältää hiljaisen latauksen protokollan – asiakirja ilman ohjetta otetaan haltuun määräajat edellä. |
 | **oikeustutkimus** | Hakee voimassa olevan lain ja oikeuskäytännön oik.ai-/Finlex-MCP:stä, lukee ne ja viittaa oikein. Estää muistinvaraiset ja keksityt pykälät ja ratkaisutunnukset. |
 | **asiakirjan-tarkistus** | Juridisen asiakirjan monivaiheinen laaduntarkistus suomalaisessa kontekstissa: konteksti, käytettävyys, kieli, rakenne, oikeellisuus (lähdetarkistus), täydellisyys, riski ja käyttövalmius. |
 | **suomen-kieli** | Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeet (Kielitoimiston ohjepankki). Juristi-skill viittaa tähän kielenhuollossa. |
@@ -22,13 +22,13 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 
 | Agentti | Mitä tekee |
 |---|---|
-| **lahdetarkastaja** | Adversariaalinen viitetarkastaja: poimii luonnoksen kaikki säädös-, pykälä- ja ratkaisuviittaukset, tarkistaa jokaisen lähteestä (oik.ai/Finlex) ja palauttaa tarkistustaulukon (✅ Varmistettu / ⚠️ Tarkistettava / ❌ Virhe) korjausehdotuksineen. Vain luku — ei muokkaa asiakirjaa. Aja jokaiselle ulos lähtevälle lausunnolle ja kirjelmälle. |
-| **maaraaikaskanneri** | Määräaikojen skannaaja aineistolle: poimii kaikki määräpäivät ja laskentaa vaativat ajat, laskee varovaisuusperiaatteella (150/1930), palauttaa määräaikataulukon lähtöpäiväristiriitoineen. Vain luku — kalenterivastuu jää ihmiselle. |
+| **lahdetarkastaja** | Adversariaalinen viitetarkastaja: poimii luonnoksen kaikki säädös-, pykälä- ja ratkaisuviittaukset, tarkistaa jokaisen lähteestä (oik.ai/Finlex) ja palauttaa tarkistustaulukon (✅ Varmistettu / ⚠️ Tarkistettava / ❌ Virhe) korjausehdotuksineen. Vain luku – ei muokkaa asiakirjaa. Aja jokaiselle ulos lähtevälle lausunnolle ja kirjelmälle. |
+| **maaraaikaskanneri** | Määräaikojen skannaaja aineistolle: poimii kaikki määräpäivät ja laskentaa vaativat ajat, laskee varovaisuusperiaatteella (150/1930), palauttaa määräaikataulukon lähtöpäiväristiriitoineen. Vain luku – kalenterivastuu jää ihmiselle. |
 
 ## Tietolähteet (`.mcp.json`)
 
-- **oik.ai** (`https://oik.ai/mcp`) — suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Vaatii oik.ai-tilin; liitettäessä OAuth-kirjautuminen.
-- **Adeu** ([`@adeu/mcp-server`](https://github.com/dealfluence/adeu)) — Word-dokumenttien (.docx) ei-tuhoava redlineäminen natiiveina jälkimuutoksina (Track Changes). `asiakirjan-tarkistus` käyttää sitä olemassa olevan .docx:n lukemiseen ja korjausten viemiseen. Pyörii paikallisesti npx:llä, ei vaadi tiliä.
+- **oik.ai** (`https://oik.ai/mcp`) – suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö ohjelmallisesti. Vaatii oik.ai-tilin; liitettäessä OAuth-kirjautuminen.
+- **Adeu** ([`@adeu/mcp-server`](https://github.com/dealfluence/adeu)) – Word-dokumenttien (.docx) ei-tuhoava redlineäminen natiiveina jälkimuutoksina (Track Changes). `asiakirjan-tarkistus` käyttää sitä olemassa olevan .docx:n lukemiseen ja korjausten viemiseen. Pyörii paikallisesti npx:llä, ei vaadi tiliä.
 
 Vaihtoehtoisesti oik.ai:n tilalla voi käyttää muuta yhteensopivaa Finlex-MCP:tä, joka
 tarjoaa työkalut `get_legislation`, `search_decisions` ja `get_decision`.

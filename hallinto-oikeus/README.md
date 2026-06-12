@@ -3,7 +3,7 @@
 Suomen hallinto-oikeus ja julkishallinto: hallintopäätökset, muutoksenhaku ja
 asiakirjajulkisuus.
 
-> **Luonnokset ja arviot ovat tarkistettavia — ei oikeudellista neuvontaa.** Viranomainen
+> **Luonnokset ja arviot ovat tarkistettavia – ei oikeudellista neuvontaa.** Viranomainen
 > vastaa päätöksestään. Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
@@ -18,7 +18,7 @@ asiakirjajulkisuus.
 
 | Agentti | Mitä tekee |
 |---|---|
-| **salassapitoarvioija** | Valmistelee julkisuusarvion (621/1999): käy asiakirjan kohta kohdalta, merkitsee salassapitoehdokkaat säännösperusteineen ja vahinkoedellytyksineen ja tuottaa peittoehdotuksen — osittainen julkisuus pääsääntönä. Esitys; viranhaltija päättää. Vain luku. |
+| **salassapitoarvioija** | Valmistelee julkisuusarvion (621/1999): käy asiakirjan kohta kohdalta, merkitsee salassapitoehdokkaat säännösperusteineen ja vahinkoedellytyksineen ja tuottaa peittoehdotuksen – osittainen julkisuus pääsääntönä. Esitys; viranhaltija päättää. Vain luku. |
 
 ## Perustana varmistetut säädökset
 
@@ -28,9 +28,9 @@ hallintoasioissa (808/2019)** (korvasi hallintolainkäyttölain 586/1996) ja **j
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (lain ja KHO/hallinto-oikeus-käytännön tarkistus) ja `asiakirjan-tarkistus`.
-- **`tietosuoja`-plugari** — julkisuuden ja henkilötietojen suojan yhteensovittaminen.
-- **`lausunnot`-plugari** — kunnan/viranomaisen lausunnot lakiehdotuksiin.
+- **`juristi`-plugari** – `oikeustutkimus` (lain ja KHO/hallinto-oikeus-käytännön tarkistus) ja `asiakirjan-tarkistus`.
+- **`tietosuoja`-plugari** – julkisuuden ja henkilötietojen suojan yhteensovittaminen.
+- **`lausunnot`-plugari** – kunnan/viranomaisen lausunnot lakiehdotuksiin.
 
 ## Asennus
 

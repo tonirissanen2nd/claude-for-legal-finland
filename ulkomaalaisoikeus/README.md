@@ -4,9 +4,9 @@ Suomen ulkomaalaisoikeus työnantajan ja avustajan näkökulmasta: työperusteis
 oleskeluluvat, työnantajan velvollisuudet ja seuraamukset sekä EU-kansalaisen,
 perheenjäsenen ja pysyvän oleskelun polut kansalaisuuteen asti.
 
-> **Jäsennykset ja luonnokset ovat tarkistettavia — ei oikeudellista neuvontaa.**
+> **Jäsennykset ja luonnokset ovat tarkistettavia – ei oikeudellista neuvontaa.**
 > Ulkomaalaislain kokonaisuudistus on valmisteilla ja tulorajat, määräajat ja
-> käsittelyajat muuttuvat tiheään — ne haetaan aina lähteestä (Finlex, migri.fi).
+> käsittelyajat muuttuvat tiheään – ne haetaan aina lähteestä (Finlex, migri.fi).
 > Kansainvälisen suojelun asioita tämä plugari ei kata.
 > Katso [`CLAUDE.md`](CLAUDE.md).
 
@@ -20,21 +20,21 @@ perheenjäsenen ja pysyvän oleskelun polut kansalaisuuteen asti.
 
 ## Perustana varmistetut säädökset
 
-Lähteestä (Finlex) varmistettu: **ulkomaalaislaki (301/2004)** — ml. termit
+Lähteestä (Finlex) varmistettu: **ulkomaalaislaki (301/2004)** – ml. termit
 työntekijän oleskelulupa, erityisasiantuntija, sininen kortti, kasvuyrittäjä,
-työnantajan velvollisuudet ja seuraamusmaksu — **laki työntekijöiden
+työnantajan velvollisuudet ja seuraamusmaksu – **laki työntekijöiden
 lähettämisestä (447/2016)** ja **kansalaisuuslaki (359/2003)**. Tulorajat,
 käsittelyajat ja lupatyyppien yksityiskohdat tarkistetaan käytössä
 `juristi:oikeustutkimus`-skillillä ja migri.fi:stä.
 
 ## Liittyy
 
-- **`tyooikeus`-plugari** — työsuhteen ehdot ovat samat kuin suomalaisella
+- **`tyooikeus`-plugari** – työsuhteen ehdot ovat samat kuin suomalaisella
   (TES, pakottava työlainsäädäntö); alipalkkaus on myös lupariski.
-- **`juristi`-plugari** — `oikeustutkimus` (KHO:n käytäntö) ja `toimeksianto`.
-- **`hallinto-oikeus`-plugari** — Migrin päätökset ovat hallintopäätöksiä:
+- **`juristi`-plugari** – `oikeustutkimus` (KHO:n käytäntö) ja `toimeksianto`.
+- **`hallinto-oikeus`-plugari** – Migrin päätökset ovat hallintopäätöksiä:
   muutoksenhaku (808/2019).
-- **`rikosprosessi`-plugari** — luvattoman ulkomaisen työvoiman käytön
+- **`rikosprosessi`-plugari** – luvattoman ulkomaisen työvoiman käytön
   rikosepäilyt.
 
 ## Asennus

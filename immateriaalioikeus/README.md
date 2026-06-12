@@ -1,12 +1,12 @@
 # Immateriaalioikeus
 
 Suomen immateriaalioikeus yrityksen aineettoman omaisuuden suojaamiseen ja
-puolustamiseen: tavaramerkki ja toiminimi, tekijänoikeus ja liikesalaisuudet —
+puolustamiseen: tavaramerkki ja toiminimi, tekijänoikeus ja liikesalaisuudet –
 rekisteröintistrategia, loukkausarvio, lisensointi ja sopimuskytkennät.
 
-> **Arviot ja luonnokset ovat tarkistettavia — ei oikeudellista neuvontaa.**
+> **Arviot ja luonnokset ovat tarkistettavia – ei oikeudellista neuvontaa.**
 > Plugari ei näe rekistereitä (PRH, EUIPO, WIPO) eikä siksi koskaan vahvista, että
-> merkki on vapaa tai keksintö uusi — se tuottaa hakustrategian ihmiselle.
+> merkki on vapaa tai keksintö uusi – se tuottaa hakustrategian ihmiselle.
 > Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
@@ -20,8 +20,8 @@ rekisteröintistrategia, loukkausarvio, lisensointi ja sopimuskytkennät.
 ## Perustana varmistetut säädökset
 
 Lähteestä (Finlex) varmistettu: **tavaramerkkilaki (544/2019)**, **tekijänoikeuslaki
-(404/1961)** — sisältää DSM-direktiivin muutokset (verkkosisällönjakopalvelut,
-tekstin- ja tiedonlouhinta) ja 40 b §:n tietokoneohjelmien työsuhdesiirrosta —
+(404/1961)** – sisältää DSM-direktiivin muutokset (verkkosisällönjakopalvelut,
+tekstin- ja tiedonlouhinta) ja 40 b §:n tietokoneohjelmien työsuhdesiirrosta –
 **liikesalaisuuslaki (595/2018)**, **patenttilaki (550/1967)**, **mallioikeuslaki
 (221/1971)**, **laki hyödyllisyysmallioikeudesta (800/1991)**, **toiminimilaki
 (128/1979)**, **laki sopimattomasta menettelystä elinkeinotoiminnassa (1061/1978)**
@@ -30,12 +30,12 @@ sisällöt tarkistetaan käytössä `juristi:oikeustutkimus`-skillillä.
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (markkinaoikeuden ja KKO:n käytäntö),
+- **`juristi`-plugari** – `oikeustutkimus` (markkinaoikeuden ja KKO:n käytäntö),
   `asiakirjan-tarkistus` ja `toimeksianto`.
-- **`sopimukset`-plugari** — lisenssi-, NDA- ja siirtosopimusten mekaniikka.
-- **`tyooikeus`-plugari** — työsuhteessa syntyvät oikeudet ja kilpailukielto.
-- **`yhtiooikeus`-plugari** — IPR yritysjärjestelyjen due diligencessä.
-- **`tekoalysaantely`-plugari** — tekoäly ja tekijänoikeus (louhintapoikkeus,
+- **`sopimukset`-plugari** – lisenssi-, NDA- ja siirtosopimusten mekaniikka.
+- **`tyooikeus`-plugari** – työsuhteessa syntyvät oikeudet ja kilpailukielto.
+- **`yhtiooikeus`-plugari** – IPR yritysjärjestelyjen due diligencessä.
+- **`tekoalysaantely`-plugari** – tekoäly ja tekijänoikeus (louhintapoikkeus,
   GPAI-mallien läpinäkyvyys).
 
 ## Asennus

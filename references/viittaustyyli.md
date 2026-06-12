@@ -1,12 +1,12 @@
 # Viittaus- ja lähdestandardi
 
-**Versio 1.0 — 2026-06-04.** Tämä on koko `claude-for-legal-finland`
+**Versio 1.0 – 4.6.2026.** Tämä on koko `claude-for-legal-finland`
 -markkinapaikan **jaettu, sitova lähdestandardi.** Jokaisen plugarin
 `CLAUDE.md` viittaa tähän, ja jokainen skill noudattaa tätä, kun se viittaa
 säädökseen, oikeuskäytäntöön tai esitöihin.
 
 > **Periaate:** lähteen varmistus ja epävarmuuden näkyväksi tekeminen ovat
-> tämän kokoelman tärkein suojaus — eivät disclaimerit. Pelkkä loppuhuomautus
+> tämän kokoelman tärkein suojaus – eivät disclaimerit. Pelkkä loppuhuomautus
 > "ei oikeudellista neuvontaa" ei suojaa ketään. Suojaa se, että jokainen
 > juridista painoa kantava väite on joko **tarkistettu lähteestä** tai
 > **merkitty selvästi tarkistettavaksi.**
@@ -25,7 +25,7 @@ Lukijan on nähtävä luokka **yhdellä silmäyksellä**, väitteen vierestä.
 
 | Luokka | Milloin | Miten merkitään |
 |---|---|---|
-| **Varmistettu** | Lainkohta tai ratkaisu on haettu ja tarkistettu lähteestä (oik.ai/Finlex) tällä istunnolla. | Lähde numeron perään: `(kuntalaki 410/2015, 7 §, Finlex)` tai `(oik.ai)`. |
+| **Varmistettu** | Lainkohta tai ratkaisu on haettu ja tarkistettu lähteestä (oik.ai/Finlex) tässä istunnossa. | Lähde numeron perään: `(kuntalaki 410/2015, 7 §, Finlex)` tai `(oik.ai)`. |
 | **Tarkistettava** | Uskottava mutta varmistamaton: muistinvarainen lainkohta, mallin laskema luku tai määräaika, tulkinta joka vaatii asiantuntijan. | Merkintä väitteen viereen: `[muistinvarainen — tarkista Finlexistä]`, `[mallin laskelma — tarkista]`, `[varmista — juristin arvioitava]`. |
 | **Älä käytä** | Ei voida tarkistaa eikä esittää varmana: keksitty ratkaisutunnus, säädös- tai HE-numero, lähteetön sitaatti. | **Ei tuoteta lainkaan.** Jos tieto on välttämätön, sano että se on tarkistettava, äläkä keksi tunnusta. |
 
@@ -42,7 +42,7 @@ kuin keksitty täsmällinen tunnus.
    verkkopalvelu (HE:t, valiokuntamietinnöt), tuomioistuinten omat julkaisut,
    EUR-Lex (EU-säädökset), curia.europa.eu (EUT).
 2. **Toissijaiset, suuntaa antavat:** kirjallisuus, kommentaarit, artikkelit
-   — vain jos käyttäjä toimittaa lähteen tai lisensoitu live-haku vahvistaa sen.
+   – vain jos käyttäjä toimittaa lähteen tai lisensoitu live-haku vahvistaa sen.
 3. **Ei lähteeksi:** mallin muisti yksinään. Muistinvarainen tieto on aina
    Tarkistettava-luokkaa (ks. kohta 1).
 
@@ -60,14 +60,14 @@ on oikeasta, ajantasaisesta versiosta. Huomioi siirtymäsäännökset.
 - Pykäläväli ajatusviivalla: `2–4 §` (ei yhdysviivalla). a-pykälät huomioiden.
 - Lakien nimet pienellä alkukirjaimella: *kuntalaki, rikoslaki*.
 
-**Oikeuskäytäntö** — ratkaisutunnus täsmällisesti:
+**Oikeuskäytäntö** – ratkaisutunnus täsmällisesti:
 - Korkein oikeus: `KKO:2024:15`. Korkein hallinto-oikeus: `KHO:2023:42`.
 - Hovioikeus, markkinaoikeus, työtuomioistuin, vakuutusoikeus: kunkin
   vakiintunut tunnusmuoto; jollei ennakkopäätösnumeroa, käytä diaarinumeroa
   ja antopäivää.
 - Euroopan unionin tuomioistuin: asia `C-123/22`, tuomion antopäivä.
 - **Älä koskaan** liitä ratkaisuun väitettä sen sisällöstä, ellet ole
-  tarkistanut ratkaisua lähteestä. Tunnuksen olemassaolo ei riitä — saman
+  tarkistanut ratkaisua lähteestä. Tunnuksen olemassaolo ei riitä – saman
   tunnuksen takana voi olla aivan toinen asia (yleisin hallusinaation muoto).
 
 **Esityöt**
@@ -86,7 +86,7 @@ on oikeasta, ajantasaisesta versiosta. Huomioi siirtymäsäännökset.
 
 Saksalaisen sisarprojektin auditointi 3 228 ratkaisutunnuksesta paljasti, että
 noin 58 % oli väärään asiaan viittaavia, löytymättömiä tai
-varmistamattomia — ja **esimerkkiteksteihin upotetut tunnukset valuivat
+varmistamattomia – ja **esimerkkiteksteihin upotetut tunnukset valuivat
 oikeisiin tuotoksiin.** Siksi:
 
 - **Reference- ja malliteksteissä käytä ilmiselviä paikkamerkkejä:**
@@ -102,7 +102,7 @@ oikeisiin tuotoksiin.** Siksi:
 
 ## 5. Provenienssi numeroon, ei kappaleeseen
 
-Merkintä kuuluu **sen rivin viereen, jota se koskee** — ei kappaleen loppuun
+Merkintä kuuluu **sen rivin viereen, jota se koskee** – ei kappaleen loppuun
 yleisenä varauksena. Lukija näkee yhdellä silmäyksellä, mikä on tarkistettua
 ja mikä päättelyä. Älä kerää kaikkia varauksia tekstin loppuun.
 

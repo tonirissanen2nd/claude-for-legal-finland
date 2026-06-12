@@ -1,23 +1,22 @@
 # Claude for Legal Finland
 
-Avoimen lähdekoodin skillit ja plugarit, jotka auttavat juristeja ja muita
-oikeudellisten asioiden parissa työskenteleviä **Suomessa** hyödyntämään Claudea
-suomalaisen oikeuden, lakikielen ja oikeuslähteiden ehdoilla. Suomalainen vastine
-Anthropicin [claude-for-legal](https://github.com/anthropics/claude-for-legal)
--kokoelmalle.
+Avoimen lähdekoodin skillit ja plugarit juristeille ja muille oikeudellisten
+asioiden parissa työskenteleville: Claude **suomalaisen oikeuden**, lakikielen
+ja oikeuslähteiden ehdoilla. Suomalainen vastine Anthropicin
+[claude-for-legal](https://github.com/anthropics/claude-for-legal)-kokoelmalle.
 
 > [!IMPORTANT]
-> **Jokainen näiden plugarien tuotos on tarkistettava luonnos — ei oikeudellista
+> **Jokainen näiden plugarien tuotos on tarkistettava luonnos – ei oikeudellista
 > neuvontaa, ei oikeudellinen johtopäätös eikä juristin korvaaja.** Plugarit on
-> rakennettu suojauksilla, jotka heijastavat tätä: lähdemerkintä jokaiseen
-> viittaukseen, lähteestä tarkistettu laki ja oikeuskäytäntö muistin sijaan,
-> jurisdiktio-oletukset näkyvissä ja varmistus ennen kuin mitään lähetetään,
-> jätetään tai allekirjoitetaan. Pätevä ihminen tarkistaa, varmistaa ja kantaa
-> ammatillisen vastuun lopputuloksesta. Nämä työkalut tekevät tarkistuksesta
-> nopeampaa; ne eivät korvaa sitä. Suojan tuottavat **mekanismit** — lähteen
-> varmistus, kolmiportainen varmuusmerkintä, premissien tarkistus,
-> negatiivirajaus ja ihmisen tarkistusportti — eivät tämä huomautus. Ne on
-> koottu tiedostoihin [`references/viittaustyyli.md`](references/viittaustyyli.md)
+> rakennettu sen mukaisesti: lähdemerkintä jokaiseen viittaukseen, laki ja
+> oikeuskäytäntö tarkistetaan lähteestä eikä muistista, jurisdiktio-oletukset
+> pidetään näkyvissä, ja ennen kuin mitään lähetetään, jätetään tai
+> allekirjoitetaan, asian varmistaa ihminen. Pätevä ihminen myös kantaa
+> ammatillisen vastuun lopputuloksesta. Työkalut nopeuttavat tarkistusta;
+> ne eivät korvaa sitä. Suojan tuottavat **mekanismit** – lähteen varmistus,
+> kolmiportainen varmuusmerkintä, premissien tarkistus, negatiivirajaus ja
+> ihmisen tarkistusportti – eivät tämä huomautus. Mekanismit on koottu
+> tiedostoihin [`references/viittaustyyli.md`](references/viittaustyyli.md)
 > ja [`references/vastuu-ja-tietoturva.md`](references/vastuu-ja-tietoturva.md).
 >
 > Tämä on avoimen lähdekoodin yhteisöhanke, ei viranomais- tai
@@ -27,23 +26,29 @@ Anthropicin [claude-for-legal](https://github.com/anthropics/claude-for-legal)
 
 Suomalainen juridinen työ poikkeaa angloamerikkalaisesta: civil law -järjestelmä,
 Finlexin säädöskanta, hallituksen esitykset (HE) tulkinta-aineistona, KKO:n ja KHO:n
-ennakkopäätökset, pakottava lainsäädäntö ja tarkka lakikieli. Tämä kokoelma rakentaa
-Clauden avuksi näiden **aitojen lähteiden** ehdoilla ja kytkeytyy työkaluihin kuten
-**oik.ai** ja **Finlex**.
+ennakkopäätökset, pakottava lainsäädäntö ja tarkka lakikieli. Tämä kokoelma tuo
+nämä **aidot lähteet** Clauden työn pohjaksi ja kytkeytyy suoraan **oik.ai:hin**
+ja **Finlexiin**.
 
 Rakenne mukailee Anthropicin claude-for-legalia: markkinapaikka
 ([`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)) listaa
 käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
 (`skills/<nimi>/SKILL.md`), jaetut suojaukset (`CLAUDE.md`) ja datakonnektorit
 (`.mcp.json`); osa plugareista sisältää lisäksi **agentteja** (`agents/<nimi>.md`)
-— delegoitavia työvaiheita kuten viitteiden adversariaalinen tarkistus
+– delegoitavia työvaiheita kuten viitteiden adversariaalinen tarkistus
 (`lahdetarkastaja`), aineiston määräaikaskannaus (`maaraaikaskanneri`),
 vastapuolen argumentaation simulointi (`vastapuoli`), datahuoneen inventointi
 (`aineistokartoittaja`), sopimuksen vertaus talon linjaan (`poikkeamatarkastaja`)
-ja julkisuusarvion valmistelu (`salassapitoarvioija`). Repon juuren [`references/`](references/)-tiedostot määrittävät
-jaetut lähde-, vastuu- ja tietoturvastandardit, ja
-[`scripts/validate.mjs`](scripts/validate.mjs) (ajetaan CI:ssä) valvoo
-markkinapaikan ja skillien rakennetta jokaisessa muutoksessa.
+ja julkisuusarvion valmistelu (`salassapitoarvioija`).
+
+Laatua valvotaan kolmella mekanismilla: repon juuren
+[`references/`](references/)-tiedostot määrittävät jaetut lähde-, vastuu- ja
+tietoturvastandardit, [`scripts/validate.mjs`](scripts/validate.mjs) tarkistaa
+markkinapaikan ja skillien rakenteen CI:ssä jokaisessa muutoksessa, ja
+kuukausittain ajettava **säädösvahti**
+([`scripts/tarkista-saadokset.mjs`](scripts/tarkista-saadokset.mjs)) tarkistaa
+Finlexistä, että kokoelman viittaamien säädösten nimet ovat yhä ajan tasalla –
+kumottu tai uudelleen nimetty laki jää näin kiinni automaattisesti.
 
 ## Plugarit
 

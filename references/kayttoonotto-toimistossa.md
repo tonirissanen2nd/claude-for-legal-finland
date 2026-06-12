@@ -1,4 +1,4 @@
-# Käyttöönotto organisaatiossa — päätökset ennen tuotantokäyttöä
+# Käyttöönotto organisaatiossa – päätökset ennen tuotantokäyttöä
 
 Tämä opas on tarkoitettu asianajotoimiston, lakiosaston, viraston tai
 kunnan vastuuhenkilölle, joka ottaa kokoelman käyttöön **ammattikäytössä**.
@@ -27,7 +27,7 @@ Kirjaa linjaus organisaation ohjeeseen ja
   koulutuskäyttöehdot (API/työtilatason asetukset).
 - **Asianajosalaisuus ja salassapito**: arvioi, salliiko
   toimeksiantosopimus ja ammattieettiset säännöt aineiston käsittelyn
-  valitulla työkalulla — ja dokumentoi arvio. Epäselvässä tilanteessa
+  valitulla työkalulla – ja dokumentoi arvio. Epäselvässä tilanteessa
   asiakkaan suostumus tai anonymisointi.
 - **Julkishallinto**: julkisuuslain salassapitoperusteet ja
   tiedonhallintalain vaatimukset arvioidaan ennen käyttöönottoa.
@@ -36,31 +36,31 @@ Kirjaa linjaus organisaation ohjeeseen ja
 
 - Asenna **PII Shield** (ks. `tietosuoja`-plugarin README) ja tee
   siitä oletus: henkilötiedot korvataan paikkamerkeillä paikallisesti
-  ennen analyysiä ja palautetaan jälkikäteen. Suomalaiset tunnisteet
-  (HETU, Y-tunnus) tuettu v2.2.0:sta alkaen.
+  ennen analyysiä ja palautetaan jälkikäteen. Suomalaisia tunnisteita
+  (HETU, Y-tunnus) on tuettu versiosta 2.2.0 alkaen.
 - Määritä, milloin anonymisointi on pakollinen (esim. aina
   henkilöasiakkaiden aineistossa) ja kuka sen varmistaa.
 
 ## 4. Konnektorit ja vähimmäisoikeudet
 
-- **oik.ai/Finlex-MCP** on lähdekurin selkäranka — ilman sitä skillit
+- **oik.ai/Finlex-MCP** on lähdekurin selkäranka – ilman sitä skillit
   merkitsevät viittaukset muistinvaraisiksi. Päätä, kenen tilillä ja
   millä laajuudella konnektori on käytössä.
 - Paikalliset MCP:t (Adeu, EU AI Act) eivät vaadi tiliä mutta vaativat
-  Node.js:n — ota mukaan työasemavakioon.
-- Periaate: **vain tarvittavat konnektorit** — älä kytke työkaluun
+  Node.js:n – ota se mukaan työasemavakioon.
+- Periaate: **vain tarvittavat konnektorit** – älä kytke työkaluun
   järjestelmiä, joita skillit eivät tarvitse. Agenttiresepteissä
   noudata lukija/analysoija/kirjoittaja-mallia
   ([`../agentti-reseptit/README.md`](../agentti-reseptit/README.md)).
 
-## 5. Ihmisen tarkistusportti — nimeä se
+## 5. Ihmisen tarkistusportti – nimeä se
 
 Jokainen tuotos on tarkistettava luonnos. Tee siitä prosessi:
 
-- **Kuka tarkistaa mitä**: esim. 🔴-luokitellut riskiarviot ja kaikki
-  ulos lähtevä aina kokenut juristi; määräaikalaskelmat aina
-  vastuuhenkilö kalenteria vasten.
-- **Viitteet tarkistetaan lähteestä** ennen lähettämistä —
+- **Kuka tarkistaa mitä**: esim. 🔴-luokitellut riskiarviot ja kaiken
+  ulos lähtevän tarkistaa aina kokenut juristi; määräaikalaskelmat käy
+  läpi vastuuhenkilö kalenteria vasten.
+- **Viitteet tarkistetaan lähteestä** ennen lähettämistä –
   `juristi`-plugarin `lahdetarkastaja`-agentti tekee tästä
   yksivaiheisen: aja se jokaiselle lausunnolle ja kirjelmälle.
 - Kirjaa tarkistusketju käytäntöprofiiliin, jolloin skillit
@@ -68,10 +68,10 @@ Jokainen tuotos on tarkistettava luonnos. Tee siitä prosessi:
 
 ## 6. Räätälöinti ja pilotointi
 
-1. Asenna `juristi` + 2–3 omaa ydinaluetta — älä kaikkea kerralla.
+1. Asenna `juristi` + 2–3 omaa ydinaluetta – älä kaikkea kerralla.
 2. Aja `juristi:kaytantoprofiili` ja kirjaa talon linjaukset.
 3. Pilotoi [`esimerkkiaineistoilla`](../esimerkkiaineistot/) ennen
-   oikeaa aineistoa — niissä on arviointikriteerit, joilla näet,
+   oikeaa aineistoa – niissä on arviointikriteerit, joilla näet,
    toimivatko skillit odotetusti omassa ympäristössäsi.
 4. Kouluta käyttäjät kahteen asiaan: (a) tuotos on luonnos, (b)
    varmuusmerkinnät (`Varmistettu / Tarkistettava / [mallin laskelma —
@@ -85,10 +85,10 @@ Jokainen tuotos on tarkistettava luonnos. Tee siitä prosessi:
 - **Oikeuskäytäntö**: `agentti-reseptit/ennakkopaatos-vahti` omille
   aihealueille.
 - **Versiopäivitykset**: kokoelman releaset (GitHub) tuovat uusia
-  skillejä ja korjauksia — katselmoi muutosloki ennen päivitystä, jos
+  skillejä ja korjauksia – katselmoi muutosloki ennen päivitystä, jos
   olette räätälöineet profiileja.
 - **Palaute ja evaluointi**: kerää käyttäjiltä virhehavainnot
-  (erityisesti viittausvirheet) ja ilmoita ne repoon — koko kokoelman
+  (erityisesti viittausvirheet) ja ilmoita ne repoon – koko kokoelman
   laatu paranee.
 
 ## Vastuunjako tiivistettynä
@@ -98,4 +98,4 @@ Jokainen tuotos on tarkistettava luonnos. Tee siitä prosessi:
 | Tuotoksen oikeellisuus ja käyttö | tarkistava juristi / asiantuntija |
 | Määräaikojen noudattaminen | nimetty vastuuhenkilö, kalenteri |
 | Aineiston käsittelyn lainmukaisuus | organisaatio (rekisterinpitäjä) |
-| Skillien sisältö ja suojaukset | tämä avoin yhteisöprojekti — ei takuuta; ks. [LICENSE](../LICENSE) |
+| Skillien sisältö ja suojaukset | tämä avoin yhteisöprojekti – ei takuuta; ks. [LICENSE](../LICENSE) |

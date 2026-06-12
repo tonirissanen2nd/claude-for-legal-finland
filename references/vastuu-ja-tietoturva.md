@@ -1,6 +1,6 @@
 # Vastuu, ammattietiikka ja tietoturva
 
-**Versio 1.0 — 2026-06-04.** Tämä on koko `claude-for-legal-finland`
+**Versio 1.0 – 4.6.2026.** Tämä on koko `claude-for-legal-finland`
 -markkinapaikan jaettu vastuu- ja tietoturvastandardi. Se täydentää
 [`references/viittaustyyli.md`](viittaustyyli.md) -lähdestandardia.
 
@@ -21,21 +21,21 @@ ja vähäisin.
    Finlex), ei mallin muistista. Ks. plugarien `CLAUDE.md` ja
    `juristi:oikeustutkimus`.
 2. **Kolmiportainen varmuusmerkintä.** Jokainen väite on joko *Varmistettu*,
-   *Tarkistettava* tai *Älä käytä* — ja merkintä näkyy numeron vieressä.
+   *Tarkistettava* tai *Älä käytä* – ja merkintä näkyy numeron vieressä.
    Ks. [`viittaustyyli.md`](viittaustyyli.md).
 3. **Premissien tarkistus.** Käyttäjän esittämää virheellistä oikeudellista
    faktaa ei oteta annettuna; olennainen premissi tarkistetaan ennen analyysiä.
 4. **Negatiivirajaus.** Jokainen skill kertoo osiossa *Mitä tämä skill EI tee*,
-   mihin se ei ota kantaa ja mitä se ei korvaa — tämä rajaa hallusinaatio- ja
+   mihin se ei ota kantaa ja mitä se ei korvaa – tämä rajaa hallusinaatio- ja
    vastuuriskiä konkreettisesti.
 5. **Ihmisen tarkistusportti.** Mitään ei lähetetä, jätetä tuomioistuimeen,
    allekirjoiteta tai julkaista ennen kuin pätevä ihminen on tarkistanut ja
    hyväksynyt sen ja kantaa ammatillisen vastuun lopputuloksesta.
-6. **Vastuuvapaus.** Merkitään tuotokseen — mutta vasta viidennen mekanismin
+6. **Vastuuvapaus.** Merkitään tuotokseen – mutta vasta viidennen mekanismin
    jälkeen, ei sen sijasta.
 
-**Suunnittelusääntö:** jos virhe pääsisi läpi ilman että jokin mekanismi 1–5
-sen pysäyttää, vika on skillissä — korjaa skilli, älä luota disclaimeriin.
+**Suunnittelusääntö:** jos virhe pääsisi läpi ilman, että jokin mekanismi 1–5
+sen pysäyttää, vika on skillissä – korjaa skilli, älä luota disclaimeriin.
 
 ---
 
@@ -73,16 +73,16 @@ usein salassa pidettävän tiedon käsittelyä. Ennen kuin asiakirjoja syötetä
 - **Käsittelysopimus (GDPR 28 art).** Jos henkilötietoja käsitellään ulkoisessa
   työkalussa/pilvipalvelussa, palveluntarjoajan kanssa on oltava
   henkilötietojen käsittelysopimus (DPA/AVV). Varmista myös tietojen
-  **säilytyskäytäntö** (esim. mallintarjoajan data retention) ja mahdollinen
-  tiedon siirto EU:n ulkopuolelle (siirtoperuste).
+  **säilytyskäytäntö** (esim. kuinka pitkään mallintarjoaja säilyttää
+  syötteet) ja mahdollinen tiedon siirto EU:n ulkopuolelle (siirtoperuste).
 - **Anonymisointi ensin.** Kun henkilötietojen ei tarvitse päätyä mallille,
   anonymisoi ne paikallisesti ennen analyysiä. Suositeltu työkalu on
   **PII Shield** (ks. `tietosuoja`-plugarin README): se korvaa henkilötiedot
-  paikkamerkeillä paikallisesti ja palauttaa ne jälkikäteen — henkilötieto ei
-  mene API:in. Tämä toteuttaa tietojen minimoinnin.
+  paikkamerkeillä paikallisesti ja palauttaa ne jälkikäteen – henkilötieto ei
+  päädy API:hin asti. Tämä toteuttaa tietojen minimoinnin.
 - **Salassapito ja pilvi.** Arvioi erikseen, saako salassa pidettävää tai
   arkaluonteista aineistoa (9–10 art) viedä työkaluun lainkaan. Epäselvässä
-  tilanteessa: älä vie — anonymisoi tai käsittele paikallisesti.
+  tilanteessa: älä vie – anonymisoi tai käsittele paikallisesti.
 - **Oikeudellinen sääntely:** EU:n tietosuoja-asetus (2016/679),
   tietosuojalaki (1050/2018), työelämän tietosuoja (laki yksityisyyden suojasta
   työelämässä 759/2004). Ks. `tietosuoja`-plugari. *Säädösnumerot tarkistettava
@@ -93,11 +93,11 @@ usein salassa pidettävän tiedon käsittelyä. Ennen kuin asiakirjoja syötetä
 ## 4. Tekoälyn läpinäkyvyys työkalusta itsestään
 
 - Nämä plugarit ohjaavat yleiskäyttöistä tekoälyä (Claude). **Tuotokset ovat
-  tekoälyn tuottamia luonnoksia** — tee tämä näkyväksi, kun jaat tuotoksen
+  tekoälyn tuottamia luonnoksia** – tee tämä näkyväksi, kun jaat tuotoksen
   eteenpäin. EU:n tekoälyasetuksen (2024/1689) läpinäkyvyysvelvoite (50 art)
   edellyttää, että käyttäjä tietää olevansa tekemisissä tekoälyn kanssa.
 - **Riskiluokka.** Juristin luonnostelun apuvälineenä työkalu ei lähtökohtaisesti
-  ole korkean riskin tekoälyjärjestelmä. Erityistilanteissa luokka voi muuttua —
+  ole korkean riskin tekoälyjärjestelmä. Erityistilanteissa luokka voi muuttua –
   esimerkiksi jos lainkäyttöviranomainen käyttää tekoälyä avustamaan oikeuden
   soveltamisessa tosiseikkoihin (asetuksen liite III). Arvioi käyttötapa
   tapauskohtaisesti `tekoalysaantely`-plugarilla; älä oleta luokkaa.

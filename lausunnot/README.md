@@ -21,8 +21,8 @@ käytäntöprofiiliin.
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (voimassa olevan lain ja oikeuskäytännön haku oik.ai/Finlexistä, jota lausuntoapuri käyttää vertailussa) ja `asiakirjan-tarkistus` (lausunnon perusteellinen tarkistus).
-- **`lainvalmistelu`-plugari** — säädösvalmistelun puoli; lausunnot ovat valmisteluprosessin toinen pää.
+- **`juristi`-plugari** – `oikeustutkimus` (voimassa olevan lain ja oikeuskäytännön haku oik.ai/Finlexistä, jota lausuntoapuri käyttää vertailussa) ja `asiakirjan-tarkistus` (lausunnon perusteellinen tarkistus).
+- **`lainvalmistelu`-plugari** – säädösvalmistelun puoli; lausunnot ovat valmisteluprosessin toinen pää.
 
 ## Asennus
 

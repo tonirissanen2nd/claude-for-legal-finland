@@ -3,7 +3,7 @@
 Suomen työoikeus työsuhteen elinkaaren keskeisiin tilanteisiin: sopimus, päättäminen ja
 yhteistoiminta. Pakottavan lainsäädännön ja työehtosopimusten (TES) ehdoilla.
 
-> **Luonnokset ja riskiarviot ovat tarkistettavia — ei oikeudellista neuvontaa.**
+> **Luonnokset ja riskiarviot ovat tarkistettavia – ei oikeudellista neuvontaa.**
 > Päättämispäätös kuuluu työnantajalle; 🔴-tapaukset työoikeusjuristille. Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
@@ -22,9 +22,9 @@ yhdenvertaisuus-, tasa-arvolaki ym.) ja niiden numerot tarkistetaan `juristi:oik
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (lain ja oikeuskäytännön, mm. Työtuomioistuin, tarkistus) ja `asiakirjan-tarkistus`.
-- **`sopimukset`-plugari** — yleinen sopimusmekaniikka työsopimuksen pohjana.
-- **`tietosuoja`-plugari** — työntekijöiden henkilötiedot (laki yksityisyyden suojasta työelämässä 759/2004).
+- **`juristi`-plugari** – `oikeustutkimus` (lain ja oikeuskäytännön, mm. Työtuomioistuin, tarkistus) ja `asiakirjan-tarkistus`.
+- **`sopimukset`-plugari** – yleinen sopimusmekaniikka työsopimuksen pohjana.
+- **`tietosuoja`-plugari** – työntekijöiden henkilötiedot (laki yksityisyyden suojasta työelämässä 759/2004).
 
 ## Asennus
 

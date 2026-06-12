@@ -4,7 +4,7 @@ Suomen ja EU:n kilpailuoikeus yritysten ja niiden neuvonantajien työhön:
 kielletyt kilpailunrajoitukset ja määräävän aseman väärinkäyttö,
 yrityskauppavalvonta sekä compliance ja tarkastuksiin varautuminen.
 
-> **Arviot ja luonnokset ovat tarkistettavia — ei oikeudellista neuvontaa.**
+> **Arviot ja luonnokset ovat tarkistettavia – ei oikeudellista neuvontaa.**
 > Kartelliavustusta ei anneta missään muodossa; laillinen polku epäilyttävässä
 > tilanteessa on menettelyn lopettaminen ja leniency-harkinta. Raja-arvot ja
 > prosentit haetaan aina lähteestä. Katso [`CLAUDE.md`](CLAUDE.md).
@@ -19,23 +19,23 @@ yrityskauppavalvonta sekä compliance ja tarkastuksiin varautuminen.
 
 ## Perustana varmistetut säädökset
 
-Lähteestä (Finlex) varmistettu: **kilpailulaki (948/2011)** lukurakenteineen —
+Lähteestä (Finlex) varmistettu: **kilpailulaki (948/2011)** lukurakenteineen –
 2 luku kielletyt kilpailunrajoitukset, 4 luku yrityskauppavalvonta, 4 a luku
 kilpailun tasapuolisuuden turvaaminen julkisen ja yksityisen elinkeinotoiminnan
 välillä, 5 luku menettely; laissa säädetty seuraamusmaksusta vapautuminen ja
-alentaminen (leniency) — sekä **laki kilpailuoikeudellisista vahingonkorvauksista
+alentaminen (leniency) – sekä **laki kilpailuoikeudellisista vahingonkorvauksista
 (1077/2016)**. EU-taso: SEUT 101–102 artikla, sulautuma-asetus ja
 ryhmäpoikkeusasetukset (EUR-Lex; voimassa olevat versiot tarkistetaan käytössä).
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (MAO:n, KHO:n ja EU-tuomioistuimen
+- **`juristi`-plugari** – `oikeustutkimus` (MAO:n, KHO:n ja EU-tuomioistuimen
   käytäntö) ja `toimeksianto`.
-- **`yhtiooikeus`-plugari** — yrityskauppavalvonta osana yritysjärjestelyä.
-- **`julkiset-hankinnat`-plugari** — tarjouskartellit ja tarjousyhteistyön rajat.
-- **`sopimukset`-plugari** — jakelu-, lisenssi- ja yhteistyösopimusten
+- **`yhtiooikeus`-plugari** – yrityskauppavalvonta osana yritysjärjestelyä.
+- **`julkiset-hankinnat`-plugari** – tarjouskartellit ja tarjousyhteistyön rajat.
+- **`sopimukset`-plugari** – jakelu-, lisenssi- ja yhteistyösopimusten
   lausekkeet.
-- **`rikosprosessi`-plugari** — tarjouskartellien mahdollinen rikosulottuvuus.
+- **`rikosprosessi`-plugari** – tarjouskartellien mahdollinen rikosulottuvuus.
 
 ## Asennus
 

@@ -4,7 +4,7 @@ EU:n tekoälyasetuksen (asetus (EU) 2024/1689, "AI Act") noudattaminen suomalais
 kontekstissa.
 
 > **Riskiluokittelu, velvoitteet, sakkolaskelmat ja FRIA-luonnokset ovat tarkistettavia
-> ensiarvioita — ei oikeudellista neuvontaa.** Katso [`CLAUDE.md`](CLAUDE.md).
+> ensiarvioita – ei oikeudellista neuvontaa.** Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
 
@@ -16,17 +16,17 @@ kontekstissa.
 
 ## Tietolähde (`.mcp.json`)
 
-- **EU AI Act MCP** ([`@lexbeam-software/eu-ai-act-mcp`](https://github.com/lexbeam-software/eu-ai-act-mcp)) —
+- **EU AI Act MCP** ([`@lexbeam-software/eu-ai-act-mcp`](https://github.com/lexbeam-software/eu-ai-act-mcp)) –
   avoin (MIT), **deterministinen** (ei LLM:ää silmukassa), EUR-Lex-pohjaiset sitaatit.
   Pyörii **paikallisesti npx:llä, ei vaadi tiliä**. Antaa 9 työkalua tekoälyasetukseen
   (luokittelu, velvoitteet, määräajat, sakot, GPAI, FRIA).
-- **oik.ai** — kansallisen täytäntöönpanon ja toimivaltaisten viranomaisten tarkistukseen
+- **oik.ai** – kansallisen täytäntöönpanon ja toimivaltaisten viranomaisten tarkistukseen
   (vaatii oik.ai-tilin).
 
 ## Liittyy
 
-- **`tietosuoja`-plugari** — tekoälyasetus ja GDPR ovat rinnakkaisia (profilointi, automaattiset päätökset, DPIA).
-- **`juristi`-plugari** — `oikeustutkimus` kansallisen kerroksen tarkistukseen.
+- **`tietosuoja`-plugari** – tekoälyasetus ja GDPR ovat rinnakkaisia (profilointi, automaattiset päätökset, DPIA).
+- **`juristi`-plugari** – `oikeustutkimus` kansallisen kerroksen tarkistukseen.
 
 ## Asennus
 

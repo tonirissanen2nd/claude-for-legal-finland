@@ -3,8 +3,8 @@ name: sopimuksen-laatiminen
 description: >
   Sopimuksen laatiminen Suomen oikeuden mukaan: rakenne, keskeiset lausekkeet ja
   sopimusoikeuden perusteet. Käytä tätä skilliä, kun käyttäjä laatii, luonnostelee
-  tai täydentää sopimusta — toimitus-, palvelu-, salassapito-, työ-, vuokra-,
-  toimeksianto-, lisenssi- tai muuta sopimusta — tai kysyy sopimuslausekkeen
+  tai täydentää sopimusta – toimitus-, palvelu-, salassapito-, työ-, vuokra-,
+  toimeksianto-, lisenssi- tai muuta sopimusta – tai kysyy sopimuslausekkeen
   muotoilusta, sopimuksen osista, vastuunrajoituksesta, sopimussakosta,
   irtisanomisesta, sovellettavasta laista tai riidanratkaisusta. Triggeröi kun
   käyttäjä mainitsee sopimuksen, sopimusehdon, lausekkeen, osapuolet, velvoitteet

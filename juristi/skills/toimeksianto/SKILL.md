@@ -13,7 +13,7 @@ description: >
   asiakas toimitti, saimme aineiston, mitä tälle pitäisi tehdä, järjestä
   tämä, juttukansio, asiakansio, määräaikojen kartoitus. Kun käyttäjä on
   saanut kirjelmän, haasteen, lausumapyynnön tai päätöksen ja kysyy mistä
-  aloittaa, ÄLÄ vastaa sisältöön suoraan — tämä skill kartoittaa määräajat
+  aloittaa, ÄLÄ vastaa sisältöön suoraan – tämä skill kartoittaa määräajat
   ensin, ja sen ohittaminen voi hukata valitus- tai vastausajan.
 ---
 

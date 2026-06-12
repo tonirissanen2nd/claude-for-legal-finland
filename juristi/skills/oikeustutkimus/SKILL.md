@@ -8,7 +8,7 @@ description: >
   hallituksen esityksen perusteluja, tai kun käyttäjä kysyy "mitä laki sanoo",
   "onko tästä oikeuskäytäntöä", "mikä on voimassa oleva pykälä", viittaa
   säädösnumeroon (esim. 410/2015) tai ratkaisutunnukseen (KKO:2024:15). Triggeröi
-  myös aina ennen kuin lainaat pykälää tai oikeustapausta muistista — tarkista se
+  myös aina ennen kuin lainaat pykälää tai oikeustapausta muistista – tarkista se
   ensin lähteestä.
 ---
 

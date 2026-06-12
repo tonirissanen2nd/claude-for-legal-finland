@@ -4,7 +4,7 @@ Suomen yhtiöoikeus yrityksen elinkaaren keskeisiin tilanteisiin: perustaminen j
 hallinto, johdon vastuu ja varojenjako, osakassopimukset sekä yritysjärjestelyt.
 Osakeyhtiölain (624/2006) ehdoilla.
 
-> **Luonnokset ja vaiheistukset ovat tarkistettavia — ei oikeudellista neuvontaa.**
+> **Luonnokset ja vaiheistukset ovat tarkistettavia – ei oikeudellista neuvontaa.**
 > Yhtiöoikeudelliset toimet ja rekisteri-ilmoitukset tekee ihminen; veroseikat
 > veroasiantuntijalle. Katso [`CLAUDE.md`](CLAUDE.md).
 
@@ -13,7 +13,7 @@ Osakeyhtiölain (624/2006) ehdoilla.
 | Skill | Mitä tekee |
 |---|---|
 | **yhtion-hallinto** | Osakeyhtiön perustaminen, yhtiökokous, hallituksen ja toimitusjohtajan tehtävät ja vastuu, varojenjaon kaksoistesti (tase + maksukyky) ja vähemmistönsuoja. Sisältää yhtiöoikeuden perusteiden referenssin (OYL:n varmistettu lukukartta). |
-| **osakassopimus** | Osakassopimuksen laatiminen ja riskitarkistus: päätöksenteko, luovutusrajoitukset, vesting ja leaver-ehdot, drag/tag, kilpailukielto, deadlock, exit — ja suhde yhtiöjärjestykseen. |
+| **osakassopimus** | Osakassopimuksen laatiminen ja riskitarkistus: päätöksenteko, luovutusrajoitukset, vesting ja leaver-ehdot, drag/tag, kilpailukielto, deadlock, exit – ja suhde yhtiöjärjestykseen. |
 | **yritysjarjestelyt** | Yritysjärjestelyn jäsennys: osakekauppa vs. liiketoimintakauppa, oikeudellinen due diligence, sulautuminen ja jakautuminen (OYL 16–17 luku), suostumukset, yrityskauppavalvonta ja kaupparekisteri-ilmoitukset. |
 
 ## Agentit
@@ -32,12 +32,12 @@ kommandiittiyhtiöstä (389/1988)**, **osuuskuntalaki (421/2013)** ja **tilintar
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (lain ja oikeuskäytännön tarkistus),
+- **`juristi`-plugari** – `oikeustutkimus` (lain ja oikeuskäytännön tarkistus),
   `asiakirjan-tarkistus` ja `toimeksianto`.
-- **`sopimukset`-plugari** — yleinen sopimusmekaniikka (osakassopimus ja kauppakirja
+- **`sopimukset`-plugari** – yleinen sopimusmekaniikka (osakassopimus ja kauppakirja
   ovat sopimuksia: OikTL 228/1929, kohtuullistaminen 36 §).
-- **`tyooikeus`-plugari** — liikkeen luovutus ja henkilöstö yritysjärjestelyissä.
-- **`insolvenssi`-plugari** — maksukykytesti ja läheisyys maksukyvyttömyyteen.
+- **`tyooikeus`-plugari** – liikkeen luovutus ja henkilöstö yritysjärjestelyissä.
+- **`insolvenssi`-plugari** – maksukykytesti ja läheisyys maksukyvyttömyyteen.
 
 ## Asennus
 

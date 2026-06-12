@@ -3,7 +3,7 @@
 Henkilötietojen käsittelyn tietosuoja EU:n yleisen tietosuoja-asetuksen ((EU) 2016/679,
 GDPR) ja kansallisen tietosuojalain (1050/2018) mukaan.
 
-> **Arviot, selosteet ja vastausluonnokset ovat tarkistettavia luonnoksia — ei
+> **Arviot, selosteet ja vastausluonnokset ovat tarkistettavia luonnoksia – ei
 > oikeudellista neuvontaa.** Korkean riskin käsittely, arkaluonteiset tiedot ja DPIA:t
 > kuuluvat tietosuojavastaavan/juristin arvioon. Katso [`CLAUDE.md`](CLAUDE.md).
 
@@ -26,14 +26,14 @@ pykälät tarkistetaan `juristi:oikeustutkimus`-skillillä.
 
 [**PII Shield**](https://github.com/gregmos/PII-Shield) anonymisoi dokumentit
 **paikallisesti ennen kuin malli näkee ne** (`John Smith → <PERSON_1>`) ja palauttaa
-oikeat tiedot jälkikäteen — *henkilötieto ei mene API:in*. Erinomainen pari tietosuojatyöhön
+oikeat tiedot jälkikäteen – *henkilötieto ei mene API:in*. Erinomainen pari tietosuojatyöhön
 ja luottamuksellisuuteen. Se on erillinen Claude-laajennus (`.mcpb`) / CLI, jonka asennat itse.
 
 **🇫🇮 Suomalaiset tunnisteet** (HETU + Y-tunnus) **kuuluvat virallisiin paketteihin
-versiosta v2.2.0** alkaen (28.5.2026) — kontribuoitu tämän projektin kautta
+versiosta v2.2.0** alkaen (28.5.2026) – kontribuoitu tämän projektin kautta
 ([gregmos/PII-Shield#4](https://github.com/gregmos/PII-Shield/pull/4), mergattu).
 
-**Asennus — valitse:**
+**Asennus – valitse:**
 
 **A) Claude Desktop / Cowork** (suositeltavin): lataa `pii-shield-v2.2.0-*.mcpb`
 PII Shieldin [releaseista](https://github.com/gregmos/PII-Shield/releases/latest) ja
@@ -53,11 +53,11 @@ claude mcp add pii-shield --transport stdio -- node /ABSOLUUTTINEN/POLKU/PII-Shi
 
 > Huom: vaihtoehto C on **paikallinen, koneeseesi sidottu** asetus (absoluuttinen polku),
 > ei osa siirrettävää plugaria. Siksi PII Shieldiä ei ole kytketty tämän plugarin
-> `.mcp.json`:iin — virallinen `.mcpb` (A) on suositelluin reitti.
+> `.mcp.json`:iin – virallinen `.mcpb` (A) on suositelluin reitti.
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (kansallisen lain tarkistus) ja `asiakirjan-tarkistus`.
+- **`juristi`-plugari** – `oikeustutkimus` (kansallisen lain tarkistus) ja `asiakirjan-tarkistus`.
 
 ## Asennus
 

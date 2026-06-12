@@ -3,7 +3,7 @@
 Riita-asian ratkaiseminen yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/1734):
 vireillepano, todistelu ja muutoksenhaku.
 
-> **Luonnokset ja arviot ovat tarkistettavia — ei oikeudellista neuvontaa eikä arvio
+> **Luonnokset ja arviot ovat tarkistettavia – ei oikeudellista neuvontaa eikä arvio
 > menestymisestä.** Toimeksiannon hoitava asianajaja vastaa lopputuloksesta. Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
@@ -23,15 +23,15 @@ vireillepano, todistelu ja muutoksenhaku.
 
 ## Perustana varmistetut säädökset
 
-Lähteestä (oik.ai/Finlex) varmistettu: **oikeudenkäymiskaari (4/1734)** — mm. haastehakemuksen
-sisältö (5:2 §) haettu sanatarkasti — ja **tuomioistuinlaki (673/2016)**. Aineellinen laki ja
+Lähteestä (oik.ai/Finlex) varmistettu: **oikeudenkäymiskaari (4/1734)** – mm. haastehakemuksen
+sisältö (5:2 §) haettu sanatarkasti – ja **tuomioistuinlaki (673/2016)**. Aineellinen laki ja
 muut säädökset (mm. laki välimiesmenettelystä 967/1992) tarkistetaan `juristi:oikeustutkimus`-skillillä.
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (prosessisäännökset, aineellinen laki ja KKO/hovioikeus-käytäntö) ja `asiakirjan-tarkistus`.
-- **`sopimukset`-plugari** — sopimusriitojen aineellinen pohja.
-- **`tietosuoja`-plugari** — aineiston anonymisointi (PII Shield) ennen käsittelyä.
+- **`juristi`-plugari** – `oikeustutkimus` (prosessisäännökset, aineellinen laki ja KKO/hovioikeus-käytäntö) ja `asiakirjan-tarkistus`.
+- **`sopimukset`-plugari** – sopimusriitojen aineellinen pohja.
+- **`tietosuoja`-plugari** – aineiston anonymisointi (PII Shield) ennen käsittelyä.
 
 ## Asennus
 

@@ -4,7 +4,7 @@ description: >
   Hankintapäätös, hankintaoikaisu ja muutoksenhaku markkinaoikeuteen
   julkisissa hankinnoissa (hankintalaki 1397/2016). Käytä tätä skilliä,
   kun hankintayksikkö laatii hankintapäätöstä perusteluineen, soveltaa
-  odotusaikaa tai tekee hankintasopimusta — tai kun tarjoaja on hävinnyt
+  odotusaikaa tai tekee hankintasopimusta – tai kun tarjoaja on hävinnyt
   kilpailutuksen ja arvioi hankintaoikaisun tai markkinaoikeusvalituksen
   edellytyksiä, tai kun arvioidaan sopimusmuutoksen sallittavuutta
   sopimuskaudella. Triggeröi sanoista: hankintapäätös, perustelut,

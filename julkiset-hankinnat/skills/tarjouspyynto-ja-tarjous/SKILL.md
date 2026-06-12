@@ -4,7 +4,7 @@ description: >
   Tarjouspyynnön laatiminen ja tarjouksen tekeminen julkisessa hankinnassa
   (hankintalaki 1397/2016). Käytä tätä skilliä, kun hankintayksikkö laatii
   tarjouspyyntöä, määrittelee soveltuvuusvaatimuksia tai vertailuperusteita
-  tai käsittelee ja vertailee saatuja tarjouksia — tai kun tarjoaja
+  tai käsittelee ja vertailee saatuja tarjouksia – tai kun tarjoaja
   analysoi tarjouspyyntöä, laatii tarjousta, kokoaa ryhmittymää, merkitsee
   liikesalaisuuksia tai harkitsee kysymysten esittämistä. Triggeröi
   sanoista: tarjouspyyntö, tarjous, vertailuperuste, soveltuvuusvaatimus,

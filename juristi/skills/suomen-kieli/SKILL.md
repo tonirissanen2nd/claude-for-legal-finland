@@ -1,7 +1,7 @@
 ---
 name: suomen-kieli
 description: >
-  Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeistus verkkosivujen, dokumenttien ja muun sisällön tuottamiseen ja tarkastamiseen. Käytä tätä skilliä AINA kun kirjoitat tai tuotat suomenkielistä tekstiä, tarkistat suomenkielistä sisältöä, käännät tekstiä suomeksi, luot verkkosivuston sisältöä suomeksi, kirjoitat markkinointimateriaalia suomeksi, tai kun käyttäjä mainitsee suomen kielen, oikeinkirjoituksen, kieliopin, pilkutuksen, yhdyssanat tai muut suomenkieliset kirjoitussäännöt. Triggeröi myös kun käyttäjä pyytää oikolukua, tekstin tarkastusta tai korjausehdotuksia suomeksi kirjoitetulle tekstille. Käytä tätä skilliä myös kun luot sisältöä suomalaisille verkkosivuille tai palveluille — vaikka käyttäjä ei erikseen mainitse suomen kieltä.
+  Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeistus verkkosivujen, dokumenttien ja muun sisällön tuottamiseen ja tarkastamiseen. Käytä tätä skilliä AINA kun kirjoitat tai tuotat suomenkielistä tekstiä, tarkistat suomenkielistä sisältöä, käännät tekstiä suomeksi, luot verkkosivuston sisältöä suomeksi, kirjoitat markkinointimateriaalia suomeksi, tai kun käyttäjä mainitsee suomen kielen, oikeinkirjoituksen, kieliopin, pilkutuksen, yhdyssanat tai muut suomenkieliset kirjoitussäännöt. Triggeröi myös kun käyttäjä pyytää oikolukua, tekstin tarkastusta tai korjausehdotuksia suomeksi kirjoitetulle tekstille. Käytä tätä skilliä myös kun luot sisältöä suomalaisille verkkosivuille tai palveluille – vaikka käyttäjä ei erikseen mainitse suomen kieltä.
 ---
 
 # Suomen kielen oikeinkirjoitus- ja kielioppiohjeistus

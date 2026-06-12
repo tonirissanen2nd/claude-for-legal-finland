@@ -43,7 +43,7 @@ const mp = JSON.parse(readFileSync(join(ROOT, '.claude-plugin', 'marketplace.jso
 
 let out = `# Skillit\n\n`;
 out += `> Autogeneroitu \`scripts/generate-skills-md.mjs\`-skriptillä \`.claude-plugin/marketplace.json\`:sta\n`;
-out += `> ja kunkin \`SKILL.md\`:n frontmatterista. Älä muokkaa käsin — aja skripti uudelleen.\n\n`;
+out += `> ja kunkin \`SKILL.md\`:n frontmatterista. Älä muokkaa käsin – aja skripti uudelleen.\n\n`;
 out += `Markkinapaikalla on **${mp.plugins.length} plugaria**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).\n\n`;
 
 let totalSkills = 0;
@@ -70,7 +70,7 @@ for (const p of mp.plugins) {
   }
   const title = p.displayName || p.name;
   let sec = `## ${title}\n\n`;
-  sec += `\`/plugin install ${p.name}@${mp.name}\` — [\`${p.source}/\`](${p.source}/)\n\n`;
+  sec += `\`/plugin install ${p.name}@${mp.name}\` – [\`${p.source}/\`](${p.source}/)\n\n`;
   if (p.description) sec += `${p.description}\n\n`;
   if (rows.length) {
     sec += `| Skill | Kuvaus |\n|---|---|\n${rows.join('\n')}\n`;

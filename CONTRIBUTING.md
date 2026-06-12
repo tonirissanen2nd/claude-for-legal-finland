@@ -1,16 +1,16 @@
 # Osallistuminen
 
-Lyhyet ohjeet kenelle tahansa, joka kirjoittaa tai muokkaa tämän repon skillejä ja
-plugareita. Tämä ei ole tyyliopas vaan ne periaatteet, jotka eniten vaikuttavat
+Lyhyet ohjeet niille, jotka kirjoittavat tai muokkaavat tämän repon skillejä ja
+plugareita. Tämä ei ole tyyliopas, vaan ne periaatteet, jotka vaikuttavat eniten
 tuotoksen laatuun ja turvallisuuteen.
 
 ## Suunnitteluperiaate: SKILL.md koodaa oikean toiminnan, CLAUDE.md on varaverkko
 
 Jokainen plugari sisältää kaksi ohjekerrosta:
 
-1. **`<plugari>/skills/<skill>/SKILL.md`** — mitä tämä skill tekee, vaihe vaiheelta.
+1. **`<plugari>/skills/<skill>/SKILL.md`** – mitä tämä skill tekee, vaihe vaiheelta.
    Kapea, tehtäväkohtainen rakenne.
-2. **`<plugari>/CLAUDE.md`** — jaetut suojaukset ja käytäntöprofiili. Lähdemerkintä,
+2. **`<plugari>/CLAUDE.md`** – jaetut suojaukset ja käytäntöprofiili. Lähdemerkintä,
    ajantasaisuuden pakko, premissien tarkistus, vastuuvapaus, jurisdiktio näkyviin.
    Laaja, plugaritason turvaverkko.
 
@@ -42,11 +42,11 @@ Suojaus jää paikalleen henkivakuutuksena, mutta skill kantaa tarvitsemansa tie
 1. Sijoita skill oikean plugarin alle: `<plugari>/skills/<nimi>/SKILL.md`.
 2. Kirjoita selkeä `description`-kenttä frontmatteriin: milloin skill triggeröidään
    (suomalaiset triggerit, säädösnumerot, §-merkki, asiakirjatyypit). Frontmatterissa
-   **vain `name` ja `description`** — ei muita kenttiä. `name` = kebab-case = kansion nimi.
+   **vain `name` ja `description`** – ei muita kenttiä. `name` = kebab-case = kansion nimi.
 3. Jaa yksityiskohdat tarvittaessa `references/`-tiedostoihin ja lue ne Read-työkalulla.
 4. Päivitä plugarin README ja tarvittaessa juuren `marketplace.json`.
 5. **Päivitä skill-indeksi:** `node scripts/generate-skills-md.mjs` (kirjoittaa
-   `SKILLS.md`:n marketplace.json:sta ja frontmattereista — älä muokkaa SKILLS.md:tä käsin).
+   `SKILLS.md`:n marketplace.json:sta ja frontmattereista – älä muokkaa SKILLS.md:tä käsin).
 6. **Aja validaattori ennen pushia:** `node scripts/validate.mjs` (sama portti ajetaan
    CI:ssä jokaisessa pushissa ja PR:ssä). Sen on oltava vihreä. CI tarkistaa myös, että
    SKILLS.md on ajan tasalla.

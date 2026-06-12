@@ -7,7 +7,7 @@ description: >
   kun käyttäjä arvioi sopimuksen, yhteistyön tai menettelytavan
   kilpailuoikeudellista sallittavuutta: jakelusopimus, hinnoitteluehto,
   kilpailijayhteistyö, tietojenvaihto, toimialajärjestön toiminta,
-  yksinoikeudet, alennusjärjestelmät tai määräävän aseman kysymykset —
+  yksinoikeudet, alennusjärjestelmät tai määräävän aseman kysymykset –
   tai kun epäillään kartellia tai harkitaan leniencyä tai
   vahingonkorvauskannetta. Triggeröi sanoista: kartelli,
   kilpailunrajoitus, määrähinnoittelu, RPM, tietojenvaihto, määräävä

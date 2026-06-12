@@ -2,7 +2,7 @@
 
 Sopimusten laatiminen ja tarkistus Suomen oikeuden mukaan.
 
-> **Sopimusluonnos ja riskiarvio ovat tarkistettavia luonnoksia — ei oikeudellista
+> **Sopimusluonnos ja riskiarvio ovat tarkistettavia luonnoksia – ei oikeudellista
 > neuvontaa.** Suuririskinen tai 🔴 PUNAINEN sopimus kuuluu juristin arvioitavaksi.
 > Katso [`CLAUDE.md`](CLAUDE.md).
 
@@ -27,7 +27,7 @@ Sisältö nojaa lähteestä (oik.ai/Finlex) varmistettuihin säädöksiin: oikeu
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (lakiviittausten tarkistus lähteestä) ja `asiakirjan-tarkistus` (perusteellinen monivaiheinen läpikäynti).
+- **`juristi`-plugari** – `oikeustutkimus` (lakiviittausten tarkistus lähteestä) ja `asiakirjan-tarkistus` (perusteellinen monivaiheinen läpikäynti).
 
 ## Asennus
 

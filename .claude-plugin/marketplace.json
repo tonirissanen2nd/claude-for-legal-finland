@@ -1,14 +1,14 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "claude-for-legal-finland",
-  "description": "Avoimen lähdekoodin skillit ja plugarit, jotka auttavat juristeja ja muita oikeudellisten asioiden parissa työskenteleviä Suomessa hyödyntämään Claudea — suomalaisen oikeuden, lakikielen ja oikeuslähteiden (Finlex, oik.ai, KKO/KHO, HE) ehdoilla. Suomalainen vastine Anthropicin claude-for-legal-kokoelmalle.",
+  "description": "Avoimen lähdekoodin skillit ja plugarit, jotka auttavat juristeja ja muita oikeudellisten asioiden parissa työskenteleviä Suomessa hyödyntämään Claudea – suomalaisen oikeuden, lakikielen ja oikeuslähteiden (Finlex, oik.ai, KKO/KHO, HE) ehdoilla. Suomalainen vastine Anthropicin claude-for-legal-kokoelmalle.",
   "owner": {
     "name": "Aku Nikkola"
   },
   "plugins": [
     {
       "name": "juristi",
-      "displayName": "Juristi — perusta",
+      "displayName": "Juristi – perusta",
       "source": "./juristi",
       "description": "Läpileikkaava perusta suomalaiseen juridiseen työhön: lakikieli ja pykäläviittaukset, suomen kielen oikeinkirjoitus, oikeustutkimus voimassa olevasta laista ja oikeuskäytännöstä (Finlex/oik.ai-MCP), sekä juridisen asiakirjan monivaiheinen tarkistus. Pohja, johon muut käytäntöaluekohtaiset plugarit nojaavat.",
       "author": {
@@ -73,7 +73,7 @@
       "name": "hallinto-oikeus",
       "displayName": "Hallinto-oikeus",
       "source": "./hallinto-oikeus",
-      "description": "Suomen hallinto-oikeus ja julkishallinto: hallintopäätöksen laatiminen ja tarkistus (hallintolaki 434/2003), muutoksenhaku — oikaisuvaatimus ja valitus (laki oikeudenkäynnistä hallintoasioissa 808/2019) — sekä asiakirjajulkisuus ja tietopyynnöt (julkisuuslaki 621/1999).",
+      "description": "Suomen hallinto-oikeus ja julkishallinto: hallintopäätöksen laatiminen ja tarkistus (hallintolaki 434/2003), muutoksenhaku – oikaisuvaatimus ja valitus (laki oikeudenkäynnistä hallintoasioissa 808/2019) – sekä asiakirjajulkisuus ja tietopyynnöt (julkisuuslaki 621/1999).",
       "author": {
         "name": "Aku Nikkola"
       }

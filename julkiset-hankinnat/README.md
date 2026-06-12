@@ -1,12 +1,12 @@
 # Julkiset hankinnat
 
-Julkisten hankintojen koko kaari hankintalain (1397/2016) mukaan — sekä
+Julkisten hankintojen koko kaari hankintalain (1397/2016) mukaan – sekä
 hankintayksikön että tarjoajan näkökulmasta: suunnittelu ja menettelyn valinta,
 tarjouspyyntö ja tarjous sekä hankintapäätös ja muutoksenhaku.
 
-> **Luonnokset ovat tarkistettavia — ei oikeudellista neuvontaa.**
+> **Luonnokset ovat tarkistettavia – ei oikeudellista neuvontaa.**
 > Kynnysarvot ja määräajat muuttuvat; ne haetaan aina lähteestä. Odotusaika ja
-> valitusajat ovat prekluusiivisia — kalenterivastuu on ihmisellä.
+> valitusajat ovat prekluusiivisia – kalenterivastuu on ihmisellä.
 > Katso [`CLAUDE.md`](CLAUDE.md).
 
 ## Skillit
@@ -20,9 +20,9 @@ tarjouspyyntö ja tarjous sekä hankintapäätös ja muutoksenhaku.
 ## Perustana varmistetut säädökset
 
 Lähteestä (Finlex) varmistettu: **laki julkisista hankinnoista ja
-käyttöoikeussopimuksista (1397/2016)** — pykäläotsikot 123 § hankintaa koskeva
+käyttöoikeussopimuksista (1397/2016)** – pykäläotsikot 123 § hankintaa koskeva
 päätös, 128 § hankintasopimuksen tekeminen, 129 § odotusaika, 132–133 §
-hankintaoikaisu, 146 § muutoksenhaun kohde ja rajoitukset — **laki vesi- ja
+hankintaoikaisu, 146 § muutoksenhaun kohde ja rajoitukset – **laki vesi- ja
 energiahuollon, liikenteen ja postipalvelujen alalla toimivien yksiköiden
 hankinnoista ja käyttöoikeussopimuksista (1398/2016)** sekä **laki julkisista
 puolustus- ja turvallisuushankinnoista (1531/2011)**. Kynnysarvot ja muut
@@ -30,12 +30,12 @@ euromäärät tarkistetaan käytössä lähteestä (Finlex, Hilma, TEM).
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` (MAO:n ja KHO:n hankintakäytäntö),
+- **`juristi`-plugari** – `oikeustutkimus` (MAO:n ja KHO:n hankintakäytäntö),
   `asiakirjan-tarkistus` ja `toimeksianto`.
-- **`hallinto-oikeus`-plugari** — julkisuuslaki ja asiakirjapyynnöt
+- **`hallinto-oikeus`-plugari** – julkisuuslaki ja asiakirjapyynnöt
   hankinnoissa; hankintayksikön päätöksenteko on julkista vallankäyttöä.
-- **`sopimukset`-plugari** — hankintasopimuksen lausekkeet.
-- **`tekoalysaantely`-plugari** — tekoälyjärjestelmien hankinta (AI Act
+- **`sopimukset`-plugari** – hankintasopimuksen lausekkeet.
+- **`tekoalysaantely`-plugari** – tekoälyjärjestelmien hankinta (AI Act
   -velvoitteet käyttöönottajalle).
 
 ## Asennus

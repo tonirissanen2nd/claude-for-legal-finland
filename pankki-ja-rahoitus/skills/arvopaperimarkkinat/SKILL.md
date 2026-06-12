@@ -7,7 +7,7 @@ description: >
   (pörssitiedote, sisäpiiritiedon julkistaminen tai lykkääminen),
   sisäpiiriluetteloita ja kaupankäyntirajoituksia, johdon liiketoimia,
   liputusvelvollisuutta, esitesääntelyä, listautumista tai julkista
-  ostotarjousta — tai kun arvioidaan markkinoiden väärinkäytön riskiä.
+  ostotarjousta – tai kun arvioidaan markkinoiden väärinkäytön riskiä.
   Triggeröi sanoista: pörssitiedote, sisäpiiritieto, sisäpiiriluettelo,
   julkistamisen lykkääminen, MAR, johdon liiketoimet, suljettu ikkuna,
   liputus, esite, listautuminen, IPO, ostotarjous, markkinoiden

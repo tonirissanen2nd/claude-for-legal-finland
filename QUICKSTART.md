@@ -10,13 +10,13 @@ datakonnektorit (oik.ai) lisätään lisäksi asetuksista.
 /plugin marketplace add akunikkola/claude-for-legal-finland
 ```
 
-tai paikallisesta polusta kehittäessä:
+tai kehityskäytössä paikallisesta polusta:
 
 ```
 /plugin marketplace add /polku/claude-for-legal-finland
 ```
 
-## 2. Asenna plugari — valitse user scope
+## 2. Asenna plugari – valitse user scope
 
 ```
 /plugin install juristi@claude-for-legal-finland
@@ -33,14 +33,14 @@ asennetaan oman alan plugarit samalla kaavalla
 Koko luettelo skilleineen: [SKILLS.md](SKILLS.md).
 
 Kun kysytään "this project / all projects", **valitse user scope.** Muuten plugari
-ei saa lukea projektikansion ulkopuolisia tiedostoja (esim. sopimus Downloadsissa).
-User scope ei anna plugarille ylimääräistä pääsyä tiedostoihisi — se vain toimii
+ei saa lukea projektikansion ulkopuolisia tiedostoja (esim. sopimusta Downloadsissa).
+User scope ei anna plugarille ylimääräistä pääsyä tiedostoihisi – se vain toimii
 mistä tahansa kansiosta.
 
 ## 3. Käynnistä uudelleen
 
 - **Claude Code:** sulje ja avaa uudelleen.
-- **Cowork:** käynnistä sovellus uudelleen. **Tämä on pakollinen vaihe** — plugari
+- **Cowork:** käynnistä sovellus uudelleen. **Tämä vaihe on pakollinen** – plugari
   ei ole päällä ennen uudelleenkäynnistystä.
 
 ## 4. Liitä oik.ai (suositeltava)
@@ -58,9 +58,9 @@ Ilman MCP-yhteyttä skillit toimivat yhä, mutta merkitsevät lakiviittaukset
 muistinvaraisiksi ja kehottavat tarkistamaan ne Finlexistä.
 
 **Paikalliset MCP:t (ei tiliä):** osa plugareista käyttää paikallisia, npx:llä käynnistyviä
-MCP-palvelimia, jotka eivät vaadi kirjautumista — **Adeu** (`@adeu/mcp-server`, Word-dokumenttien
+MCP-palvelimia, jotka eivät vaadi kirjautumista – **Adeu** (`@adeu/mcp-server`, Word-dokumenttien
 redlineäminen jälkimuutoksina) dokumenttiplugareissa ja **EU AI Act** (`@lexbeam-software/eu-ai-act-mcp`)
-`tekoälysääntely`-plugarissa. Nämä edellyttävät, että koneella on Node.js asennettuna.
+`tekoälysääntely`-plugarissa. Ne vaativat koneelle Node.js:n.
 
 ## 5. Kokeile
 
@@ -70,7 +70,7 @@ redlineäminen jälkimuutoksina) dokumenttiplugareissa ja **EU AI Act** (`@lexbe
 - "Korjaa tämän pykäläviittauksen muoto" → `juristi`
 - "Laadi muutos kuntalain 7 §:ään ja sen perustelut HE-muotoon" → `lainvalmistelu`
 - "Käy tämä osakassopimusluonnos läpi" → `osakassopimus`
-- "Asiakas ei maksa laskuja — mitä vaihtoehtoja?" → `saatavien-perinta` / `maksukyvyttomyysarvio`
+- "Asiakas ei maksa laskuja – mitä vaihtoehtoja?" → `saatavien-perinta` / `maksukyvyttomyysarvio`
 
 ## Organisaatiokäyttöön
 
@@ -82,5 +82,5 @@ kirjataan `juristi:kaytantoprofiili`-skillillä.
 
 ## Muista
 
-Jokainen tuotos on tarkistettava luonnos — ei oikeudellista neuvontaa. Ihminen
+Jokainen tuotos on tarkistettava luonnos – ei oikeudellista neuvontaa. Ihminen
 vastaa lopputuloksesta.

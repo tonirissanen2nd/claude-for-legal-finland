@@ -4,8 +4,8 @@ Suomen pankki- ja rahoitusoikeus yritysten ja niiden neuvonantajien työhön:
 rahoitussopimukset ja vakuudet, rahanpesun estäminen sekä
 arvopaperimarkkinasääntely.
 
-> **Luonnokset ovat tarkistettavia — ei oikeudellista neuvontaa, ei
-> sijoitusneuvontaa.** Rahoitussääntely on EU-vetoista ja muuttuu nopeasti —
+> **Luonnokset ovat tarkistettavia – ei oikeudellista neuvontaa, ei
+> sijoitusneuvontaa.** Rahoitussääntely on EU-vetoista ja muuttuu nopeasti –
 > säännökset, korkokatot ja kynnysarvot haetaan aina lähteestä. Sisäpiiritiedon
 > väärinkäyttöä tai rahanpesua ei avusteta missään muodossa.
 > Katso [`CLAUDE.md`](CLAUDE.md).
@@ -15,7 +15,7 @@ arvopaperimarkkinasääntely.
 | Skill | Mitä tekee |
 |---|---|
 | **rahoitus-ja-vakuudet** | Rahoitussopimusten ja vakuuksien jäsennys: velkakirja (622/1947) ja lainaehdot (kovenantit, eräännyttäminen), korko ja viivästyskorko (633/1982), takaus ja vierasvelkapanttaus (361/1999, yksityistakaajan pakottava suoja), pantti-, yrityskiinnitys- ja muut vakuudet sekä vakuuspaketin kokonaisuus. Sisältää rahoitusoikeuden perusteiden referenssin. |
-| **rahanpesun-estaminen** | Rahanpesulaki (444/2017): soveltamisala (ml. oikeudelliset palvelut), asiakkaan tuntemis- ja selonottovelvollisuus, tosiasialliset edunsaajat, riskiarvio, epäilyttävän liiketoimen ilmoittaminen ja paljastamiskielto — compliance-ohjelman rakentaminen ilmoitusvelvolliselle. |
+| **rahanpesun-estaminen** | Rahanpesulaki (444/2017): soveltamisala (ml. oikeudelliset palvelut), asiakkaan tuntemis- ja selonottovelvollisuus, tosiasialliset edunsaajat, riskiarvio, epäilyttävän liiketoimen ilmoittaminen ja paljastamiskielto – compliance-ohjelman rakentaminen ilmoitusvelvolliselle. |
 | **arvopaperimarkkinat** | Arvopaperimarkkinalaki (746/2012) ja MAR: listayhtiön tiedonantovelvollisuus, sisäpiiritiedon hallinta (julkistaminen, lykkäys, luettelot), johdon liiketoimet, liputus sekä esitesääntelyn ja ostotarjousten perusteet. |
 
 ## Perustana varmistetut säädökset
@@ -29,14 +29,14 @@ käytössä EUR-Lexistä ja Finanssivalvonnan ohjeista.
 
 ## Liittyy
 
-- **`juristi`-plugari** — `oikeustutkimus` ja `toimeksianto`.
-- **`sopimukset`-plugari** — rahoitussopimus on sopimus: yleinen mekaniikka ja
+- **`juristi`-plugari** – `oikeustutkimus` ja `toimeksianto`.
+- **`sopimukset`-plugari** – rahoitussopimus on sopimus: yleinen mekaniikka ja
   kohtuullistaminen.
-- **`yhtiooikeus`-plugari** — rahoituskierrokset, pääomalaina (OYL 12 luku),
+- **`yhtiooikeus`-plugari** – rahoituskierrokset, pääomalaina (OYL 12 luku),
   varojenjaon rajat ja yritysjärjestelyjen rahoitus.
-- **`insolvenssi`-plugari** — vakuuksien asema konkurssissa ja
+- **`insolvenssi`-plugari** – vakuuksien asema konkurssissa ja
   takaisinsaantiriskit.
-- **`kiinteistot-ja-asuminen`-plugari** — kiinteistövakuudet (kiinnitys,
+- **`kiinteistot-ja-asuminen`-plugari** – kiinteistövakuudet (kiinnitys,
   panttikirja).
 
 ## Asennus

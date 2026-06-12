@@ -2,7 +2,8 @@
 
 Realistisia, **sotkuisia** harjoitusaineistoja, joilla plugareita voi kokeilla
 ja arvioida. Nämä eivät ole oppikirjatapauksia siistillä ratkaisuluonnoksella,
-vaan työakkuja: ristiriitaisia, epätäydellisiä ja juuri siksi hyödyllisiä.
+vaan oikean toimeksiannon näköisiä työaineistoja: ristiriitaisia,
+epätäydellisiä ja juuri siksi hyödyllisiä.
 
 ## Laatustandardi
 
@@ -14,7 +15,7 @@ vaan työakkuja: ristiriitaisia, epätäydellisiä ja juuri siksi hyödyllisiä.
   muisti, tiedoksianto, laskutapa, toimivalta.
 - Aineisto on **fiktiivistä.** Yhtäläisyydet todellisiin henkilöihin tai
   organisaatioihin ovat sattumaa. Säädös- ja ratkaisuviittaukset aineiston
-  sisällä voivat olla epätarkkoja — se on osa harjoitusta (tarkista lähteestä).
+  sisällä voivat olla epätarkkoja – se on osa harjoitusta (tarkista lähteestä).
 
 ## Aineistot
 
@@ -26,7 +27,7 @@ vaan työakkuja: ristiriitaisia, epätäydellisiä ja juuri siksi hyödyllisiä.
 
 ## Arviointikriteerit
 
-Jokaisessa aineistossa on `arviointikriteerit.md` — **käyttäytymislista,
+Jokaisessa aineistossa on `arviointikriteerit.md` – **käyttäytymislista,
 ei mallivastaus**. Se kuvaa, mitä hyvä tuotos *tekee* (nostaa ristiriidat
 esiin, merkitsee laskelmat tarkistettaviksi, ei vahvista pykäliä
 muistista), ei aineellista lopputulosta. Käytä sitä kahteen asiaan:
@@ -37,7 +38,7 @@ muistista), ei aineellista lopputulosta. Käytä sitä kahteen asiaan:
 2. **Muutosten regressiotestaus**: skillin muokkauksen jälkeen sama ajo
    kertoo, säilyikö käyttäytyminen.
 
-Älä anna kriteeritiedostoa mallille samassa istunnossa aineiston kanssa —
+Älä anna kriteeritiedostoa mallille samassa istunnossa aineiston kanssa –
 se on arvioijan, ei arvioitavan, työkalu.
 
 ## Käyttö
@@ -48,5 +49,5 @@ Avaa aineiston kansio, anna tiedostot Claudelle ja pyydä esim.:
 - "Onko tämä määräaikaisuus pätevä?" → `tyooikeus:tyosopimus`
 - "Tarkista tämä työsopimusote riskien varalta"
 
-Huomaa ristiriidat aineistossa — hyvä tuotos nostaa ne esiin sen sijaan että
-valitsisi yhden tulkinnan hiljaa.
+Huomaa ristiriidat aineistossa – hyvä tuotos nostaa ne esiin sen sijaan,
+että valitsisi yhden tulkinnan hiljaa.
