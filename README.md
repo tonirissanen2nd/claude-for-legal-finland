@@ -1,97 +1,116 @@
 # Claude for Legal Finland
 
-Avoimen lähdekoodin skillit ja plugarit juristeille ja muille oikeudellisten
-asioiden parissa työskenteleville: Claude **suomalaisen oikeuden**, lakikielen
-ja oikeuslähteiden ehdoilla. Suomalainen vastine Anthropicin
+Avoimen lähdekoodin skillit ja plugarit Clauden käyttöön suomalaisessa
+juridisessa työssä: lakikieli, pykäläviittaukset ja oikeuslähteet
+**Suomen oikeuden ehdoilla**. Suomalainen vastine Anthropicin
 [claude-for-legal](https://github.com/anthropics/claude-for-legal)-kokoelmalle.
 
+**20 plugaria · 63 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
+
+Selailtava yleiskatsaus koko kokoelmasta:
+**[akunikkola.github.io/claude-for-legal-finland](https://akunikkola.github.io/claude-for-legal-finland/)**
+
 > [!IMPORTANT]
-> **Jokainen näiden plugarien tuotos on tarkistettava luonnos – ei oikeudellista
-> neuvontaa, ei oikeudellinen johtopäätös eikä juristin korvaaja.** Plugarit on
-> rakennettu sen mukaisesti: lähdemerkintä jokaiseen viittaukseen, laki ja
-> oikeuskäytäntö tarkistetaan lähteestä eikä muistista, jurisdiktio-oletukset
-> pidetään näkyvissä, ja ennen kuin mitään lähetetään, jätetään tai
-> allekirjoitetaan, asian varmistaa ihminen. Pätevä ihminen myös kantaa
-> ammatillisen vastuun lopputuloksesta. Työkalut nopeuttavat tarkistusta;
-> ne eivät korvaa sitä. Suojan tuottavat **mekanismit** – lähteen varmistus,
-> kolmiportainen varmuusmerkintä, premissien tarkistus, negatiivirajaus ja
-> ihmisen tarkistusportti – eivät tämä huomautus. Mekanismit on koottu
-> tiedostoihin [`references/viittaustyyli.md`](references/viittaustyyli.md)
-> ja [`references/vastuu-ja-tietoturva.md`](references/vastuu-ja-tietoturva.md).
+> **Jokainen tuotos on tarkistettava luonnos – ei oikeudellista neuvontaa eikä
+> juristin korvaaja.** Vastuun lopputuloksesta kantaa pätevä ihminen. Plugarit on
+> rakennettu tämän mukaisesti: laki ja oikeuskäytäntö tarkistetaan lähteestä eikä
+> muistista, jokaiseen viittaukseen tulee lähdemerkintä, jurisdiktio-oletukset
+> pidetään näkyvissä, ja ennen kuin mitään lähetetään tai allekirjoitetaan, asian
+> varmistaa ihminen. Suojan tuottavat **mekanismit** – lähteen varmistus,
+> kolmiportainen varmuusmerkintä, premissien tarkistus, negatiivirajaus ja ihmisen
+> tarkistusportti – eivät tämä huomautus. Mekanismit on koottu tiedostoihin
+> [`references/viittaustyyli.md`](references/viittaustyyli.md) ja
+> [`references/vastuu-ja-tietoturva.md`](references/vastuu-ja-tietoturva.md).
 >
-> Tämä on avoimen lähdekoodin yhteisöhanke, ei viranomais- tai
-> asianajopalvelu. Se ei edusta minkään organisaation virallista oikeudellista kantaa.
+> Tämä on yhteisön avoin hanke, ei viranomais- tai asianajopalvelu, eikä se edusta
+> minkään organisaation virallista oikeudellista kantaa.
 
 ## Idea
 
 Suomalainen juridinen työ poikkeaa angloamerikkalaisesta: civil law -järjestelmä,
-Finlexin säädöskanta, hallituksen esitykset (HE) tulkinta-aineistona, KKO:n ja KHO:n
-ennakkopäätökset, pakottava lainsäädäntö ja tarkka lakikieli. Tämä kokoelma tuo
-nämä **aidot lähteet** Clauden työn pohjaksi ja kytkeytyy suoraan **oik.ai:hin**
-ja **Finlexiin**.
+Finlexin säädöskanta, hallituksen esitykset (HE) tulkinta-aineistona, KKO:n ja
+KHO:n ennakkopäätökset, pakottava lainsäädäntö ja tarkka lakikieli. Tämä kokoelma
+tuo nämä **aidot lähteet** Clauden työn pohjaksi ja kytkeytyy suoraan **Finlexiin**
+ja **oik.ai:hin**.
 
-Rakenne mukailee Anthropicin claude-for-legalia: markkinapaikka
+Rakenne mukailee Anthropicin claude-for-legalia. Markkinapaikka
 ([`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)) listaa
-käytäntöaluekohtaiset plugarit. Jokainen plugari sisältää skillit
-(`skills/<nimi>/SKILL.md`), jaetut suojaukset (`CLAUDE.md`) ja datakonnektorit
-(`.mcp.json`); osa plugareista sisältää lisäksi **agentteja** (`agents/<nimi>.md`)
-– delegoitavia työvaiheita kuten viitteiden adversariaalinen tarkistus
-(`lahdetarkastaja`), aineiston määräaikaskannaus (`maaraaikaskanneri`),
-vastapuolen argumentaation simulointi (`vastapuoli`), datahuoneen inventointi
-(`aineistokartoittaja`), sopimuksen vertaus talon linjaan (`poikkeamatarkastaja`)
-ja julkisuusarvion valmistelu (`salassapitoarvioija`).
+käytäntöaluekohtaiset plugarit, ja jokainen plugari sisältää:
 
-Laatua valvotaan kolmella mekanismilla: repon juuren
-[`references/`](references/)-tiedostot määrittävät jaetut lähde-, vastuu- ja
-tietoturvastandardit, [`scripts/validate.mjs`](scripts/validate.mjs) tarkistaa
-markkinapaikan ja skillien rakenteen CI:ssä jokaisessa muutoksessa, ja
-kuukausittain ajettava **säädösvahti**
-([`scripts/tarkista-saadokset.mjs`](scripts/tarkista-saadokset.mjs)) tarkistaa
-Finlexistä, että kokoelman viittaamien säädösten nimet ovat yhä ajan tasalla –
-kumottu tai uudelleen nimetty laki jää näin kiinni automaattisesti.
+- **skillit** (`skills/<nimi>/SKILL.md`) – varsinaisen osaamisen ja työnkulun,
+- **jaetut suojaukset** (`CLAUDE.md`) – varaverkon, joka pätee silloinkin kun
+  skill ei lataudu,
+- **datakonnektorit** (`.mcp.json`) – kytkennät Finlexiin ja oik.ai:hin,
+- osa plugareista myös **agentteja** (`agents/<nimi>.md`) – delegoitavia työvaiheita.
+
+Agentteja on kuusi: viitteiden adversariaalinen tarkistus (`lahdetarkastaja`),
+aineiston määräaikaskannaus (`maaraaikaskanneri`), vastapuolen argumentaation
+simulointi (`vastapuoli`), datahuoneen inventointi (`aineistokartoittaja`),
+sopimuksen vertaus talon linjaan (`poikkeamatarkastaja`) ja julkisuusarvion
+valmistelu (`salassapitoarvioija`).
+
+## Miten laatu pidetään kunnossa
+
+Kokoelman ydinlupaus on, että viittaukset perustuvat aitoihin lähteisiin. Kolme
+mekanismia valvoo tätä:
+
+- **Jaetut standardit.** Repon juuren [`references/`](references/)-tiedostot
+  määrittävät yhteiset lähde-, vastuu- ja tietoturvalinjat, joihin kaikki plugarit
+  nojaavat.
+- **Validaattori.** [`scripts/validate.mjs`](scripts/validate.mjs) tarkistaa
+  markkinapaikan ja skillien rakenteen CI:ssä jokaisen muutoksen yhteydessä.
+- **Säädösvahti.** [`scripts/tarkista-saadokset.mjs`](scripts/tarkista-saadokset.mjs)
+  käy kuukausittain Finlexistä läpi, että kokoelman viittaamien säädösten nimet ovat
+  yhä ajan tasalla. Kumottu tai uudelleen nimetty laki jää näin kiinni automaattisesti.
 
 ## Plugarit
 
-| Plugari | Mitä kattaa | Tila |
-|---|---|---|
-| **[juristi](juristi/)** | Läpileikkaava perusta: lakikieli ja pykäläviittaukset, suomen kieli, oikeustutkimus (oik.ai/Finlex) ja juridisen asiakirjan monivaiheinen tarkistus. | ✅ Saatavilla |
-| **[lainvalmistelu](lainvalmistelu/)** | Säädösvalmistelu: Lainkirjoittajan opas, HE:n laatimisohjeet (HELO), lainvalmistelun prosessiopas, lakikieli. | ✅ Saatavilla |
-| **[lausunnot](lausunnot/)** | Lausuntomenettely: lausunnot lakiehdotuksiin, vaikutusarviointi lausunnonantajan näkökulmasta, Lausuntopalvelu.fi. | ✅ Saatavilla |
-| **[sopimukset](sopimukset/)** | Sopimusten laatiminen (rakenne, lausekekirjasto, sopimusoikeus) ja lausekekohtainen riskiarvio Suomen oikeuden mukaan. | ✅ Saatavilla |
-| **[työoikeus](tyooikeus/)** | Työsopimus (työsopimuslaki 55/2001), päättämisen arviointi ja yhteistoiminta/muutosneuvottelut (yhteistoimintalaki 1333/2021). | ✅ Saatavilla |
-| **[tietosuoja](tietosuoja/)** | Tietosuoja-asetus (GDPR) ja tietosuojalaki: käsittelyn arviointi ja DPIA, tietosuojaseloste, rekisteröidyn pyynnöt. | ✅ Saatavilla |
-| **[tekoälysääntely](tekoalysaantely/)** | EU:n tekoälyasetus (AI Act): riskiluokittelu, velvoitteet, määräajat, seuraamukset, GPAI ja FRIA. Avoin, deterministinen EU AI Act -MCP. | ✅ Saatavilla |
-| **[hallinto-oikeus](hallinto-oikeus/)** | Hallintopäätös (hallintolaki 434/2003), muutoksenhaku (808/2019) ja asiakirjajulkisuus/tietopyynnöt (julkisuuslaki 621/1999). | ✅ Saatavilla |
-| **[riidanratkaisu](riidanratkaisu/)** | Riita-asia yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/1734): haastehakemus, todistelu, muutoksenhaku. | ✅ Saatavilla |
-| **[yhtiöoikeus](yhtiooikeus/)** | Osakeyhtiölaki (624/2006): perustaminen ja hallinto, johdon vastuu, varojenjako, osakassopimukset, yritysjärjestelyt ja DD. | ✅ Saatavilla |
-| **[insolvenssi](insolvenssi/)** | Maksukyvyttömyys: menettelyn valinta (konkurssi 120/2004, saneeraus 47/1993, velkajärjestely 57/1993), konkurssimenettely, perintä ja ulosotto. | ✅ Saatavilla |
-| **[immateriaalioikeus](immateriaalioikeus/)** | IPR: tavaramerkki ja toiminimi (544/2019, 128/1979), tekijänoikeus DSM-uudistuksineen (404/1961), liikesalaisuudet (595/2018). | ✅ Saatavilla |
-| **[verotus](verotus/)** | Verotusmenettely ja muutoksenhaku (VML 1558/1995), yritysverotus (EVL 360/1968), arvonlisäverotus (AVL 1501/1993). | ✅ Saatavilla |
-| **[julkiset hankinnat](julkiset-hankinnat/)** | Hankintalaki (1397/2016): suunnittelu ja menettelyt, tarjouspyyntö ja tarjous, hankintapäätös ja muutoksenhaku markkinaoikeuteen. | ✅ Saatavilla |
-| **[rikosprosessi](rikosprosessi/)** | Esitutkinta ja pakkokeinot (805/2011, 806/2011), syyte ja vastaus (ROL 689/1997), asianomistajan asema ja korvaukset. | ✅ Saatavilla |
-| **[ympäristö ja kaavoitus](ymparisto-ja-kaavoitus/)** | Ympäristöluvat (YSL 527/2014), kaavoitus ja rakentaminen (rakentamislaki 751/2023), ympäristövastuut ja -DD. LVV-uudistus 2026 huomioitu. | ✅ Saatavilla |
-| **[kiinteistöt ja asuminen](kiinteistot-ja-asuminen/)** | Kiinteistökauppa (maakaari 540/1995), asuntokauppa (843/1994), asunto-osakeyhtiö (1599/2009), vuokrasopimukset (481–482/1995). | ✅ Saatavilla |
-| **[kilpailuoikeus](kilpailuoikeus/)** | Kilpailunrajoitukset ja määräävä asema (948/2011, SEUT 101–102), yrityskauppavalvonta, compliance ja dawn raid -valmius. | ✅ Saatavilla |
-| **[pankki ja rahoitus](pankki-ja-rahoitus/)** | Rahoitussopimukset ja vakuudet (622/1947, 361/1999), rahanpesun estäminen (444/2017), arvopaperimarkkinat (746/2012, MAR). | ✅ Saatavilla |
-| **[ulkomaalaisoikeus](ulkomaalaisoikeus/)** | Työperusteiset oleskeluluvat (301/2004), työnantajan velvollisuudet, EU- ja perheperusteinen oleskelu, kansalaisuus (359/2003). | ✅ Saatavilla |
+Kaikki 20 plugaria ovat valmiita ja asennettavissa erikseen.
+
+| Plugari | Mitä kattaa |
+|---|---|
+| **[juristi](juristi/)** | Läpileikkaava perusta: lakikieli ja pykäläviittaukset, suomen kieli, oikeustutkimus (oik.ai/Finlex) ja juridisen asiakirjan monivaiheinen tarkistus. |
+| **[lainvalmistelu](lainvalmistelu/)** | Säädösvalmistelu: Lainkirjoittajan opas, HE:n laatimisohjeet (HELO), lainvalmistelun prosessiopas, lakikieli. |
+| **[lausunnot](lausunnot/)** | Lausuntomenettely: lausunnot lakiehdotuksiin, vaikutusarviointi lausunnonantajan näkökulmasta, Lausuntopalvelu.fi. |
+| **[sopimukset](sopimukset/)** | Sopimusten laatiminen (rakenne, lausekekirjasto, sopimusoikeus) ja lausekekohtainen riskiarvio Suomen oikeuden mukaan. |
+| **[työoikeus](tyooikeus/)** | Työsopimus (työsopimuslaki 55/2001), päättämisen arviointi ja yhteistoiminta/muutosneuvottelut (yhteistoimintalaki 1333/2021). |
+| **[tietosuoja](tietosuoja/)** | Tietosuoja-asetus (GDPR) ja tietosuojalaki: käsittelyn arviointi ja DPIA, tietosuojaseloste, rekisteröidyn pyynnöt. |
+| **[tekoälysääntely](tekoalysaantely/)** | EU:n tekoälyasetus (AI Act): riskiluokittelu, velvoitteet, määräajat, seuraamukset, GPAI ja FRIA. Avoin, deterministinen EU AI Act -MCP. |
+| **[hallinto-oikeus](hallinto-oikeus/)** | Hallintopäätös (hallintolaki 434/2003), muutoksenhaku (808/2019) ja asiakirjajulkisuus/tietopyynnöt (julkisuuslaki 621/1999). |
+| **[riidanratkaisu](riidanratkaisu/)** | Riita-asia yleisissä tuomioistuimissa (oikeudenkäymiskaari 4/1734): haastehakemus, todistelu, muutoksenhaku. |
+| **[yhtiöoikeus](yhtiooikeus/)** | Osakeyhtiölaki (624/2006): perustaminen ja hallinto, johdon vastuu, varojenjako, osakassopimukset, yritysjärjestelyt ja DD. |
+| **[insolvenssi](insolvenssi/)** | Maksukyvyttömyys: menettelyn valinta (konkurssi 120/2004, saneeraus 47/1993, velkajärjestely 57/1993), konkurssimenettely, perintä ja ulosotto. |
+| **[immateriaalioikeus](immateriaalioikeus/)** | IPR: tavaramerkki ja toiminimi (544/2019, 128/1979), tekijänoikeus DSM-uudistuksineen (404/1961), liikesalaisuudet (595/2018). |
+| **[verotus](verotus/)** | Verotusmenettely ja muutoksenhaku (VML 1558/1995), yritysverotus (EVL 360/1968), arvonlisäverotus (AVL 1501/1993). |
+| **[julkiset hankinnat](julkiset-hankinnat/)** | Hankintalaki (1397/2016): suunnittelu ja menettelyt, tarjouspyyntö ja tarjous, hankintapäätös ja muutoksenhaku markkinaoikeuteen. |
+| **[rikosprosessi](rikosprosessi/)** | Esitutkinta ja pakkokeinot (805/2011, 806/2011), syyte ja vastaus (ROL 689/1997), asianomistajan asema ja korvaukset. |
+| **[ympäristö ja kaavoitus](ymparisto-ja-kaavoitus/)** | Ympäristöluvat (YSL 527/2014), kaavoitus ja rakentaminen (rakentamislaki 751/2023), ympäristövastuut ja -DD. LVV-uudistus 2026 huomioitu. |
+| **[kiinteistöt ja asuminen](kiinteistot-ja-asuminen/)** | Kiinteistökauppa (maakaari 540/1995), asuntokauppa (843/1994), asunto-osakeyhtiö (1599/2009), vuokrasopimukset (481–482/1995). |
+| **[kilpailuoikeus](kilpailuoikeus/)** | Kilpailunrajoitukset ja määräävä asema (948/2011, SEUT 101–102), yrityskauppavalvonta, compliance ja dawn raid -valmius. |
+| **[pankki ja rahoitus](pankki-ja-rahoitus/)** | Rahoitussopimukset ja vakuudet (622/1947, 361/1999), rahanpesun estäminen (444/2017), arvopaperimarkkinat (746/2012, MAR). |
+| **[ulkomaalaisoikeus](ulkomaalaisoikeus/)** | Työperusteiset oleskeluluvat (301/2004), työnantajan velvollisuudet, EU- ja perheperusteinen oleskelu, kansalaisuus (359/2003). |
 
 ## Aloitus
 
-Katso [QUICKSTART.md](QUICKSTART.md). Organisaatiokäyttöön: tee ensin
-[`references/kayttoonotto-toimistossa.md`](references/kayttoonotto-toimistossa.md)-oppaan
-päätökset (aineistolinjaus, käsittelysopimus, anonymisointi, tarkistusketju) ja
-pilotoi [`esimerkkiaineistoilla`](esimerkkiaineistot/) ennen oikeaa aineistoa.
-Lyhyesti:
+Lyhin polku: lisää markkinapaikka ja asenna haluamasi plugari.
 
 ```
-/plugin marketplace add <repo-url tai polku>
+/plugin marketplace add akunikkola/claude-for-legal-finland
 /plugin install juristi@claude-for-legal-finland
 ```
+
+Tarkemmat ohjeet ovat tiedostossa [QUICKSTART.md](QUICKSTART.md).
+
+Organisaatiokäyttöön tee ensin
+[`references/kayttoonotto-toimistossa.md`](references/kayttoonotto-toimistossa.md)-oppaan
+päätökset – aineistolinjaus, käsittelysopimus, anonymisointi ja tarkistusketju – ja
+pilotoi [esimerkkiaineistoilla](esimerkkiaineistot/) ennen kuin viet oikeaa aineistoa
+työkaluun.
 
 ## Osallistuminen
 
 Katso [CONTRIBUTING.md](CONTRIBUTING.md). Pääperiaate: oikea toiminta kuuluu
-SKILL.md:hen ja perustuu aitoihin lähteisiin; CLAUDE.md-suojaukset ovat varaverkko.
+SKILL.md:hen ja perustuu aitoihin lähteisiin, ja CLAUDE.md-suojaukset ovat varaverkko.
 
 ## Lisenssi
 
