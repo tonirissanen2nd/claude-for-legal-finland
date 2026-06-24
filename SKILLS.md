@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin – aja skripti uudelleen.
 
-Markkinapaikalla on **22 plugaria** ja **70 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **23 plugaria** ja **73 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi – perusta
 
@@ -272,6 +272,18 @@ Suomen kuluttajaoikeus elinkeinonharjoittajan ja kuluttajan välisessä kaupassa
 | [`etamyynti-ja-peruuttaminen`](kuluttajaoikeus/skills/etamyynti-ja-peruuttaminen/SKILL.md) | Etä- ja kotimyynnin tiedonantovelvollisuudet ja kuluttajan peruuttamisoikeus (kuluttajansuojalaki 38/1978) sekä sopimaton ja harhaanjohtava markkinointi. Käytä tätä skilliä, kun arvioidaan verkkokaupan tai puhelinmyynnin ennakkotietoja, pe… |
 | [`kuluttajakaupan-virhevastuu`](kuluttajaoikeus/skills/kuluttajakaupan-virhevastuu/SKILL.md) | Kuluttajan oikeudet tavaran tai palvelun virhetilanteessa (kuluttajansuojalaki 38/1978). Käytä tätä skilliä, kun kuluttaja reklamoi viallisesta tuotteesta tai palvelusta, arvioidaan onko kyseessä virhe, valitaan oikaisukeino (korjaus, vaih… |
 | [`kuluttajariita-ja-perinta`](kuluttajaoikeus/skills/kuluttajariita-ja-perinta/SKILL.md) | Kuluttajariidan ratkaisukanavat ja kuluttajasaatavan hyvä perintätapa (laki kuluttajariitalautakunnasta 8/2007, laki Kilpailu- ja kuluttajavirastosta 661/2012 ja laki saatavien perinnästä 513/1999). Käytä tätä skilliä, kun kuluttaja vie ri… |
+
+## Rikosoikeus (aineellinen)
+
+`/plugin install rikosoikeus@claude-for-legal-finland` – [`./rikosoikeus/`](./rikosoikeus/)
+
+Suomen aineellinen rikosoikeus (rikoslaki 39/1889): rikosvastuun yleiset edellytykset (laillisuusperiaate, tahallisuus ja tuottamus, vastuuvapausperusteet, osallisuus, yritys), keskeisten rikostyyppien tunnusmerkistöt ja tekomuodot sekä rangaistuksen määrääminen, menettämisseuraamus ja vanhentuminen. Täydentää rikosprosessi-plugaria. Palvelee puolustusta, asianomistajaa ja compliancea; ei avusta rikoksen tekemisessä eikä peittelyssä.
+
+| Skill | Kuvaus |
+|---|---|
+| [`keskeiset-rikostyypit`](rikosoikeus/skills/keskeiset-rikostyypit/SKILL.md) | Keskeisten rikostyyppien tunnusmerkistöt ja rajanvedot Suomen rikosoikeudessa (rikoslaki 39/1889, erityisosa). Käytä tätä skilliä, kun jäsennetään mihin rikosnimikkeeseen teko mahdollisesti sopii, erotetaan perus-, törkeä- ja lievä tekomuo… |
+| [`rangaistuksen-maaraaminen`](rikosoikeus/skills/rangaistuksen-maaraaminen/SKILL.md) | Rangaistuksen ja muiden seuraamusten määrääminen Suomen rikosoikeudessa (rikoslaki 39/1889). Käytä tätä skilliä, kun arvioidaan rangaistuslajia ja -asteikkoa, rangaistuksen mittaamista koventamis- ja lieventämisperusteineen, ehdollisen ja… |
+| [`rikosvastuun-perusteet`](rikosoikeus/skills/rikosvastuun-perusteet/SKILL.md) | Rikosvastuun yleiset edellytykset Suomen rikosoikeudessa (rikoslaki 39/1889, yleinen osa). Käytä tätä skilliä, kun arvioidaan täyttyykö rikoksen tunnusmerkistö, onko teko tahallinen vai tuottamuksellinen, onko vastuuvapausperustetta (hätäv… |
 
 ---
 

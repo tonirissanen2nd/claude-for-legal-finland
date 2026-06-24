@@ -203,6 +203,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "rikosoikeus",
+      "displayName": "Rikosoikeus (aineellinen)",
+      "source": "./rikosoikeus",
+      "description": "Suomen aineellinen rikosoikeus (rikoslaki 39/1889): rikosvastuun yleiset edellytykset (laillisuusperiaate, tahallisuus ja tuottamus, vastuuvapausperusteet, osallisuus, yritys), keskeisten rikostyyppien tunnusmerkistöt ja tekomuodot sekä rangaistuksen määrääminen, menettämisseuraamus ja vanhentuminen. Täydentää rikosprosessi-plugaria. Palvelee puolustusta, asianomistajaa ja compliancea; ei avusta rikoksen tekemisessä eikä peittelyssä.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
