@@ -5,7 +5,7 @@ juridisessa työssä: lakikieli, pykäläviittaukset ja oikeuslähteet
 **Suomen oikeuden ehdoilla**. Suomalainen vastine Anthropicin
 [claude-for-legal](https://github.com/anthropics/claude-for-legal)-kokoelmalle.
 
-**23 plugaria · 73 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
+**24 plugaria · 75 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
 
 Selailtava yleiskatsaus koko kokoelmasta:
 **[akunikkola.github.io/claude-for-legal-finland](https://akunikkola.github.io/claude-for-legal-finland/)**
@@ -92,6 +92,7 @@ Kaikki 20 plugaria ovat valmiita ja asennettavissa erikseen.
 | **[perhe- ja perintöoikeus](perhe-ja-perinto/)** | Avioehto ja ositus (avioliittolaki 234/1929), avopuolison asema (26/2011), lapsen huolto, tapaaminen ja elatus (361/1983 ja 704/1975), perintö, testamentti ja lakiosa (perintökaari 40/1965), edunvalvonta ja edunvalvontavaltuutus (442/1999 ja 648/2007). |
 | **[kuluttajaoikeus](kuluttajaoikeus/)** | Kuluttajakaupan virhevastuu ja oikaisukeinot (kuluttajansuojalaki 38/1978), etä- ja kotimyynnin peruuttamisoikeus, sopimaton markkinointi sekä kuluttajariidat (8/2007) ja hyvä perintätapa (513/1999). Pakottava kuluttajan hyväksi. |
 | **[rikosoikeus](rikosoikeus/)** | Aineellinen rikosoikeus (rikoslaki 39/1889): rikosvastuun perusteet (tahallisuus, osallisuus, vastuuvapaus), keskeiset rikostyypit tunnusmerkistöineen ja rangaistuksen määrääminen. Täydentää rikosprosessia; puolustuksen ja asianomistajan näkökulma. |
+| **[kaksikielisyys (FI/SV)](kaksikielisyys/)** | Oikeuskielen kääntäminen FI↔SV vakiintunein termein virallisista lähteistä sekä kielelliset oikeudet ja viranomaisen kielelliset velvoitteet (kielilaki 423/2003, perustuslaki 731/1999 17 §, saamen kielilaki 1086/2003). |
 
 ## Aloitus
 

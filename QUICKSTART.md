@@ -29,7 +29,8 @@ asennetaan oman alan plugarit samalla kaavalla
 `riidanratkaisu`, `yhtiooikeus`, `insolvenssi`, `immateriaalioikeus`,
 `verotus`, `julkiset-hankinnat`, `rikosprosessi`, `ymparisto-ja-kaavoitus`,
 `kiinteistot-ja-asuminen`, `kilpailuoikeus`, `pankki-ja-rahoitus`,
-`ulkomaalaisoikeus`, `perhe-ja-perinto`, `kuluttajaoikeus` ja `rikosoikeus`.
+`ulkomaalaisoikeus`, `perhe-ja-perinto`, `kuluttajaoikeus`, `rikosoikeus` ja
+`kaksikielisyys`.
 Koko luettelo skilleineen: [SKILLS.md](SKILLS.md).
 
 Kun kysytään "this project / all projects", **valitse user scope.** Muuten plugari

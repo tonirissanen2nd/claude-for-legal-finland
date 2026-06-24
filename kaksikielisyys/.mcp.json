@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Kaksikielisessä työssä: tee käännösehdotukset ja termikorjaukset olemassa olevaan asiakirjaan natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Kaksikielisessä työssä: tarkista säädöksen virallinen ruotsinkielinen nimi ja sanamuoto (Finlexin rinnakkaisteksti) sekä termien vakiintunut käyttö ratkaisuissa. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "translation",
+    "language",
+    "documents"
+  ]
+}

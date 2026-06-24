@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin – aja skripti uudelleen.
 
-Markkinapaikalla on **23 plugaria** ja **73 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **24 plugaria** ja **75 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi – perusta
 
@@ -284,6 +284,17 @@ Suomen aineellinen rikosoikeus (rikoslaki 39/1889): rikosvastuun yleiset edellyt
 | [`keskeiset-rikostyypit`](rikosoikeus/skills/keskeiset-rikostyypit/SKILL.md) | Keskeisten rikostyyppien tunnusmerkistöt ja rajanvedot Suomen rikosoikeudessa (rikoslaki 39/1889, erityisosa). Käytä tätä skilliä, kun jäsennetään mihin rikosnimikkeeseen teko mahdollisesti sopii, erotetaan perus-, törkeä- ja lievä tekomuo… |
 | [`rangaistuksen-maaraaminen`](rikosoikeus/skills/rangaistuksen-maaraaminen/SKILL.md) | Rangaistuksen ja muiden seuraamusten määrääminen Suomen rikosoikeudessa (rikoslaki 39/1889). Käytä tätä skilliä, kun arvioidaan rangaistuslajia ja -asteikkoa, rangaistuksen mittaamista koventamis- ja lieventämisperusteineen, ehdollisen ja… |
 | [`rikosvastuun-perusteet`](rikosoikeus/skills/rikosvastuun-perusteet/SKILL.md) | Rikosvastuun yleiset edellytykset Suomen rikosoikeudessa (rikoslaki 39/1889, yleinen osa). Käytä tätä skilliä, kun arvioidaan täyttyykö rikoksen tunnusmerkistö, onko teko tahallinen vai tuottamuksellinen, onko vastuuvapausperustetta (hätäv… |
+
+## Kaksikielisyys (FI/SV)
+
+`/plugin install kaksikielisyys@claude-for-legal-finland` – [`./kaksikielisyys/`](./kaksikielisyys/)
+
+Suomi–ruotsi-kaksikielisyyden tuki juridisessa työssä: oikeuskielen kääntäminen ja vakiintunut termistö FI↔SV virallisista lähteistä (Finlexin rinnakkaistekstit, valtioneuvoston termipankki) sekä kielelliset oikeudet ja viranomaisen kielelliset velvoitteet (kielilaki 423/2003, perustuslaki 731/1999 17 §, julkisyhteisöjen kielitaitolaki 424/2003 ja saamen kielilaki 1086/2003). Termiä ei keksitä; virallinen käännös auktorisoidulta kääntäjältä.
+
+| Skill | Kuvaus |
+|---|---|
+| [`kielelliset-oikeudet-ja-velvoitteet`](kaksikielisyys/skills/kielelliset-oikeudet-ja-velvoitteet/SKILL.md) | Kielelliset oikeudet ja viranomaisen kielelliset velvoitteet Suomessa (kielilaki 423/2003 ja perustuslaki 731/1999 17 §). Käytä tätä skilliä, kun arvioidaan millä kielellä viranomaisessa saa asioida, mitä käännös-, tiedoksianto- ja palvelu… |
+| [`oikeuskielen-kaantaminen`](kaksikielisyys/skills/oikeuskielen-kaantaminen/SKILL.md) | Juridisen tekstin kääntäminen suomen ja ruotsin välillä (FI↔SV) vakiintunutta oikeustermistöä ja virallisia lähteitä käyttäen. Käytä tätä skilliä, kun käännetään tai tarkistetaan sopimusta, päätöstä, kirjelmää tai säädösviittausta suomesta… |
 
 ---
 
