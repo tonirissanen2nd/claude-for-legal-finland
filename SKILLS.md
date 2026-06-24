@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin – aja skripti uudelleen.
 
-Markkinapaikalla on **21 plugaria** ja **67 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **22 plugaria** ja **70 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi – perusta
 
@@ -260,6 +260,18 @@ Suomen perhe- ja perintöoikeus arjen tilanteisiin: avioliiton varallisuussuhtee
 | [`edunvalvonta-ja-edunvalvontavaltuutus`](perhe-ja-perinto/skills/edunvalvonta-ja-edunvalvontavaltuutus/SKILL.md) | Edunvalvonta ja siihen varautuminen Suomessa (laki holhoustoimesta 442/1999 ja laki edunvalvontavaltuutuksesta 648/2007). Käytä tätä skilliä, kun selvitetään täysi-ikäisen tai alaikäisen edunvalvonnan tarvetta, laaditaan tai arvioidaan edu… |
 | [`lapsen-asema-ja-elatus`](perhe-ja-perinto/skills/lapsen-asema-ja-elatus/SKILL.md) | Lapsen huolto, asuminen, tapaaminen ja elatus Suomessa (laki lapsen huollosta ja tapaamisoikeudesta 361/1983 ja laki lapsen elatuksesta 704/1975) sekä vanhemmuuden vahvistaminen (isyyslaki 11/2015 ja äitiyslaki 253/2018). Käytä tätä skilli… |
 | [`perinto-ja-testamentti`](perhe-ja-perinto/skills/perinto-ja-testamentti/SKILL.md) | Perimys, testamentti ja jäämistön käsittely Suomessa (perintökaari 40/1965). Käytä tätä skilliä, kun selvitetään perimysjärjestystä, laaditaan tai tulkitaan testamenttia, arvioidaan rintaperillisen lakiosaa, jäsennetään perunkirjoitusta ta… |
+
+## Kuluttajaoikeus
+
+`/plugin install kuluttajaoikeus@claude-for-legal-finland` – [`./kuluttajaoikeus/`](./kuluttajaoikeus/)
+
+Suomen kuluttajaoikeus elinkeinonharjoittajan ja kuluttajan välisessä kaupassa (kuluttajansuojalaki 38/1978): tavaran ja palvelun virhevastuu ja oikaisukeinot, etä- ja kotimyynnin peruuttamisoikeus ja tiedonantovelvollisuudet, sopimaton markkinointi sekä kuluttajariitojen ratkaisu (kuluttajariitalautakunta 8/2007 ja KKV 661/2012) ja kuluttajasaatavan hyvä perintätapa (513/1999). Pakottava kuluttajan hyväksi.
+
+| Skill | Kuvaus |
+|---|---|
+| [`etamyynti-ja-peruuttaminen`](kuluttajaoikeus/skills/etamyynti-ja-peruuttaminen/SKILL.md) | Etä- ja kotimyynnin tiedonantovelvollisuudet ja kuluttajan peruuttamisoikeus (kuluttajansuojalaki 38/1978) sekä sopimaton ja harhaanjohtava markkinointi. Käytä tätä skilliä, kun arvioidaan verkkokaupan tai puhelinmyynnin ennakkotietoja, pe… |
+| [`kuluttajakaupan-virhevastuu`](kuluttajaoikeus/skills/kuluttajakaupan-virhevastuu/SKILL.md) | Kuluttajan oikeudet tavaran tai palvelun virhetilanteessa (kuluttajansuojalaki 38/1978). Käytä tätä skilliä, kun kuluttaja reklamoi viallisesta tuotteesta tai palvelusta, arvioidaan onko kyseessä virhe, valitaan oikaisukeino (korjaus, vaih… |
+| [`kuluttajariita-ja-perinta`](kuluttajaoikeus/skills/kuluttajariita-ja-perinta/SKILL.md) | Kuluttajariidan ratkaisukanavat ja kuluttajasaatavan hyvä perintätapa (laki kuluttajariitalautakunnasta 8/2007, laki Kilpailu- ja kuluttajavirastosta 661/2012 ja laki saatavien perinnästä 513/1999). Käytä tätä skilliä, kun kuluttaja vie ri… |
 
 ---
 

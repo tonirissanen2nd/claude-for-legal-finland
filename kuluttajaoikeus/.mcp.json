@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Kuluttaja-asioissa: muokkaa olemassa olevaa reklamaatiota, vakioehtoja tai vastinetta natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Kuluttaja-asioissa: tarkista kuluttajansuojalain (38/1978) voimassa oleva sanamuoto lukuineen sekä kuluttajariitalautakunnan ratkaisukäytäntö ja KKO:n linjaukset. Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "consumer-protection",
+    "documents"
+  ]
+}
