@@ -17,6 +17,8 @@ tietosuoja, hallinto-oikeus, riidanratkaisu) nojaavat.
 | **asiakirjan-tarkistus** | Juridisen asiakirjan monivaiheinen laaduntarkistus suomalaisessa kontekstissa: konteksti, käytettävyys, kieli, rakenne, oikeellisuus (lähdetarkistus), täydellisyys, riski ja käyttövalmius. |
 | **suomen-kieli** | Suomen kielen oikeinkirjoitus-, kielioppi- ja tyyliohjeet (Kielitoimiston ohjepankki). Juristi-skill viittaa tähän kielenhuollossa. |
 | **kaytantoprofiili** | Kokoelman räätälöinti organisaatiolle: haastattelee talon käytännöt (pohjat, riskilinjaukset, TES:t, tarkistusketjut) ja kirjoittaa ne plugarien Käytäntöprofiili-osioihin, joita skillit lukevat. Suojauksia ei voi heikentää profiililla. |
+| **selkokielistaja** | Juridisen tekstin selittäminen selkeällä yleiskielellä maallikolle: pykälä, ehto tai päätös avataan asiakkaalle ymmärrettävään muotoon merkitystä vääristämättä – olennaiset ehdot, varaukset ja määräajat säilyttäen. Erottaa selityksen neuvonnasta. |
+| **oikeustapaus-referointi** | Tuomioistuinratkaisun jäsentäminen rakenteiseen muotoon (tunnistetiedot, oikeuskysymys, faktat, lopputulos, ratio decidendi, merkitys) ratkaisun varsinaisesta tekstistä – erottaa ration ja obiterin eikä referoi muistista tai otsikosta. |
 
 ## Agentit
 

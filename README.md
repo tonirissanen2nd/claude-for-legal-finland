@@ -5,7 +5,7 @@ juridisessa työssä: lakikieli, pykäläviittaukset ja oikeuslähteet
 **Suomen oikeuden ehdoilla**. Suomalainen vastine Anthropicin
 [claude-for-legal](https://github.com/anthropics/claude-for-legal)-kokoelmalle.
 
-**24 plugaria · 75 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
+**24 plugaria · 77 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
 
 Selailtava yleiskatsaus koko kokoelmasta:
 **[akunikkola.github.io/claude-for-legal-finland](https://akunikkola.github.io/claude-for-legal-finland/)**
