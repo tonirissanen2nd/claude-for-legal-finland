@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "adeu": {
+      "command": "npx",
+      "args": ["-y", "@adeu/mcp-server"],
+      "title": "Adeu",
+      "description": "Word-dokumenttien (.docx) ei-tuhoava redlineäminen. Perhe- ja perintöasioissa: muokkaa olemassa olevaa avioehtoa, testamenttia, ositussopimusta tai perinnönjakokirjaa natiiveina Word Track Changes -muutoksina (read_docx, process_document_batch). Paikallinen npx, ei tiliä."
+    },
+    "oik-ai": {
+      "type": "http",
+      "url": "https://oik.ai/mcp",
+      "title": "oik.ai",
+      "description": "Suomalainen oikeuskäytäntö ja ajantasainen lainsäädäntö. Perhe- ja perintöasioissa: tarkista avioliittolain (234/1929), perintökaaren (40/1965) ja lapsilakien voimassa oleva sanamuoto sekä KKO:n ratkaisukäytäntö (mm. ositus, lakiosa, testamentin tulkinta). Käyttö edellyttää oik.ai-tiliä (OAuth liitettäessä)."
+    }
+  },
+  "recommendedCategories": [
+    "legal-research",
+    "legislation",
+    "case-law",
+    "family-law",
+    "documents"
+  ]
+}

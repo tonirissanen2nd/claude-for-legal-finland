@@ -3,7 +3,7 @@
 > Autogeneroitu `scripts/generate-skills-md.mjs`-skriptillä `.claude-plugin/marketplace.json`:sta
 > ja kunkin `SKILL.md`:n frontmatterista. Älä muokkaa käsin – aja skripti uudelleen.
 
-Markkinapaikalla on **20 plugaria** ja **63 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
+Markkinapaikalla on **21 plugaria** ja **67 skilliä**. Asennus: ks. [QUICKSTART.md](QUICKSTART.md).
 
 ## Juristi – perusta
 
@@ -247,6 +247,19 @@ Suomen ulkomaalaisoikeus työnantajan ja avustajan näkökulmasta: työperusteis
 | [`eu-ja-perheperusteinen-oleskelu`](ulkomaalaisoikeus/skills/eu-ja-perheperusteinen-oleskelu/SKILL.md) | EU-kansalaisen oleskeluoikeus, perheperusteinen oleskelu, pysyvä oleskelulupa ja Suomen kansalaisuus (ulkomaalaislaki 301/2004, kansalaisuuslaki 359/2003). Käytä tätä skilliä, kun käsitellään EU/ETA-kansalaisen rekisteröintiä ja perheenjäs… |
 | [`tyonantajan-velvollisuudet`](ulkomaalaisoikeus/skills/tyonantajan-velvollisuudet/SKILL.md) | Työnantajan velvollisuudet ulkomaalaisen työvoiman käytössä Suomessa (ulkomaalaislaki 301/2004, laki työntekijöiden lähettämisestä 447/2016). Käytä tätä skilliä, kun työnantaja varmistaa työntekijän työnteko-oikeutta, rakentaa kansainvälis… |
 | [`tyoperusteiset-oleskeluluvat`](ulkomaalaisoikeus/skills/tyoperusteiset-oleskeluluvat/SKILL.md) | Työperusteiset oleskeluluvat Suomessa (ulkomaalaislaki 301/2004). Käytä tätä skilliä, kun työnantaja rekrytoi ulkomaalaisen työntekijän EU/ETA-alueen ulkopuolelta tai työntekijälle haetaan lupaa: lupatyypin valinta (työntekijän oleskelulup… |
+
+## Perhe- ja perintöoikeus
+
+`/plugin install perhe-ja-perinto@claude-for-legal-finland` – [`./perhe-ja-perinto/`](./perhe-ja-perinto/)
+
+Suomen perhe- ja perintöoikeus arjen tilanteisiin: avioliiton varallisuussuhteet ja ositus (avioliittolaki 234/1929), avopuolison asema (26/2011), lapsen huolto, tapaaminen ja elatus (361/1983 ja 704/1975), perimys, testamentti ja lakiosa (perintökaari 40/1965) sekä edunvalvonta ja edunvalvontavaltuutus (442/1999 ja 648/2007). Lapsen etu ja turvallisuus edellä; verot lähteestä.
+
+| Skill | Kuvaus |
+|---|---|
+| [`avioliitto-ja-ositus`](perhe-ja-perinto/skills/avioliitto-ja-ositus/SKILL.md) | Avioliiton varallisuussuhteet ja niiden purkautuminen Suomessa (avioliittolaki 234/1929). Käytä tätä skilliä, kun laaditaan tai arvioidaan avioehtosopimusta, valmistaudutaan ositukseen tai omaisuuden erotteluun avioeron tai kuoleman johdos… |
+| [`edunvalvonta-ja-edunvalvontavaltuutus`](perhe-ja-perinto/skills/edunvalvonta-ja-edunvalvontavaltuutus/SKILL.md) | Edunvalvonta ja siihen varautuminen Suomessa (laki holhoustoimesta 442/1999 ja laki edunvalvontavaltuutuksesta 648/2007). Käytä tätä skilliä, kun selvitetään täysi-ikäisen tai alaikäisen edunvalvonnan tarvetta, laaditaan tai arvioidaan edu… |
+| [`lapsen-asema-ja-elatus`](perhe-ja-perinto/skills/lapsen-asema-ja-elatus/SKILL.md) | Lapsen huolto, asuminen, tapaaminen ja elatus Suomessa (laki lapsen huollosta ja tapaamisoikeudesta 361/1983 ja laki lapsen elatuksesta 704/1975) sekä vanhemmuuden vahvistaminen (isyyslaki 11/2015 ja äitiyslaki 253/2018). Käytä tätä skilli… |
+| [`perinto-ja-testamentti`](perhe-ja-perinto/skills/perinto-ja-testamentti/SKILL.md) | Perimys, testamentti ja jäämistön käsittely Suomessa (perintökaari 40/1965). Käytä tätä skilliä, kun selvitetään perimysjärjestystä, laaditaan tai tulkitaan testamenttia, arvioidaan rintaperillisen lakiosaa, jäsennetään perunkirjoitusta ta… |
 
 ---
 

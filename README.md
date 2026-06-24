@@ -5,7 +5,7 @@ juridisessa työssä: lakikieli, pykäläviittaukset ja oikeuslähteet
 **Suomen oikeuden ehdoilla**. Suomalainen vastine Anthropicin
 [claude-for-legal](https://github.com/anthropics/claude-for-legal)-kokoelmalle.
 
-**20 plugaria · 63 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
+**21 plugaria · 67 skilliä · 6 agenttia · kytkennät Finlexiin ja oik.ai:hin · [MIT](LICENSE)**
 
 Selailtava yleiskatsaus koko kokoelmasta:
 **[akunikkola.github.io/claude-for-legal-finland](https://akunikkola.github.io/claude-for-legal-finland/)**
@@ -89,6 +89,7 @@ Kaikki 20 plugaria ovat valmiita ja asennettavissa erikseen.
 | **[kilpailuoikeus](kilpailuoikeus/)** | Kilpailunrajoitukset ja määräävä asema (948/2011, SEUT 101–102), yrityskauppavalvonta, compliance ja dawn raid -valmius. |
 | **[pankki ja rahoitus](pankki-ja-rahoitus/)** | Rahoitussopimukset ja vakuudet (622/1947, 361/1999), rahanpesun estäminen (444/2017), arvopaperimarkkinat (746/2012, MAR). |
 | **[ulkomaalaisoikeus](ulkomaalaisoikeus/)** | Työperusteiset oleskeluluvat (301/2004), työnantajan velvollisuudet, EU- ja perheperusteinen oleskelu, kansalaisuus (359/2003). |
+| **[perhe- ja perintöoikeus](perhe-ja-perinto/)** | Avioehto ja ositus (avioliittolaki 234/1929), avopuolison asema (26/2011), lapsen huolto, tapaaminen ja elatus (361/1983 ja 704/1975), perintö, testamentti ja lakiosa (perintökaari 40/1965), edunvalvonta ja edunvalvontavaltuutus (442/1999 ja 648/2007). |
 
 ## Aloitus
 

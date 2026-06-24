@@ -185,6 +185,15 @@
       "author": {
         "name": "Aku Nikkola"
       }
+    },
+    {
+      "name": "perhe-ja-perinto",
+      "displayName": "Perhe- ja perintöoikeus",
+      "source": "./perhe-ja-perinto",
+      "description": "Suomen perhe- ja perintöoikeus arjen tilanteisiin: avioliiton varallisuussuhteet ja ositus (avioliittolaki 234/1929), avopuolison asema (26/2011), lapsen huolto, tapaaminen ja elatus (361/1983 ja 704/1975), perimys, testamentti ja lakiosa (perintökaari 40/1965) sekä edunvalvonta ja edunvalvontavaltuutus (442/1999 ja 648/2007). Lapsen etu ja turvallisuus edellä; verot lähteestä.",
+      "author": {
+        "name": "Aku Nikkola"
+      }
     }
   ]
 }
