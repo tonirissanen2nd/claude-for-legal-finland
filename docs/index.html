@@ -90,7 +90,9 @@
     box-shadow:0 6px 16px -4px rgba(169,221,43,.6);transform:rotate(0deg)}
   .glyph span{font-size:38px;font-weight:700;color:var(--ink);line-height:1}
   .tagline{margin-top:26px;font-size:clamp(22px,3vw,30px);font-weight:600;
-    letter-spacing:-.015em;line-height:1.18;max-width:20ch}
+    letter-spacing:-.015em;line-height:1.18;max-width:none}
+  .tagline .brk{display:inline}
+  @media(max-width:560px){.tagline .brk{display:none}}
   .hl{background:linear-gradient(transparent 62%, var(--lime) 62%);padding:0 .06em}
   .lead{margin-top:14px;font-size:17px;color:var(--ink-soft);max-width:56ch}
   .metarow{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
@@ -239,7 +241,7 @@
         <div class="glyph" aria-hidden="true"><span>§</span></div>
       </div>
 
-      <p class="tagline">Suomalainen vastine Anthropicin <span class="hl">”Claude for Legal”</span> -lisäosalle.</p>
+      <p class="tagline">Suomalainen vastine Anthropicin <br class="brk"><span class="hl">”Claude for Legal”</span> -lisäosalle.</p>
       <p class="lead">Avoimen lähdekoodin skillit, agentit ja suojaukset, jotka tekevät Claudesta
         tehokkaamman ja paremman apurin suomalaiselle oikeudellisen alan ammattilaiselle. Kaikki
         ominaisuudet on rakennettu reaaliaikaisen lähdetarkastuksen ehdoilla, kolmiportaisella
@@ -248,7 +250,7 @@
       <div class="metarow">
         <span class="chip">v1.1.0</span>
         <span class="chip ghost">MIT</span>
-        <span class="chip ghost">Finlex · oik.ai / laki.ai · KKO/KHO</span>
+        <span class="chip ghost">Finlex · oik.ai · laki.ai · KKO/KHO</span>
       </div>
 
       <div class="stats">
