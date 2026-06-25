@@ -186,6 +186,15 @@
   .install pre{font-family:var(--mono);font-size:13.5px;color:#e8ecf2;line-height:1.9;white-space:pre}
   .install .c{color:var(--lime)}
   .install .muted{color:#6b7480}
+  .conn{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+    padding:20px 22px;box-shadow:var(--shadow-s)}
+  .conn-title{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.1em;
+    text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px}
+  .conn-items{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:720px){.conn-items{grid-template-columns:1fr;gap:13px}}
+  .conn-item{padding-left:13px;border-left:2px solid var(--lime);display:flex;flex-direction:column;gap:3px}
+  .conn-item b{font-size:14px;font-weight:700}
+  .conn-item span{font-size:12.5px;color:var(--ink-soft);line-height:1.45}
   .foot-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:18px}
   @media(max-width:720px){.foot-grid{grid-template-columns:1fr}}
   .panel{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px;
@@ -416,6 +425,15 @@
       <div class="label"><span class="dotrow"><i></i><i></i><i></i></span> claude code · cowork</div>
 <pre><span class="c">/plugin</span> marketplace add akunikkola/claude-for-legal-finland
 <span class="c">/plugin</span> install juristi@claude-for-legal-finland   <span class="muted"># + your practice-area plugins</span></pre>
+    </div>
+
+    <div class="conn">
+      <div class="conn-title">Connectors (MCP)</div>
+      <div class="conn-items">
+        <div class="conn-item"><b>oik.ai / laki.ai</b><span>Finnish legal sources: Finlex, case law and travaux préparatoires. Account required (OAuth).</span></div>
+        <div class="conn-item"><b>Adeu</b><span>Edit Word (.docx) documents as native tracked changes — redline a draft. Local, no account.</span></div>
+        <div class="conn-item"><b>EU AI Act MCP</b><span>Deterministic AI Act risk classification (tekoälysääntely plugin). Local, no account.</span></div>
+      </div>
     </div>
 
     <div class="foot-grid">

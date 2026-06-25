@@ -44,7 +44,8 @@ käytäntöaluekohtaiset plugarit, ja jokainen plugari sisältää:
 - **skillit** (`skills/<nimi>/SKILL.md`) – varsinaisen osaamisen ja työnkulun,
 - **jaetut suojaukset** (`CLAUDE.md`) – varaverkon, joka pätee silloinkin kun
   skill ei lataudu,
-- **datakonnektorit** (`.mcp.json`) – kytkennät oikeuslähde-MCP:hen (oik.ai tai laki.ai),
+- **datakonnektorit** (`.mcp.json`) – kytkennät oikeuslähde-MCP:hen (oik.ai tai laki.ai)
+  sekä dokumenttiplugareissa **Adeuun** (Word-asiakirjojen redline natiiveina jälkimuutoksina),
 - osa plugareista myös **agentteja** (`agents/<nimi>.md`) – delegoitavia työvaiheita.
 
 Agentteja on kuusi: viitteiden adversariaalinen tarkistus (`lahdetarkastaja`),
