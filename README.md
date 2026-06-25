@@ -69,7 +69,7 @@ mekanismia valvoo tätä:
 
 ## Plugarit
 
-Kaikki 20 plugaria ovat valmiita ja asennettavissa erikseen.
+Kaikki 24 plugaria ovat valmiita ja asennettavissa erikseen.
 
 | Plugari | Mitä kattaa |
 |---|---|
