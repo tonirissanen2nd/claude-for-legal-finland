@@ -11,19 +11,23 @@ Selailtava yleiskatsaus koko kokoelmasta:
 **[akunikkola.github.io/claude-for-legal-finland](https://akunikkola.github.io/claude-for-legal-finland/)**
 
 > [!IMPORTANT]
-> **Jokainen tuotos on tarkistettava luonnos – ei oikeudellista neuvontaa eikä
-> juristin korvaaja.** Vastuun lopputuloksesta kantaa pätevä ihminen. Plugarit on
-> rakennettu tämän mukaisesti: laki ja oikeuskäytäntö tarkistetaan lähteestä eikä
-> muistista, jokaiseen viittaukseen tulee lähdemerkintä, jurisdiktio-oletukset
-> pidetään näkyvissä, ja ennen kuin mitään lähetetään tai allekirjoitetaan, asian
-> varmistaa ihminen. Suojan tuottavat **mekanismit** – lähteen varmistus,
-> kolmiportainen varmuusmerkintä, premissien tarkistus, negatiivirajaus ja ihmisen
-> tarkistusportti – eivät tämä huomautus. Mekanismit on koottu tiedostoihin
+> **Jokainen tuotos on tarkistettava luonnos. Kyse ei ole oikeudellisesta
+> neuvonnasta, eikä tämä kokoelma tai sen sisältämät ominaisuudet korvaa
+> juristia.** Vastuun lopputuloksesta kantaa aina käyttäjä, ja käyttöä
+> suositellaan ainoastaan kouluttautuneille oikeudellisen alan ammattilaisille.
+> Plugarit on rakennettu tämän mukaisesti: laki ja oikeuskäytäntö tarkistetaan
+> lähteestä eikä muistista, jokaiseen viittaukseen tulee lähdemerkintä,
+> jurisdiktio-oletukset pidetään näkyvissä, ja ennen kuin mitään lähetetään tai
+> allekirjoitetaan, asian varmistaa ihminen. Suojan tuottavat **mekanismit** –
+> lähteen varmistus, kolmiportainen varmuusmerkintä, premissien tarkistus,
+> negatiivirajaus ja ihmisen tarkistusportti. Mekanismit on koottu tiedostoihin
 > [`references/viittaustyyli.md`](references/viittaustyyli.md) ja
 > [`references/vastuu-ja-tietoturva.md`](references/vastuu-ja-tietoturva.md).
 >
-> Tämä on yhteisön avoin hanke, ei viranomais- tai asianajopalvelu, eikä se edusta
-> minkään organisaation virallista oikeudellista kantaa.
+> Tämä on yhteisön avoin hanke, ei viranomais-, lakiasiain- tai asianajopalvelu,
+> eikä se edusta minkään organisaation virallista oikeudellista kantaa. Kuka
+> tahansa voi kontribuoida hankkeeseen omat skill-tiedostonsa ja plugarinsa,
+> joista on ollut todistettavaa hyötyä omassa työssä.
 
 ## Idea
 

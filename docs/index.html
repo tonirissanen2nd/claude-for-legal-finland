@@ -181,6 +181,9 @@
   .notice{margin-top:18px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--lime-deep);
     border-radius:12px;padding:18px 20px;font-size:13.5px;color:var(--ink-soft);line-height:1.55}
   .notice b{color:var(--ink);font-weight:600}
+  .notice p+p{margin-top:12px}
+  .notice a{color:var(--ink);font-family:var(--mono);font-size:12.5px;border-bottom:1px solid var(--lime)}
+  .notice a:hover{background:var(--lime-soft)}
   .base{margin-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
     font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;color:var(--ink-faint)}
 
@@ -411,9 +414,20 @@
     </div>
 
     <div class="notice">
-      <b>Jokainen tuotos on tarkistettava luonnos</b> — ei oikeudellista neuvontaa, ei oikeudellinen
-      johtopäätös eikä juristin korvaaja. Suojan tuottavat mekanismit, eivät huomautukset. Avoin
-      yhteisöhanke; ei viranomais- tai asianajopalvelu.
+      <p><b>Jokainen tuotos on tarkistettava luonnos. Kyse ei ole oikeudellisesta neuvonnasta,
+        eikä tämä kokoelma tai sen sisältämät ominaisuudet korvaa juristia.</b> Vastuun
+        lopputuloksesta kantaa aina käyttäjä, ja käyttöä suositellaan ainoastaan kouluttautuneille
+        oikeudellisen alan ammattilaisille. Plugarit on rakennettu tämän mukaisesti: laki ja
+        oikeuskäytäntö tarkistetaan lähteestä eikä muistista, jokaiseen viittaukseen tulee
+        lähdemerkintä, jurisdiktio-oletukset pidetään näkyvissä, ja ennen kuin mitään lähetetään tai
+        allekirjoitetaan, asian varmistaa ihminen. Suojan tuottavat mekanismit — lähteen varmistus,
+        kolmiportainen varmuusmerkintä, premissien tarkistus, negatiivirajaus ja ihmisen
+        tarkistusportti. Mekanismit on koottu tiedostoihin <a href="https://github.com/akunikkola/claude-for-legal-finland/blob/main/references/viittaustyyli.md">references/viittaustyyli.md</a>
+        ja <a href="https://github.com/akunikkola/claude-for-legal-finland/blob/main/references/vastuu-ja-tietoturva.md">references/vastuu-ja-tietoturva.md</a>.</p>
+      <p>Tämä on yhteisön avoin hanke, ei viranomais-, lakiasiain- tai asianajopalvelu, eikä se
+        edusta minkään organisaation virallista oikeudellista kantaa. Kuka tahansa voi kontribuoida
+        hankkeeseen omat skill-tiedostonsa ja plugarinsa, joista on ollut todistettavaa hyötyä
+        omassa työssä.</p>
     </div>
 
     <div class="base">
