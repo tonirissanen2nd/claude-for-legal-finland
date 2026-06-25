@@ -215,6 +215,13 @@
   .notice p+p{margin-top:12px}
   .notice a{color:var(--ink);font-family:var(--mono);font-size:12.5px;border-bottom:1px solid var(--lime)}
   .notice a:hover{background:var(--lime-soft)}
+  .join{margin-top:18px;display:flex;align-items:center;justify-content:space-between;gap:22px;
+    flex-wrap:wrap;background:var(--lime-soft);border:1px solid #d7ec9a;border-radius:var(--r);padding:24px 26px}
+  .join-text h3{font-size:18px;font-weight:700;letter-spacing:-.01em;margin-bottom:6px}
+  .join-text p{font-size:13.5px;color:var(--ink-soft);line-height:1.5;max-width:54ch}
+  .join-cta{display:flex;gap:10px;flex-wrap:wrap}
+  .btn.dark{background:var(--ink);border-color:var(--ink);color:#fff}
+  .btn.dark:hover{background:#23272e}
   .base{margin-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
     font-family:var(--mono);font-size:11.5px;letter-spacing:.03em;color:var(--ink-faint)}
 
@@ -452,6 +459,23 @@
           <li><svg class="ic ic-sm" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Statute watch: monthly, 106/106 match Finlex</li>
           <li><svg class="ic ic-sm" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>CI validator on every change</li>
         </ul>
+      </div>
+    </div>
+
+    <div class="join">
+      <div class="join-text">
+        <h3>Get involved</h3>
+        <p>An open community project — everyone is welcome to join, either as a contributor (your own skills and plugins that have proven useful in your work) or as a sponsor.</p>
+      </div>
+      <div class="join-cta">
+        <a class="btn dark" href="https://github.com/akunikkola/claude-for-legal-finland">
+          <svg class="ic ic-sm" viewBox="0 0 24 24"><path d="M9 8l-4 4 4 4M15 8l4 4-4 4"/></svg>
+          Contribute
+        </a>
+        <a class="btn" href="mailto:aku@wearelegit.ai?subject=Claude%20for%20Legal%20Finland%20%E2%80%93%20sponsoring">
+          <svg class="ic ic-sm" viewBox="0 0 24 24"><path d="M12 21s-6.7-4.35-9.1-8.5C1.2 9.3 2.7 5.5 6.2 5.5c1.9 0 3.1 1.1 3.8 2.1.7-1 1.9-2.1 3.8-2.1 3.5 0 5 3.8 3.3 7C18.7 16.65 12 21 12 21z"/></svg>
+          Sponsor the project
+        </a>
       </div>
     </div>
 
