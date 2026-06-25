@@ -196,6 +196,19 @@
   .install pre{font-family:var(--mono);font-size:13.5px;color:#e8ecf2;line-height:1.9;white-space:pre}
   .install .c{color:var(--lime)}
   .install .muted{color:#6b7480}
+  .walk{margin-top:18px;display:grid;grid-template-columns:1.25fr 1fr;gap:24px;align-items:center;
+    background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:22px;box-shadow:var(--shadow-s)}
+  @media(max-width:720px){.walk{grid-template-columns:1fr;gap:18px}}
+  .walk-video{position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--ink)}
+  .walk-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .walk-steps h3{font-size:15.5px;font-weight:700;margin-bottom:13px;display:flex;align-items:center;gap:8px}
+  .walk-steps h3 .ic{color:var(--lime-deep)}
+  .walk-steps ol{list-style:none;display:flex;flex-direction:column;gap:9px;counter-reset:w}
+  .walk-steps li{counter-increment:w;font-size:13.5px;color:var(--ink-soft);line-height:1.45;display:flex;gap:11px;align-items:flex-start}
+  .walk-steps li::before{content:counter(w);flex:none;width:22px;height:22px;border-radius:7px;background:var(--lime);
+    color:var(--ink);font-family:var(--mono);font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center}
+  .walk-steps li b{color:var(--ink);font-weight:600}
+  .walk-steps code{font-family:var(--mono);font-size:11.5px;background:var(--card-2);border:1px solid var(--line-2);padding:1px 6px;border-radius:5px;color:var(--ink);word-break:break-all}
   .conn{margin-top:18px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);
     padding:20px 22px;box-shadow:var(--shadow-s)}
   .conn-title{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.1em;
@@ -443,6 +456,22 @@
       <div class="label"><span class="dotrow"><i></i><i></i><i></i></span> claude code · cowork</div>
 <pre><span class="c">/plugin</span> marketplace add akunikkola/claude-for-legal-finland
 <span class="c">/plugin</span> install juristi@claude-for-legal-finland   <span class="muted"># + oman alan plugarit</span></pre>
+    </div>
+
+    <div class="walk">
+      <div class="walk-video">
+        <iframe src="https://www.youtube-nocookie.com/embed/7Sm70ejp9dI" title="Claude for Legal Finland – asennus työpöytäsovelluksessa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="walk-steps">
+        <h3><svg class="ic ic-sm" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 20h8M12 17v3"/></svg> Asennus työpöytäsovelluksessa (Cowork)</h3>
+        <ol>
+          <li>Avaa <b>työpöytäsovellus</b></li>
+          <li>Siirry <b>Cowork</b>-välilehdelle</li>
+          <li>Avaa <b>Customize</b></li>
+          <li>Valitse <b>Add plugin</b></li>
+          <li>Valitse <b>Add marketplace</b> ja liitä <code>akunikkola/claude-for-legal-finland</code></li>
+        </ol>
+      </div>
     </div>
 
     <div class="conn">
