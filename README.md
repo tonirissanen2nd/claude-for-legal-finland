@@ -35,7 +35,7 @@ Suomalainen juridinen työ poikkeaa angloamerikkalaisesta: civil law -järjestel
 Finlexin säädöskanta, hallituksen esitykset (HE) tulkinta-aineistona, KKO:n ja
 KHO:n ennakkopäätökset, pakottava lainsäädäntö ja tarkka lakikieli. Tämä kokoelma
 tuo nämä **aidot lähteet** Clauden työn pohjaksi ja kytkeytyy suoraan **Finlexiin**
-ja **oik.ai:hin**.
+sekä oikeuslähde-MCP:hen – **oik.ai:hin** tai **laki.ai:hin**.
 
 Rakenne mukailee Anthropicin claude-for-legalia. Markkinapaikka
 ([`.claude-plugin/marketplace.json`](.claude-plugin/marketplace.json)) listaa
@@ -44,7 +44,7 @@ käytäntöaluekohtaiset plugarit, ja jokainen plugari sisältää:
 - **skillit** (`skills/<nimi>/SKILL.md`) – varsinaisen osaamisen ja työnkulun,
 - **jaetut suojaukset** (`CLAUDE.md`) – varaverkon, joka pätee silloinkin kun
   skill ei lataudu,
-- **datakonnektorit** (`.mcp.json`) – kytkennät Finlexiin ja oik.ai:hin,
+- **datakonnektorit** (`.mcp.json`) – kytkennät oikeuslähde-MCP:hen (oik.ai tai laki.ai),
 - osa plugareista myös **agentteja** (`agents/<nimi>.md`) – delegoitavia työvaiheita.
 
 Agentteja on kuusi: viitteiden adversariaalinen tarkistus (`lahdetarkastaja`),
